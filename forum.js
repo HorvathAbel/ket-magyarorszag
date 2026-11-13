@@ -63,6 +63,7 @@ function forumPage() {
     let st = forumState();
     if (BACKEND) {
       st = { msgs: [], chats: st.chats };
+      try { st.ann = await rpc("get_announcements"); } catch { st.ann = []; }
       if (tab === "forum" && ch !== "Közlemények") {
         try {
           const parl = ch === "Parlament", rows = await rpc("get_messages", { s: parl ? "all" : u.country, ch: parl ? "parlament" : ch, lim: 60 });
@@ -104,11 +105,12 @@ function forumTab(u, st, box, c) {
   const msgs = st.msgs.filter((x) => (parl ? x.room === "parl" : x.room === "own" && x.side === u.country && x.ch === c.ch));
   const mineP = st.msgs.filter((x) => x.room === "parl" && x.nick === u.nick && x.side === u.country), mineO = st.msgs.filter((x) => x.room === "own" && x.nick === u.nick && x.side === u.country);
   const usedToday = BACKEND ? u.__used || 0 : mineP.filter((x) => now - x.ts < 864e5).length, wkTopics = weekMeasures().map((m) => m.topic);
-  if (ann && !(u.seen || {}).annForum) { u.seen = { ...(u.seen || {}), annForum: 1 }; saveAccount(u); }
-  const unread = !(u.seen || {}).annForum;
+  const latest = BACKEND ? ((st.ann || [])[0] || {}).id || 0 : 0;
+  const unread = BACKEND ? latest > ((u.seen || {}).annId || 0) : !(u.seen || {}).annForum;
+  if (ann && unread) { u.seen = { ...(u.seen || {}), annForum: 1, annId: latest }; saveAccount(u); }
   const chip = (n, label) => `<button class="chipb ${c.ch === n ? "on" : ""} ${n === "Parlament" ? "parl" : ""}" data-ch="${esc(n)}">${label}</button>`;
   box.innerHTML = `<div class="chips">${chip("Közlemények", `📣 Közlemények${unread ? ' <i class="dot"></i>' : ""}`)}${chip("Parlament", "🏛 Parlament")}${FORUM_TOPICS.map((n) => chip(n, `${tIcon(n, 14)} ${esc(n)}`)).join("")}</div>
-    ${ann ? ANNOUNCEMENTS.map(([t, x]) => `<div class="card ann"><h3>${t}</h3><p class="hint" style="font-size:14px;margin-top:4px">${x}</p></div>`).join("") : `<div class="card chat">
+    ${ann ? [...(BACKEND ? (st.ann || []).map((a) => [esc(a.title), esc(a.body).replace(/\n/g, "<br>") + `<br><span class="hint" style="font-size:12px">${ago(a.at)}${a.side === "all" ? "" : " · csak " + SIDES[a.side].name}</span>`]) : []), ...ANNOUNCEMENTS].map(([t, x]) => `<div class="card ann"><h3>${t}</h3><p class="hint" style="font-size:14px;margin-top:4px">${x}</p></div>`).join("") : `<div class="card chat">
       <div class="rules">${parl ? `<b>Parlament · közös, mindkét oldal látja.</b> Naponta ${PARL.perDay} felszólalás, legfeljebb ${PARL.max} karakter, ${PARL.gap} mp szünet, téma és álláspont kötelező. Link és csupa nagybetű tilos. Reagálni korlátlanul lehet.` : `<b>${esc(c.ch)} · csak ${SIDES[u.country].name}-polgárok látják.</b> Legfeljebb ${OWN.max} karakter, ${OWN.gap} mp szünet. Ötletek igen, sértések nem. Saját szavaiddal írj.`}</div>
       <div class="msgs" id="msgs">${msgs.length ? msgs.map((x) => msgHtml(x, u, parl)).join("") : '<p class="hint" style="padding:24px;text-align:center">Még nincs üzenet. Légy te az első.</p>'}</div>
       <form id="cf" class="compose">

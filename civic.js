@@ -74,9 +74,11 @@ function home() {
   const task = (done, title, sub, href) => `<a class="task ${done ? "done" : ""}" href="${href}"><i class="chk">${done ? "✓" : ""}</i><div><b>${title}</b><span>${sub}</span></div><em>›</em></a>`;
   const vClose = nextDow(6, 23, 59), eClose = new Date(el.closeAt), fin = new Date(el.finAt), annKey = "ann_" + u.country;
   const showAnn = !(u.seen || {})[annKey];
+  const adm = BACKEND && (window.__ann || [])[0] && (u.seen || {}).annHome !== window.__ann[0].id ? window.__ann[0] : null;
   const topIdeas = cv.ideas[u.country].slice().sort((a, b) => backs(b) - backs(a)).slice(0, 3);
   view.innerHTML = `${demoBanner}<div class="wrap page">
     <div><h1 style="font-size:30px">Szia, ${esc(u.nick)}!</h1><p class="hint" style="margin-top:4px">Te a <b class="${SIDES[u.country].cls === "t" ? "t-txt" : "f-txt"}">${SIDES[u.country].tag.toUpperCase()}</b> polgára vagy. Mi a teendőd most:</p></div>
+    ${adm ? `<div class="card ann"><button class="x2" id="admx" aria-label="Elrejtés">✕</button><div class="eyebrow">Közlemény</div><h3 style="margin:4px 0">${esc(adm.title)}</h3><p class="hint" style="font-size:14px">${esc(adm.body).replace(/\n/g, "<br>")}</p></div>` : ""}
     ${showAnn ? `<div class="card ann"><button class="x2" id="annx" aria-label="Elrejtés">✕</button><div class="eyebrow">Közlemény · 41 p</div><h3 style="margin:4px 0">Mikor jönnek az eredmények?</h3>
       <p class="hint" style="font-size:14px"><b>${fmtDt(vClose)}:</b> zárul az idei szavazás. Utána a saját országod megkapja az eredményt az Ország fülön.<br><b>${fmtDt(fin)}:</b> ${fin < new Date() ? "megnyílt" : "megnyílik"} az elnöki döntő…</p><a href="#" id="annm"><b>Elolvasom az egészet</b></a></div>` : ""}
     <div class="tasks">
@@ -89,6 +91,7 @@ function home() {
     <div class="card"><div class="crow"><h3>Polgári ötletek</h3><a href="#/szavazas?t=cit"><b>Mind</b></a></div>
       ${topIdeas.map((p) => `<div class="mini"><span class="up">${upArrow}<b>${backs(p)}</b></span><div><div>${tChip(p.topic)}</div><b>${esc(p.title)}</b><span class="hint">${esc(p.nick)} · ${ago2(p.ts)}</span></div></div>`).join("")}</div></div>`;
   $("#share").onclick = async () => { const url = location.href.split("#")[0]; try { if (navigator.share) await navigator.share({ title: "Két Magyarország", url }); else { await navigator.clipboard.writeText(url); toast("Link másolva"); } } catch {} };
+  const dx = $("#admx"); if (dx) dx.onclick = () => { u.seen = { ...(u.seen || {}), annHome: adm.id }; saveAccount(u); home(); };
   const ax = $("#annx"); if (ax) ax.onclick = () => { u.seen = { ...(u.seen || {}), [annKey]: 1 }; saveAccount(u); home(); };
   const am = $("#annm"); if (am) am.onclick = (e) => { e.preventDefault(); sheet("Közlemény", "Mikor jönnek az eredmények?", `<p><b>${fmtDt(vClose)}:</b> zárul az idei szavazás. Közvetlenül utána a saját országod megkapja az eredményét az Ország fülön.</p><p><b>${fmtDt(fin)}:</b> ${fin < new Date() ? "megnyílt" : "megnyílik"} az elnöki döntő. Az 5 legtöbb támogatást kapott jelölt közül titkos szavazással választotok.</p><p><b>${fmtDt(eClose)}:</b> zárul az alelnök és a kormány választása.</p>`); };
 }

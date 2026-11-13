@@ -5,12 +5,12 @@ function profile() {
   const tile = (id, ic, t, s) => `<button class="tile" data-p="${id}"><b>${ic} ${t}</b><span>${s}</span></button>`;
   view.innerHTML = `<div class="wrap page" style="max-width:640px"><div class="card profcard">${avatar(u.nick, 84)}<h1 style="font-size:26px;margin-top:10px">${esc(u.nick)} <button class="ic" data-p="edit" aria-label="Szerkesztés">✎</button></h1>
       <span class="pill ${side.cls}" style="margin-top:6px">${side.tag.replace("-Magyarország", "").toUpperCase()}-MAGYARORSZÁG</span><p class="hint" style="margin-top:8px">Játszik ${days} napja · ${n} leadott szavazat</p>${u.bio ? `<p style="margin-top:8px">${esc(u.bio)}</p>` : ""}</div>
-    <div class="tiles">${tile("chats", "✉", "Csevegéseim", "privát és csoportok")}${tile("men", "@", "Említések", "válaszok és @")}${tile("edit", "✎", "Profil", "név és bemutatkozás")}${tile("how", "▶", "Hogyan játssz", "egy perc alatt")}${tile("rules", "📄", "Szabályok", "és a moderáció")}${tile("fb", "💡", "Ötlet vagy hiba", "írj nekünk")}</div>
+    <div class="tiles">${tile("chats", "✉", "Csevegéseim", "privát és csoportok")}${tile("men", "@", "Említések", "válaszok és @")}${tile("edit", "✎", "Profil", "név és bemutatkozás")}${tile("how", "▶", "Hogyan játssz", "egy perc alatt")}${tile("rules", "📄", "Szabályok", "és a moderáció")}${tile("fb", "💡", "Ötlet vagy hiba", "írj nekünk")}${u.admin ? tile("adm", "🛠", "Admin", "közlemények kiírása") : ""}</div>
     <p class="hint morelinks"><a href="#/evrol-evre">Évről évre</a> · <a href="#/modszertan">A számok</a> · <button class="lk" data-p="app">Telepítés</button> · <a href="#/adatkezeles">Adatkezelés</a></p>
     <div class="card"><h3>Letiltottak</h3><p class="hint">${(u.blocked || []).length ? (u.blocked || []).map((b) => `${esc(b)} <button class="lk" data-ub="${esc(b)}">Feloldás</button>`).join("<br>") : "Nem tiltottál le senkit."}</p></div>
     <button class="btn ghost block" id="out">Kilépés</button><button class="lk" id="del" style="color:#b42318;text-align:center">Fiók végleges törlése</button>
     <p class="hint" style="text-align:center;font-size:12px">A Két Magyarország játék. Nem képvisel valódi pártot, politikust vagy kampányt.</p></div>`;
-  const go = { chats: "#/forum?tab=chat", men: "#/emlitesek", how: "#/hogyan-jatssz", year: "#/evrol-evre", num: "#/modszertan", rules: "#/szabalyok", fb: "#/visszajelzes" };
+  const go = { chats: "#/forum?tab=chat", men: "#/emlitesek", how: "#/hogyan-jatssz", year: "#/evrol-evre", num: "#/modszertan", rules: "#/szabalyok", fb: "#/visszajelzes", adm: "#/admin" };
   view.querySelectorAll("[data-p]").forEach((b) => (b.onclick = () => {
     const k = b.dataset.p; if (go[k]) return (location.hash = go[k]);
     if (k === "edit") {
@@ -103,4 +103,27 @@ async function rulesPage() {
     <h3>Moderátorok</h3><p class="hint"><b>Admin</b> · mindkét országban</p>
     ${side ? `<h3>Szankciónapló · ${SIDES[side].tag}</h3>${log.length ? log.map((s) => `<div class="card"><b>${esc(s.nick)}</b> · ${KN[s.kind] || s.kind}${s.until ? " " + new Date(s.until).toLocaleString("hu-HU", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }) + "-ig" : ""}<br><span class="hint">Ok: ${esc(s.reason)} · ${new Date(s.at).toLocaleDateString("hu-HU")}</span></div>`).join("") : '<p class="hint">Eddig nem volt szankció.</p>'}` : ""}
     <p class="hint" style="font-size:12px">A játék független, nem áll kapcsolatban egyetlen párttal vagy szervezettel sem.</p></div>`;
+}
+
+/* ---------- Admin: közlemények kiírása (az admin jogot a szerver adja az e-mail cím alapján) ---------- */
+async function adminPage() {
+  const u = guard(); if (!u) return;
+  let list = [];
+  try { list = await rpc("admin_announcements"); } catch { toast("Ehhez nincs jogosultságod."); return (location.hash = "#/profil"); }
+  const TARGET = { all: "Mindkét ország", tisza: "Csak Tisza", fidesz: "Csak Fidesz" };
+  view.innerHTML = `<div class="wrap page" style="max-width:640px"><a class="back" href="#/profil">‹ Vissza</a><div><div class="hint" style="font-size:12px">Csak adminoknak</div><h1 style="font-size:30px">Közlemény kiírása</h1></div>
+    <div class="card"><label class="fl" for="at">Kinek?</label><select id="at" class="inp">${Object.entries(TARGET).map(([k, v]) => `<option value="${k}">${v}</option>`).join("")}</select>
+      <label class="fl" for="ti">Cím</label><input id="ti" class="inp" maxlength="80" placeholder="Pl. Megnyílt az elnöki döntő">
+      <label class="fl" for="bo">Szöveg</label><textarea id="bo" class="inp" rows="5" maxlength="1000" placeholder="Röviden, érthetően."></textarea>
+      <div class="err" id="ae" role="alert"></div><button class="btn ${u.country} block" id="send" style="margin-top:8px">Kiírás</button></div>
+    <h3>Eddigi közlemények</h3>${list.map((a) => `<div class="card"><b>${esc(a.title)}</b> <span class="chip">${TARGET[a.side]}</span><p class="hint" style="margin-top:4px">${esc(a.body).replace(/\n/g, "<br>")}</p><span class="hint" style="font-size:12px">${new Date(a.at).toLocaleString("hu-HU")}</span> <button class="lk" data-del="${a.id}" style="color:#b42318">Törlés</button></div>`).join("") || '<p class="hint">Még nincs közlemény.</p>'}</div>`;
+  $("#send").onclick = async () => {
+    const btn = $("#send"); btn.disabled = true;
+    try { await rpc("admin_post_announcement", { s: $("#at").value, t: $("#ti").value, b: $("#bo").value }); toast("Közlemény kiírva"); adminPage(); }
+    catch (e) { btn.disabled = false; $("#ae").textContent = /empty/.test(e.message) ? "Adj meg címet és szöveget." : errMsg(e); }
+  };
+  view.querySelectorAll("[data-del]").forEach((b) => (b.onclick = async () => {
+    if (!confirm("Biztosan törlöd ezt a közleményt?")) return;
+    try { await rpc("admin_delete_announcement", { aid: +b.dataset.del }); toast("Törölve"); adminPage(); } catch (e) { toast(errMsg(e)); }
+  }));
 }

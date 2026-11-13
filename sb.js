@@ -33,10 +33,10 @@ async function verifyCode(email, token) {
 
 /* a szerver az igazság forrása; a helyi fiókobjektum csak gyorsítótár a szinkron felülethez */
 async function refreshMe() {
-  const [me, vs] = await Promise.all([rpc("me"), rpc("my_votes")]);
+  const [me, vs, adm] = await Promise.all([rpc("me"), rpc("my_votes"), rpc("is_admin").catch(() => false)]);
   const votes = {}; vs.forEach((x) => { (votes["w" + x.week] = votes["w" + x.week] || {})[x.m] = x.o; });
   const old = accounts()[me.email] || {};
-  const u = { ...old, email: me.email, nick: me.nick, county: me.county, country: me.country, bio: me.bio, joined: me.joined, demo: me.demo, votes, blocked: old.blocked || [], seen: old.seen || {} };
+  const u = { ...old, email: me.email, nick: me.nick, county: me.county, country: me.country, bio: me.bio, joined: me.joined, demo: me.demo, admin: !!adm, votes, blocked: old.blocked || [], seen: old.seen || {} };
   saveAccount(u); store.set("km_session", me.email);
   return u;
 }
@@ -68,6 +68,10 @@ async function backendLogout() { try { await sb.auth.signOut(); } catch {} wipeL
 
 /* a szerver választási állapota -> a felület által használt (szinkron) civ() szerkezet */
 const mapResult = (r, at) => (r ? { president: r.president, vp: r.vp, cabinet: r.cabinet || {}, tally: (r.tally || []).map((t) => [t.nick, t.votes]), at } : null);
+async function loadAnnouncements() {
+  const u = session(); if (!u || !u.country) return;
+  window.__ann = await rpc("get_announcements");
+}
 async function loadIdeas() {
   const u = session(); if (!u || !u.country) return;
   const rows = await rpc("get_ideas"), cv = civ();
@@ -76,7 +80,7 @@ async function loadIdeas() {
 }
 async function loadElection() {
   const u = session(); if (!u || !u.country) return;
-  const [el, cs, used] = await Promise.all([rpc("get_election"), rpc("get_candidates"), rpc("parl_used"), loadIdeas().catch(() => {})]);
+  const [el, cs, used] = await Promise.all([rpc("get_election"), rpc("get_candidates"), rpc("parl_used"), loadIdeas().catch(() => {}), loadAnnouncements().catch(() => {})]);
   window.__postedToday = used > 0;
   const cv = civ(), side = u.country;
   cv.cands[side] = cs.map((c) => ({ id: c.id, nick: c.nick, race: c.race, dept: c.dept, rename: c.rename || "", slogan: c.slogan, platform: c.platform, topics: c.topics,

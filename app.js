@@ -274,7 +274,7 @@ const meChip = (u) => `<span class="me ${SIDES[u.country].cls}"><b></b>${SIDES[u
 const demoBanner = '<div class="banner">Prototípus · minden szám demóadat</div>';
 
 /* ---------- router ---------- */
-const routes = { "": landing, "regisztracio": register, "belepes": login, "kod": code, "orszag": pickCountry, "app": home, "szavazas": vote, "forum": forumPage, "vita": forumPage, "politika": politics, "allapot": countryPage, "eredmenyek": countryPage, "modszertan": methodology, "szabalyok": rulesPage, "profil": profile, "emlitesek": mentionsPage, "hogyan-jatssz": howToPlay, "evrol-evre": yearByYear, "adatkezeles": privacyPage, "visszajelzes": feedbackPage };
+const routes = { "": landing, "regisztracio": register, "belepes": login, "kod": code, "orszag": pickCountry, "app": home, "szavazas": vote, "forum": forumPage, "vita": forumPage, "politika": politics, "allapot": countryPage, "eredmenyek": countryPage, "modszertan": methodology, "szabalyok": rulesPage, "profil": profile, "emlitesek": mentionsPage, "hogyan-jatssz": howToPlay, "evrol-evre": yearByYear, "adatkezeles": privacyPage, "visszajelzes": feedbackPage, "admin": adminPage };
 async function route() {
   const r = (location.hash.replace(/^#\/?/, "") || "").split("?")[0];
   if (r === "hogyan") return;
