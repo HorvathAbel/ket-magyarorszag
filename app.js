@@ -1,5 +1,5 @@
 /* Két Magyarország – kattintható prototípus (demóadatokkal, localStorage-ben tárolva) */
-const LAUNCH_AT = new Date("2026-12-05T20:00:00+01:00"); // PLACEHOLDER: nyitás időpontja
+const LAUNCH_AT = new Date("2026-11-21T20:00:00+01:00"); // PLACEHOLDER: nyitás időpontja
 const T = { id: "tisza", name: "Tisza", cls: "t", tag: "Tisza-Magyarország" };
 const F = { id: "fidesz", name: "Fidesz", cls: "f", tag: "Fidesz-Magyarország" };
 const SIDES = { tisza: T, fidesz: F };
