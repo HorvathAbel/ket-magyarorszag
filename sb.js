@@ -13,7 +13,7 @@ const ERRS = {
   already_voted: "Erre már szavaztál.", election_closed: "A választás lezárult.", race_locked: "Ez a verseny már lezárult.", self_back: "Magadat nem támogathatod.",
   no_candidate: "Ez a jelölt már nem elérhető.", not_final: "Most nincs döntő.", not_finalist: "Csak döntős jelöltre szavazhatsz.",
   daily_limit: "Ma már elhasználtad a 3 parlamenti felszólalásodat.", too_fast: "Lassabban: várj egy kicsit a következő üzenet előtt.", too_long: "Túl hosszú üzenet.",
-  no_links: "A Parlamentben nem lehet link.", caps: "Ne csupa nagybetűvel írj.", duplicate: "Ezt már elküldted.", empty: "Üres üzenet.", topic_stance: "Válassz témát és álláspontot.", bad_reply: "Erre az üzenetre már nem lehet válaszolni.", channel: "Ez a csatorna nem érhető el.", forbidden: "Ehhez nincs jogosultságod.",
+  no_links: "A Parlamentben nem lehet link.", caps: "Ne csupa nagybetűvel írj.", duplicate: "Ezt már elküldted.", empty: "Üres üzenet.", topic_stance: "Válassz témát és álláspontot.", no_user: "Nincs ilyen polgár az országodban.", blocked: "Ezzel a felhasználóval nem tudsz csevegni.", bad_reply: "Erre az üzenetre már nem lehet válaszolni.", channel: "Ez a csatorna nem érhető el.", forbidden: "Ehhez nincs jogosultságod.",
   over_email_send_rate_limit: "Túl sok kódot kértél. Várj egy kicsit, és próbáld újra.", "rate limit": "Túl sok próbálkozás. Várj egy kicsit.",
   otp_disabled: "Ehhez az e-mailhez nincs fiók.", "Signups not allowed": "Ehhez az e-mailhez nincs fiók.", otp_expired: "Hibás vagy lejárt kód.", "invalid": "Hibás vagy lejárt kód.",
 };
@@ -68,9 +68,15 @@ async function backendLogout() { try { await sb.auth.signOut(); } catch {} wipeL
 
 /* a szerver választási állapota -> a felület által használt (szinkron) civ() szerkezet */
 const mapResult = (r, at) => (r ? { president: r.president, vp: r.vp, cabinet: r.cabinet || {}, tally: (r.tally || []).map((t) => [t.nick, t.votes]), at } : null);
+async function loadIdeas() {
+  const u = session(); if (!u || !u.country) return;
+  const rows = await rpc("get_ideas"), cv = civ();
+  cv.ideas[u.country] = rows.map((r) => ({ id: r.id, nick: r.nick, topic: r.topic, title: r.title, why: r.why, seed: r.backs - (r.backed ? 1 : 0), backers: r.backed ? [u.email] : [], answers: [], aseed: r.answers, ts: r.at }));
+  saveCiv(cv);
+}
 async function loadElection() {
   const u = session(); if (!u || !u.country) return;
-  const [el, cs, used] = await Promise.all([rpc("get_election"), rpc("get_candidates"), rpc("parl_used")]);
+  const [el, cs, used] = await Promise.all([rpc("get_election"), rpc("get_candidates"), rpc("parl_used"), loadIdeas().catch(() => {})]);
   window.__postedToday = used > 0;
   const cv = civ(), side = u.country;
   cv.cands[side] = cs.map((c) => ({ id: c.id, nick: c.nick, race: c.race, dept: c.dept, rename: c.rename || "", slogan: c.slogan, platform: c.platform, topics: c.topics,

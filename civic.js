@@ -53,7 +53,7 @@ const IDEAS = {
 };
 function seedCiv() {
   const mkI = (side) => IDEAS[side].map(([topic, title, why, b, a], i) => ({ id: "i" + side[0] + i, nick: NAME_A[(i * 3) % 16] + NAME_B[(i * 5) % 12] + (20 + i), topic, title, why, seed: b, backers: [], answers: [], aseed: a, ts: Date.now() - (i + 1) * 5400000 }));
-  return { cands: BACKEND ? { tisza: [], fidesz: [] } : { tisza: genCands("tisza"), fidesz: genCands("fidesz") }, ideas: { tisza: mkI("tisza"), fidesz: mkI("fidesz") }, v: 2 };
+  return { cands: BACKEND ? { tisza: [], fidesz: [] } : { tisza: genCands("tisza"), fidesz: genCands("fidesz") }, ideas: BACKEND ? { tisza: [], fidesz: [] } : { tisza: mkI("tisza"), fidesz: mkI("fidesz") }, v: 2 };
 }
 /* backend módban a jelöltek és a választás a szerverről jönnek (loadElection), a gyorsítótár külön kulcson él */
 const civKey = () => (BACKEND ? "km_civ_b" : "km_civ");
@@ -256,7 +256,11 @@ function citizensView(u, box) {
         <div class="ibody" data-open="${p.id}">${tChip(p.topic)}<h4>${esc(p.title)}</h4>${p.why ? `<p class="hint">${esc(p.why)}</p>` : ""}<span class="tchip">💬 ${p.aseed + p.answers.length} válasz</span><div class="hint" style="font-size:12px">${esc(p.nick)} · ${ago2(p.ts)}</div></div></div>`).join("") || '<p class="hint">Még nincs ötlet ebben a témában.</p>'}`;
     box.querySelectorAll("[data-s]").forEach((b) => (b.onclick = () => { sort = b.dataset.s; draw(); }));
     box.querySelectorAll("[data-f]").forEach((b) => (b.onclick = () => { topic = b.dataset.f; draw(); }));
-    box.querySelectorAll("[data-pb]").forEach((b) => (b.onclick = () => { const p = all.find((x) => x.id === b.dataset.pb), i = p.backers.indexOf(u.email); i < 0 ? p.backers.push(u.email) : p.backers.splice(i, 1); saveCiv(cv); draw(); }));
+    box.querySelectorAll("[data-pb]").forEach((b) => (b.onclick = async () => {
+      const p = all.find((x) => x.id === b.dataset.pb); if (!p) return;
+      if (BACKEND) { try { await rpc("toggle_idea_back", { iid: p.id }); await loadIdeas(); } catch (e) { toast(errMsg(e)); } return draw(); }
+      const i = p.backers.indexOf(u.email); i < 0 ? p.backers.push(u.email) : p.backers.splice(i, 1); saveCiv(cv); draw();
+    }));
     box.querySelectorAll("[data-open]").forEach((b) => (b.onclick = () => { openId = b.dataset.open; draw(); }));
     $("#pi", box).onclick = () => {
       const day = Date.now() - 864e5, used = all.filter((p) => p.nick === u.nick && p.ts > day).length;
@@ -266,8 +270,12 @@ function citizensView(u, box) {
       const chk = () => { $("#ip", s.el).disabled = !(tp && $("#it", s.el).value.trim().length >= 10); $("#ic", s.el).textContent = $("#iw", s.el).value.length + " / 1000"; };
       s.el.querySelectorAll("[data-ti]").forEach((b) => (b.onclick = () => { tp = b.dataset.ti; s.el.querySelectorAll("[data-ti]").forEach((x) => x.classList.toggle("on", x === b)); chk(); }));
       s.el.querySelectorAll("input,textarea").forEach((x) => (x.oninput = chk));
-      $("#ip", s.el).onclick = () => {
+      $("#ip", s.el).onclick = async () => {
         const t = $("#it", s.el).value.trim(), w = $("#iw", s.el).value.trim();
+        if (BACKEND) {
+          try { await rpc("propose_idea", { tp, t, w }); await loadIdeas(); } catch (e) { return ($("#ie", s.el).textContent = /daily_limit/.test(e.message) ? "Ma már beküldtél egy ötletet." : /duplicate/.test(e.message) ? "Ez az ötlet már szerepel." : errMsg(e)); }
+          s.close(); toast("Ötlet beküldve"); return draw();
+        }
         const err = used >= 1 ? "Ma már beküldtél egy ötletet." : /https?:|www\./i.test(t + w) ? "Link nem lehet az ötletben." : all.some((p) => p.title.toLowerCase() === t.toLowerCase()) ? "Ez az ötlet már szerepel." : "";
         if (err) return ($("#ie", s.el).textContent = err);
         all.push({ id: "i" + Date.now(), nick: u.nick, topic: tp, title: t, why: w, seed: 0, backers: [u.email], answers: [], aseed: 0, ts: Date.now() }); saveCiv(cv); s.close(); toast("Ötlet beküldve"); draw();
@@ -277,10 +285,21 @@ function citizensView(u, box) {
   draw();
 }
 function ideaDetail(u, cv, p, box, back) {
+  if (BACKEND && !p.__loaded) {
+    box.innerHTML = '<p class="hint" style="padding:24px;text-align:center">Betöltés…</p>';
+    rpc("get_idea_answers", { iid: p.id }).then((rows) => { p.answers = rows.map((r) => ({ nick: r.nick, text: r.text, ts: r.at })); p.aseed = 0; p.__loaded = 1; ideaDetail(u, cv, p, box, back); }).catch((e) => { toast(errMsg(e)); back(); });
+    return;
+  }
   box.innerHTML = `<button class="btn ghost sm" id="bk">‹ Vissza</button><div class="card" style="margin-top:10px">${tChip(p.topic)}<h3 style="margin:8px 0">${esc(p.title)}</h3><p>${esc(p.why || "")}</p><div class="hint">${esc(p.nick)} · ${ago2(p.ts)} · <b>${backs(p)}</b> támogató</div></div>
     <h4 style="margin:14px 0 6px">${p.aseed + p.answers.length} válasz</h4>
     ${p.answers.map((a) => `<div class="msg ${SIDES[u.country].cls}"><div class="mh">${avatar(a.nick, 20)}<b>${esc(a.nick)}</b><span class="hint">${ago2(a.ts)}</span></div><p>${esc(a.text)}</p></div>`).join("") || '<p class="hint">Légy te az első, aki válaszol.</p>'}
     <form id="af" class="compose card"><textarea id="at" rows="2" maxlength="280" placeholder="Válaszod…"></textarea><div class="crow"><div class="err" id="ae" role="alert"></div><button class="btn ${u.country} sm" type="submit">Küldés</button></div></form>`;
   $("#bk", box).onclick = back;
-  $("#af", box).onsubmit = (e) => { e.preventDefault(); const t = $("#at", box).value.trim(); if (t.length < 3) return; if (/https?:|www\./i.test(t)) return ($("#ae", box).textContent = "Link nem küldhető."); const last = p.answers.filter((a) => a.nick === u.nick).slice(-1)[0]; if (last && Date.now() - last.ts < 15000) return ($("#ae", box).textContent = "Várj egy kicsit."); p.answers.push({ nick: u.nick, text: t, ts: Date.now() }); saveCiv(cv); ideaDetail(u, cv, p, box, back); };
+  $("#af", box).onsubmit = async (e) => {
+    e.preventDefault(); const t = $("#at", box).value.trim(); if (t.length < 3) return;
+    if (BACKEND) {
+      try { await rpc("answer_idea", { iid: p.id, txt: t }); } catch (err) { return ($("#ae", box).textContent = errMsg(err)); }
+      p.__loaded = 0; return ideaDetail(u, cv, p, box, back);
+    }
+    if (/https?:|www\./i.test(t)) return ($("#ae", box).textContent = "Link nem küldhető."); const last = p.answers.filter((a) => a.nick === u.nick).slice(-1)[0]; if (last && Date.now() - last.ts < 15000) return ($("#ae", box).textContent = "Várj egy kicsit."); p.answers.push({ nick: u.nick, text: t, ts: Date.now() }); saveCiv(cv); ideaDetail(u, cv, p, box, back); };
 }

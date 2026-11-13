@@ -82,7 +82,8 @@ function forumPage() {
     window.__fp = setInterval(() => {
       const ta = $("#ctext"), ms = $("#msgs");
       if (!location.hash.startsWith("#/forum")) return clearInterval(window.__fp);
-      if (tab === "forum" && ms && ta && !ta.value && !document.querySelector(".sheetwrap")) draw();
+      if ((tab === "forum" ? ms : tab === "chat" && openChat) && ta && !ta.value && !document.querySelector(".sheetwrap")) draw();
+      else if (tab === "chat" && !openChat && !document.querySelector(".sheetwrap") && !$("#cs")?.value) draw();
     }, 8000);
   }
 }
@@ -148,9 +149,49 @@ function forumTab(u, st, box, c) {
   }));
 }
 
+/* csevegések a szerveren: privát üzenet és csoportok, csak a saját országon belül */
+async function chatTabBackend(u, box, c) {
+  const link = (id) => location.origin + location.pathname + "#/forum?chat=" + id;
+  const idOf = (s) => (String(s).match(/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/i) || [""])[0];
+  if (c.openChat) {
+    let ch;
+    try { ch = await rpc("get_chat", { cid: c.openChat }); }
+    catch { try { await rpc("join_chat", { cid: c.openChat }); ch = await rpc("get_chat", { cid: c.openChat }); } catch (e) { toast(errMsg(e)); return c.setOpen(null); } }
+    box.innerHTML = `<button class="btn ghost sm" id="bk">‹ Vissza</button><div class="card chat" style="margin-top:10px"><div class="rules"><b>${esc(ch.name || "Csevegés")}</b> · ${ch.members} tag${ch.kind === "group" ? ` · <button class="lk" id="cp">meghívó link másolása</button> · <button class="lk" id="lv">kilépés</button>` : ""}</div>
+      <div class="msgs" id="msgs">${ch.msgs.length ? ch.msgs.map((x) => `<div class="msg ${x.nick === u.nick ? "own" : ""}"><div class="mh">${avatar(x.nick, 22)}<b>${esc(x.nick)}</b><span class="hint">${ago(x.at)}</span></div><p>${mention(x.text)}</p></div>`).join("") : '<p class="hint" style="padding:24px;text-align:center">Még nincs üzenet.</p>'}</div>
+      <form id="cf" class="compose"><textarea id="ctext" rows="2" maxlength="500" placeholder="Írj…" aria-label="Üzenet"></textarea><div class="crow"><div class="err" id="cerr" role="alert"></div><button class="btn ${u.country} sm" type="submit">Küldés</button></div></form></div>`;
+    $("#bk", box).onclick = () => c.setOpen(null); $("#msgs", box).scrollTop = 1e6;
+    const cp = $("#cp", box); if (cp) cp.onclick = async () => { try { await navigator.clipboard.writeText(link(ch.id)); toast("Link másolva"); } catch { prompt("Meghívó link", link(ch.id)); } };
+    const lv = $("#lv", box); if (lv) lv.onclick = async () => { try { await rpc("leave_chat", { cid: ch.id }); } catch (e) { toast(errMsg(e)); } c.setOpen(null); };
+    $("#cf", box).onsubmit = async (e) => {
+      e.preventDefault(); const t = $("#ctext", box).value.trim(); if (!t) return;
+      try { await rpc("post_chat", { cid: ch.id, txt: t }); } catch (err) { return ($("#cerr", box).textContent = errMsg(err)); }
+      c.draw();
+    };
+    return;
+  }
+  let list = []; try { list = await rpc("my_chats"); } catch (e) { toast(errMsg(e)); }
+  let q = "";
+  const paint = () => {
+    const fl = list.filter((x) => (x.name || "").toLowerCase().includes(q.toLowerCase()));
+    $("#cl", box).innerHTML = fl.length ? fl.map((x) => `<button class="chatrow" data-o="${x.id}">${avatar(x.name || "?", 36)}<span><b>${esc(x.name || "Csevegés")}</b><span class="hint">${x.kind === "group" ? "Csoport" : "Privát"} · ${x.last ? esc(x.last) : "még nincs üzenet"}</span></span></button>`).join("") : '<div class="card empty"><span class="bulb">✉</span><p class="hint">Még nincs csevegésed. Írj valakinek, vagy hozz létre egy csoportot.</p></div>';
+    box.querySelectorAll("[data-o]").forEach((b) => (b.onclick = () => c.setOpen(b.dataset.o)));
+  };
+  box.innerHTML = `<div class="crow"><input class="search" id="cs" placeholder="Csevegés keresése" aria-label="Keresés" style="flex:1"><button class="btn ${u.country} sm" id="nw">✎ Új</button></div><div id="cl"></div>`;
+  paint(); $("#cs", box).oninput = (e) => { q = e.target.value; paint(); };
+  $("#nw", box).onclick = () => {
+    const s = sheet("", "Új csevegés", `<div class="menu"><button data-a="g">👥 Új csoport</button><button data-a="j">🔗 Csatlakozás linkkel</button><button data-a="p">🌐 Nyilvános csoportok</button></div>
+      <label class="fl" for="who">Írj valakinek az országodban</label><input id="who" class="inp" maxlength="20" placeholder="Felhasználónév"><div class="err" id="we" role="alert"></div><button class="btn ${u.country} block" id="go" style="margin-top:8px">Csevegés indítása</button>`);
+    $("#go", s.el).onclick = async () => { const w = $("#who", s.el).value.trim(); if (!w) return; try { const id = await rpc("start_dm", { n: w }); s.close(); c.setOpen(id); } catch (e) { $("#we", s.el).textContent = errMsg(e); } };
+    s.el.querySelector('[data-a="g"]').onclick = () => { s.close(); const g = sheet("", "Új csoport", `<label class="fl" for="gn">A csoport neve</label><input id="gn" class="inp" maxlength="40"><div class="err" id="ge"></div><button class="btn ${u.country} block" id="gc" style="margin-top:8px">Létrehozás</button>`); $("#gc", g.el).onclick = async () => { const n = $("#gn", g.el).value.trim(); if (!n) return; try { const id = await rpc("create_group", { gname: n }); g.close(); c.setOpen(id); } catch (e) { $("#ge", g.el).textContent = /daily_limit/.test(e.message) ? "Legfeljebb 10 csoportot hozhatsz létre." : errMsg(e); } }; };
+    s.el.querySelector('[data-a="j"]').onclick = () => { s.close(); const j = sheet("", "Csatlakozás linkkel", `<label class="fl" for="jl">Meghívó link</label><input id="jl" class="inp" placeholder="Illeszd be a linket"><div class="err" id="je"></div><button class="btn ${u.country} block" id="jc" style="margin-top:8px">Csatlakozás</button>`); $("#jc", j.el).onclick = async () => { const id = idOf($("#jl", j.el).value); if (!id) return ($("#je", j.el).textContent = "Ez nem meghívó link."); try { await rpc("join_chat", { cid: id }); j.close(); c.setOpen(id); } catch (e) { $("#je", j.el).textContent = errMsg(e); } }; };
+    s.el.querySelector('[data-a="p"]').onclick = async () => { s.close(); let pg = []; try { pg = await rpc("public_groups"); } catch {} const p = sheet("", "Nyilvános csoportok", `<div class="menu">${pg.map((g) => `<button data-g="${g.id}"><b>${esc(g.name)}</b><span class="hint">${esc(g.about || "")} · ${g.members} tag</span></button>`).join("") || '<p class="hint">Még nincs nyilvános csoport.</p>'}</div>`); p.el.querySelectorAll("[data-g]").forEach((b) => (b.onclick = async () => { try { await rpc("join_chat", { cid: b.dataset.g }); p.close(); c.setOpen(b.dataset.g); } catch (e) { toast(errMsg(e)); } })); };
+  };
+}
+
 /* csevegések: privát üzenet bármelyik saját országbeli polgárnak, csoportok, meghívó link, nyilvános csoportok */
 function chatTab(u, st, box, c) {
-  if (BACKEND) { box.innerHTML = '<div class="card empty"><span class="bulb">✉</span><p class="hint">A privát csevegések és csoportok hamarosan érkeznek. Addig a saját országod fórumán és a Parlamentben tudsz beszélgetni.</p></div>'; return; }
+  if (BACKEND) return chatTabBackend(u, box, c);
   const all = st.chats[u.country], list = all.filter((x) => x.members.includes(u.nick)), open = all.find((x) => x.id === c.openChat);
   const citizens = [...new Set(civ().cands[u.country].map((x) => x.nick))].filter((n) => n !== u.nick);
   if (open) {

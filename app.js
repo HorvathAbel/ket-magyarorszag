@@ -278,7 +278,7 @@ const routes = { "": landing, "regisztracio": register, "belepes": login, "kod":
 async function route() {
   const r = (location.hash.replace(/^#\/?/, "") || "").split("?")[0];
   if (r === "hogyan") return;
-  if (BACKEND && ["app", "politika", "forum", "vita", "allapot", "eredmenyek", "evrol-evre"].includes(r) && (session() || {}).country) { try { await loadElection(); } catch {} }
+  if (BACKEND && ["app", "politika", "forum", "vita", "allapot", "eredmenyek", "evrol-evre", "szavazas"].includes(r) && (session() || {}).country) { try { await loadElection(); } catch {} }
   window.scrollTo(0, 0); (routes[r] || landing)(); renderNav();
 }
 addEventListener("hashchange", route);
