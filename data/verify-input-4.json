@@ -1,0 +1,272 @@
+[
+ {
+  "key": "koltsegvetes-fek-04|Németország|https://www.bruegel.org/sites/default/files/2025-03/1103_Can%20Germany%20afford%20it_final%201.pdf",
+  "id": "koltsegvetes-fek-04",
+  "where": "Németország",
+  "when": "2009–2025",
+  "what": "Az adósságfék: a szerkezeti hiány legfeljebb 0,35% GDP (szövetségi szinten), a 2025-ös reformjavaslat.",
+  "numbers": "0,35% GDP szerkezeti hiány; a 2025. márciusi javaslat 11% GDP-nyi infrastruktúra-alapot és a védelmi kiadások nagy részének kivételét tartalmazta; a költségvetésen belül kb. 1,7% GDP közberuházás finanszírozódik.",
+  "source": "https://www.bruegel.org/sites/default/files/2025-03/1103_Can%20Germany%20afford%20it_final%201.pdf"
+ },
+ {
+  "key": "energia-rezsi-01|Magyarország (KRTK, Szép–Weiner)|https://telex.hu/gazdasag/2022/10/11/megis-mit-adott-nekunk-a-rezsicsokkentes",
+  "id": "energia-rezsi-01",
+  "where": "Magyarország (KRTK, Szép–Weiner)",
+  "when": "2013–2018",
+  "what": "A rezsicsökkentés lakossági hatásának elemzése (Magyar Energia Szimpózium, 2022).",
+  "numbers": "A lakossági oldalon 632 Mrd Ft pozitívum, a közvetlen árhatás 13 PJ pótlólagos energiafelhasználást okozott; a számlafizetési gondokkal küzdők aránya 25%-ról 11%-ra csökkent (Telex a tanulmányról; a szerzők egyike a KRTK munkatársa).",
+  "source": "https://telex.hu/gazdasag/2022/10/11/megis-mit-adott-nekunk-a-rezsicsokkentes"
+ },
+ {
+  "key": "szocialis-gyermekszeg-01|Kanada|https://www.nber.org/papers/w28556",
+  "id": "szocialis-gyermekszeg-01",
+  "where": "Kanada",
+  "when": "2016–2018",
+  "what": "Canada Child Benefit: jövedelemfüggő gyermektámogatás.",
+  "numbers": "2018-ra a szegénység kb. 11%-kal csökkent az egyedülálló anyás, kb. 17%-kal a kétszülős családoknál; nincs munkakínálat-csökkenés.",
+  "source": "https://www.nber.org/papers/w28556"
+ },
+ {
+  "key": "lakas-hitel-01|Magyarország (Szabó Bence, strukturális modell)|https://benceszabo.github.io/papers_currentversion/bence_szabo_fertility_housing_current.pdf",
+  "id": "lakas-hitel-01",
+  "where": "Magyarország (Szabó Bence, strukturális modell)",
+  "when": "2022",
+  "what": "A CSOK-típusú lakástámogatás hatása a lakásárakra és a termékenységre (Magyarország adataival becsült modell).",
+  "numbers": "A modell szerint a támogatás és az alacsony kamat együtt érdemben növeli a lakásárakat; a befejezett termékenység átlagosan kb. 5–10%-kal nő (főleg a szegényebb háztartásoknál), de lakáskörülményeik hosszú távon romlanak.",
+  "source": "https://benceszabo.github.io/papers_currentversion/bence_szabo_fertility_housing_current.pdf"
+ },
+ {
+  "key": "egeszsegugy-gyogyszer-05|Magyarország (0% áfa)|https://xpatloop.com/channels/2026/07/vat-to-be-cut-on-prescription-drugs-in-hungary-to-0-percent.html",
+  "id": "egeszsegugy-gyogyszer-05",
+  "where": "Magyarország (0% áfa)",
+  "when": "2026. szept.–",
+  "what": "Vényköteles humán gyógyszerek áfa 5%-ról 0%-ra.",
+  "numbers": "Becsült költség kb. 7 Mrd Ft/év; hatás a betegek költésére még nem mérhető.",
+  "source": "https://xpatloop.com/channels/2026/07/vat-to-be-cut-on-prescription-drugs-in-hungary-to-0-percent.html"
+ },
+ {
+  "key": "szocialis-alapjov-01|Finnország|https://stm.fi/en/-/perustulokokeilun-tulokset-tyollisyysvaikutukset-vahaisia-toimeentulo-ja-psyykkinen-terveys-koettiin-paremmaksi",
+  "id": "szocialis-alapjov-01",
+  "where": "Finnország",
+  "when": "2017–2018",
+  "what": "2000 munkanélküli (25–58 év) havi 560 euró feltétel nélküli alapjövedelmet kapott két évig.",
+  "numbers": "A foglalkoztatási hatás kicsi (a második évben kissé jobb, mint a kontrollcsoportnál); a jóllét és a pénzügyi biztonság jobb (Kela).",
+  "source": "https://stm.fi/en/-/perustulokokeilun-tulokset-tyollisyysvaikutukset-vahaisia-toimeentulo-ja-psyykkinen-terveys-koettiin-paremmaksi"
+ },
+ {
+  "key": "kornyezet-akku-01|Magyarország–Lengyelország (T&E 2025)|https://www.transportenvironment.org/articles/assembly-plant-or-battery-powerhouse-analysis-of-foreign-battery-investments-in-eu",
+  "id": "kornyezet-akku-01",
+  "where": "Magyarország–Lengyelország (T&E 2025)",
+  "when": "2025",
+  "what": "Elemzés a CATL (Debrecen) és az LG (Lengyelország) akkumulátorgyárak támogatásáról és környezeti megfelelőségéről.",
+  "numbers": "A két gyár legalább 900 millió euró állami támogatást kapott; a T&E szerint a magyar gyár megsértette az ipari kibocsátási irányelvet (NMP-szint), a lengyel gyárnál az erratum után nem találtak jogsértést; környezeti vagy szociális feltételt a Bizottság nem csatolt.",
+  "source": "https://www.transportenvironment.org/articles/assembly-plant-or-battery-powerhouse-analysis-of-foreign-battery-investments-in-eu"
+ },
+ {
+  "key": "nyugdij-magan-01|Chile|https://www.imf.org/-/media/files/publications/cr/2026/english/1chlea2026002.pdf",
+  "id": "nyugdij-magan-01",
+  "where": "Chile",
+  "when": "2025",
+  "what": "A magánpillér reformja: munkáltatói járulék 1,5%-ról 8,5%-ra 2033-ig.",
+  "numbers": "Az átlagos dolgozó nettó pótlási rátája 37,3%-ról 47,5%-ra nő (IMF becslés).",
+  "source": "https://www.imf.org/-/media/files/publications/cr/2026/english/1chlea2026002.pdf"
+ },
+ {
+  "key": "oktatas-berek-01|Egyesült Államok (Hanushek–Kain–Rivkin)|https://www.nber.org/papers/w7082",
+  "id": "oktatas-berek-01",
+  "where": "Egyesült Államok (Hanushek–Kain–Rivkin)",
+  "when": "1999",
+  "what": "Tanári fizetések, a tanári mobilitás és a tanulói teljesítmény összefüggésének vizsgálata.",
+  "numbers": "Az NBER-tanulmány szerint a fizetések 'szerény' hatásúak a mobilitásra és a teljesítményre; az egyetlen szignifikáns összefüggés a tapasztalt tanárokra áll fenn, ami a szerzők szerint hihetetlen (a hatásméretet az absztrakt nem közli).",
+  "source": "https://www.nber.org/papers/w7082"
+ },
+ {
+  "key": "kozlekedes-eauto-01|Norvégia (áfamentesség)|https://newmobility.news/en/2025/10/16/norway-to-tighten-vat-gap-phasing-out-ev-perks-hiking-ice-taxes/",
+  "id": "kozlekedes-eauto-01",
+  "where": "Norvégia (áfamentesség)",
+  "when": "2025–2027",
+  "what": "Az e-autók 25%-os áfamentessége szűkítve, 2027-re kivezetve.",
+  "numbers": "Kiesett bevétel ~17,5 Mrd NOK/év; mentességi küszöb 500 ezer NOK, 2026-ban 300 ezer; e-autók aránya az új autók 98,3%-a; az összes e-autó-ösztönző 2001–2027 között 100 Mrd NOK felett.",
+  "source": "https://newmobility.news/en/2025/10/16/norway-to-tighten-vat-gap-phasing-out-ev-perks-hiking-ice-taxes/"
+ },
+ {
+  "key": "igazsag-vagyonvisszaszerzes-02|Írország (CAB) 2012–2023|https://www.irishtimes.com/crime-law/2024/10/24/cab-seizes-more-than-116m-in-assets-over-12-years-with-644m-transferred-to-exchequer",
+  "id": "igazsag-vagyonvisszaszerzes-02",
+  "where": "Írország (CAB) 2012–2023",
+  "when": "2012–2023",
+  "what": "Criminal Assets Bureau: bűnözői vagyon befagyasztása, adó- és szociális visszatérítés.",
+  "numbers": "116 074 687 € ideiglenes zárolás 12 év alatt; 64 445 239 € jutott az államkasszába (22,2 M € bűnözői vagyon, 38,0 M € adó, 4,2 M € szociális); 2023: 8,6 M € (rekord).",
+  "source": "https://www.irishtimes.com/crime-law/2024/10/24/cab-seizes-more-than-116m-in-assets-over-12-years-with-644m-transferred-to-exchequer"
+ },
+ {
+  "key": "gazd-arresstop-01|Horvátország|https://hnb.hr/en/-/can-selective-price-controls-fight-off-inflation-lessons-from-milk-products-in-croatia",
+  "id": "gazd-arresstop-01",
+  "where": "Horvátország",
+  "when": "2022–",
+  "what": "Egyes alapvető élelmiszerek árának szabályozása (tej, liszt, olaj).",
+  "numbers": "A jegybank (HNB) szerint a teljes inflációra a hatás elhanyagolható, a szabályozott tej kb. 35%-kal olcsóbb volt a szabályozás nélküli kontrafaktuálisnál; a hatás a szegényebb háztartásoknak nagyobb.",
+  "source": "https://hnb.hr/en/-/can-selective-price-controls-fight-off-inflation-lessons-from-milk-products-in-croatia"
+ },
+ {
+  "key": "energia-rezsi-01|Németország|https://ifo.de/en/press-release/2023-08-09/german-gas-price-brake-will-be-much-cheaper-expected",
+  "id": "energia-rezsi-01",
+  "where": "Németország",
+  "when": "2023–2024",
+  "what": "Az áram- és gázárfék a háztartások fogyasztásának egy részére árplafont szabott.",
+  "numbers": "Az eredeti keret legfeljebb 83 Mrd euró volt; az ifo a gázárfék költségét 13,1 Mrd euróra becsülte, az eredeti összeg harmadára, mert a gázárak esése miatt kevesebbet kellett kifizetni. Egy másik jelentés szerint a villamosáram-fék 16,3 Mrd, a gázfék 14,3 Mrd euróba került (az összegek nem feltétlenül összeadhatók).",
+  "source": "https://ifo.de/en/press-release/2023-08-09/german-gas-price-brake-will-be-much-cheaper-expected"
+ },
+ {
+  "key": "agrar-tamogatas-01|Új-Zéland|https://www.richmondfed.org/publications/research/econ_focus/2003/winter/feature3_sidebar3",
+  "id": "agrar-tamogatas-01",
+  "where": "Új-Zéland",
+  "when": "1984–",
+  "what": "A farmtámogatások szinte teljes megszüntetése egy év alatt.",
+  "numbers": "Az átlagos juh- és marhatenyésztő bevételének kb. 40%-a állami kifizetés volt; a teljes tényezőtermelékenység növekedése kb. 2,5%/év 1984 óta vs. kb. 1,5% előtte (AgEcon); más források (Richmond Fed, Cato) magasabb értéket közölnek.",
+  "source": "https://www.richmondfed.org/publications/research/econ_focus/2003/winter/feature3_sidebar3"
+ },
+ {
+  "key": "vallalkozas-kulonado-03|Olaszország|https://www.investing.com/news/commodities-news/italy-collects-around-28-billion-euros-from-energy-windfall-tax-2964366",
+  "id": "vallalkozas-kulonado-03",
+  "where": "Olaszország",
+  "when": "2022",
+  "what": "25%-os extraprofitadó az energiacégekre (a forgalmi tranzakciók értékén).",
+  "numbers": "A kormány eredetileg 10–11 Mrd euró bevételt várt, 2022 végéig kb. 2,757 Mrd euró folyt be; sok cég megtagadta a fizetést.",
+  "source": "https://www.investing.com/news/commodities-news/italy-collects-around-28-billion-euros-from-energy-windfall-tax-2964366"
+ },
+ {
+  "key": "vallalkozas-kulonado-03|Magyarország|https://imf.org/-/media/Files/Publications/CR/2024/English/1hunea2024001-print-pdf.ashx",
+  "id": "vallalkozas-kulonado-03",
+  "where": "Magyarország",
+  "when": "2022–2026",
+  "what": "Extraprofitadó a bankokra és az energiára.",
+  "numbers": "2026-ra 440 Mrd Ft várt bevétel; az IMF (2024) szerint a torzító adók csökkentése javítaná a beruházási bizonytalanságot.",
+  "source": "https://imf.org/-/media/Files/Publications/CR/2024/English/1hunea2024001-print-pdf.ashx"
+ },
+ {
+  "key": "szja-jarulek-04|OECD-országok|https://www.oecd.org/en/publications/taxing-wages-2025_b3a95829-en/full-report/overview_715add19.html",
+  "id": "szja-jarulek-04",
+  "where": "OECD-országok",
+  "when": "2024",
+  "what": "A munka adóéke az átlagkeresőknél.",
+  "numbers": "Magyarország 39,8% az OECD-átlag 34,9%-ával szemben; az szja és a munkáltatói járulék együtt a teher 60%-át adja Magyarországon (OECD átlag 77%, 2025-ös adat).",
+  "source": "https://www.oecd.org/en/publications/taxing-wages-2025_b3a95829-en/full-report/overview_715add19.html"
+ },
+ {
+  "key": "oktatas-tandij-04|Németország (tandíj-kivezetés)|https://researchonline.lse.ac.uk/id/eprint/71668",
+  "id": "oktatas-tandij-04",
+  "where": "Németország (tandíj-kivezetés)",
+  "when": "2006–2014",
+  "what": "A tartományok bevezették majd megszüntették az alacsony tandíjat; 2014-re mindenhol megszűnt.",
+  "numbers": "Wigger szerint a tandíjnak nem volt azonosítható negatív hatása a beiratkozásra; szám az oldalon nincs.",
+  "source": "https://researchonline.lse.ac.uk/id/eprint/71668"
+ },
+ {
+  "key": "vallalkozas-minimumado-04|Magyarország|https://www.mondaq.com/tax-authorities/1755988/global-minimum-tax-practical-experience-from-hungary",
+  "id": "vallalkozas-minimumado-04",
+  "where": "Magyarország",
+  "when": "2024–",
+  "what": "QDMTT a 9%-os tao mellett.",
+  "numbers": "Egy szakmai összefoglaló szerint sok esetben a teljes számítás (tao, iparűzési adó, innovációs járulék) eléri a 15%-ot, így a kiegészítő adó nulla; akár 50 000 euró bírság is lehet.",
+  "source": "https://www.mondaq.com/tax-authorities/1755988/global-minimum-tax-practical-experience-from-hungary"
+ },
+ {
+  "key": "nyugdij-magan-01|Magyarország|https://retirementincomejournal.com/?p=821",
+  "id": "nyugdij-magan-01",
+  "where": "Magyarország",
+  "when": "2010–2011",
+  "what": "Magánnyugdíj-vagyon átvétele.",
+  "numbers": "Kb. 10 Mrd euró feletti vagyon; a hiány rövid távon csökkent (hazai forintérték nem ellenőrzött).",
+  "source": "https://retirementincomejournal.com/?p=821"
+ },
+ {
+  "key": "energia-paks2-01|Finnország|https://www.statista.com/chart/36138/cost-overruns-and-construction-delays-of-epr-nuclear-reactors-in-europe/",
+  "id": "energia-paks2-01",
+  "where": "Finnország",
+  "when": "2005–2023",
+  "what": "Az Olkiluoto 3 EPR-reaktor építése 2005-ben kezdődött, az indulás 2009-re volt tervezve.",
+  "numbers": "A költség kb. 3,2 Mrd euróról 11 Mrd euróra nőtt, az építési idő 4 évről 18 évre (egy forrás szerint a késés 14 év volt, eltérő mérőszámmal).",
+  "source": "https://www.statista.com/chart/36138/cost-overruns-and-construction-delays-of-epr-nuclear-reactors-in-europe/"
+ },
+ {
+  "key": "lakas-airbnb-01|USA|https://papers.ssrn.com/abstract=3006832",
+  "id": "lakas-airbnb-01",
+  "where": "USA",
+  "when": "2008–2016",
+  "what": "Az Airbnb hatása a bérekre és lakásárakra (Barron–Kung–Proserpio).",
+  "numbers": "A hirdetések 1%-os növekedése kb. 0,018%-kal emeli a bérleti díjat és 0,026%-kal a lakásárat; az Airbnb a medián irányítószám bérnövekedésének kb. egyötödét magyarázza.",
+  "source": "https://papers.ssrn.com/abstract=3006832"
+ },
+ {
+  "key": "munka-kozmunka-01|Magyarország|https://www.mnb.hu/letoltes/mnb-op-145-final.pdf",
+  "id": "munka-kozmunka-01",
+  "where": "Magyarország",
+  "when": "2022 (elemzés)",
+  "what": "MNB-tanulmány a közmunkások munkaerőpiaci pályájáról.",
+  "numbers": "A közmunkások kb. kétharmada inaktív volt a program előtt; utána gyakrabban váltottak állást az elsődleges munkaerőpiacon és rövidebb ideig maradtak egy helyen.",
+  "source": "https://www.mnb.hu/letoltes/mnb-op-145-final.pdf"
+ },
+ {
+  "key": "energia-paks2-01|Egyesült Arab Emírségek|https://www.mediaoffice.abudhabi/en/energy/led-by-emirates-nuclear-energy-company-barakah-nuclear-energy-plant-completes-first-year-of-full-fleet-operations",
+  "id": "energia-paks2-01",
+  "where": "Egyesült Arab Emírségek",
+  "when": "2012–2024",
+  "what": "A Barakah négy blokkos atomerőmű 2024 szeptemberére teljes kapacitással üzemelt.",
+  "numbers": "A 4. blokk építése 2023 decemberében fejeződött be; a költség forrásonként 24,4–32 Mrd dollár; az első blokk a tervezett 2017 helyett később indult; az üzemeltető szerint az 1. és 4. blokk között a költség és az idő 40%-kal csökkent.",
+  "source": "https://www.mediaoffice.abudhabi/en/energy/led-by-emirates-nuclear-energy-company-barakah-nuclear-energy-plant-completes-first-year-of-full-fleet-operations"
+ },
+ {
+  "key": "igazsag-vagyonvisszaszerzes-02|Bulgária|https://www.novinite.com/view_news.php?id=226329",
+  "id": "igazsag-vagyonvisszaszerzes-02",
+  "where": "Bulgária",
+  "when": "2012–2024",
+  "what": "Polgári jogi vagyonelkobzás bizonyítási teher-megfordítással; az Emberi Jogok Európai Bírósága elmarasztalta.",
+  "numbers": "A Bíróság szerint nem állapították meg egyértelmű kapcsolatot az elkobzott vagyon és a bűncselekmény között; 5 panasz egyesítve; összesített elkobzott érték az oldalon nincs.",
+  "source": "https://www.novinite.com/view_news.php?id=226329"
+ },
+ {
+  "key": "kulpol-sorkatonasag-01|Svédország (2017-es újrabevezetés)|https://nordicdefencesector.com/en/article/sweden-increases-war-organization-in-2025",
+  "id": "kulpol-sorkatonasag-01",
+  "where": "Svédország (2017-es újrabevezetés)",
+  "when": "2017–2025",
+  "what": "Szelektív, nemre semleges sorkatonaság a felfüggesztés (2010) után.",
+  "numbers": "2025-ben 8136 sorkatonát soroztak be; a Haderő 30 442 alkalmazottal zárt; 863 tisztképzésbe lépő, a 21. század legmagasabb értéke.",
+  "source": "https://nordicdefencesector.com/en/article/sweden-increases-war-organization-in-2025"
+ },
+ {
+  "key": "csalad-csp-01|Kanada|https://www.nber.org/papers/w28556",
+  "id": "csalad-csp-01",
+  "where": "Kanada",
+  "when": "2016–",
+  "what": "Canada Child Benefit: jövedelemfüggő gyermekkedvezmény.",
+  "numbers": "2018-ra a szegénység kb. 11%-kal csökkent az egyedülálló anyás és közel 17%-kal a kétszülős családoknál; nem találtak munkakínálati csökkenést (Baker–Messacar–Stabile).",
+  "source": "https://www.nber.org/papers/w28556"
+ },
+ {
+  "key": "munka-minimalber-01|Németország (regionális elemzés)|https://iwh-halle.de/publikationen/detail/employment-effects-of-introducing-a-minimum-wage-the-case-of-germany",
+  "id": "munka-minimalber-01",
+  "where": "Németország (regionális elemzés)",
+  "when": "2015–2016",
+  "what": "Regionális munkaerőpiaci elemzés a minimálbér-bevezetésről.",
+  "numbers": "Statisztikailag szignifikáns, de kis negatív hatás az összfoglalkoztatásra (Pestel, IZA); az IWH szerint a mini-jobok csökkenését a rendszeres állások növekedése nem ellensúlyozta teljesen.",
+  "source": "https://iwh-halle.de/publikationen/detail/employment-effects-of-introducing-a-minimum-wage-the-case-of-germany"
+ },
+ {
+  "key": "kornyezet-akku-01|Magyarország|https://telex.hu/gazdasag/2026/03/17/catl-kormanyhivatal-valasz",
+  "id": "kornyezet-akku-01",
+  "where": "Magyarország",
+  "when": "2023–2026",
+  "what": "A debreceni CATL-gyárnál környezeti és munkavédelmi vizsgálatok indultak.",
+  "numbers": "A 2026. márciusi hatósági közlés szerint engedély nélkül tároltak veszélyes anyagokat egy félkész csarnokban; az üzemek felfüggesztéséről szóló közlés nikkelterhelésre hivatkozik; a foglalkoztatásról kb. 9000 fős becslés létezik.",
+  "source": "https://telex.hu/gazdasag/2026/03/17/catl-kormanyhivatal-valasz"
+ },
+ {
+  "key": "munka-bertranszparencia-05|Izland|https://gov.scot/publications/international-mechanisms-revalue-womens-work-research-exploring-evaluating-international-mechanisms-aim-revalue-result-revaluation-womens-work/pages/13",
+  "id": "munka-bertranszparencia-05",
+  "where": "Izland",
+  "when": "2018–",
+  "what": "Egyenlő bér tanúsítás (ÍST 85) 25+ fős szervezeteknek, 3 évente megújítva.",
+  "numbers": "A bérkülönbség 20,5%-ról 13,8%-ra csökkent 2008–2019 között (munkaidőre korrigált), de a forrás nem ennek a szabálynak tulajdonítja; hátrány: erőforrás-igényes, szervezeten belüli egyenlőséget biztosít (Scottish Government kutatás).",
+  "source": "https://gov.scot/publications/international-mechanisms-revalue-womens-work-research-exploring-evaluating-international-mechanisms-aim-revalue-result-revaluation-womens-work/pages/13"
+ }
+]

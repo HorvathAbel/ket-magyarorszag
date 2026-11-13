@@ -1,0 +1,311 @@
+[
+{
+"id":"szja-szerkezet-01","topic":"Személyi jövedelemadó",
+"q":"Mi legyen a személyi jövedelemadó szerkezete?",
+"context":{
+"fidesz":"A Fidesz-kormányok 2011-ben 16%-os egykulcsos szja-t vezettek be, 2016-tól 15% a kulcs; a bérek szja-ja és járulékai együtt adják a munka adóterhét (az OECD szerint az átlagkereső egyedülálló adóéke Magyarországon 39,8% volt 2024-ben, az OECD-átlag 34,9%).",
+"tisza":"[bejelentve] A 2027-es költségvetési tervezet nem tér át progresszív szerkezetre: a minimálbér szja-kulcsát 9%-ra csökkentené, és a minimálbér kétszereséig sávos kedvezményt ad (a februári program 8%-ot említett); a szakértői becslések szerint a csökkentés akár 300 Mrd Ft/év kieséssel járhat (Niveus).",
+"sources":["https://www.oecd.org/en/publications/taxing-wages-2025_b3a95829-en/full-report/overview_715add19.html","https://centraleuropeantimes.com/2025/05/oecds-lightest-tax-burdens-in-slovakia-poland/amp","https://adozona.hu/2027_es_adovaltozasok/Magyar_Peter_a_2027_evi_koltsegvetesrol_szi_RF9HCW","https://hvg.hu/gazdasag/20260512_niveus-tisza-szja-csokkentes-karman-andras-300-milliard-kieses"]},
+"options":[
+{"label":"Egykulcsos szja marad (15%)","pro":"Egyszerű, átlátható és olcsó beszedni, alacsony az ösztönző-torzítás.","con":"Nem redisztributív, a magas jövedelműek és az alacsony jövedelműek ugyanazt a kulcsot fizetik.","effects":{"gdp":1,"infl":0,"wage":0,"housing":0,"health":0,"deficit":0}},
+{"label":"Két sáv: 15% és magasabb felső kulcs","pro":"A magas jövedelműektől több bevétel jön, ami fedezhet más adócsökkentést vagy ellátást.","con":"Nagyobb a kijátszási és a munka-ösztönzést rontó hatás, és bonyolultabb a rendszer.","effects":{"gdp":-1,"infl":0,"wage":0,"housing":0,"health":1,"deficit":2}},
+{"label":"Egykulcs marad, de alsó sávban kedvezmény","pro":"A kis keresetűek nettó bére nő anélkül, hogy a rendszer sávossá válna.","con":"Bevételkiesést okoz, és az átmeneti kedvezményeknél kiugrik a határadó-kulcs.","effects":{"gdp":0,"infl":0,"wage":2,"housing":1,"health":0,"deficit":-2}}],
+"evidence":[
+{"where":"Oroszország","when":"2001–","what":"A progresszív szja helyett 13%-os egykulcsos adót vezettek be.","numbers":"Az adókijátszás csökkenése 10–12%-os, a termelékenységi válasz 0–4%; a hatékonysági nyereség legalább 30%-kal kisebb a hagyományos becslésnél.","verdict":"vegyes","why":"A bevételnövekedés nagyrészt a jobb adófegyelemből jött, nem a tényleges munka-kínálat bővüléséből.","source":"https://www.nber.org/system/files/working_papers/w13719/revisions/w13719.rev0.pdf","confidence":"medium"},
+{"where":"Szlovákia","when":"2004–2013","what":"2004-ben 19%-os egykulcsot vezettek be, 2013-ban egy 25%-os felső sávval visszatértek a progresszióhoz.","numbers":"A 2013-as váltás csekély hatással volt a foglalkoztatásra és az egyenlőtlenségre; a várt többletbevétel kb. 377 M euró (a GDP 0,51%-a), ami előrejelzés.","verdict":"vegyes","why":"Mért cél a foglalkoztatás és a bevétel: a foglalkoztatás alig változott, az utólagos bevétel nem szerepel a forrásokban.","source":"https://www.york.ac.uk/media/economics/documents/discussionpapers/2015/1512.pdf","confidence":"medium"},
+{"where":"Magyarország","when":"2011–","what":"16%-os egykulcsos szja bevezetése a szuperbruttó megszüntetésével.","numbers":"Számszerű adat nem áll rendelkezésre a lekért forrásokban (az MNB-modell hosszú távú hatást becsül); 9%-os kulcs 522 Mrd Ft/év kiesést jelentene (2011-es adatokon, becslés).","verdict":"vegyes","why":"A modellezés a kibocsátási és foglalkoztatási hatást vizsgálta, a lekért forrásokban nincs kiolvasható mért eredmény.","source":"https://www.mnb.hu/letoltes/wp-2012-7-final.pdf","confidence":"low"}]},
+
+{
+"id":"szja-mentessegek-02","topic":"Személyi jövedelemadó",
+"q":"Maradjanak-e a csoportos szja-mentességek (anyák, 25 év alattiak)?",
+"context":{
+"fidesz":"A Fidesz-kormány 2022-től szja-mentességet adott a 25 év alattiaknak az átlagkeresetig terjedő bérre, és bevezette az anyák szja-mentességét is.",
+"tisza":"[bejelentve] A 2027-es költségvetési tervezet szerint az anyák szja-mentessége 30 év alattiaknak és kétgyermekes, 40 év alatti anyáknak marad, havi 1 millió Ft bruttó jövedelemig; az idősebb anyákra tervezett bővítést elvetik (egy cikk szerint a tervezett kör 110–120 ezer nő lett volna).",
+"sources":["https://bbj.hu/politics/domestic/parliament/lawmakers-approve-pit-exemption-for-under-25s","https://bankmonitor.hu/mediatar/cikk/az-anyak-sarkara-lep-az-uj-koltsegvetes/","https://biztosdontes.hu/cikkek/minimalber-szja-anyak-adomentessege-2027"]},
+"options":[
+{"label":"Megtartani és bővíteni a csoportos mentességeket","pro":"Célzottan növeli a nettó jövedelmet és a munkavállalási kedvet a kiválasztott csoportoknál.","con":"Torzítja a bérek közti viszonyokat és drága, a többi dolgozó terhén.","effects":{"gdp":1,"infl":0,"wage":1,"housing":0,"health":0,"deficit":-2}},
+{"label":"Kivezetni, helyette általános kedvezmény","pro":"Igazságosabb és egyszerűbb: azonos jövedelem, azonos adó.","con":"A célzott ösztönző (anyák, fiatalok munkába állása) megszűnik.","effects":{"gdp":0,"infl":0,"wage":0,"housing":0,"health":0,"deficit":1}},
+{"label":"Megtartani, de jövedelemplafonnal és kor szerint szűkítve","pro":"Olcsóbb, és a támogatás a kisebb jövedelműekhez jut.","con":"A küszöbök bonyolultabbá teszik, és a küszöb körül ösztönző-torzulás keletkezik.","effects":{"gdp":0,"infl":0,"wage":1,"housing":0,"health":0,"deficit":-1}}],
+"evidence":[
+{"where":"Magyarország","when":"2013–2015","what":"A 25 év alattiak és 55 év felettiek járulékkedvezménye (nem szja-mentesség).","numbers":"A 25 év alattiak foglalkoztatási valószínűsége 2015-re 2,6%-kal nőtt a kontrollcsoporthoz képest (különbségek-különbsége).","verdict":"jo","why":"A mért cél a foglalkoztatás: a járulékkedvezmény javította, de ez más eszköz, mint az szja-mentesség.","source":"https://old.kti.krtk.hu/lmyb2019_infocus_5_3","confidence":"medium"},
+{"where":"Lengyelország","when":"2019–","what":"Szja-mentesség a 26 év alattiaknak 85 528 PLN éves jövedelemig.","numbers":"Számszerű adat nem áll rendelkezésre: ökonometriai értékelést nem találtam; a FOR szerint a hatása kicsi.","verdict":"vegyes","why":"Az alkalmazott források gyakorlati útmutatók és vitaanyagok, mért foglalkoztatási hatás nincs.","source":"https://for.org.pl/en/a/6909,for-communication-26/2019-exemption-of-young-people-from-personal-income-tax-pit-buying-votes-in-place-of-reforms","confidence":"low"},
+{"where":"Magyarország","when":"2022–","what":"A 25 év alattiak szja-mentessége bérfeszültséget vagy átlépési kockázatot okozott a 25. életév körül.","numbers":"Számszerű adat nem áll rendelkezésre; a szakmai kamarai és sajtóvélemények megoszlanak.","verdict":"vegyes","why":"Az ösztönző a fiatalokat aktivizálhatta, de a generációk közti bérfeszültséget is említik.","source":"https://trademagazin.hu/en/valoban-tobbet-kereshetnek-a-25-ev-alattiak-mint-az-idosebb-munkavallalok","confidence":"low"}]},
+
+{
+"id":"szja-minimalber-03","topic":"Személyi jövedelemadó",
+"q":"Hogyan csökkentsük a minimálbér adóterhét?",
+"context":{
+"fidesz":"2026-ban a minimálbér 322 800 Ft bruttó, a nettó 214 662 Ft (15% szja és 18,5% járulék levonása után); a minimálbér 2025-höz képest 11%-kal nőtt.",
+"tisza":"[bejelentve] A 2027-es tervezet a minimálbér szja-ját 9%-ra csökkenti (a program 8%-ot említett), ez egy cikk szerint kb. havi 20 000 Ft többletet adna, és kb. 2,5 millió embert érint; a minimálbér kétszereséig fokozatos kedvezmény jár.",
+"sources":["https://www.forvismazars.com/hu/en/insights/articles/minimum-wage-and-guaranteed-wage-minimum-in-2026","https://biztosdontes.hu/cikkek/minimalber-szja-anyak-adomentessege-2027","https://adozona.hu/2027_es_adovaltozasok/Magyar_Peter_a_2027_evi_koltsegvetesrol_szi_RF9HCW"]},
+"options":[
+{"label":"Alacsonyabb szja-kulcs a minimálbérig","pro":"Egyszerű és azonnal nő a nettó bér.","con":"A kedvezmény a feljebb lévőknek is jut, és a lépcsőnél torzul a határadó.","effects":{"gdp":0,"infl":0,"wage":2,"housing":1,"health":0,"deficit":-2}},
+{"label":"Jövedelempótlék (EITC-típusú, kifutó)","pro":"Célzott: csak a dolgozó alacsony jövedelműek kapják, és a munkavállalást ösztönzi.","con":"Bonyolultabb igénybevétel, adminisztráció, és jelentős a költsége.","effects":{"gdp":1,"infl":0,"wage":2,"housing":1,"health":0,"deficit":-1}},
+{"label":"A munkáltatói teher csökkentése a minimálbéren","pro":"Olcsóbb a munkaadónak, ami védheti a foglalkoztatást.","con":"A nettó bér nem biztos, hogy nő, és a bérteher-könnyítés átcsorog a profitba.","effects":{"gdp":1,"infl":0,"wage":1,"housing":0,"health":0,"deficit":-1}}],
+"evidence":[
+{"where":"Egyesült Államok","when":"1986–1993","what":"Az EITC (kereseti adójóváírás) bővítése egyedülálló szülőknek.","numbers":"Eissa és Liebman szerint a foglalkoztatás kb. 2,8 százalékponttal nőtt (másodlagos forrásból), a munkaórákban nem volt hatás; az 1993-as bővítésnél kb. 2,9 százalékpont.","verdict":"jo","why":"A mért cél a foglalkoztatás: a célzott jóváírás növelte a munkába állást.","source":"https://www.ipr.northwestern.edu/documents/working-papers/2020/wp-20-52.pdf","confidence":"medium"},
+{"where":"Magyarország","when":"2013–2015","what":"Járulékkedvezmény az alacsonyabb foglalkoztatású csoportoknak.","numbers":"A 25 év alattiak foglalkoztatási valószínűsége 2015-re 2,6%-kal nőtt.","verdict":"jo","why":"A munkaadói teher csökkentése nőtt a foglalkoztatásban, de ez más csoportra és eszközre vonatkozik.","source":"https://old.kti.krtk.hu/lmyb2019_infocus_5_3","confidence":"medium"}]},
+
+{
+"id":"szja-jarulek-04","topic":"Személyi jövedelemadó",
+"q":"Hol csökkentsük a munka adóékét: szja, járulék vagy szocho?",
+"context":{
+"fidesz":"Az OECD szerint 2024-ben Magyarország átlagkereső egyedülálló adóéke 39,8% volt (OECD-átlag 34,9%); 2025-re a Taxing Wages 2026 kiadás 41,2%-ot ad (35,1% az átlag) – a két kiadás nem közvetlenül összevethető.",
+"tisza":"[bejelentve] A 2027-es tervek az szja csökkentésére koncentrálnak (minimálbér, anyák); a járulékokról vagy a szociális hozzájárulási adóról a lekért forrásokban nincs külön bejelentett döntés.",
+"sources":["https://centraleuropeantimes.com/2025/05/oecds-lightest-tax-burdens-in-slovakia-poland/amp","https://www.oecd.org/en/publications/taxing-wages-2026_3a5169ef-en/full-report/graphical-exposition-of-effective-tax-rates-in-2025_5b93f71e.html","https://adozona.hu/2027_es_adovaltozasok/Magyar_Peter_a_2027_evi_koltsegvetesrol_szi_RF9HCW"]},
+"options":[
+{"label":"Munkáltatói szocho csökkentése","pro":"Csökkenti a bérköltséget, ami a foglalkoztatást és a bérkiáramlást támogatja.","con":"A nettó bér közvetlenül nem nő, és a bevételkiesés ugyanúgy a költségvetést terheli.","effects":{"gdp":1,"infl":0,"wage":1,"housing":0,"health":0,"deficit":-2}},
+{"label":"Munkavállalói járulék vagy szja csökkentése","pro":"Közvetlenül nő a nettó bér, ami a munkavállalást ösztönzi.","con":"A járulékcsökkentés a nyugdíj-egészségügyi finanszírozást gyengítheti, hacsak nem pótolják.","effects":{"gdp":0,"infl":0,"wage":2,"housing":0,"health":-1,"deficit":-2}},
+{"label":"Az adóék marad, a bevétel a hiánycsökkentésre megy","pro":"Gyorsabb a konszolidáció, és több a forrás az egészségügynek és az oktatásnak.","con":"A magas adóék tovább terheli a munkát és a bérverseny kevésbé élénkül.","effects":{"gdp":-1,"infl":0,"wage":-1,"housing":0,"health":1,"deficit":2}}],
+"evidence":[
+{"where":"Magyarország","when":"2013–2015","what":"Járulékkedvezmény a 25 év alattiaknak és az 55 év felettieknek.","numbers":"A 25 év alattiak foglalkoztatási valószínűsége 2015-re 2,6%-kal nőtt a kontrollcsoporthoz képest.","verdict":"jo","why":"A mért cél a foglalkoztatás, amelyet a munkáltatói járulék-kedvezmény javított.","source":"https://old.kti.krtk.hu/lmyb2019_infocus_5_3","confidence":"medium"},
+{"where":"OECD-országok","when":"2024","what":"A munka adóéke az átlagkeresőknél.","numbers":"Magyarország 39,8% az OECD-átlag 34,9%-ával szemben; az szja és a munkáltatói járulék együtt a teher 60%-át adja Magyarországon (OECD átlag 77%, 2025-ös adat).","verdict":"vegyes","why":"Összehasonlító adat az adóék szintjéről, a csökkentés mért hatását nem mutatja.","source":"https://www.oecd.org/en/publications/taxing-wages-2025_b3a95829-en/full-report/overview_715add19.html","confidence":"medium"}]},
+
+{
+"id":"vallalkozas-tao-01","topic":"Vállalkozások adózása",
+"q":"Mekkora legyen a társasági adó kulcsa és szerkezete?",
+"context":{
+"fidesz":"A Fidesz-kormány 2017-ben 9%-ra csökkentette a társasági adót (korábban 10% és 19%); ez a legalacsonyabb az EU-ban. 2024-től a globális minimumadó miatt hazai kiegészítő adó van a nagy csoportoknak.",
+"tisza":"[bejelentve] Magyar Péter szerint a kormány szigorítja a nagyvállalatok és a bizalmi vagyonkezelő alapítványok adózását, és megszünteti a főleg globális nagyvállalatokat kedvező társasági adókedvezményeket; a tao-kulcs változtatásáról a lekért forrásokban nincs döntés.",
+"sources":["https://www.hawksford.com/insights-and-guides/hungary-corporate-tax-rates-incentives","https://telex.hu/g7/kozelet/2026/07/06/kulonadok-adorendszer-bevetelek-koltsegvetes-kormanytervek-eu","https://www.ey.com/en_gl/technical/tax-alerts/hungary-s-draft-legislation-on-beps-2-0-pillar-two-introduced-to"]},
+"options":[
+{"label":"9% marad, kedvezmények szigorítása","pro":"Versenyképes marad a beruházásoknak, a bevétel a kedvezmények szűkítéséből jön.","con":"Az alacsony kulcs a nagy beruházóknál úgyis a minimumadó miatt 15% felé tolódik, a kis cégeknek kevésbé hasznos.","effects":{"gdp":1,"infl":0,"wage":0,"housing":0,"health":0,"deficit":0}},
+{"label":"Egységes magasabb kulcs (kb. 15%)","pro":"Több adóbevétel, kevesebb adóverseny-torzulás, összhang a globális minimummal.","con":"Gyengítheti a beruházási vonzerőt és a kisvállalkozások terheit is emeli.","effects":{"gdp":-1,"infl":0,"wage":0,"housing":0,"health":1,"deficit":2}},
+{"label":"Elosztott nyereség adózása (észt modell)","pro":"Az újrabefektetett nyereség adómentes, ami a tőkefelhalmozást és a likviditást segíti.","con":"A kifizetett osztalék adózik, a bevétel később jön, és kijátszási lehetőséget ad.","effects":{"gdp":1,"infl":0,"wage":0,"housing":0,"health":0,"deficit":-1}}],
+"evidence":[
+{"where":"Észtország","when":"2000–","what":"A visszatartott nyereség adómentes, csak az osztalék adózik.","numbers":"Masso és társai (balti összehasonlítás): több likvid eszköz, kisebb eladósodás, pozitív beruházási és termelékenységi hatás, különösen a kisebb cégeknél; a költségvetési költség vitatott.","verdict":"jo","why":"A mért cél a beruházás és a termelékenység, amelyek javultak.","source":"https://www.econbiz.de/Record/shift-from-gross-profit-taxation-to-distributed-profit-taxation-are-there-effects-on-firms-masso-jaan/10011052847","confidence":"medium"},
+{"where":"Írország","when":"2015–2024","what":"12,5%-os tao, a multinacionális bevétel összpontosulása.","numbers":"A társasági adó az adóbevétel több mint negyede (korábban kb. 13%), a 10 legnagyobb csoport 2024-ben közel 60%-ot adott.","verdict":"vegyes","why":"Nagy bevétel, de a koncentráció miatt sebezhető a bevételi forrás.","source":"https://www.fiscalcouncil.ie/wp-content/uploads/2026/02/Corporation-tax-slides-conference_2026.pdf","confidence":"high"},
+{"where":"Magyarország","when":"2017–2025","what":"9%-os tao, külföldi tőke vonzása.","numbers":"Az UNCTAD szerint az FDI-beáramlás 3,9 Mrd USD volt 2025-ben a 2024-es 4,0 Mrd USD-val szemben (tanácsadói összefoglaló).","verdict":"vegyes","why":"A mért cél a beruházás: a lekért forrásokban nincs a kulcsot elkülönítő értékelés.","source":"https://www.hawksford.com/insights-and-guides/hungary-corporate-tax-rates-incentives","confidence":"low"}]},
+
+{
+"id":"vallalkozas-kkv-02","topic":"Vállalkozások adózása",
+"q":"Hogyan adózzanak a kisvállalkozások és az egyéni vállalkozók (KATA)?",
+"context":{
+"fidesz":"A KATA-t 2022. szeptember 1-jétől szigorították: az éves bevételi határ 12 millió Ft-ról 18 millió Ft-ra nőtt, de csak magánszemélyeknek lehet számlázni; az indok a visszaélés (kényszervállalkozás) volt. 2022 februárjában 455 ezernél több KATA-adózó volt.",
+"tisza":"[bejelentve] Kármán András 2026 májusában visszatérést jelezett a KATA-hoz (egy másodlagos forrás szerint az egyszerűsített rendszer visszatér); a törvényi részletek a lekért forrásokban nem szerepelnek.",
+"sources":["https://telex.hu/g7/kozelet/2022/06/24/nem-veletlen-hogy-egy-koltsegvetesi-kiigazitas-kozben-nyul-a-kormany-a-tul-jol-sikerult-katahoz","https://xpatloop.com/channels/2022/07/kata-changes-pushed-through-in-hungary-despite-street-protests.html","https://infostart.hu/belfold/2026/05/12/karman-andras-visszater-a-kata-negyeves-koltsegvetesi-struktura-jon"]},
+"options":[
+{"label":"KATA-szerű tételes adó visszaállítása","pro":"Egyszerű, olcsó adminisztráció, a kisvállalkozások könnyebben legalizálódnak.","con":"Visszaélésre ad lehetőséget (alkalmazott helyett vállalkozó), és csökkenti az szja- és járulékbevételt.","effects":{"gdp":1,"infl":0,"wage":0,"housing":0,"health":-1,"deficit":-1}},
+{"label":"Szigorított kör marad, átalányadó és KIVA","pro":"Kevesebb a visszaélés, nagyobb a járulék- és adóbevétel.","con":"Több adminisztráció, és sok szabadúszó kiszorul a kedvezményből.","effects":{"gdp":0,"infl":0,"wage":0,"housing":0,"health":1,"deficit":1}},
+{"label":"Egységes, bevétel-alapú egyszerűsített adó járulékminimummal","pro":"Egyszerű és a társadalombiztosítási befizetés is biztosított.","con":"Bonyolult kialakítani, és a járulékminimum a legkisebb bevételűeket terheli.","effects":{"gdp":0,"infl":0,"wage":0,"housing":0,"health":0,"deficit":0}}],
+"evidence":[
+{"where":"Magyarország","when":"2022","what":"A KATA szigorítása az időközi szabályváltozással.","numbers":"Kb. 430–455 ezer KATA-adózót érintett; a változás utáni létszám a lekért forrásokban nem szerepel.","verdict":"vegyes","why":"A cél a visszaélés csökkentése volt, de a hatást és a kisvállalkozói kiáramlást a források nem mérik.","source":"https://xpatloop.com/channels/2022/07/kata-changes-pushed-through-in-hungary-despite-street-protests.html","confidence":"low"},
+{"where":"Észtország","when":"2000–","what":"Egyszerű elosztott-nyereség adó, amely a kisebb cégeknél erősebb hatású.","numbers":"A kisebb cégeknél erősebb pozitív beruházási hatás (Masso és társai); pontos érték nem áll rendelkezésre.","verdict":"jo","why":"A mért cél a beruházás és a likviditás javult.","source":"https://www.econbiz.de/Record/shift-from-gross-profit-taxation-to-distributed-profit-taxation-are-there-effects-on-firms-masso-jaan/10011052847","confidence":"low"}]},
+
+{
+"id":"vallalkozas-kulonado-03","topic":"Vállalkozások adózása",
+"q":"Mi legyen a különadókkal és az extraprofitadóval?",
+"context":{
+"fidesz":"A Fidesz-kormány 2022-ben extraprofitadót vezetett be főleg a bankokra és az energiára (a konszolidációs csomag kb. 40%-a); a távközlési, gyógyszeripari és energetikai különadókat 2025-től kivezették, a bankadót megtartotta, és 2026-tól növelte.",
+"tisza":"[bejelentve] A kormány átalakítaná a piactorzító különadókat, de a különadók egy része még sokáig megmarad; konkrét kivezetési ütemezés a lekért forrásokban nincs.",
+"sources":["https://www.trade.gov/market-intelligence/hungary-economic-development-extra-profit-tax-phase-out","https://kpmg.com/hu/hu/insights/2025/11/taxalert-2025-11-14.html","https://telex.hu/g7/kozelet/2026/07/06/kulonadok-adorendszer-bevetelek-koltsegvetes-kormanytervek-eu"]},
+"options":[
+{"label":"Fokozatos kivezetés (bankadóval együtt)","pro":"Kiszámíthatóbb adórendszer és jobb beruházási környezet.","con":"Jelentős bevételkiesés, ami a hiánycélt veszélyezteti.","effects":{"gdp":1,"infl":0,"wage":0,"housing":0,"health":-1,"deficit":-2}},
+{"label":"Megtartás időkorláttal és szektor-feltételekkel","pro":"A bevétel megmarad az átmenetben, a kivezetés előre jelezhető.","con":"A bizonytalanság és a torzítás megmarad, a bankok és kiskereskedők áthárítják.","effects":{"gdp":0,"infl":-1,"wage":0,"housing":0,"health":0,"deficit":1}},
+{"label":"Különadók helyett magasabb tao a nagyvállalatoknak","pro":"Átláthatóbb és egységes szabály, a bevétel stabilabb.","con":"A nagy cégekre eső magasabb adó a beruházásokat és az árakat is érintheti.","effects":{"gdp":0,"infl":0,"wage":0,"housing":0,"health":0,"deficit":1}}],
+"evidence":[
+{"where":"Magyarország","when":"2022–2026","what":"Extraprofitadó a bankokra és az energiára.","numbers":"2026-ra 440 Mrd Ft várt bevétel; az IMF (2024) szerint a torzító adók csökkentése javítaná a beruházási bizonytalanságot.","verdict":"vegyes","why":"A bevétel nagy, de az IMF a beruházásra gyakorolt bizonytalanságot kifogásolja.","source":"https://imf.org/-/media/Files/Publications/CR/2024/English/1hunea2024001-print-pdf.ashx","confidence":"medium"},
+{"where":"Olaszország","when":"2022","what":"Energetikai extraprofitadó.","numbers":"Kb. 2,8 Mrd euró folyt be a várt 11 Mrd euróból.","verdict":"rossz","why":"A mért cél a bevétel volt: a várt összeg negyede folyt be.","source":"https://taxfoundation.org/blog/italy-windfall-profits-tax/","confidence":"medium"},
+{"where":"Olaszország","when":"2023","what":"Egyszeri 40%-os adó a bankok többletnyereségére, később korlátozták.","numbers":"Az EKB szerint gyengítheti a bankok tőkepufferét, főleg a kisebb bankokat; számszerű bevétel nem áll rendelkezésre.","verdict":"vegyes","why":"Bevételi cél, de az EKB tőkehelyzeti kockázatot jelzett.","source":"https://www.euronews.com/2023/09/13/ecb-criticises-italys-bank-windfall-tax-plan","confidence":"low"}]},
+
+{
+"id":"vallalkozas-minimumado-04","topic":"Vállalkozások adózása",
+"q":"Mit kezdjünk a globális minimumadóval és a 9%-os kulccsal?",
+"context":{
+"fidesz":"Magyarország 2024-től bevezette a 15%-os hazai kiegészítő adót (QDMTT) a 750 M euró feletti csoportoknak, és megtartotta a 9%-os tao-t; a Fidesz-kormány kezdetben ellenezte, de 2022 decemberében beleegyezett, miután a helyi iparűzési adót beszámítható adónak tekintették.",
+"tisza":"[bejelentve] A kormány a globális nagyvállalatokra és a vagyonkezelő alapítványokra szigorítást és kedvezmény-szűkítést jelzett; külön a minimumadóról a lekért forrásokban nincs új döntés.",
+"sources":["https://www.ey.com/en_gl/technical/tax-alerts/hungary-s-draft-legislation-on-beps-2-0-pillar-two-introduced-to","https://cms.law/en/int/expert-guides/cms-expert-guide-to-mastering-oecd-s-pillar-two/hungary","https://telex.hu/g7/kozelet/2026/07/06/kulonadok-adorendszer-bevetelek-koltsegvetes-kormanytervek-eu"]},
+"options":[
+{"label":"QDMTT marad, 9% a többieknek","pro":"A nagy csoportok 15%-át Magyarország szedi be, a kisebb cégek alacsony adón maradnak.","con":"Kétszintű rendszer, adminisztrációs teher a multinacionálisoknak.","effects":{"gdp":0,"infl":0,"wage":0,"housing":0,"health":0,"deficit":1}},
+{"label":"Egységes 15% mindenkinek","pro":"Egyszerűbb szerkezet, magasabb bevétel.","con":"A hazai kisvállalkozásokat is terheli, és gyengítheti a beruházásokat.","effects":{"gdp":-1,"infl":0,"wage":0,"housing":0,"health":1,"deficit":2}},
+{"label":"Alacsony kulcs + visszatérítendő beruházási támogatások","pro":"A beruházás célzott támogatása a minimumadó mellett is lehetséges.","con":"A támogatások költségesek, és átláthatósági és versenyjogi kockázatot hordoznak.","effects":{"gdp":1,"infl":0,"wage":1,"housing":0,"health":0,"deficit":-1}}],
+"evidence":[
+{"where":"Magyarország","when":"2024–","what":"QDMTT a 9%-os tao mellett.","numbers":"Egy szakmai összefoglaló szerint sok esetben a teljes számítás (tao, iparűzési adó, innovációs járulék) eléri a 15%-ot, így a kiegészítő adó nulla; akár 50 000 euró bírság is lehet.","verdict":"vegyes","why":"A bevételi cél részben teljesül, de nagy az adminisztráció.","source":"https://www.mondaq.com/tax-authorities/1755988/global-minimum-tax-practical-experience-from-hungary","confidence":"medium"},
+{"where":"Írország","when":"2024–","what":"15%-os minimum a nagy csoportoknak a 12,5%-os kulcs mellett.","numbers":"A Fiscal Council szerint a minimumadó a korábbinál több társasági adót hozhat, a bevétel továbbra is erősen koncentrált (10 csoport közel 60%).","verdict":"vegyes","why":"A bevétel nőhet, de a koncentráció kockázata fennmarad.","source":"https://www.fiscalcouncil.ie/wp-content/uploads/2026/02/Corporation-tax-slides-conference_2026.pdf","confidence":"medium"}]},
+
+{
+"id":"vagyon-vagyonado-01","topic":"Vagyon-, öröklési és ingatlanadó",
+"q":"Vezessünk-e be vagyonadót a nagy vagyonokra?",
+"context":{
+"fidesz":"A Fidesz-kormányok alatt Magyarországon nem volt általános nettó vagyonadó; a vagyon adóztatása főleg építmény- és telekadóra, illetve öröklési illetékre korlátozódott.",
+"tisza":"[terv] Magyar Péter és Kármán András szerint az 1 Mrd Ft feletti vagyon fölötti részre évi 1%-os vagyonadót vezetnének be; a bevételi becslés 100–250 Mrd Ft/év között ingadozik, a végleges kulcs, küszöb és hatálybalépés nincs rögzítve (egy beszámoló szerint jövő januárban lépne hatályba, ezt más forrás nem erősíti).",
+"sources":["https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2026/05/karman-andras-tisza-kormany-vagyonado","https://www.economx.hu/magyar-gazdasag/2026/05/06/vagyonado-tisza-part-kormany-egymilliard-forint-apelso/","https://news.bloomberglaw.com/daily-tax-report/new-hungarian-government-moves-on-wealth-tax-axing-trust-breaks"]},
+"options":[
+{"label":"1%-os vagyonadó az 1 Mrd Ft feletti részre","pro":"Szélesebb, egyszerűen beszedhető alap, és a legvagyonosabbak is hozzájárulnak.","con":"Értékelési és kijátszási nehézségek, a tőke egy része elköltözhet.","effects":{"gdp":-1,"infl":0,"wage":0,"housing":0,"health":1,"deficit":1}},
+{"label":"Magasabb küszöb (pl. 10 Mrd Ft), szűkebb kör","pro":"Kisebb a vállalkozói és családi cégekre gyakorolt teher, kevesebb a kijátszás.","con":"Kevesebb bevétel, és a politikai üzenet gyengébb.","effects":{"gdp":0,"infl":0,"wage":0,"housing":0,"health":0,"deficit":1}},
+{"label":"Nincs vagyonadó; magasabb tőkenyereség- és ingatlanadó","pro":"Meglévő adókat használ, kisebb a költözési kockázat.","con":"A felhalmozott vagyon közvetlenül nem adózik, a bevétel kisebb lehet.","effects":{"gdp":0,"infl":0,"wage":0,"housing":0,"health":0,"deficit":0}}],
+"evidence":[
+{"where":"OECD-országok","when":"1990–2017","what":"A nettó vagyonadót alkalmazó országok száma 12-ről 4-re csökkent.","numbers":"2016-ban a bevétel a GDP 0,2%-a (Spanyolország) és 1,0%-a (Svájc) között volt.","verdict":"vegyes","why":"A bevétel általában kicsi, az OECD korlátozott érvet lát jól tervezett tőkejövedelem-adó mellett.","source":"https://www.oecd.org/en/publications/2018/04/the-role-and-design-of-net-wealth-taxes-in-the-oecd_g1g89919.html","confidence":"high"},
+{"where":"Franciaország","when":"2018","what":"Az ISF-et ingatlanvagyon-adóra (IFI) cserélték.","numbers":"Az adóalanyok száma 360 000-ről 130 000-re esett; a kiesés több mint 4 Mrd euró (2022); a kiköltöző háztartások száma 900 alatt maradt a 400 000-ből.","verdict":"vegyes","why":"A mért cél a kiköltözés megállítása és a bevétel: a kivándorlás kicsi volt, a bevételkiesés nagy.","source":"https://strategie.gouv.fr/files/2025-01/avis-comite-evaluation-fiscalite-capital-septembre-2019.pdf","confidence":"medium"},
+{"where":"Norvégia","when":"2022–","what":"A vagyonadó kulcsának emelése.","numbers":"Egy százalékpontos emelés kb. 2%-kal csökkenti a gazdag adófizetők számát, az aggregált foglalkoztatási és beruházási hatás szerény (Jakobsen és társai).","verdict":"vegyes","why":"A mérés szerint van kiköltözési válasz, de a gazdasági hatás szerény.","source":"https://researchonline.lse.ac.uk/id/eprint/130959","confidence":"medium"}]},
+
+{
+"id":"vagyon-oroklesi-02","topic":"Vagyon-, öröklési és ingatlanadó",
+"q":"Mi legyen az öröklési illetékkel?",
+"context":{
+"fidesz":"Az öröklési illeték általános kulcsa 18%, lakóingatlanra 9%; a leszármazók és a házastárs (a források szerint a szülők is) mentesek.",
+"tisza":"[terv] Nem találtam bejelentett konkrét öröklési illeték-változtatást a lekért forrásokban; az OECD 2026-os magyarországi országjelentése szerint az öröklési adók is növelhetnék a bevételt.",
+"sources":["https://taxsummaries.pwc.com/Hungary/Individual/Other-taxes","https://www.oecd.org/en/publications/oecd-economic-surveys-hungary-2026_1d93d51d-en/full-report/macroeconomic-developments-and-policy-challenges_0372e726.html"]},
+"options":[
+{"label":"Marad: egyenesági mentesség","pro":"A család vagyona védett, egyszerű, nincs költözési ösztönző.","con":"A nagy vagyon öröklése adómentes marad, ami fokozza az egyenlőtlenséget.","effects":{"gdp":0,"infl":0,"wage":0,"housing":0,"health":0,"deficit":0}},
+{"label":"Alacsony kulcs a nagy értékű egyenesági örökségre","pro":"Új bevétel, és a nagy vagyonok átörökítése is hozzájárul.","con":"Likviditási nehézség családi cégeknél, és kijátszás ajándékozással.","effects":{"gdp":-1,"infl":0,"wage":0,"housing":-1,"health":1,"deficit":1}},
+{"label":"Teljes kivezetés","pro":"Egyszerűbb adórendszer, a családi cégek átadása könnyebb.","con":"Bevételkiesés, és az egyenlőtlenség nőhet.","effects":{"gdp":1,"infl":0,"wage":0,"housing":0,"health":-1,"deficit":-1}}],
+"evidence":[
+{"where":"Svédország","when":"2005","what":"Az ajándék- és öröklési adó eltörlése.","numbers":"A Cato összefoglalója szerint az utódlással érintett családi cégek többet nőttek (árbevétel, eszközérték, termelékenység); pontos érték nem szerepel a lekért összefoglalóban.","verdict":"jo","why":"A mért cél a családi cégek növekedése, amely javult (a forrás szabadpiaci kutatóintézet).","source":"https://www.cato.org/research-briefs-economic-policy/impact-abolishing-gift-inheritance-tax-swedish-firms","confidence":"medium"},
+{"where":"Ausztria","when":"2008","what":"Az öröklési adó eltörlése, az ingatlanátruházási adó megmaradt.","numbers":"Számszerű adat nem áll rendelkezésre; hasonló utólagos hatásvizsgálatot nem találtam.","verdict":"vegyes","why":"Az indok az alacsony bevétel és az adminisztráció volt, mért hatás nincs.","source":"https://www.globalpropertyguide.com/europe/austria/inheritance","confidence":"low"}]},
+
+{
+"id":"vagyon-ingatlanado-03","topic":"Vagyon-, öröklési és ingatlanadó",
+"q":"Vezessünk-e be országos, értékalapú ingatlanadót?",
+"context":{
+"fidesz":"Az ingatlanadók helyi (építményadó, telekadó) alapúak; az ismétlődő ingatlanadó bevétele 2023-ban a GDP 0,3%-a volt az uniós 0,9%-os átlaggal szemben.",
+"tisza":"[terv] Az OECD 2026-os jelentése szerint az ismétlődő ingatlanadó növelhetné a bevételt; kormányzati döntés ingatlanadó-reformról a lekért forrásokban nem szerepel.",
+"sources":["https://data.consilium.europa.eu/doc/document/ST-16801-2025-ADD-13/en/pdf","https://www.oecd.org/en/publications/oecd-economic-surveys-hungary-2026_1d93d51d-en/full-report/macroeconomic-developments-and-policy-challenges_0372e726.html"]},
+"options":[
+{"label":"Országos értékalapú ingatlanadó, első otthon mentes","pro":"Stabil, nehezen kijátszható bevétel, és a növekedést kevéssé torzítja.","con":"A tulajdonosoknak (nyugdíjasok) készpénzterhet jelent, és az értékbecslés nehéz.","effects":{"gdp":0,"infl":0,"wage":0,"housing":-1,"health":1,"deficit":2}},
+{"label":"Helyi adó marad, országos keretekkel és plafonnal","pro":"A települések döntenek, kisebb a politikai ellenállás.","con":"Egyenetlen terhek, a bevétel növekedése korlátozott.","effects":{"gdp":0,"infl":0,"wage":0,"housing":0,"health":0,"deficit":1}},
+{"label":"Nincs változás","pro":"Nincs új teher a lakástulajdonosokon.","con":"A bevételi potenciál kihasználatlan marad.","effects":{"gdp":0,"infl":0,"wage":0,"housing":1,"health":0,"deficit":0}}],
+"evidence":[
+{"where":"OECD-országok","when":"2019","what":"Az ismétlődő ingatlanadók átlagos súlya.","numbers":"Az ingatlanadó-bevétel 61%-a ismétlődő adó, az összes adóbevétel 3,2%-a; nagy része a helyi önkormányzatoké.","verdict":"vegyes","why":"Összehasonlító adat az ismétlődő ingatlanadók szerepéről, nem egy konkrét reform mért eredménye.","source":"https://www.oecd.org/en/publications/making-property-tax-reform-happen-in-china_bd0fbae3-en/full-report/component-4.html","confidence":"medium"},
+{"where":"Magyarország","when":"2023","what":"Az ismétlődő ingatlanadó szintje.","numbers":"A GDP 0,3%-a az uniós 0,9%-os átlaggal szemben.","verdict":"vegyes","why":"Az alacsony szint mozgásteret mutat, de a bevezetés társadalmi költségét nem méri.","source":"https://data.consilium.europa.eu/doc/document/ST-16801-2025-ADD-13/en/pdf","confidence":"high"}]},
+
+{
+"id":"vagyon-toke-04","topic":"Vagyon-, öröklési és ingatlanadó",
+"q":"Mekkora legyen a tőkejövedelmek (osztalék, kamat, árfolyamnyereség) adója?",
+"context":{
+"fidesz":"A tőkejövedelmeket általában 15% szja terheli, és osztaléknál egyes esetekben 13% szociális hozzájárulási adó is van egy éves plafonig (2026-ra 1 007 136 Ft a forrás szerint).",
+"tisza":"[terv] A vagyonadó melletti szigorítás irányát jelezték (bizalmi vagyonkezelők, nagyvállalatok); a tőkejövedelmek kulcsáról a lekért forrásokban nincs döntés.",
+"sources":["https://helpers.hu/accounting-and-finance/taxes-on-dividend-and-dividend-advance-payments-in-hungary/","https://telex.hu/g7/kozelet/2026/07/06/kulonadok-adorendszer-bevetelek-koltsegvetes-kormanytervek-eu"]},
+"options":[
+{"label":"15% marad","pro":"Egyszerű és versenyképes, ösztönzi a megtakarítást és a beruházást.","con":"A tőkejövedelem alacsonyabban adózik, mint a magas munkajövedelem.","effects":{"gdp":1,"infl":0,"wage":0,"housing":0,"health":0,"deficit":0}},
+{"label":"Magasabb kulcs egy küszöb felett","pro":"A nagy tőkejövedelmek is hozzájárulnak, ami igazságosabb és több bevételt hoz.","con":"Ösztönzi az adóelkerülést és a jövedelem átcsatornázását.","effects":{"gdp":-1,"infl":0,"wage":0,"housing":0,"health":1,"deficit":1}},
+{"label":"Egységes adó, a szocho kivezetése a tőkejövedelemről","pro":"Egyszerűbb szerkezet, kevesebb kiskapu.","con":"Bevételkiesés a szocho-ból és a járulékfinanszírozás gyengülése.","effects":{"gdp":1,"infl":0,"wage":0,"housing":0,"health":-1,"deficit":-1}}],
+"evidence":[
+{"where":"OECD","when":"2018","what":"A nettó vagyonadó és a tőkejövedelem-adó kapcsolata.","numbers":"Az OECD szerint korlátozott érv szól a vagyonadó mellett, ha jól tervezett tőkejövedelem-adó van.","verdict":"vegyes","why":"Elvi értékelés a tőkejövedelem-adó szerepéről, nem egy mért kulcsváltozásról.","source":"https://www.oecd.org/en/publications/2018/04/the-role-and-design-of-net-wealth-taxes-in-the-oecd_g1g89919.html","confidence":"medium"},
+{"where":"Németország","when":"2009","what":"25%-os egységes forrásadó a tőkejövedelmekre.","numbers":"Számszerű adat nem áll rendelkezésre; az adóék a kamat- és üzleti jövedelem között 18 százalékpont (Fossen és Simmler).","verdict":"vegyes","why":"A kutatás az eladósodási döntésekre koncentrál, a bevételi hatás a lekért forrásokban nincs.","source":"https://refubium.fu-berlin.de/bitstream/fub188/19923/1/discpaper04_12.pdf","confidence":"low"}]},
+
+{
+"id":"afa-kulcs-01","topic":"Áfa és fogyasztási adók",
+"q":"Csökkentsük-e az általános forgalmi adó 27%-os kulcsát?",
+"context":{
+"fidesz":"Magyarország 27%-os általános áfakulcsa az EU legmagasabb; a kedvezményes kulcsok 18% és 5%. Az EU-átlag kb. 21%.",
+"tisza":"[bejelentve] Az áfacsökkentés három lépésből áll: vényköteles gyógyszerek, tűzifa (5%) és egészséges élelmiszer; az általános kulcs csökkentéséről a lekért forrásokban nincs döntés.",
+"sources":["https://taxfoundation.org/data/all/eu/value-added-tax-vat-rates-europe/","https://www.penzcentrum.hu/gazdasag/20260730/sok-magyar-penztarcajan-segithet-az-uj-afacsokkentes-ennyit-nyerhetnek-a-csaladok-1203098"]},
+"options":[
+{"label":"27% marad","pro":"Stabil, nagy bevételi forrás, kisebb hiány.","con":"A legmagasabb uniós kulcs az árakat és a fogyasztást terheli.","effects":{"gdp":-1,"infl":-1,"wage":-1,"housing":0,"health":0,"deficit":2}},
+{"label":"Fokozatos csökkentés (pl. 25%)","pro":"Alacsonyabb árszint, élénkebb fogyasztás.","con":"Jelentős bevételkiesés, és a kereskedők nem biztosan adják tovább.","effects":{"gdp":1,"infl":1,"wage":1,"housing":0,"health":-1,"deficit":-2}},
+{"label":"27% marad, célzott kedvezmények bővítése","pro":"A kiesés kisebb, és az alapvető javak olcsóbbak.","con":"Bonyolultabb rendszer, az áthárítás a kedvezményes termékeknél is hiányos lehet.","effects":{"gdp":0,"infl":1,"wage":1,"housing":0,"health":0,"deficit":-1}}],
+"evidence":[
+{"where":"Németország","when":"2020","what":"Átmeneti áfacsökkentés a szupermarketekben.","numbers":"Az árak átlagosan kb. 1,3%-kal estek, ami kb. 70%-os továbbhárítás.","verdict":"vegyes","why":"A mért cél az árszint: a csökkentés nagy részben megjelent, de nem teljes volt.","source":"https://www.ifo.de/publikationen/2020/working-paper/pass-through-temporary-vat-rate-cuts-german-supermarket-retail","confidence":"high"},
+{"where":"Magyarország","when":"2016–2017","what":"Áfacsökkentés sertés, csirke, tej, tojás és a vendéglátás körében.","numbers":"Sertés és csirke: közel teljes továbbhárítás; tej és tojás: részleges; vendéglátás: nem jelent meg az árakban.","verdict":"vegyes","why":"Az áfa-csökkentés ágazatonként eltérően érte el a fogyasztókat.","source":"https://mpra.ub.uni-muenchen.de/89687/","confidence":"medium"}]},
+
+{
+"id":"afa-elelmiszer-02","topic":"Áfa és fogyasztási adók",
+"q":"Hogyan csökkentsük az élelmiszerek áfáját?",
+"context":{
+"fidesz":"Magyarországon az alapvető élelmiszerek egy része 5%-os vagy 18%-os kulcs alatt van, az általános kulcs 27%; 2022 óta árrésstop is működik, amelynek bevezetésekor az MNB szerint kb. 1,4–1,5%-kal csökkentek az árak.",
+"tisza":"[bejelentve] A KDNP szerint az egészséges élelmiszer áfája december 1-jétől csökkenne, a Tisza program zöldség-gyümölcs 5%-ot említ, de az egészséges élelmiszer fogalmát nem definiálta; a döntés a lekért forrásokban nem megerősített.",
+"sources":["https://hvg.hu/gazdasag/20250702_mnb-inflacio-jegybank-arkorlatozas-2026-nagy-marton","https://www.economx.hu/belfold/kdnp-tisza-kampany-igeret-torvenyjavaslat-afa-csokkentes/","https://telex.hu/gazdasag/2026/04/13/tisza-kormany-gazdasagpolitika-adozas-koltsegvetes"]},
+"options":[
+{"label":"5% a zöldségre-gyümölcsre és alapélelmiszerre","pro":"Olcsóbb az egészséges étrend, és főleg a kisjövedelműeknek segít.","con":"Bevételkiesés, és az áthárítás nem biztos.","effects":{"gdp":0,"infl":1,"wage":1,"housing":0,"health":1,"deficit":-1}},
+{"label":"0% az alapélelmiszerekre (spanyol modell)","pro":"Erős árhatás az alapvető cikkeknél.","con":"Magas költség, és Spanyolországban az élelmiszerinfláció így is magas maradt.","effects":{"gdp":0,"infl":2,"wage":1,"housing":0,"health":1,"deficit":-2}},
+{"label":"Áfa marad, célzott élelmiszertámogatás","pro":"Pontosabban a rászorulóknak jut, olcsóbb.","con":"Adminisztráció és kiszorulók, nincs azonnali árhatás.","effects":{"gdp":0,"infl":0,"wage":1,"housing":0,"health":0,"deficit":0}}],
+"evidence":[
+{"where":"Spanyolország","when":"2023","what":"Az alapélelmiszerek áfa-kulcsának nullára/5%-ra csökkentése.","numbers":"A továbbhárítás 80% volt az első héten és 90% két hét után; a fogyasztói árszint hatása kb. -0,2–0,26 százalékpont; az élelmiszerinfláció januárban így is 15% felett volt.","verdict":"vegyes","why":"A mért cél az élelmiszerár: a polcokon megjelent, de az infláció nem csökkent érdemben.","source":"https://repositorio.bde.es/bitstream/123456789/36652/4/dt2417e.pdf","confidence":"medium"},
+{"where":"Magyarország","when":"2016–2017","what":"Áfa-csökkentés sertésre, csirkére, tejre, tojásra.","numbers":"Sertés és csirke: közel teljes; tej és tojás: részleges továbbhárítás.","verdict":"vegyes","why":"A csökkentés részben jelent meg az árakban, ezen belül termékenként eltér.","source":"https://mpra.ub.uni-muenchen.de/89687/","confidence":"medium"},
+{"where":"Németország","when":"2020","what":"Átmeneti áfacsökkentés.","numbers":"Kb. 70%-os továbbhárítás; erősebb verseny mellett nagyobb.","verdict":"jo","why":"A mért cél az árcsökkenés, amely a verseny erősségével nőtt.","source":"https://www.ifo.de/publikationen/2020/working-paper/pass-through-temporary-vat-rate-cuts-german-supermarket-retail","confidence":"high"}]},
+
+{
+"id":"afa-egeszsegado-03","topic":"Áfa és fogyasztási adók",
+"q":"Mi legyen a cukor-, chips- és egyéb egészségügyi termékadóval?",
+"context":{
+"fidesz":"A Fidesz-kormány 2011-ben bevezette a népegészségügyi termékadót (NETA, chipsadó), amelyet 2022. július 1-jétől az édes ízű termékekre is kiterjesztettek.",
+"tisza":"[terv] Az OECD 2026-os jelentése szerint az egészséggel kapcsolatos adók növelhetnék a bevételt; konkrét kormányzati bejelentést a NETA-ról a lekért forrásokban nem találtam.",
+"sources":["https://www.pure.ed.ac.uk/ws/files/19730752/Biro_A_Did_the_junk_food_tax_make_the_Hungarians_eat_healthier_2015.pdf","https://twobirds.com/en/insights/2022/hungary/hungarian-chips-tax-now-applicable-to-all-forms-of-sweet-taste","https://www.oecd.org/en/publications/oecd-economic-surveys-hungary-2026_1d93d51d-en/full-report/macroeconomic-developments-and-policy-challenges_0372e726.html"]},
+"options":[
+{"label":"Szigorítás: cukortartalom-sávos adó","pro":"Reformulációra ösztönöz, javítja a lakosság egészségét.","con":"Regresszív lehet, és a gyártók áthárítják.","effects":{"gdp":0,"infl":-1,"wage":0,"housing":0,"health":2,"deficit":1}},
+{"label":"Változatlan marad","pro":"Kiszámítható, bevétel megmarad.","con":"Az eredeti hatás idővel elhalványulhat.","effects":{"gdp":0,"infl":0,"wage":0,"housing":0,"health":0,"deficit":0}},
+{"label":"Kivezetés, helyette oktatás és kínálat","pro":"Alacsonyabb árak a vásárlóknak.","con":"Bevételkiesés és egészségügyi haszon elmaradása.","effects":{"gdp":0,"infl":1,"wage":1,"housing":0,"health":-1,"deficit":-1}}],
+"evidence":[
+{"where":"Egyesült Királyság","when":"2018–","what":"Cukortartalom alapú üdítőadó (SDIL).","numbers":"Kb. 6600 kalória/fő/év csökkenés (Dickson és társai); a gyermekek fogszuvasodás miatti kórházi felvétele 12,1%-kal csökkent (95%-os CI: 7,2–17,0%).","verdict":"jo","why":"A mért cél az energia- és cukorbevitel és a fogászati kórházi felvétel, amelyek javultak.","source":"https://strathprints.strath.ac.uk/84955/1/Dickson_etal_RES_2023_Does_a_spoonful_of_sugar_levy_help_the_calories_go_down.pdf","confidence":"medium"},
+{"where":"Mexikó","when":"2014","what":"Üdítőital-jövedéki adó.","numbers":"Az adózott italok vásárlása 2014-ben átlagosan 6%-kal esett, decemberre 12%-kal; az adómentes italok kb. 4%-kal nőttek.","verdict":"jo","why":"A mért cél a vásárlás csökkenése, amely az adó után bekövetkezett.","source":"https://www.bmj.com/content/352/bmj.h6704","confidence":"high"},
+{"where":"Magyarország","when":"2011–2018","what":"NETA (chipsadó).","numbers":"Bíró (2015): mérsékelt étrendi javulás; a GfK-adatok szerint 2015-re a fogyasztás közel a korábbi szinten, 2018-ra a legtöbb terméknél nőtt.","verdict":"vegyes","why":"Rövid távon csökkent a fogyasztás, hosszabb távon a hatás elhalványult.","source":"https://trademagazin.hu/en/nem-jott-be-a-csipszado-meg-tobb-egeszsegtelen-etelt-esznek-a-magyarok","confidence":"medium"}]},
+
+{
+"id":"afa-gyogyszer-04","topic":"Áfa és fogyasztási adók",
+"q":"Áfa-mentesség vagy célzott visszatérítés a gyógyszerre és a fűtésre?",
+"context":{
+"fidesz":"A vény nélküli gyógyszerek 5%-os, az általános kulcs 27% áfa alatt vannak; a tűzifa a 27%-os kulcs alá tartozik.",
+"tisza":"[bejelentve] A kormány a vényköteles gyógyszerek áfa-mentesítésére és a tűzifa 5%-os kulcsára törvényjavaslatot jelzett (2026 júliusában benyújtásra várt); az elfogadás státusza a lekért forrásokban nem egyértelmű, a költségbecslések eltérnek (2,3 és 7 Mrd Ft), a GKI szerint a betegeknek csekély, kb. ezer Ft alatti az éves megtakarítás.",
+"sources":["https://telex.hu/belfold/2026/07/08/hamarosan-benyujtja-kormany-venykoteles-gyogyszerek-afamentesseg-torvenyjavaslat","https://adozona.hu/afa/Magyar_Peter_venykoteles_gyogyszer_afamente_EEZ0R4","https://telex.hu/gazdasag/2026/07/30/gki-venykoteles-gyogyszerek-tuzifa-afa-mekkora-segitseg"]},
+"options":[
+{"label":"Vényköteles gyógyszer 0%, tűzifa 5%","pro":"Olcsóbb az egészségügyi és fűtési kiadás, olcsó intézkedés.","con":"A megtakarítás egyénenként csekély, és az áthárítás nem biztos.","effects":{"gdp":0,"infl":0,"wage":1,"housing":1,"health":1,"deficit":-1}},
+{"label":"Áfa marad, célzott pénzbeli visszatérítés a rászorulóknak","pro":"Pontosan a rászorulókhoz jut, nem a kereskedőkhöz.","con":"Adminisztratív teher, és sokan nem igénylik.","effects":{"gdp":0,"infl":0,"wage":1,"housing":1,"health":1,"deficit":0}},
+{"label":"Szélesebb kedvezmény (minden gyógyszer és fűtés 5%)","pro":"Nagyobb hatás az egészségügyi és energia-kiadásokra.","con":"Drágább, és a kedvezmény a jómódúaknak is jut.","effects":{"gdp":0,"infl":0,"wage":1,"housing":1,"health":1,"deficit":-2}}],
+"evidence":[
+{"where":"Spanyolország","when":"2023","what":"Alapélelmiszerek áfájának csökkentése.","numbers":"A 0%-os alapélelmiszer-csoportnál kb. 50% volt a továbbhárítás, a 10%-ról 5%-ra csökkent termékeknél 100% felett.","verdict":"vegyes","why":"A kedvezmény termékcsoportonként eltérően érte el a fogyasztót.","source":"https://repositorio.bde.es/bitstream/123456789/36652/4/dt2417e.pdf","confidence":"medium"},
+{"where":"Németország","when":"2020","what":"Átmeneti áfacsökkentés.","numbers":"Kb. 70% továbbhárítás, a verseny erősségével nő.","verdict":"vegyes","why":"Az áthárítás részleges, a gyenge versenyű termékeknél kevesebb.","source":"https://www.ifo.de/publikationen/2020/working-paper/pass-through-temporary-vat-rate-cuts-german-supermarket-retail","confidence":"high"}]},
+
+{
+"id":"koltsegvetes-hiany-01","topic":"Költségvetés és államadósság",
+"q":"Milyen ütemben csökkentsük a költségvetési hiányt?",
+"context":{
+"fidesz":"2025-ben a hiány 4,7% (4059 Mrd Ft), az adósság 74,6% volt a GDP-hez képest; az eredeti cél 3,7% volt. A Bizottság 2026-ra 6,2%, 2027-re 5,8% hiányt vetít előre.",
+"tisza":"[bejelentve] A 2027-es költségvetési tervezet 4,9%-os hiánycélt és 77,2%-os adósságot tartalmaz, 2030-ra 3% alatti hiánnyal; a Költségvetési Tanács nem talált alapvető kifogást; a Fitch szerint a csökkentés kisebb lesz a tervezettnél.",
+"sources":["https://www.ksh.hu/en/first-releases/krm/ekrm2512.html","https://data.consilium.europa.eu/doc/document/ST-10133-2026-ADD-1/en/pdf","https://444.hu/2026/10/20/1465-milliarddal-kevesebb-kiadas-665-milliarddal-tobb-bevetel-magyar-peter-es-karman-andras-megmutatta-hogyan-faragjak-le-a-hianyt-es-osztanak-szet-kozben-ezermilliardokat","https://444.hu/2026/10/29/nem-talalt-kivetnivalot-a-tisza-kormany-elso-koltsegveteseben-a-koltsegvetesi-tanacs","https://444.hu/2026/10/23/fitch-magasabban-tetozik-az-allamadossag-jovore-nem-lesz-akkora-hianycsokkentes-mint-a-kormany-tervezi"]},
+"options":[
+{"label":"Gyors konszolidáció","pro":"Gyorsabban javul a hitelminősítés és csökken a kamatteher.","con":"Rövid távon visszafoghatja a növekedést és a szolgáltatásokat.","effects":{"gdp":-1,"infl":1,"wage":-1,"housing":0,"health":-1,"deficit":3}},
+{"label":"Fokozatos pálya (4,9% 2027, 3% alá 2030-ra)","pro":"A növekedést kevésbé fékezi, hitelesen jelzi az irányt.","con":"Magas marad a kamatteher, és a pálya kockázatos (Fitch).","effects":{"gdp":0,"infl":0,"wage":0,"housing":0,"health":0,"deficit":1}},
+{"label":"Lassabb, növekedés-barát pálya","pro":"Több forrás az egészségügyre és a beruházásokra.","con":"Az adósság nő, az uniós szabályokkal való összhang kérdéses.","effects":{"gdp":1,"infl":-1,"wage":1,"housing":0,"health":2,"deficit":-2}}],
+"evidence":[
+{"where":"Svédország","when":"1990-es évek","what":"Kiadási plafon (1997) és többletcél (2000) a konszolidáció után.","numbers":"A nettó adósság több mint 50 százalékponttal csökkent kb. 15 év alatt; a konszolidáció 1995–96-ban visszafogó volt.","verdict":"jo","why":"A mért cél az adósság: tartósan csökkent, a rövid távú növekedési ár mellett.","source":"https://cepr.org/index%2ephp/voxeu/columns/fiscal-consolidation-sweden-role-model","confidence":"medium"},
+{"where":"Magyarország","when":"2025","what":"A hiánycél túllépése.","numbers":"A tényleges hiány 4,7% volt a 3,7%-os eredeti céllal szemben; az adósság 74,6%.","verdict":"rossz","why":"A mért cél a hiánycél betartása volt, amelyet nem sikerült teljesíteni.","source":"https://www.ksh.hu/en/first-releases/krm/ekrm2512.html","confidence":"high"},
+{"where":"Németország","when":"2025","what":"Az adósságfék reformja: védelmi kiadások kivétele, beruházási csomag.","numbers":"Az IMF szerint a reform támogatja a fokozatos fellendülést; a tényleges beruházási hatás korai.","verdict":"vegyes","why":"A hatás korai, a bevezetett mozgástér használata még nem mérhető.","source":"https://www.imf.org/en/news/articles/2025/11/26/mcs-112625-germany-staff-concluding-statement-of-the-2025-article-iv-mission","confidence":"low"}]},
+
+{
+"id":"koltsegvetes-euro-02","topic":"Költségvetés és államadósság",
+"q":"Mikorra tűzzük ki az euró bevezetését?",
+"context":{
+"fidesz":"A Fidesz-kormányok alatt a lekért források szerint nem született euróbevezetési céldátum.",
+"tisza":"[terv] A Tisza programja belátható céldátumot ígér; Kármán András szerint a cél fenntartható költségvetési pálya, amely lehetővé teszi az euró bevezetését a ciklus végén, széles egyeztetés után; a Fitch szerint a hiánycél a 2030-as csatlakozási céllal összeegyeztethető.",
+"sources":["https://telex.hu/gazdasag/2026/04/13/tisza-kormany-gazdasagpolitika-adozas-koltsegvetes","https://telex.hu/g7/kozelet/2026/07/03/magyar-euro-bevezetes-koltsegvetes-hiany-kiadasok-tervek","https://444.hu/2026/10/23/fitch-magasabban-tetozik-az-allamadossag-jovore-nem-lesz-akkora-hianycsokkentes-mint-a-kormany-tervezi"]},
+"options":[
+{"label":"Konkrét céldátum (kb. 2030)","pro":"Hitelesebb pálya, alacsonyabb kockázati felár.","con":"Kötelezi a kormányt konszolidációra, a saját árfolyam-eszköz megszűnik.","effects":{"gdp":1,"infl":1,"wage":0,"housing":0,"health":-1,"deficit":2}},
+{"label":"Feltételekhez kötött, dátum nélkül","pro":"Rugalmas: a maastrichti feltételek teljesülése dönt.","con":"Hitelességi és bizonytalansági költség.","effects":{"gdp":0,"infl":0,"wage":0,"housing":0,"health":0,"deficit":1}},
+{"label":"Saját deviza megtartása","pro":"Megmarad a monetáris és árfolyam-politikai mozgástér.","con":"Magasabb kamatfelár és árfolyamkockázat.","effects":{"gdp":-1,"infl":-1,"wage":0,"housing":-1,"health":0,"deficit":-1}}],
+"evidence":[
+{"where":"Horvátország","when":"2023","what":"Az euró bevezetése magas infláció idején.","numbers":"Eurostat: az euró havi inflációs hatása januártól márciusig 0,04–0,20 százalékpont; a horvát jegybank szerint 0,2–0,4 százalékpont.","verdict":"jo","why":"A mért cél az infláció: az átállás hatása minimális és átmeneti volt.","source":"https://ec.europa.eu/eurostat/documents/272892/7106809/euro-changeover-note-croatia-2023.pdf","confidence":"high"},
+{"where":"Szlovákia","when":"2009","what":"Euró-csatlakozás.","numbers":"Rövid ideig 0,2–0,3 százalékpontos inflációs emelkedés; a kereskedelem kb. 4,3–6,3%-kal nőtt az újonnan belépőknél (Gunnella és társai).","verdict":"jo","why":"A mért cél a kereskedelem és az infláció: a kereskedelem nőtt, az inflációs hatás kicsi.","source":"https://www.bta.bg/en/news/890398-fiscal-council-of-bulgaria-analysis-euro-s-adoption-in-croatia-had-insignifican","confidence":"medium"},
+{"where":"Szlovákia","when":"2009–2011","what":"A növekedési nyereség időzítése.","numbers":"Az MNB szerint a növekedési nyereség 2011-re megjelent, de nagy része már a csatlakozás előtt bekövetkezett; a hatás vegyes.","verdict":"vegyes","why":"A növekedési hatás nem tisztán az euróhoz köthető.","source":"https://hitelintezetiszemle.mnb.hu/sw/static/file/fer-23-4-st6-martin-nagy-mohacsi.pdf","confidence":"low"}]},
+
+{
+"id":"koltsegvetes-uniosforras-03","topic":"Költségvetés és államadósság",
+"q":"Mire fordítsuk a visszaszerzett uniós forrásokat?",
+"context":{
+"fidesz":"2022 óta kb. 35 Mrd euró uniós forrás volt befagyasztva, ebből a helyreállítási alap része kb. 10,4 Mrd euró, a kohéziós kb. 6,3 Mrd euró.",
+"tisza":"[bejelentve] A Tisza-kormány és a Bizottság 2026 áprilisában megállapodott az együttműködésről a 16,4 Mrd euró felszabadításáért; a RRF-mérföldkövek határideje 2026. augusztus 31. A tényleges kifizetésekről a lekért források ellentmondóak (a Bizottság egy válasza szerint májusban még nem történt meg).",
+"sources":["https://www.euronews.com/2026/04/19/eu-and-hungarys-magyar-agreed-to-work-together-for-release-of-eu-cash-after-weekend-talks","https://euromaidanpress.com/2026/04/14/hungary-frozen-eu-funds-35-billion-explained-2026/","https://hungarytoday.hu/european-commission-refutes-tisza-government-claim-about-frozen-eu-funds/"]},
+"options":[
+{"label":"Infrastruktúra és energia-beruházások","pro":"Növeli a termelékenységet és a növekedési potenciált.","con":"Lassabban hat a háztartások jövedelmére, és a megvalósítás kapacitásigényes.","effects":{"gdp":2,"infl":0,"wage":0,"housing":0,"health":0,"deficit":0}},
+{"label":"Vállalati és KKV-támogatás, innováció","pro":"Bővíti a foglalkoztatást és a versenyképességet.","con":"Kockázatos a hatékonyság és a korrupció szempontjából.","effects":{"gdp":1,"infl":0,"wage":1,"housing":0,"health":0,"deficit":0}},
+{"label":"Társadalmi infrastruktúra (egészségügy, oktatás, lakhatás)","pro":"Közvetlen életminőség-javulás, lakhatás és egészségügy.","con":"Kisebb közvetlen növekedési hatás, és a fenntartási költségek a költségvetést terhelik.","effects":{"gdp":0,"infl":0,"wage":0,"housing":2,"health":2,"deficit":-1}}],
+"evidence":[
+{"where":"Lengyelország","when":"2011–2012","what":"Az uniós kohéziós források hatása a növekedésre.","numbers":"A GDP-növekedés 2011-ben 0,5–0,9, 2012-ben 0,6–1,4 százalékponttal volt magasabb (Bizottság szakértői hálózata); a hazai becslések 0,4–1,7 százalékpont között szórnak.","verdict":"jo","why":"A mért cél a GDP-növekedés, amelyet a források modellalapú becslés szerint támogattak.","source":"https://ec.europa.eu/regional_policy/sources/evaluation/eval2007/2013_een_task2_pl.pdf","confidence":"medium"},
+{"where":"Lengyelország","when":"2004–2014","what":"Az uniós társfinanszírozású projektek hozzájárulása.","numbers":"Egy tanulmány szerint az átlagos éves növekedés közel 20%-át az uniós projektek adták; a minisztériumi tanulmányok szerint a hatás nem jelentős.","verdict":"vegyes","why":"A becslések módszertől függően jelentősen eltérnek.","source":"https://doaj.org/article/e1784f3c2646459d87933a35aa8b598c","confidence":"low"}]},
+
+{
+"id":"koltsegvetes-fek-04","topic":"Költségvetés és államadósság",
+"q":"Hogyan fékezzük a nyugdíj- és állami kiadások növekedését?",
+"context":{
+"fidesz":"A Fidesz-kormány bevezette a 13. havi nyugdíjat, majd 2025-ben bejelentette a 14. havi nyugdíjat, négy részletben (a 2026-os terv 170 Mrd Ft); az ING becslése szerint a 14. havi nyugdíj a GDP 0,6%-ába kerül; az OECD a 13. havi nyugdíj plafonozását javasolta.",
+"tisza":"[bejelentve] A Portfolio 2026. szeptemberi cikke szerint a kormány idén nem ad plusz pénzt a nyugdíjasoknak; a 14. havi nyugdíj sorsáról a lekért forrásokban nincs egyértelmű döntés; a költségvetési tervezet kiadáscsökkentésre épül.",
+"sources":["https://www.portfolio.hu/en/economy/20251113/hungarian-govt-decides-to-pay-first-instalment-of-14th-month-pension-next-year-799434","https://oecd.org/content/dam/oecd/en/topics/policy-sub-issues/structural-reforms/country-tailored-policy-reforms/Strengthening-the-Hungarian-Pension-System.pdf","https://www.portfolio.hu/gazdasag/20260902/letaglozo-hir-a-magyar-nyugdijasoknak-iden-mar-semmilyen-plusz-penzre-nem-szamithatnak-a-kormanytol-859840","https://www.intellinews.com/hungary-s-fiscal-council-warns-severe-austerity-needed-after-election-year-spending-binge-418136/"]},
+"options":[
+{"label":"Törvényi kiadási plafon és középtávú szabály","pro":"Kiszámítható, hosszú távon csökkenti az adósságot.","con":"Merev, és válságban kényszerű vágásokhoz vezethet.","effects":{"gdp":0,"infl":1,"wage":-1,"housing":0,"health":-1,"deficit":3}},
+{"label":"Nyugdíjemelés szabályhoz kötve, a bónuszok plafonozva","pro":"Átlátható és előre látható, kisebb politikai nyomás.","con":"A nyugdíjasok vásárlóereje romolhat, és a bónuszok kivezetése népszerűtlen.","effects":{"gdp":0,"infl":0,"wage":-1,"housing":0,"health":0,"deficit":2}},
+{"label":"Rugalmas kiadás-politika, a Költségvetési Tanács véleményez","pro":"Megmarad a mozgástér a nehéz időkre.","con":"A fegyelem gyengébb, a hiány könnyebben elcsúszhat.","effects":{"gdp":1,"infl":0,"wage":1,"housing":0,"health":1,"deficit":-2}}],
+"evidence":[
+{"where":"Svédország","when":"1997–","what":"Három éves kiadási plafon, majd többletcél.","numbers":"A nettó adósság több mint 50 százalékponttal csökkent kb. 15 év alatt.","verdict":"jo","why":"A mért cél az adósság, amely tartósan csökkent.","source":"https://cepr.org/index%2ephp/voxeu/columns/fiscal-consolidation-sweden-role-model","confidence":"medium"},
+{"where":"Magyarország","when":"2022–2026","what":"A 13. és 14. havi nyugdíj.","numbers":"A 13. havi nyugdíj gyorsítás és teljes hatás a GDP kb. 0,3% és 0,6%-a; a 14. havi nyugdíj teljes költsége kb. 600 Mrd Ft (a kormány becslése).","verdict":"rossz","why":"A mért cél a költségvetési fegyelem: a pótlólagos kiadás növelte a hiányt.","source":"https://www.portfolio.hu/en/economy/20251113/hungarian-govt-decides-to-pay-first-instalment-of-14th-month-pension-next-year-799434","confidence":"medium"},
+{"where":"Németország","when":"2009–2025","what":"Az adósságfék 0,35%-os strukturális hiánykorláttal, majd a 2025-ös reform.","numbers":"A reform a védelmi kiadásokat 1% GDP felett kivette a szabályból; a hatás korai.","verdict":"vegyes","why":"A szabály fegyelmezett, de visszafogta a beruházást, amit a reform enyhít.","source":"https://www.imf.org/en/news/articles/2025/11/26/mcs-112625-germany-staff-concluding-statement-of-the-2025-article-iv-mission","confidence":"low"}]}
+]

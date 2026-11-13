@@ -1,0 +1,188 @@
+[
+ {
+  "id": "szocialis-alapjov-01",
+  "remove_where": [
+   "Kenya (GiveDirectly)"
+  ],
+  "add_evidence": [
+   {
+    "where": "Kenya (GiveDirectly)",
+    "when": "2014–2017",
+    "what": "Egyszeri, kb. 1000 USD-s feltétel nélküli pénzátutalás 10 500+ szegény háztartásnak 653 faluban (randomizált kísérlet).",
+    "numbers": "Helyi transzfer-szorzó 2,5; az átutalás a helyi GDP több mint 15%-a volt, mégis 'minimális áraemelkedés' (Econometrica 2022).",
+    "verdict": "jo",
+    "why": "A helyi kereslet nőtt, az infláció minimális maradt; ugyanakkor ez egyszeri, nem tartós átutalás, fejlődő országban.",
+    "source": "https://www.econometricsociety.org/publications/econometrica/2022/11/01/General-Equilibrium-Effects-of-Cash-Transfers-Experimental-Evidence-From-Kenya",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "szocialis-munkanelkuli-01",
+  "add_evidence": [
+   {
+    "where": "Magyarország (2005-ös reform)",
+    "when": "2005. nov.–",
+    "what": "A munkanélküli-segély 'előretöltése': aki 2005. nov. 1. után igényelt, magasabb, de rövidebb ideig járó ellátást kapott.",
+    "numbers": "A nem-foglalkoztatás időtartama kb. 2 héttel rövidült, az újrafoglalkoztatási bér 1,4%-kal nőtt (AEJ: Applied 2020).",
+    "verdict": "jo",
+    "why": "Mért cél: állásban töltött idő és újrafoglalkoztatási bér; a szerzők szerint a viselkedési hatás ellensúlyozta a költséget.",
+    "source": "https://www.aeaweb.org/doi/10.1257/app.20180138",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "szja-szerkezet-01",
+  "add_evidence": [
+   {
+    "where": "Magyarország (2007-es különadó)",
+    "when": "2007–2008",
+    "what": "Magas jövedelműek különadójának bevezetése; az adóbevallási panel alapján becsülték a magas jövedelműek reakcióját.",
+    "numbers": "Az adóköteles jövedelem rugalmassága kb. 0,2; a felső kulcs 1 százalékpontos emelésének többletbevételét a viselkedési válasz kb. 60%-kal csökkentené (MNB WP 2011/11).",
+    "verdict": "vegyes",
+    "why": "Mért cél: adóbevétel; a felső kulcs emelése közepes mértékben csökkenti a bevételt, főleg valódi munkakínálati alkalmazkodás miatt.",
+    "source": "https://www.mnb.hu/letoltes/wp-2011-11.pdf",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "vagyon-vagyonado-01",
+  "add_evidence": [
+   {
+    "where": "Skandinávia (Svédország, Dánia, Norvégia)",
+    "when": "1990–2010-es évek",
+    "what": "Vagyonadó-változások hatása a gazdag adózók elvándorlására és a vállalkozásokra, adminisztratív adatok alapján.",
+    "numbers": "1 százalékpontos vagyonadó-kulcs-emelés kb. 2%-kal csökkenti a gazdag adózók számát; a foglalkoztatás -0,02%, a beruházás -0,07%, a hozzáadott érték -0,10% (NBER w32153).",
+    "verdict": "vegyes",
+    "why": "Mért cél: adóbázis és gazdasági aktivitás; az elvándorlás valós, de az aggregált hatás szerzők szerint szerény.",
+    "source": "https://www.nber.org/papers/w32153",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "lakas-berlakas-01",
+  "add_evidence": [
+   {
+    "where": "Bécs (IBA Wien)",
+    "when": "2020-as évek",
+    "what": "Tartós szociális lakásállomány: kb. 220 000 önkormányzati és kb. 185 000 nonprofit szövetkezeti lakás.",
+    "numbers": "Az állomány kb. a lakások 40%-a; a lakosság kb. 60%-a támogatással épült/felújított lakásban él; nonprofit szektorban törvényi nettó lakbér-plafon 4,97 EUR/m².",
+    "verdict": "jo",
+    "why": "Mért cél: megfizethető lakbér és lakhatási stabilitás; a rendszer fenntartása nagy tőke- és támogatási igényű.",
+    "source": "https://www.iba-wien.at/en/iba-wien/iba-wien-1-1-1-1-1",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "lakas-lakber-01",
+  "add_evidence": [
+   {
+    "where": "Berlin (Mietendeckel, ifo)",
+    "when": "2020–2021",
+    "what": "Berlin 5 éves lakbér-befagyasztás/plafon, majd az Alkotmánybíróság 2021 áprilisában megsemmisítette.",
+    "numbers": "A bérlakás-hirdetések száma a bevezetés után akár 60%-kal esett és az eltörlés után is alacsony maradt; a szabályozott lakások lakbére érdemben csökkent, a szabályozatlanoké a többi nagyvárosnál jobban nőtt (ifo Schnelldienst 2022).",
+    "verdict": "rossz",
+    "why": "Mért cél: bérlakáskínálat és lakbér; az olcsóbb bérleti díjat a kínálat összeomlása és a piac kettészakadása ellensúlyozta.",
+    "source": "https://www.ifo.de/publikationen/2022/aufsatz-zeitschrift/entwicklungen-am-berliner-immobilienmarkt-ein-jahr-nach-dem",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "lakas-airbnb-01",
+  "add_evidence": [
+   {
+    "where": "Egyesült Államok (Barron–Kung–Proserpio)",
+    "when": "2012–2016",
+    "what": "Az Airbnb-hirdetések számának hatása az ingatlan- és bérleti árakra az egész USA-ra, IV-becslés.",
+    "numbers": "Számszerű adat nem áll rendelkezésre a megnyitott oldalon: a megnyitott összefoglaló csak irányt közöl: az Airbnb-jelenlét emeli az árakat és bérleti díjakat (erősebben, ahol alacsony a tulajdonos-lakók aránya), a rövid távú kínálat nő, a hosszú távú csökken (Marketing Science).",
+    "verdict": "vegyes",
+    "why": "Mért cél: bérleti díj és kínálat; a hatás irányát igazolja, a nagyságát az oldal nem közölte.",
+    "source": "https://phys.org/news/2021-02-impact-airbnb-local-housing-prices.html",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "csalad-bolcsode-01",
+  "add_evidence": [
+   {
+    "where": "Québec (Kanada, Baker–Gruber–Milligan)",
+    "when": "1997–",
+    "what": "Napi 5 dolláros általános bölcsőde/óvoda-hozzáférés.",
+    "numbers": "Az ellátásban lévő 0–4 évesek aránya 14 százalékponttal nőtt a többi tartományhoz képest (kb. a kiindulási szint egyharmada); az anyai munkakínálat rugalmassága 0,236; a gyerekek viselkedési és egészségi mutatói romlottak (NBER w11832).",
+    "verdict": "vegyes",
+    "why": "Mért cél: anyák foglalkoztatása és gyermekjólét; a foglalkoztatás nőtt, de a gyermekjóléti mutatók nem javultak.",
+    "source": "https://www.nber.org/papers/w11832",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "csalad-babavaro-01",
+  "add_evidence": [
+   {
+    "where": "Magyarország (KSH termékenység)",
+    "when": "2024–2025",
+    "what": "Kiterjedt családtámogatási rendszer (köztük babaváró hitel) mellett a születésszám tovább esett.",
+    "numbers": "Kb. 72 ezer születés 2025-ben (-7,1%, -5511 fő 2024-hez képest); teljes termékenységi arányszám 1,31 az előző évi 1,39 után (KSH előzetes, hírportál közvetítésével).",
+    "verdict": "vegyes",
+    "why": "Mért cél: születésszám/termékenység; a trend nem bizonyítja a hitel hatástalanságát, de nem is mutat tartós emelkedést.",
+    "source": "https://infostart.hu/belfold/2026/01/30/kijottek-a-friss-nepesedesi-adatok",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "nyugdij-idosgondozas-01",
+  "remove_where": [
+   "Japán"
+  ],
+  "add_evidence": [
+   {
+    "where": "Japán",
+    "when": "2000–",
+    "what": "Kötelező állami ápolásbiztosítás (LTCI) 2000 áprilisától.",
+    "numbers": "A 65+ népesség 2,7%-a kapott hosszú távú ellátást 2021-ben (OECD); az LTCI kiadása a társadalombiztosítási egészségügyi kiadás egytizedéről egynegyedére nőtt 2000–2020 között; 1,2 millió otthoni és 0,48 millió intézeti FTE ellátó 2021-ben.",
+    "verdict": "vegyes",
+    "why": "Mért cél: ellátás elérhetősége és költség; az ellátás kiterjedt, de a kiadás gyorsan nő és munkaerőigényes.",
+    "source": "https://healthsystemsfacts.org/japan-aging",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "munka-kozmunka-01",
+  "add_evidence": [
+   {
+    "where": "Németország (egyeurós munkák, IAB)",
+    "when": "2005–",
+    "what": "Közcélú, kiegészítő munkák a tartós munkanélküli segélyezetteknek.",
+    "numbers": "Számszerű adat nem áll rendelkezésre a megnyitott oldalon: az IAB összefoglaló szerint hosszabb távon a legtöbb csoport elhelyezkedési esélye javul, de a hosszabb tervezett részvétel nagyobb kezdeti 'bezáródási' hatást okoz.",
+    "verdict": "vegyes",
+    "why": "Mért cél: későbbi foglalkoztatás; csoportfüggő, mérsékelt hatás, nem általános siker.",
+    "source": "https://iab.de/en/publications/publication/?id=248636",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "munka-vendegmunka-01",
+  "add_evidence": [
+   {
+    "where": "Németország (nyugat-balkáni szabály)",
+    "when": "2016–",
+    "what": "Képesítés-igazolás nélküli munkavállalás nyugat-balkáni állampolgároknak munkaszerződéssel.",
+    "numbers": "Számszerű adat nem áll rendelkezésre a megnyitott oldalon: az IAB Kurzbericht 16/2020 szerint a szabályozás iránt magas a munkáltatói és munkavállalói kereslet; az integráció és a munkáltatói tapasztalatok vizsgálata a jelentés tárgya.",
+    "verdict": "vegyes",
+    "why": "Mért cél: munkaerőpiaci integráció; a megnyitott oldal számszerű eredményt nem közöl.",
+    "source": "https://ideas.repec.org/p/iab/iabkbe/202016(en).html",
+    "confidence": "medium"
+   }
+  ]
+ }
+]

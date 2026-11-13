@@ -1,0 +1,134 @@
+[
+ {
+  "key": "szja-mentessegek-02|Magyarország|https://ideas.repec.org/a/pfq/journl/v64y2019i1p72-92.html",
+  "status": "confirmed",
+  "note": "Az absztrakt szerint a teljes foglalkoztatási ráta 1,2 pontot nőtt három évvel később, erős hatás a fiatal és alacsony képzettségű, csekély az idős csoportnál.",
+  "correct": null
+ },
+ {
+  "key": "koltsegvetes-uniosforras-03|Lengyelország|https://ec.europa.eu/regional_policy/sources/evaluation/expost2013/wp1_pl_report_en.pdf",
+  "status": "confirmed",
+  "note": "A PDF szövegéből: 57,2 Mrd euró, GDP 2,3%-a, a kormányzati tőkekiadás kb. 41%-a, GDP 2015-ben 4% felett, 2023-ban közel 6%-kal magasabb, 87 427 bruttó munkahely.",
+  "correct": null
+ },
+ {
+  "key": "munka-bertranszparencia-05|Dánia|https://www.nber.org/papers/w25435",
+  "status": "confirmed",
+  "note": "A bérrés kb. 2 ponttal (13%) csökkent, főleg a férfiak lassabb bérnövekedése miatt, a bérköltség csökkent, a profit nem változott.",
+  "correct": null
+ },
+ {
+  "key": "afa-kulcs-01|Finnország|https://ideas.repec.org/p/fer/wpaper/52.html",
+  "status": "confirmed",
+  "note": "Kb. 2% árcsökkenés, nagyjából negyed átgurulás, a nagyobb éttermek gyakrabban csökkentettek, mennyiség és bérköltség nem nőtt.",
+  "correct": null
+ },
+ {
+  "key": "lakas-airbnb-01|Barcelona (Garcia-López és társai)|https://econpapers.repec.org/RePEc:uab:wprdea:wpdea2006",
+  "status": "confirmed",
+  "note": "Az átlagos negyedben +1,9% bérlet, +4,6% tranzakciós, +3,7% meghirdetett ár; a legerősebb tizedben kb. 7% és 17% (a meghirdetett ár ott 14%).",
+  "correct": null
+ },
+ {
+  "key": "vagyon-ingatlanado-03|Magyarország|https://data.consilium.europa.eu/doc/document/ST-16801-2025-ADD-13/en/pdf",
+  "status": "confirmed",
+  "note": "A Tanács országfüzetében az ismétlődő ingatlanadó a GDP 0,3%-a az uniós 0,9%-kal szemben, 2023-as adatok mellett.",
+  "correct": null
+ },
+ {
+  "key": "igazsag-kozbeszerzes-03|Magyarország (Single Market Scoreboard 2024)|https://single-market-scoreboard.ec.europa.eu/node/315_cs",
+  "status": "confirmed",
+  "note": "Magyarország 34%, EU-átlag 28% 2024-ben.",
+  "correct": null
+ },
+ {
+  "key": "afa-elelmiszer-02|Magyarország|https://econpapers.repec.org/RePEc:pfq:journl:v:63:y:2018:i:3:p:355-375",
+  "status": "confirmed",
+  "note": "Sertés és csirke közel teljes, tej és tojás részleges átgurulás, a vendéglátásban nem jelent meg az árakban.",
+  "correct": null
+ },
+ {
+  "key": "munka-minimalber-01|Magyarország (Kertesi–Köllő)|https://econpapers.repec.org/RePEc:iza:izadps:dp970",
+  "status": "confirmed",
+  "note": "25 500 -> 40 000 -> 50 000 Ft; a kisvállalati foglalkoztatás csökkent, az alacsony bérűek esélyei romlottak, a regionális különbségek nőttek, pontos százalék nincs az absztraktban.",
+  "correct": null
+ },
+ {
+  "key": "media-kozmedia-01|Magyarország (Reuters Institute Digital News Report 2025)|https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025/hungary",
+  "status": "confirmed",
+  "note": "Közmédia bizalom 23% (-7 pont), általános hírbizalom 22%, 48. a 48 piacból Görögországgal holtversenyben.",
+  "correct": null
+ },
+ {
+  "key": "vallalkozas-kkv-02|Észtország|https://mjtoimetised.ut.ee/febpdf/febawb81.pdf",
+  "status": "confirmed",
+  "note": "A PDF szerint az eladósodottság kb. 7 ponttal esett, a likviditás 2-3 ponttal nőtt (a 10 fő alatti cégeknél majdnem kétszeres), a visszatartott nyereség 11 ponttal, kontrollcsoport Lettország és Litvánia.",
+  "correct": null
+ },
+ {
+  "key": "lakas-lakber-01|Berlin (Mietendeckel, ifo)|https://www.ifo.de/publikationen/2022/aufsatz-zeitschrift/entwicklungen-am-berliner-immobilienmarkt-ein-jahr-nach-dem",
+  "status": "partly",
+  "note": "A számok (hirdetések akár 60%-os esése, szabályozott lakbér csökkenése, szabályozatlan gyorsabb nőtt) szerepelnek, de az oldal nem említi az Alkotmánybíróság 2021 áprilisi döntését és az 5 éves befagyasztást.",
+  "correct": "Hirdetések akár -60%, az eltörlés után is alacsonyak; az alkotmánybírósági dátum és az 5 év nincs az oldalon"
+ },
+ {
+  "key": "kozbiztonsag-rendorseg-01|Egyesült Államok (Chalfin–McCrary)|https://econpapers.repec.org/RePEc:tpr:restat:v:100:y:2018:i:1:p:167-186",
+  "status": "confirmed",
+  "note": "Az absztrakt szerint az amerikai városok jelentősen alullétszámozottak, számszerű elaszticitás nincs az oldalon.",
+  "correct": null
+ },
+ {
+  "key": "szocialis-alapjov-01|Kenya (GiveDirectly)|https://www.econometricsociety.org/publications/econometrica/2022/11/01/General-Equilibrium-Effects-of-Cash-Transfers-Experimental-Evidence-From-Kenya",
+  "status": "confirmed",
+  "note": "10 500+ háztartás, 653 falu, kb. 1000 USD, szorzó 2,5, helyi GDP több mint 15%-a, minimális áremelkedés.",
+  "correct": null
+ },
+ {
+  "key": "lakas-hitel-01|Magyarország (MNB, Hajnal–Winkler)|https://www.mnb.hu/letoltes/hajnal-gabor-winkler-sandor-mennyiben-tamogattak-az-otthonteremtesi-kedvezmenyek-a-lakasvasarlast.pdf",
+  "status": "confirmed",
+  "note": "A PDF szövegében szerepel: vidéki 2 gyerek -20%, 3 gyerek -70%, budapesti 3 gyerek 30% felett (Babaváróval közel 40%), CSOK-max csak új lakásra (~12%), budapesti árak 2013-19 háromszorosra, gyermeknélkülieknek romlott.",
+  "correct": null
+ },
+ {
+  "key": "csalad-bolcsode-01|Québec (Kanada, Baker–Gruber–Milligan)|https://www.nber.org/papers/w11832",
+  "status": "partly",
+  "note": "A 0,236-os anyai munkakínálati rugalmasság és a romló gyerekmutatók az oldalon vannak, de a 14 pontos növekedés és az egyharmados kiindulási arány nem; az oldal csak az erős új ellátás-használatot említi.",
+  "correct": "14 pp nem található az absztraktban (a cikk teljes szövegében lehet)"
+ },
+ {
+  "key": "szja-minimalber-03|Svédország|https://econpapers.repec.org/RePEc:eee:labeco:v:55:y:2018:i:c:p:163-177",
+  "status": "confirmed",
+  "note": "Elaszticitás kb. -0,3, kis szignifikáns hatás, fiatalokon kb. négyszer erősebb, óraszámra nincs hatás, megszűnés után alig tartós hatás.",
+  "correct": null
+ },
+ {
+  "key": "szja-jarulek-04|Magyarország|https://ideas.repec.org/a/pfq/journl/v64y2019i1p72-92.html",
+  "status": "confirmed",
+  "note": "Ugyanaz a forrás mint az első sornál: 1,2 pontos teljes növekedés három év után, fiataloknál és alacsony képzetteknél erős, időseknél marginális hatás.",
+  "correct": null
+ },
+ {
+  "key": "munka-kozmunka-01|Magyarország (MNB Occasional Paper 2022/145)|https://econpapers.repec.org/RePEc:mnb:opaper:2022/145",
+  "status": "confirmed",
+  "note": "676 ezer résztvevő, kétharmad korábban inaktív, a kilépés utáni évben 15% (2012) illetve közel 25% (2018) az elsődleges munkaerőpiacon, átlagos programidő másfél év felett, a legrosszabb járásokban 3 év felett.",
+  "correct": null
+ },
+ {
+  "key": "afa-gyogyszer-04|Németország|https://www.ifo.de/publikationen/2020/working-paper/pass-through-temporary-vat-rate-cuts-german-supermarket-retail",
+  "status": "partly",
+  "note": "A kb. 70%-os továbbhárítás és a verseny szerepe szerepel, de a tanulmány a német szupermarket-kiskereskedelemről szól (kb. 1,3% árcsökkenés), nem gyógyszerekről; a kulcs 'gyogyszer' címkéje félrevezető.",
+  "correct": "~70% továbbhárítás, szupermarket-termékekre, magasabb erősen versenyző piacokon"
+ },
+ {
+  "key": "energia-paks2-01|Egyesült Királyság (Hinkley Point C)|https://www.nao.org.uk/wp-content/uploads/2026/05/sizewell-c-summary.pdf",
+  "status": "partly",
+  "note": "A PDF szerint 5-7 év késés és kb. 100% költségtúllépés szerepel, de ezt az NAO az EDF legutóbbi jelentett forgatókönyveiként közli, nem saját becslésként.",
+  "correct": "EDF legújabb jelentett forgatókönyvei: 5-7 év késés, kb. 100% túllépés (NAO idézi)"
+ },
+ {
+  "key": "igazsag-vagyonvisszaszerzes-02|Európai Ügyészség|https://www.eppo.europa.eu/en/2025-numbers",
+  "status": "confirmed",
+  "note": "2025-ben 1,13 Mrd euró zárolási végzés és 288,93 M euró ténylegesen zárolt vagyon.",
+  "correct": null
+ }
+]

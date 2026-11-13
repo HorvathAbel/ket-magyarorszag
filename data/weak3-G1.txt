@@ -1,0 +1,5 @@
+szja-mentessegek-02 | Személyi jövedelemadó | jó(high/medium) 1/3 | Magyarország[medium]; Lengyelország[low]; Magyarország[low]
+vallalkozas-kkv-02 | Vállalkozások adózása | jó(high/medium) 0/2 | Magyarország[low]; Észtország[low]
+vagyon-oroklesi-02 | Vagyon-, öröklési és ingatlanadó | jó(high/medium) 1/2 | Svédország[medium]; Ausztria[low]
+vagyon-toke-04 | Vagyon-, öröklési és ingatlanadó | jó(high/medium) 1/2 | OECD[medium]; Németország[low]
+koltsegvetes-uniosforras-03 | Költségvetés és államadósság | jó(high/medium) 1/2 | Lengyelország[medium]; Lengyelország[low]

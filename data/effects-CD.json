@@ -1,0 +1,1016 @@
+{
+ "egeszsegugy-finanszirozas-01": [
+  {
+   "gdp": 0,
+   "infl": -1,
+   "wage": 1,
+   "housing": 0,
+   "health": 3,
+   "deficit": -2
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 1,
+   "deficit": 0
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": -1,
+   "housing": 0,
+   "health": -1,
+   "deficit": 1
+  }
+ ],
+ "egeszsegugy-biztositas-02": [
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 1,
+   "deficit": 0
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 2,
+   "deficit": -1
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": -1,
+   "housing": 0,
+   "health": 1,
+   "deficit": -2
+  }
+ ],
+ "egeszsegugy-berek-03": [
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 2,
+   "deficit": -1
+  },
+  {
+   "gdp": 0,
+   "infl": -1,
+   "wage": 2,
+   "housing": 0,
+   "health": 2,
+   "deficit": -3
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 1,
+   "deficit": 0
+  }
+ ],
+ "egeszsegugy-varolista-04": [
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 2,
+   "deficit": -1
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 2,
+   "deficit": -2
+  },
+  {
+   "gdp": -1,
+   "infl": 0,
+   "wage": -1,
+   "housing": 0,
+   "health": 1,
+   "deficit": 1
+  }
+ ],
+ "egeszsegugy-gyogyszer-05": [
+  {
+   "gdp": 0,
+   "infl": 1,
+   "wage": 1,
+   "housing": 0,
+   "health": 1,
+   "deficit": -2
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 2,
+   "deficit": -1
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": -1,
+   "deficit": 1
+  }
+ ],
+ "oktatas-berek-01": [
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": 1,
+   "infl": -1,
+   "wage": 2,
+   "housing": 0,
+   "health": 0,
+   "deficit": -3
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  }
+ ],
+ "oktatas-tankotelezettseg-02": [
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 0,
+   "deficit": -2
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  }
+ ],
+ "oktatas-egyetem-03": [
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 0,
+   "deficit": -2
+  }
+ ],
+ "oktatas-tandij-04": [
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 0,
+   "deficit": -2
+  },
+  {
+   "gdp": -1,
+   "infl": 0,
+   "wage": -1,
+   "housing": 0,
+   "health": 0,
+   "deficit": 2
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  }
+ ],
+ "oktatas-szakkepzes-05": [
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  },
+  {
+   "gdp": 2,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 0,
+   "deficit": -2
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  }
+ ],
+ "kozbiztonsag-rendorseg-01": [
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": 0,
+   "infl": -1,
+   "wage": 2,
+   "housing": 0,
+   "health": 0,
+   "deficit": -3
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 1,
+   "health": 0,
+   "deficit": -1
+  }
+ ],
+ "kozbiztonsag-buntetes-02": [
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 2,
+   "health": 0,
+   "deficit": -2
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 1,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 1
+  }
+ ],
+ "kozbiztonsag-bortonpolitika-03": [
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 1,
+   "deficit": -2
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 1,
+   "deficit": -1
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": -1,
+   "deficit": 0
+  }
+ ],
+ "kozbiztonsag-kamera-04": [
+  {
+   "gdp": -1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 2,
+   "health": 0,
+   "deficit": -2
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 1,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  }
+ ],
+ "igazsag-eppo-01": [
+  {
+   "gdp": -1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 1
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  }
+ ],
+ "igazsag-vagyonvisszaszerzes-02": [
+  {
+   "gdp": -2,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 2
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 1
+  }
+ ],
+ "igazsag-kozbeszerzes-03": [
+  {
+   "gdp": -1,
+   "infl": 1,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 1
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": 1,
+   "infl": -1,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  }
+ ],
+ "igazsag-kormanyzat-04": [
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": -1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 2
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 1
+  }
+ ],
+ "energia-rezsi-01": [
+  {
+   "gdp": 0,
+   "infl": 2,
+   "wage": 1,
+   "housing": 1,
+   "health": 0,
+   "deficit": -2
+  },
+  {
+   "gdp": 0,
+   "infl": -2,
+   "wage": -1,
+   "housing": -1,
+   "health": 0,
+   "deficit": 2
+  },
+  {
+   "gdp": 1,
+   "infl": -1,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 1
+  }
+ ],
+ "energia-paks2-01": [
+  {
+   "gdp": 1,
+   "infl": 1,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": -2
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": -1,
+   "infl": -1,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 2
+  }
+ ],
+ "energia-orosz-01": [
+  {
+   "gdp": 1,
+   "infl": -1,
+   "wage": -1,
+   "housing": -1,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": -2
+  },
+  {
+   "gdp": -1,
+   "infl": 1,
+   "wage": 1,
+   "housing": 1,
+   "health": 0,
+   "deficit": -2
+  }
+ ],
+ "kozlekedes-berlet-01": [
+  {
+   "gdp": 1,
+   "infl": 1,
+   "wage": 1,
+   "housing": 0,
+   "health": 0,
+   "deficit": -2
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": -1,
+   "housing": 0,
+   "health": 0,
+   "deficit": 1
+  }
+ ],
+ "kozlekedes-gyorsvasut-01": [
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 1,
+   "deficit": -2
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": -1,
+   "deficit": -1
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 1
+  }
+ ],
+ "kozlekedes-eauto-01": [
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 1,
+   "deficit": -2
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 1,
+   "deficit": -1
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": -1,
+   "deficit": 1
+  }
+ ],
+ "kornyezet-co2-01": [
+  {
+   "gdp": 0,
+   "infl": -1,
+   "wage": 0,
+   "housing": -1,
+   "health": 1,
+   "deficit": 1
+  },
+  {
+   "gdp": 1,
+   "infl": -1,
+   "wage": -1,
+   "housing": -1,
+   "health": 1,
+   "deficit": 0
+  },
+  {
+   "gdp": 0,
+   "infl": 1,
+   "wage": 1,
+   "housing": 1,
+   "health": -1,
+   "deficit": -1
+  }
+ ],
+ "kornyezet-akku-01": [
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 1,
+   "deficit": -1
+  },
+  {
+   "gdp": -2,
+   "infl": 0,
+   "wage": -1,
+   "housing": 0,
+   "health": 2,
+   "deficit": -1
+  },
+  {
+   "gdp": 2,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": -2,
+   "deficit": 1
+  }
+ ],
+ "kornyezet-viz-01": [
+  {
+   "gdp": 1,
+   "infl": 1,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": -2
+  },
+  {
+   "gdp": -1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 1,
+   "deficit": -1
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  }
+ ],
+ "agrar-fold-01": [
+  {
+   "gdp": -1,
+   "infl": 1,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  },
+  {
+   "gdp": 1,
+   "infl": -1,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  }
+ ],
+ "agrar-tamogatas-01": [
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  },
+  {
+   "gdp": -1,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 1,
+   "deficit": -1
+  }
+ ],
+ "agrar-falu-01": [
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 1,
+   "health": 1,
+   "deficit": -1
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 1,
+   "deficit": -2
+  },
+  {
+   "gdp": 0,
+   "infl": -1,
+   "wage": 0,
+   "housing": 2,
+   "health": 0,
+   "deficit": -2
+  }
+ ],
+ "gazd-fdi-01": [
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 0,
+   "deficit": 1
+  },
+  {
+   "gdp": -1,
+   "infl": 0,
+   "wage": -1,
+   "housing": 0,
+   "health": 0,
+   "deficit": 2
+  }
+ ],
+ "gazd-kkv-01": [
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": -2
+  },
+  {
+   "gdp": 1,
+   "infl": -1,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  },
+  {
+   "gdp": -1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 2
+  }
+ ],
+ "gazd-arresstop-01": [
+  {
+   "gdp": -1,
+   "infl": 2,
+   "wage": 1,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  },
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": 1,
+   "infl": -2,
+   "wage": -1,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  }
+ ],
+ "kulpol-vedelem-01": [
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 1,
+   "deficit": 1
+  },
+  {
+   "gdp": 1,
+   "infl": -1,
+   "wage": 0,
+   "housing": 0,
+   "health": -1,
+   "deficit": -2
+  },
+  {
+   "gdp": 2,
+   "infl": -1,
+   "wage": -1,
+   "housing": 0,
+   "health": -2,
+   "deficit": -3
+  }
+ ],
+ "kulpol-sorkatonasag-01": [
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": -1,
+   "infl": 0,
+   "wage": -1,
+   "housing": 0,
+   "health": 1,
+   "deficit": -2
+  }
+ ],
+ "kulpol-unio-01": [
+  {
+   "gdp": 2,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 1,
+   "deficit": -1
+  },
+  {
+   "gdp": -1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  },
+  {
+   "gdp": -1,
+   "infl": 1,
+   "wage": -1,
+   "housing": 0,
+   "health": -1,
+   "deficit": 0
+  }
+ ],
+ "media-kozmedia-01": [
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": -1,
+   "housing": 0,
+   "health": 0,
+   "deficit": 1
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": -1,
+   "housing": 0,
+   "health": -1,
+   "deficit": 2
+  }
+ ],
+ "media-sport-01": [
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  },
+  {
+   "gdp": -1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 1,
+   "deficit": 1
+  }
+ ],
+ "media-kultura-01": [
+  {
+   "gdp": 1,
+   "infl": 0,
+   "wage": 0,
+   "housing": 0,
+   "health": 0,
+   "deficit": -1
+  },
+  {
+   "gdp": 0,
+   "infl": 0,
+   "wage": 1,
+   "housing": 0,
+   "health": 0,
+   "deficit": 0
+  },
+  {
+   "gdp": -1,
+   "infl": 0,
+   "wage": -1,
+   "housing": 0,
+   "health": 0,
+   "deficit": 2
+  }
+ ]
+}

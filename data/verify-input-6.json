@@ -1,0 +1,272 @@
+[
+ {
+  "key": "egeszsegugy-varolista-04|Anglia (NHS)|https://www.bma.org.uk/advice-and-support/nhs-delivery-and-workforce/pressures/nhs-backlog-data-analysis",
+  "id": "egeszsegugy-varolista-04",
+  "where": "Anglia (NHS)",
+  "when": "2025–2026",
+  "what": "A kórházi várólista a magas forrásbevonás és célok ellenére is nagy maradt.",
+  "numbers": "7,37 M várakozó (2026 aug.), ebből kb. 2,56 M 18 hétnél tovább; kb. 99 800 fő várt egy évnél tovább (2026 ápr.); a 65%-os köztes cél teljesült, a 92%-os hosszú távú nem.",
+  "source": "https://www.bma.org.uk/advice-and-support/nhs-delivery-and-workforce/pressures/nhs-backlog-data-analysis"
+ },
+ {
+  "key": "afa-elelmiszer-02|Spanyolország|https://repositorio.bde.es/bitstream/123456789/36652/4/dt2417e.pdf",
+  "id": "afa-elelmiszer-02",
+  "where": "Spanyolország",
+  "when": "2023",
+  "what": "Az alapélelmiszerek áfa-kulcsának nullára/5%-ra csökkentése.",
+  "numbers": "A továbbhárítás 80% volt az első héten és 90% két hét után; a fogyasztói árszint hatása kb. -0,2–0,26 százalékpont; az élelmiszerinfláció januárban így is 15% felett volt.",
+  "source": "https://repositorio.bde.es/bitstream/123456789/36652/4/dt2417e.pdf"
+ },
+ {
+  "key": "szja-jarulek-04|Magyarország|https://old.kti.krtk.hu/lmyb2019_infocus_5_3",
+  "id": "szja-jarulek-04",
+  "where": "Magyarország",
+  "when": "2013–2015",
+  "what": "Járulékkedvezmény a 25 év alattiaknak és az 55 év felettieknek.",
+  "numbers": "A 25 év alattiak foglalkoztatási valószínűsége 2015-re 2,6%-kal nőtt a kontrollcsoporthoz képest.",
+  "source": "https://old.kti.krtk.hu/lmyb2019_infocus_5_3"
+ },
+ {
+  "key": "vagyon-oroklesi-02|OECD-országok|https://taxfoundation.org/data/all/global/inheritance-estate-and-gift-taxes-oecd/",
+  "id": "vagyon-oroklesi-02",
+  "where": "OECD-országok",
+  "when": "1961–2019",
+  "what": "Öröklési, hagyatéki és ajándékozási adók szerepe az OECD-ben (Tax Foundation összegzés).",
+  "numbers": "2019-ben az OECD teljes adóbevételének átlagosan 0,36%-a (az adót kivetőknél kb. 0,56%); 24 OECD-ország vet ki ilyet, 1961 óta 10 ország eltörölte; a csúcs 1965-ben 1,27% volt.",
+  "source": "https://taxfoundation.org/data/all/global/inheritance-estate-and-gift-taxes-oecd/"
+ },
+ {
+  "key": "igazsag-kozbeszerzes-03|Ukrajna (ProZorro)|https://open-contracting.org/?p=2774",
+  "id": "igazsag-kozbeszerzes-03",
+  "where": "Ukrajna (ProZorro)",
+  "when": "2015–2017",
+  "what": "Nyílt, elektronikus, nyilvános közbeszerzési rendszer fordított aukcióval.",
+  "numbers": "A tenderenkénti ajánlatok átlaga 15%-kal nőtt (2015 jan.–2017 márc.); három ajánlattevő felett kb. 20%-os megtakarítás; átlagos megtakarítás 2016 közepén 14,1%, 2017 márciusában 9,6%.",
+  "source": "https://open-contracting.org/?p=2774"
+ },
+ {
+  "key": "vallalkozas-minimumado-04|Írország|https://www.fiscalcouncil.ie/wp-content/uploads/2026/02/Corporation-tax-slides-conference_2026.pdf",
+  "id": "vallalkozas-minimumado-04",
+  "where": "Írország",
+  "when": "2024–",
+  "what": "15%-os minimum a nagy csoportoknak a 12,5%-os kulcs mellett.",
+  "numbers": "A Fiscal Council szerint a minimumadó a korábbinál több társasági adót hozhat, a bevétel továbbra is erősen koncentrált (10 csoport közel 60%).",
+  "source": "https://www.fiscalcouncil.ie/wp-content/uploads/2026/02/Corporation-tax-slides-conference_2026.pdf"
+ },
+ {
+  "key": "nyugdij-idosgondozas-01|Japán|https://healthsystemsfacts.org/japan-aging",
+  "id": "nyugdij-idosgondozas-01",
+  "where": "Japán",
+  "when": "2000–",
+  "what": "Kötelező állami ápolásbiztosítás (LTCI) 2000 áprilisától.",
+  "numbers": "A 65+ népesség 2,7%-a kapott hosszú távú ellátást 2021-ben (OECD); az LTCI kiadása a társadalombiztosítási egészségügyi kiadás egytizedéről egynegyedére nőtt 2000–2020 között; 1,2 millió otthoni és 0,48 millió intézeti FTE ellátó 2021-ben.",
+  "source": "https://healthsystemsfacts.org/japan-aging"
+ },
+ {
+  "key": "oktatas-berek-01|OECD-átlag|https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/how-much-are-teachers-and-school-heads-paid_a6233c97",
+  "id": "oktatas-berek-01",
+  "where": "OECD-átlag",
+  "when": "2015–2025",
+  "what": "A tanárok bére az átlagos felsőfokú végzettségűekhez képest.",
+  "numbers": "Az általános és középiskolai tanárok tényleges bére a felsőfokú végzettségűek átlagkeresetének 87–95%-a; a kezdő bérek 18–20%-kal, a 15 éves gyakorlatúaké 6–7%-kal emelkedtek.",
+  "source": "https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/how-much-are-teachers-and-school-heads-paid_a6233c97"
+ },
+ {
+  "key": "szocialis-rezsi-01|Németország|https://iwh-halle.de/fileadmin/user_upload/publications/iwh_discussion_papers/iwh-discussion-paper_2025-01_Gutsch_Schult.pdf",
+  "id": "szocialis-rezsi-01",
+  "where": "Németország",
+  "when": "2022–2023",
+  "what": "Gáz- és áramárfék (Gaspreisbremse).",
+  "numbers": "Számszerű érték nem került ellenőrzésre; az IWH szerint az általános transzfer hat legerősebben rövid távon, a célzott a költséghatékonyabb.",
+  "source": "https://iwh-halle.de/fileadmin/user_upload/publications/iwh_discussion_papers/iwh-discussion-paper_2025-01_Gutsch_Schult.pdf"
+ },
+ {
+  "key": "egeszsegugy-varolista-04|Anglia (keresletkezelés)|https://www.instituteforgovernment.org.uk/comment/government-nhs-elective-care-reform",
+  "id": "egeszsegugy-varolista-04",
+  "where": "Anglia (keresletkezelés)",
+  "when": "2024–2026",
+  "what": "Háziorvosi szakorvosi tanácsadás ösztönzése a beutalók elkerülésére.",
+  "numbers": "Az Institute for Government saját számítása szerint 2023/24-ben kb. 1,8 millióval (a 20,5 milliós hozzáadás 8,6%-ával) kevesebb új beutaló került a listára a járvány előtti trendhez képest; az NHS becslése szerint a szakorvosi tanácsadás 1,2 millió beutalót váltott ki.",
+  "source": "https://www.instituteforgovernment.org.uk/comment/government-nhs-elective-care-reform"
+ },
+ {
+  "key": "vallalkozas-kulonado-03|Európa|https://taxfoundation.org/data/all/eu/windfall-tax-europe/",
+  "id": "vallalkozas-kulonado-03",
+  "where": "Európa",
+  "when": "2022",
+  "what": "Extraprofitadók az energia- és pénzügyi szektorban (Tax Foundation összegzés).",
+  "numbers": "Kulcsok 1,2%-tól (spanyol energiacégek) 90%-ig (Görögország); az Európai Bizottság becslése szerint legfeljebb 200 Mrd euró 2022-ben; az olasz adóból az elvárt 11 Mrd euróból alig 2 Mrd folyt be.",
+  "source": "https://taxfoundation.org/data/all/eu/windfall-tax-europe/"
+ },
+ {
+  "key": "oktatas-tankotelezettseg-02|Magyarország|https://op.europa.eu/webpub/eac/education-and-training-monitor/en/country-reports/hungary.html",
+  "id": "oktatas-tankotelezettseg-02",
+  "where": "Magyarország",
+  "when": "2023",
+  "what": "A lemorzsolódás egyenlőtlensége etnikai bontásban.",
+  "numbers": "Romák 58,7%, nem romák 9,3% (2023).",
+  "source": "https://op.europa.eu/webpub/eac/education-and-training-monitor/en/country-reports/hungary.html"
+ },
+ {
+  "key": "csalad-anyak-01|Lengyelország|https://www.niussp.org/fertility-and-reproduction/lessons-from-polands-pro-natalist-family-500-program/",
+  "id": "csalad-anyak-01",
+  "where": "Lengyelország",
+  "when": "2016–",
+  "what": "Készpénzes gyermektámogatás (500+) a termékenység célhoz.",
+  "numbers": "A gyermekvállalás valószínűsége kb. 1,5 százalékponttal nőtt, főleg a 31–40 évesek között (Bokun 2024).",
+  "source": "https://www.niussp.org/fertility-and-reproduction/lessons-from-polands-pro-natalist-family-500-program/"
+ },
+ {
+  "key": "szja-szerkezet-01|Szlovákia|https://www.york.ac.uk/media/economics/documents/discussionpapers/2015/1512.pdf",
+  "id": "szja-szerkezet-01",
+  "where": "Szlovákia",
+  "when": "2004–2013",
+  "what": "2004-ben 19%-os egykulcsot vezettek be, 2013-ban egy 25%-os felső sávval visszatértek a progresszióhoz.",
+  "numbers": "A 2013-as váltás csekély hatással volt a foglalkoztatásra és az egyenlőtlenségre; a várt többletbevétel kb. 377 M euró (a GDP 0,51%-a), ami előrejelzés.",
+  "source": "https://www.york.ac.uk/media/economics/documents/discussionpapers/2015/1512.pdf"
+ },
+ {
+  "key": "munka-minimalber-01|Németország|https://www.iza.org/publications/dp/11190/imprint",
+  "id": "munka-minimalber-01",
+  "where": "Németország",
+  "when": "2015–",
+  "what": "Országos törvényes minimálbért vezettek be.",
+  "numbers": "A mini-job foglalkoztatás kb. 180 ezerrel (kb. 2,4%) csökkent 2014–2015 között; a rendszeres foglalkoztatásra a legtöbb becslés nem talált jelentős hatást (Caliendo et al.).",
+  "source": "https://www.iza.org/publications/dp/11190/imprint"
+ },
+ {
+  "key": "csalad-babavaro-01|Magyarország|https://www.niussp.org/fertility-and-reproduction/evaluating-pronatalist-policies-with-tfr-brings-misleading-conclusions-examples-fromhungary/",
+  "id": "csalad-babavaro-01",
+  "where": "Magyarország",
+  "when": "2010–2021",
+  "what": "A TFR-emelkedés értékelése időzítési hatással.",
+  "numbers": "A TFR-növekedés főleg a szülések halasztásának lassulásából eredt, nem a befejezett termékenységből (NIUSSP).",
+  "source": "https://www.niussp.org/fertility-and-reproduction/evaluating-pronatalist-policies-with-tfr-brings-misleading-conclusions-examples-fromhungary/"
+ },
+ {
+  "key": "koltsegvetes-hiany-01|Svédország|https://cepr.org/index%2ephp/voxeu/columns/fiscal-consolidation-sweden-role-model",
+  "id": "koltsegvetes-hiany-01",
+  "where": "Svédország",
+  "when": "1990-es évek",
+  "what": "Kiadási plafon (1997) és többletcél (2000) a konszolidáció után.",
+  "numbers": "A nettó adósság több mint 50 százalékponttal csökkent kb. 15 év alatt; a konszolidáció 1995–96-ban visszafogó volt.",
+  "source": "https://cepr.org/index%2ephp/voxeu/columns/fiscal-consolidation-sweden-role-model"
+ },
+ {
+  "key": "energia-orosz-01|Magyarország|https://ember-energy.org/latest-insights/turning-to-the-sun-solar-rise-in-central-europe/",
+  "id": "energia-orosz-01",
+  "where": "Magyarország",
+  "when": "2019–2025",
+  "what": "A napenergia-termelés gyors bővülése csökkentette a szén és a gáz részarányát a hazai termelésben.",
+  "numbers": "A napenergia aránya a hazai termelésben kb. 4%-ról (2019) kb. 25%-ra (2024), 2025-ben 28%-ra nőtt (Ember); 2025-ben az import több mint kétszerese volt a napenergia-termelésnek.",
+  "source": "https://ember-energy.org/latest-insights/turning-to-the-sun-solar-rise-in-central-europe/"
+ },
+ {
+  "key": "vallalkozas-kkv-02|Magyarország|https://telex.hu/g7/kozelet/2022/06/24/nem-veletlen-hogy-egy-koltsegvetesi-kiigazitas-kozben-nyul-a-kormany-a-tul-jol-sikerult-katahoz",
+  "id": "vallalkozas-kkv-02",
+  "where": "Magyarország",
+  "when": "2015–2022",
+  "what": "A KATA (tételes adó kisvállalkozóknak) terjedése, majd 2022-es szigorítása a rejtett munkaviszony miatt.",
+  "numbers": "A kisadózók száma 2015-ben kb. 130 ezer, 2021-ben kb. 450 ezer (a foglalkoztatottak kb. 10%-a); a budapesti kamara (BKIK) szerint 100–150 ezer fő használta a járulékok kikerülésére.",
+  "source": "https://telex.hu/g7/kozelet/2022/06/24/nem-veletlen-hogy-egy-koltsegvetesi-kiigazitas-kozben-nyul-a-kormany-a-tul-jol-sikerult-katahoz"
+ },
+ {
+  "key": "media-sport-01|Egyesült Királyság|https://theweek.com/olympics-2016/75856/how-the-national-lottery-turned-team-gb-into-world-beaters",
+  "id": "media-sport-01",
+  "where": "Egyesült Királyság",
+  "when": "1996–2012",
+  "what": "Lottó-alapú célzott olimpiai finanszírozás (UK Sport).",
+  "numbers": "1996: 15 érem (36. hely); London 2012: 65 érem (3. hely); az olimpiai kiadás kb. 5 M fontról (évente, London előtt) 264 M fontra nőtt (egy másik forrás eltérő összeget közöl).",
+  "source": "https://theweek.com/olympics-2016/75856/how-the-national-lottery-turned-team-gb-into-world-beaters"
+ },
+ {
+  "key": "lakas-hitel-01|Anglia|https://www.gov.uk/government/publications/evaluation-of-the-help-to-buy-scheme",
+  "id": "lakas-hitel-01",
+  "where": "Anglia",
+  "when": "2013–2023",
+  "what": "Help to Buy: önrész-kölcsön újépítésű lakásra.",
+  "numbers": "A kormányzati értékelés szerint az újépítésű lakások kb. 15%-a a programnak tulajdonítható; a vevők 78%-a (HtB1) illetve 62%-a (HtB2) program nélkül is megvehette volna a helyi átlagos első lakást; a program hozzájárult a magasabb árakhoz a drága helyeken.",
+  "source": "https://www.gov.uk/government/publications/evaluation-of-the-help-to-buy-scheme"
+ },
+ {
+  "key": "egeszsegugy-varolista-04|Anglia (NHS, 2009–2026)|https://www.nuffieldtrust.org.uk/resource/treatment-waiting-times",
+  "id": "egeszsegugy-varolista-04",
+  "where": "Anglia (NHS, 2009–2026)",
+  "when": "2009–2026",
+  "what": "A célok betartása és a kapacitás fokozatosan elszakadt a kereslettől.",
+  "numbers": "A lista több mint 4,4 millióra nőtt (2020 február), 7,75 millió volt a csúcs (2023 augusztus), 7,12 millió (2026 február); a 18 hetes 92%-os cél 2015 decembere óta nem teljesült (91,8%), 2026 februárjában 62,5% várt 18 hétnél rövidebb ideig (Nuffield Trust).",
+  "source": "https://www.nuffieldtrust.org.uk/resource/treatment-waiting-times"
+ },
+ {
+  "key": "koltsegvetes-euro-02|Szlovákia|https://www.bta.bg/en/news/890398-fiscal-council-of-bulgaria-analysis-euro-s-adoption-in-croatia-had-insignifican",
+  "id": "koltsegvetes-euro-02",
+  "where": "Szlovákia",
+  "when": "2009",
+  "what": "Euró-csatlakozás.",
+  "numbers": "Rövid ideig 0,2–0,3 százalékpontos inflációs emelkedés; a kereskedelem kb. 4,3–6,3%-kal nőtt az újonnan belépőknél (Gunnella és társai).",
+  "source": "https://www.bta.bg/en/news/890398-fiscal-council-of-bulgaria-analysis-euro-s-adoption-in-croatia-had-insignifican"
+ },
+ {
+  "key": "lakas-berlakas-01|Bécs (IBA Wien)|https://www.iba-wien.at/en/iba-wien/iba-wien-1-1-1-1-1",
+  "id": "lakas-berlakas-01",
+  "where": "Bécs (IBA Wien)",
+  "when": "2020-as évek",
+  "what": "Tartós szociális lakásállomány: kb. 220 000 önkormányzati és kb. 185 000 nonprofit szövetkezeti lakás.",
+  "numbers": "Az állomány kb. a lakások 40%-a; a lakosság kb. 60%-a támogatással épült/felújított lakásban él; nonprofit szektorban törvényi nettó lakbér-plafon 4,97 EUR/m².",
+  "source": "https://www.iba-wien.at/en/iba-wien/iba-wien-1-1-1-1-1"
+ },
+ {
+  "key": "szocialis-gyermekszeg-01|Lengyelország|https://wol.iza.org/news/polands-child-benefit-decreases-female-labor-force-participation",
+  "id": "szocialis-gyermekszeg-01",
+  "where": "Lengyelország",
+  "when": "2016–",
+  "what": "Univerzális gyermektámogatás (500+).",
+  "numbers": "Az anyák munkaerő-piaci részvétele kb. 2–3 százalékponttal csökkent 2017 közepére.",
+  "source": "https://wol.iza.org/news/polands-child-benefit-decreases-female-labor-force-participation"
+ },
+ {
+  "key": "vagyon-vagyonado-01|Franciaország|https://strategie.gouv.fr/files/2025-01/avis-comite-evaluation-fiscalite-capital-septembre-2019.pdf",
+  "id": "vagyon-vagyonado-01",
+  "where": "Franciaország",
+  "when": "2018",
+  "what": "Az ISF-et ingatlanvagyon-adóra (IFI) cserélték.",
+  "numbers": "Az adóalanyok száma 360 000-ről 130 000-re esett; a kiesés több mint 4 Mrd euró (2022); a kiköltöző háztartások száma 900 alatt maradt a 400 000-ből.",
+  "source": "https://strategie.gouv.fr/files/2025-01/avis-comite-evaluation-fiscalite-capital-septembre-2019.pdf"
+ },
+ {
+  "key": "igazsag-kozbeszerzes-03|Ukrajna (ProZorro)|https://ti-ukraine.org/en/?p=30649",
+  "id": "igazsag-kozbeszerzes-03",
+  "where": "Ukrajna (ProZorro)",
+  "when": "2024",
+  "what": "A verseny szintje a háború alatt.",
+  "numbers": "Tenderenkénti átlagosan 1,88 ajánlattevő (2024), 18%-os növekedés, 2 fölött a téli hónapokban.",
+  "source": "https://ti-ukraine.org/en/?p=30649"
+ },
+ {
+  "key": "kozlekedes-gyorsvasut-01|Magyarország–Szerbia|https://railwaynews.net/budapest-belgrade-rail-confirms-launch-delayed-to-sept-2026.html",
+  "id": "kozlekedes-gyorsvasut-01",
+  "where": "Magyarország–Szerbia",
+  "when": "2020–2026",
+  "what": "A Budapest–Belgrád vasúti korridor építése kínai hitelből.",
+  "numbers": "Hitel: 1,875 Mrd dollár (2020), a költség 800 Mrd Ft és 2,5–2,7 Mrd euró között; az átadás 2025-ről legkorábban 2026 szeptemberére csúszott.",
+  "source": "https://railwaynews.net/budapest-belgrade-rail-confirms-launch-delayed-to-sept-2026.html"
+ },
+ {
+  "key": "csalad-bolcsode-01|Québec (Kanada)|https://www.nber.org/index%2ephp/papers/w35514",
+  "id": "csalad-bolcsode-01",
+  "where": "Québec (Kanada)",
+  "when": "1997–",
+  "what": "Napi 5 dolláros általános gyermekellátás.",
+  "numbers": "Az anyák foglalkoztatása egy évtizeddel a szülés után kb. 4 százalékponttal, a kereset 3,3%-kal magasabb (Baker–Gruber–Milligan, NBER).",
+  "source": "https://www.nber.org/index%2ephp/papers/w35514"
+ },
+ {
+  "key": "media-kozmedia-01|Lengyelország|https://polskieradio.pl/395/7791/Artykul/3613718,polish-journalists’-association-urges-greater-funding-for-public-media",
+  "id": "media-kozmedia-01",
+  "where": "Lengyelország",
+  "when": "2023–2026",
+  "what": "A közmédiát 2023 decemberében felszámolás alá helyezték; reform folyamatban.",
+  "numbers": "2026-ra kb. 2,5 Mrd zloty (kb. 590 M euró) közmédia-támogatás; az újságíró-szövetség szerint ez az uniós átlag (GDP 0,12%) alatt van; a KRRiT szerint a felszámolás látszat.",
+  "source": "https://polskieradio.pl/395/7791/Artykul/3613718,polish-journalists’-association-urges-greater-funding-for-public-media"
+ }
+]

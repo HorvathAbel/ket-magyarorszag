@@ -1,0 +1,260 @@
+[
+ {
+  "id": "egeszsegugy-berek-03",
+  "add_evidence": [
+   {
+    "where": "Románia (2018-as béremelés)",
+    "when": "2018–",
+    "what": "Az egészségügyi dolgozók alapbérét 2018 márciusától a korábban 2022-re tervezett szintre emelték, egyes bérek megduplázódtak.",
+    "numbers": "Egy 2018 szeptemberi hírösszefoglaló szerint egy hivatalos felmérésben az orvosok 83,7%-a, az ápolók 74,4%-a fontolgatta már a külföldi munkát; a béremelés hatása az elvándorlásra 'viszonylag csekély' volt a becsültnél (a felmérést végző szervezetet a cikk nem nevezi meg).",
+    "verdict": "vegyes",
+    "why": "A béremelés mellett is magas maradt a távozási szándék; ok-okozati becslés nem áll rendelkezésre.",
+    "source": "https://actmedia.eu/economic/over-4-in-5-romanian-doctors-considered-leaving-the-country-at-least-once/77528",
+    "confidence": "medium"
+   },
+   {
+    "where": "Románia (2010-es bércsökkentés)",
+    "when": "2010–",
+    "what": "A romániai megszorítások 25%-kal csökkentették a közszféra béreit, az egészségügyben is.",
+    "numbers": "A tanulmány absztraktja szerint a 25%-os közszférai bércsökkentés a mobilitás egyik fő hajtóereje volt (további tényezők: felvételi tilalom, kórházi létszámkeretek, rossz munkakörülmények); pontos elvándorlási arány az absztraktban nincs.",
+    "verdict": "rossz",
+    "why": "A bércsökkentés a megtartás romlásához járult hozzá, vagyis a bér a megtartás egyik eszköze, de nem az egyetlen.",
+    "source": "https://uhra.herts.ac.uk/handle/2299/8809",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "egeszsegugy-varolista-04",
+  "add_evidence": [
+   {
+    "where": "Anglia (NHS, 2007–2009)",
+    "when": "2007–2009",
+    "what": "Célszámos, forrásbővítéssel támogatott várólista-csökkentés (18 hét).",
+    "numbers": "A várakozó útvonalak száma 4,2 millióról (2007 közepe) 2,3 millióra csökkent (2009 február) (Nuffield Trust).",
+    "verdict": "jo",
+    "why": "A várólista mérhetően, gyorsan csökkent, amíg a célok és a források együtt maradtak.",
+    "source": "https://www.nuffieldtrust.org.uk/resource/treatment-waiting-times",
+    "confidence": "medium"
+   },
+   {
+    "where": "Anglia (NHS, 2009–2026)",
+    "when": "2009–2026",
+    "what": "A célok betartása és a kapacitás fokozatosan elszakadt a kereslettől.",
+    "numbers": "A lista több mint 4,4 millióra nőtt (2020 február), 7,75 millió volt a csúcs (2023 augusztus), 7,12 millió (2026 február); a 18 hetes 92%-os cél 2015 decembere óta nem teljesült (91,8%), 2026 februárjában 62,5% várt 18 hétnél rövidebb ideig (Nuffield Trust).",
+    "verdict": "rossz",
+    "why": "A kapacitásbővítés nélküli célok tartósan nem hozták vissza a várólistát.",
+    "source": "https://www.nuffieldtrust.org.uk/resource/treatment-waiting-times",
+    "confidence": "medium"
+   },
+   {
+    "where": "Anglia (keresletkezelés)",
+    "when": "2024–2026",
+    "what": "Háziorvosi szakorvosi tanácsadás ösztönzése a beutalók elkerülésére.",
+    "numbers": "Az Institute for Government saját számítása szerint 2023/24-ben kb. 1,8 millióval (a 20,5 milliós hozzáadás 8,6%-ával) kevesebb új beutaló került a listára a járvány előtti trendhez képest; az NHS becslése szerint a szakorvosi tanácsadás 1,2 millió beutalót váltott ki.",
+    "verdict": "vegyes",
+    "why": "A listára kerülés csökkent, de a várakozási idők javulására nincs mérés.",
+    "source": "https://www.instituteforgovernment.org.uk/comment/government-nhs-elective-care-reform",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "oktatas-berek-01",
+  "add_evidence": [
+   {
+    "where": "Egyesült Államok (Hanushek–Kain–Rivkin)",
+    "when": "1999",
+    "what": "Tanári fizetések, a tanári mobilitás és a tanulói teljesítmény összefüggésének vizsgálata.",
+    "numbers": "Az NBER-tanulmány szerint a fizetések 'szerény' hatásúak a mobilitásra és a teljesítményre; az egyetlen szignifikáns összefüggés a tapasztalt tanárokra áll fenn, ami a szerzők szerint hihetetlen (a hatásméretet az absztrakt nem közli).",
+    "verdict": "vegyes",
+    "why": "Az általános bér-emelés önmagában kis hatású; a tanulók összetétele jobban magyarázza a mobilitást.",
+    "source": "https://www.nber.org/papers/w7082",
+    "confidence": "medium"
+   },
+   {
+    "where": "Egyesült Államok (Dallas ISD)",
+    "when": "2015–",
+    "what": "Az egységes bértábla helyett a bér teljes egészében az osztálytermi hatékonyságtól függött.",
+    "numbers": "Az NBER-tanulmány szerint nagy, szignifikáns, idővel növekvő matematika-hatás szintetikus kontrollhoz képest, olvasásban nincs egyértelmű javulás; a javulás nagy részét a tanári állomány összetételének változása magyarázza (hatásméret az absztraktban nincs).",
+    "verdict": "jo",
+    "why": "A teljesítményalapú bérezés a matematika-eredményeket javította, de a hatás részben szelekció.",
+    "source": "https://www.nber.org/papers/w31073",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "oktatas-egyetem-03",
+  "add_evidence": [
+   {
+    "where": "Magyarország–EU (kekva-egyetemek)",
+    "when": "2022–2024",
+    "what": "A Tanács 2022 decemberi határozata a közérdekű vagyonkezelő alapítványok által fenntartott intézményekkel új uniós jogi kötelezettségvállalást tiltott (Erasmus+, Horizont).",
+    "numbers": "21 egyetem tartozik a közérdekű alapítványokhoz; a Tanács a kohéziós források 55%-át, 6,3 Mrd eurót függesztette fel (Portfolio, 2023); a Bizottság 2024 decemberében úgy ítélte, a magyar módosítás nem kezeli kellően az érdekösszeütközést.",
+    "verdict": "rossz",
+    "why": "A fenntartói modell uniós programokból való kizárással járt.",
+    "source": "https://www.portfolio.hu/en/eu-funds/20230215/hungarian-ministers-resign-from-public-interest-trusts-but-commission-expects-further-steps-597096",
+    "confidence": "medium"
+   }
+  ],
+  "set_confidence": {
+   "Magyarország–EU": "medium"
+  }
+ },
+ {
+  "id": "oktatas-szakkepzes-05",
+  "add_evidence": [
+   {
+    "where": "Németország (IZA 8901)",
+    "when": "2015",
+    "what": "Tanonc-/szakképzés munkaerőpiaci megtérülése 25 évesen, kelet- és nyugatnémet fiatalokra.",
+    "numbers": "Az IZA-tanulmány 'erős pozitív' hatást talál a foglalkoztatás és a bér terén, rossz munkaerőpiaci helyzetben is; az absztrakt együtthatót nem közöl (számszerű adat nem áll rendelkezésre ebben az oldalban).",
+    "verdict": "jo",
+    "why": "A munkaerőpiaci kimenet (foglalkoztatás, bér) javul a képzés hatására.",
+    "source": "https://www.iza.org/publications/dp/8901",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "igazsag-kormanyzat-04",
+  "add_evidence": [
+   {
+    "where": "Szubszaharai Afrika (Világbank)",
+    "when": "2020",
+    "what": "Miniszterek számának és a kormányzás minőségének összefüggése új adatbázis alapján.",
+    "numbers": "A Világbank munkaanyaga szerint a miniszterek száma negatívan függ össze több kormányzási mutatóval, az időbeli (országon belüli) variációt használó regresszióban is; 'a miniszterek számának jelentős növelése valószínűleg rossz hír a kormányzásnak' (számszerű együttható az absztraktban nincs).",
+    "verdict": "rossz",
+    "why": "Korreláció, nem ok-okozati hatás, és Szubszaharai Afrikára vonatkozik; a hatékonysági hatás nem közvetlen.",
+    "source": "https://econpapers.repec.org/RePEc:wbk:wbrwps:9232",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "kornyezet-akku-01",
+  "add_evidence": [
+   {
+    "where": "Magyarország–Lengyelország (T&E 2025)",
+    "when": "2025",
+    "what": "Elemzés a CATL (Debrecen) és az LG (Lengyelország) akkumulátorgyárak támogatásáról és környezeti megfelelőségéről.",
+    "numbers": "A két gyár legalább 900 millió euró állami támogatást kapott; a T&E szerint a magyar gyár megsértette az ipari kibocsátási irányelvet (NMP-szint), a lengyel gyárnál az erratum után nem találtak jogsértést; környezeti vagy szociális feltételt a Bizottság nem csatolt.",
+    "verdict": "rossz",
+    "why": "A támogatáshoz nem kötöttek környezeti feltételeket, a magyar gyárnál túllépést állítanak.",
+    "source": "https://www.transportenvironment.org/articles/assembly-plant-or-battery-powerhouse-analysis-of-foreign-battery-investments-in-eu",
+    "confidence": "medium"
+   },
+   {
+    "where": "Európai Unió (Számvevőszék)",
+    "when": "2023",
+    "what": "Az EU akkumulátoripari politikájának auditja (különjelentés 15/2023).",
+    "numbers": "Mintegy 8 Mrd euró uniós támogatás áll rendelkezésre; Kína a globális akkumulátor-kapacitás 76%-át adja; az EU kapacitása 44 GWh-ról (2020) 1200 GWh-ra nőhetne 2030-ra, de ez nem biztos; a lítium 87%-a Ausztráliából jön.",
+    "verdict": "vegyes",
+    "why": "A beruházási potenciál nagy, de a nyersanyag- és import-függőség kockázatos.",
+    "source": "https://www.eca.europa.eu/ECAHTMLNews/NEWS-SR-2023-15/en/body.html",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "kornyezet-viz-01",
+  "add_evidence": [
+   {
+    "where": "Magyarország (HUN-REN, Alföld)",
+    "when": "2026",
+    "what": "A HUN-REN talajtani kutatói szerint az Alföld egykori vizes élőhelyei részben helyreállíthatók vízvisszatartással és szabályozott árhullám-levezetéssel.",
+    "numbers": "Közel egymillió hektár részleges helyreállítása; modellezett területeken a kukoricahozam 20–28%-kal nőhet a magasabb talajvíz miatt; az aszálykár-csökkenésre nincs szám (Economx, a HUN-REN-tanulmányról).",
+    "verdict": "vegyes",
+    "why": "Modellezett, nem mért eredmény; földhasználat-váltást igényel.",
+    "source": "https://www.economx.hu/magyar-gazdasag/2026/05/29/meglepo-megoldas-csokkenthetne-az-aszalykarokat/",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "kornyezet-co2-01",
+  "add_evidence": [
+   {
+    "where": "Svédország (Andersson 2019)",
+    "when": "1991–2005",
+    "what": "Szintetikus kontrollos vizsgálat a svéd szén-dioxid-adó közlekedési hatásáról (AEJ: Economic Policy).",
+    "numbers": "A közlekedési CO2-kibocsátás az adó bevezetése után majdnem 11%-kal csökkent a szintetikus kontrollhoz képest; a gázolajkereslet adórugalmassága háromszor nagyobb az árrugalmasságnál; nincs hiteles összefüggés a lassabb növekedéssel (AEA).",
+    "verdict": "jo",
+    "why": "Mért kibocsátáscsökkenés a közlekedésben, kimutatható növekedési veszteség nélkül.",
+    "source": "https://www.aeaweb.org/doi/10.1257/pol.20170144",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "energia-rezsi-01",
+  "add_evidence": [
+   {
+    "where": "Magyarország (KRTK, Szép–Weiner)",
+    "when": "2013–2018",
+    "what": "A rezsicsökkentés lakossági hatásának elemzése (Magyar Energia Szimpózium, 2022).",
+    "numbers": "A lakossági oldalon 632 Mrd Ft pozitívum, a közvetlen árhatás 13 PJ pótlólagos energiafelhasználást okozott; a számlafizetési gondokkal küzdők aránya 25%-ról 11%-ra csökkent (Telex a tanulmányról; a szerzők egyike a KRTK munkatársa).",
+    "verdict": "vegyes",
+    "why": "Csökkentette az energiaszegénységet, de többletfogyasztást okozott.",
+    "source": "https://telex.hu/gazdasag/2022/10/11/megis-mit-adott-nekunk-a-rezsicsokkentes",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "energia-orosz-01",
+  "add_evidence": [
+   {
+    "where": "Európai Unió (Bizottság, REPowerEU)",
+    "when": "2021–2025",
+    "what": "Az orosz gáz kivezetése: diverzifikáció, keresletcsökkentés, LNG.",
+    "numbers": "Az orosz gáz 152 mrd m3-ről 36 mrd m3-re, az uniós import 45%-áról 12%-ára esett (2021–2025); a gázkereslet 2022 augusztusa és 2026 januárja között kb. 19%-kal volt alacsonyabb a válság előtti referenciánál (~80 mrd m3/év).",
+    "verdict": "jo",
+    "why": "A függőség mérhetően csökkent; a Bizottság saját adata.",
+    "source": "https://energy.ec.europa.eu/strategy/repowereu-phase-out-russian-energy-imports/repowereu-4-years_en",
+    "confidence": "high"
+   },
+   {
+    "where": "Európai Unió (Bruegel)",
+    "when": "2020–2023",
+    "what": "Az orosz gáz részaránya az uniós importban.",
+    "numbers": "Az orosz gáz részaránya kb. felről 15%-ra esett (2020–2023); az LNG részaránya 35%-ról 42%-ra nőtt (2022–2023).",
+    "verdict": "jo",
+    "why": "A kitettség csökkent, de az LNG-re való áttérés új függőségi kérdéseket hoz.",
+    "source": "https://www.bruegel.org/analysis/future-european-union-gas-imports-balancing-different-objectives",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "kulpol-sorkatonasag-01",
+  "add_evidence": [
+   {
+    "where": "Svédország (2025–26-os behívás)",
+    "when": "2025–2027",
+    "what": "A sorozás 2017-es újraindítása után a 2007-es évfolyamot a Pliktverket felmérésre hívja.",
+    "numbers": "28 184 fiatalt hívnak felmérésre (2025 május–2026 április); a ~110 000 kapott kérdőív 98%-ára érkezett válasz; kb. 9000 fő kezd alapkiképzést 2026–27-ben, 9–15 hónapos szolgálattal (Nordic Defence Sector).",
+    "verdict": "vegyes",
+    "why": "Kis hányad kiképzése, nagy adminisztratív felmérés; a költség és hatás számszerűen nem áll rendelkezésre.",
+    "source": "https://nordicdefencesector.com/en/article/the-swedish-defence-recruitment-agency-calls-07s-for-conscri",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "igazsag-kozbeszerzes-03",
+  "add_evidence": [
+   {
+    "where": "Magyarország (Single Market Scoreboard 2024)",
+    "when": "2024",
+    "what": "Az egyajánlatos közbeszerzések aránya az uniós adatokban.",
+    "numbers": "Magyarország 34%, az EU-átlag 28% (2024) (Európai Bizottság, Single Market Scoreboard).",
+    "verdict": "vegyes",
+    "why": "Javult a 40% körüli korábbi szinthez képest, de az uniós átlag fölött maradt.",
+    "source": "https://single-market-scoreboard.ec.europa.eu/node/315_cs",
+    "confidence": "high"
+   }
+  ]
+ }
+]

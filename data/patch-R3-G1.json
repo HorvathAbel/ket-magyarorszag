@@ -1,0 +1,372 @@
+[
+ {
+  "id": "szja-mentessegek-02",
+  "add_evidence": [
+   {
+    "where": "Magyarország",
+    "when": "2013–2015",
+    "what": "A Munkahelyvédelmi Akcióterv: járulékkedvezmény fiatal, alacsony képzettségű és idős munkavállalók foglalkoztatása után (célzott munkaerőköltség-csökkentés).",
+    "numbers": "A foglalkoztatási ráta összesen 1,2 százalékponttal nőtt a bevezetés után három évvel; a fiatal és alacsony képzettségű csoportnál magas, az idősnél csak csekély volt a hatás.",
+    "verdict": "jo",
+    "why": "Mért cél: a célcsoportok foglalkoztatása (differencia-a-differenciában, adminisztratív adatokon); az idős csoportnál alig hatott.",
+    "source": "https://ideas.repec.org/a/pfq/journl/v64y2019i1p72-92.html",
+    "confidence": "high"
+   },
+   {
+    "where": "Svédország",
+    "when": "2007–2009",
+    "what": "A fiatalok munkáltatói járulékának nagyarányú csökkentése.",
+    "numbers": "A munkaerő-keresleti rugalmasság kb. -0,3; szignifikáns, de kis hatás a foglalkoztatásra és a bérekre; a fiatalabbaknál kb. négyszer erősebb; óraszámra nincs hatás; a jogosultság megszűnése után alig marad tartós hatás.",
+    "verdict": "vegyes",
+    "why": "Mért cél: a fiatalok foglalkoztatása; a hatás valódi, de kicsi és nem tartós.",
+    "source": "https://econpapers.repec.org/RePEc:eee:labeco:v:55:y:2018:i:c:p:163-177",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "szja-minimalber-03",
+  "add_evidence": [
+   {
+    "where": "Magyarország",
+    "when": "2013–2015",
+    "what": "A Munkahelyvédelmi Akcióterv: járulékkedvezmény fiatal, alacsony képzettségű és idős munkavállalók foglalkoztatása után (célzott munkaerőköltség-csökkentés).",
+    "numbers": "A foglalkoztatási ráta összesen 1,2 százalékponttal nőtt a bevezetés után három évvel; a fiatal és alacsony képzettségű csoportnál magas, az idősnél csak csekély volt a hatás.",
+    "verdict": "jo",
+    "why": "Mért cél: a célcsoportok foglalkoztatása (differencia-a-differenciában, adminisztratív adatokon); az idős csoportnál alig hatott.",
+    "source": "https://ideas.repec.org/a/pfq/journl/v64y2019i1p72-92.html",
+    "confidence": "high"
+   },
+   {
+    "where": "Svédország",
+    "when": "2007–2009",
+    "what": "A fiatalok munkáltatói járulékának nagyarányú csökkentése.",
+    "numbers": "A munkaerő-keresleti rugalmasság kb. -0,3; szignifikáns, de kis hatás a foglalkoztatásra és a bérekre; a fiatalabbaknál kb. négyszer erősebb; óraszámra nincs hatás; a jogosultság megszűnése után alig marad tartós hatás.",
+    "verdict": "vegyes",
+    "why": "Mért cél: a fiatalok foglalkoztatása; a hatás valódi, de kicsi és nem tartós.",
+    "source": "https://econpapers.repec.org/RePEc:eee:labeco:v:55:y:2018:i:c:p:163-177",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "szja-jarulek-04",
+  "add_evidence": [
+   {
+    "where": "Magyarország",
+    "when": "2013–2015",
+    "what": "A Munkahelyvédelmi Akcióterv: járulékkedvezmény fiatal, alacsony képzettségű és idős munkavállalók foglalkoztatása után (célzott munkaerőköltség-csökkentés).",
+    "numbers": "A foglalkoztatási ráta összesen 1,2 százalékponttal nőtt a bevezetés után három évvel; a fiatal és alacsony képzettségű csoportnál magas, az idősnél csak csekély volt a hatás.",
+    "verdict": "jo",
+    "why": "Mért cél: a célcsoportok foglalkoztatása (differencia-a-differenciában, adminisztratív adatokon); az idős csoportnál alig hatott.",
+    "source": "https://ideas.repec.org/a/pfq/journl/v64y2019i1p72-92.html",
+    "confidence": "high"
+   },
+   {
+    "where": "Magyarország",
+    "when": "2011–2013",
+    "what": "A 16%-os egykulcsos szja bevezetése (2011) a progresszív szerkezet helyett.",
+    "numbers": "Statikus mikroszimuláció: évi 444 Mrd Ft bevételkiesés; ennek 74%-a a két legfelső jövedelmi tizedben élő gyermektelen adózóknál növelte a nettó jövedelmet.",
+    "verdict": "vegyes",
+    "why": "Mért cél: bevétel és elosztás; a reform jelentős bevételkiesést okozott és felfelé tolta az elosztást (viselkedési válasz nélkül, csak statikus becslés).",
+    "source": "https://econpapers.repec.org/RePEc:pfq:journl:v:58:y:2013:i:4:p:369-385",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "vallalkozas-kkv-02",
+  "add_evidence": [
+   {
+    "where": "Észtország",
+    "when": "2000–",
+    "what": "Az újra befektetett nyereség adómentessége, adó csak az osztalékra (az észt vállalati adó).",
+    "numbers": "Az eladósodottság átlagosan 7 százalékponttal esett; a likvid eszközök aránya 2–3 pontot nőtt (a 10 fő alatti cégeknél majdnem kétszer); a bevételi tartalékok aránya 11 ponttal nőtt; pozitív hatás a beruházásra és termelékenységre, főleg a szolgáltatásoknál (Lettországhoz és Litvániához képest).",
+    "verdict": "jo",
+    "why": "Mért cél: a cégek finanszírozása, beruházása és válságállósága; a kis cégeknél erősebb hatás (differencia-a-differenciában).",
+    "source": "https://mjtoimetised.ut.ee/febpdf/febawb81.pdf",
+    "confidence": "high"
+   },
+   {
+    "where": "Magyarország",
+    "when": "2015–2022",
+    "what": "A KATA (tételes adó kisvállalkozóknak) terjedése, majd 2022-es szigorítása a rejtett munkaviszony miatt.",
+    "numbers": "A kisadózók száma 2015-ben kb. 130 ezer, 2021-ben kb. 450 ezer (a foglalkoztatottak kb. 10%-a); a budapesti kamara (BKIK) szerint 100–150 ezer fő használta a járulékok kikerülésére.",
+    "verdict": "vegyes",
+    "why": "Mért cél: vállalkozói aktivitás és adóbevétel; gyors terjedés, de jelentős rejtett munkaviszony és bevételkiesés.",
+    "source": "https://telex.hu/g7/kozelet/2022/06/24/nem-veletlen-hogy-egy-koltsegvetesi-kiigazitas-kozben-nyul-a-kormany-a-tul-jol-sikerult-katahoz",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "vallalkozas-kulonado-03",
+  "add_evidence": [
+   {
+    "where": "Olaszország",
+    "when": "2022",
+    "what": "25%-os extraprofitadó az energiacégekre (a forgalmi tranzakciók értékén).",
+    "numbers": "A kormány eredetileg 10–11 Mrd euró bevételt várt, 2022 végéig kb. 2,757 Mrd euró folyt be; sok cég megtagadta a fizetést.",
+    "verdict": "rossz",
+    "why": "Mért cél: bevétel; a beszedés a tervezett negyede körül maradt.",
+    "source": "https://www.investing.com/news/commodities-news/italy-collects-around-28-billion-euros-from-energy-windfall-tax-2964366",
+    "confidence": "medium"
+   },
+   {
+    "where": "Európa",
+    "when": "2022",
+    "what": "Extraprofitadók az energia- és pénzügyi szektorban (Tax Foundation összegzés).",
+    "numbers": "Kulcsok 1,2%-tól (spanyol energiacégek) 90%-ig (Görögország); az Európai Bizottság becslése szerint legfeljebb 200 Mrd euró 2022-ben; az olasz adóból az elvárt 11 Mrd euróból alig 2 Mrd folyt be.",
+    "verdict": "vegyes",
+    "why": "Mért cél: bevétel; több adó nem valódi extraprofit-adó (forgalmat vagy nyereségnövekedést adóztat), ezért torzít és jogi kockázatot hordoz.",
+    "source": "https://taxfoundation.org/data/all/eu/windfall-tax-europe/",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "vagyon-oroklesi-02",
+  "add_evidence": [
+   {
+    "where": "OECD-országok",
+    "when": "1961–2019",
+    "what": "Öröklési, hagyatéki és ajándékozási adók szerepe az OECD-ben (Tax Foundation összegzés).",
+    "numbers": "2019-ben az OECD teljes adóbevételének átlagosan 0,36%-a (az adót kivetőknél kb. 0,56%); 24 OECD-ország vet ki ilyet, 1961 óta 10 ország eltörölte; a csúcs 1965-ben 1,27% volt.",
+    "verdict": "vegyes",
+    "why": "Mért cél: bevétel; az adó bevételi súlya csekély és csökkenő, az eltörlés kis bevételkieséssel jár.",
+    "source": "https://taxfoundation.org/data/all/global/inheritance-estate-and-gift-taxes-oecd/",
+    "confidence": "medium"
+   },
+   {
+    "where": "Svédország",
+    "when": "1885–2004",
+    "what": "Az öröklési adó története és 2004-es eltörlése: a vagyonosok elkerülési lehetőségei és a középosztályi örökösök növekvő terhei miatt (családi vállalkozások kedvezménye).",
+    "numbers": "számszerű adat nem áll rendelkezésre",
+    "verdict": "vegyes",
+    "why": "Mért cél: az adó legitimitása és igazságossága; az elkerülés miatt az adó elvesztette társadalmi támogatását (történeti elemzés, nem oksági becslés).",
+    "source": "https://swopec.hhs.se/iuiwop/abs/iuiwop1032.htm",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "vagyon-toke-04",
+  "add_evidence": [
+   {
+    "where": "Norvégia",
+    "when": "2004–2006",
+    "what": "Az osztalék személyi adóztatásának bevezetése 2006-tól (0%-ról 28%-ra a legfelső határkulcs), előre bejelentve.",
+    "numbers": "A kifizetések 2006 előtt megugrottak, utána élesen visszaestek; a cégek adósságrátája a reform után erősen csökkent; az osztalékemelés nagy része a tőke visszapumpálásával ellensúlyozódott.",
+    "verdict": "vegyes",
+    "why": "Mért cél: osztalékkifizetések és cégfinanszírozás; erős időzítési és kikerülési reakció, így a tényleges bevételi hatás kisebb.",
+    "source": "https://econpapers.repec.org/RePEc:ces:ceswps:_2530",
+    "confidence": "high"
+   },
+   {
+    "where": "Svájc",
+    "when": "kantoni reformok",
+    "what": "Kantoni vagyonadó-kulcsok csökkentése/emelése (éves vagyonadó) és a bejelentett vagyon reakciója.",
+    "numbers": "1 százalékpontos kulcscsökkentés legalább 43%-kal növeli a bejelentett vagyont hat év alatt; ebből kb. 24% költözés, kb. 20% ingatlanár-tőkésítés, a maradék főleg adókikerülés.",
+    "verdict": "vegyes",
+    "why": "Mért cél: bevétel és viselkedési válasz; erős reakció (költözés, kikerülés), de a szerzők szerint nincs Laffer-féle bevételnövekedés.",
+    "source": "https://econpapers.repec.org/RePEc:cpr:ceprdp:14054",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "koltsegvetes-uniosforras-03",
+  "add_evidence": [
+   {
+    "where": "Lengyelország",
+    "when": "2007–2013",
+    "what": "Uniós kohéziós alapok (ERDF és Kohéziós Alap) felhasználása főleg közlekedésre, vállalkozásokra, környezetvédelemre.",
+    "numbers": "57,2 Mrd euró (a GDP 2,3%-a, a kormányzati beruházások 41%-a); az Európai Bizottság becslése szerint a GDP 2015-ben több mint 4%-kal, 2023-ban csaknem 6%-kal magasabb a támogatás nélküli szintnél; közvetlenül 87 427 bruttó munkahely.",
+    "verdict": "jo",
+    "why": "Mért cél: GDP és foglalkoztatás (makromodell-becslés, nem utólagos oksági mérés).",
+    "source": "https://ec.europa.eu/regional_policy/sources/evaluation/expost2013/wp1_pl_report_en.pdf",
+    "confidence": "high"
+   },
+   {
+    "where": "Magyarország",
+    "when": "2007–2013",
+    "what": "Gazdaságfejlesztési uniós támogatások kkv-knak, az MNB hatásvizsgálata.",
+    "numbers": "Szignifikáns pozitív hatás a foglalkoztatotti létszámra, árbevételre és bruttó hozzáadott értékre; a munkatermelékenységre egyik támogatási konstrukció sem hatott szignifikánsan; vissza nem térítendő és visszatérítendő támogatás között nincs szignifikáns különbség.",
+    "verdict": "vegyes",
+    "why": "Mért cél: a kedvezményezett cégek teljesítménye (párosítás és fix hatású panel); nőtt a méret, a termelékenység nem.",
+    "source": "https://www.mnb.hu/letoltes/eufa-wp-final.pdf",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "afa-kulcs-01",
+  "add_evidence": [
+   {
+    "where": "Eurózóna (17 ország)",
+    "when": "1999–2013",
+    "what": "Áfa-kulcsváltozások átgurulása a fogyasztói árakba (IMF-tanulmány).",
+    "numbers": "Az általános kulcs változásánál kb. 100%-os átgurulás; a kedvezményes kulcs változásánál kb. 30%; az átsorolásnál lényegében 0.",
+    "verdict": "vegyes",
+    "why": "Mért cél: a fogyasztói árak; a kedvezményes kulcs csökkentésének csak kb. harmada jut el a fogyasztókhoz.",
+    "source": "https://econpapers.repec.org/RePEc:imf:imfwpa:15/214",
+    "confidence": "high"
+   },
+   {
+    "where": "Finnország",
+    "when": "2010",
+    "what": "A vendéglátás áfájának csökkentése 22%-ról 13%-ra.",
+    "numbers": "Az éttermek átlagosan kb. 2%-kal csökkentették az árat, ez a teljes átgurulás kb. negyede; a nagyobb éttermek gyakrabban csökkentettek; nem nőtt az eladott szolgáltatás és a bérköltség.",
+    "verdict": "rossz",
+    "why": "Mért cél: fogyasztói árak és foglalkoztatás; a csökkentés nagy része a cégeknél maradt.",
+    "source": "https://ideas.repec.org/p/fer/wpaper/52.html",
+    "confidence": "high"
+   },
+   {
+    "where": "Magyarország",
+    "when": "2016–2017",
+    "what": "Áfa-csökkentés sertéshúsra, csirkére, tejre, tojásra és a vendéglátásra (szintetikus kontroll módszer).",
+    "numbers": "Szinte teljes átgurulás sertés- és csirkehúsnál; részleges tejnél és tojásnál; a vendéglátásnál a csökkentés nem jelent meg a fogyasztói árakban (a számszerű becslések a teljes szövegben vannak).",
+    "verdict": "vegyes",
+    "why": "Mért cél: fogyasztói árak; termékenként eltérő átgurulás, a vendéglátásban nem.",
+    "source": "https://econpapers.repec.org/RePEc:pfq:journl:v:63:y:2018:i:3:p:355-375",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "afa-elelmiszer-02",
+  "add_evidence": [
+   {
+    "where": "Spanyolország",
+    "when": "2023",
+    "what": "Alapélelmiszerek áfájának csökkentése (4%-ról 0%-ra, 10%-ról 5%-ra); online szupermarket-árak elemzése.",
+    "numbers": "Összességében kb. 90% átgurulás az első hetekben; 4%→0% csoportban kb. 50%, 10%→5% csoportban 100% fölötti; kb. 10 000 termék egy szupermarketláncból.",
+    "verdict": "jo",
+    "why": "Mért cél: élelmiszerárak; a csökkentés nagyrészt az árakban megjelent (az elemzés egy lánc napi online árait fedi, a teljes piacot nem).",
+    "source": "https://www.banque-france.fr/en/publications-and-statistics/publications/analysing-vat-cut-pass-through-spain-using-web-scraped-supermarket-data-and-machine-learning",
+    "confidence": "high"
+   },
+   {
+    "where": "Eurózóna (17 ország)",
+    "when": "1999–2013",
+    "what": "Áfa-kulcsváltozások átgurulása a fogyasztói árakba (IMF-tanulmány).",
+    "numbers": "Az általános kulcs változásánál kb. 100%-os átgurulás; a kedvezményes kulcs változásánál kb. 30%; az átsorolásnál lényegében 0.",
+    "verdict": "vegyes",
+    "why": "Mért cél: a fogyasztói árak; a kedvezményes kulcs csökkentésének csak kb. harmada jut el a fogyasztókhoz.",
+    "source": "https://econpapers.repec.org/RePEc:imf:imfwpa:15/214",
+    "confidence": "high"
+   },
+   {
+    "where": "Magyarország",
+    "when": "2016–2017",
+    "what": "Áfa-csökkentés sertéshúsra, csirkére, tejre, tojásra és a vendéglátásra (szintetikus kontroll módszer).",
+    "numbers": "Szinte teljes átgurulás sertés- és csirkehúsnál; részleges tejnél és tojásnál; a vendéglátásnál a csökkentés nem jelent meg a fogyasztói árakban (a számszerű becslések a teljes szövegben vannak).",
+    "verdict": "vegyes",
+    "why": "Mért cél: fogyasztói árak; termékenként eltérő átgurulás, a vendéglátásban nem.",
+    "source": "https://econpapers.repec.org/RePEc:pfq:journl:v:63:y:2018:i:3:p:355-375",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "afa-gyogyszer-04",
+  "add_evidence": [
+   {
+    "where": "35 ország",
+    "when": "2025",
+    "what": "Vényköteles gyógyszerek forgalmi adóztatása és forgalmazói árrések (LSE/Kanavos és mások).",
+    "numbers": "A 35 országból kb. 83% adóztatja a vényköteles gyógyszert, 63% a normál kulcsnál alacsonyabb áfával; az adók és árrések együtt az ex-factory ár 5–187%-át tették ki; a szerzők szerint az adó eltörlése azonnal csökkentené a gyógyszerek árát.",
+    "verdict": "vegyes",
+    "why": "Mért cél: a gyógyszerek végső ára; az adó az árnak csak egy része, a forgalmazói árrések szabályozása legalább ilyen fontos (keresztmetszeti, nem oksági).",
+    "source": "https://researchonline.lse.ac.uk/id/eprint/124243",
+    "confidence": "high"
+   },
+   {
+    "where": "Eurózóna (17 ország)",
+    "when": "1999–2013",
+    "what": "Áfa-kulcsváltozások átgurulása a fogyasztói árakba (IMF-tanulmány).",
+    "numbers": "Az általános kulcs változásánál kb. 100%-os átgurulás; a kedvezményes kulcs változásánál kb. 30%; az átsorolásnál lényegében 0.",
+    "verdict": "vegyes",
+    "why": "Mért cél: a fogyasztói árak; a kedvezményes kulcs csökkentésének csak kb. harmada jut el a fogyasztókhoz.",
+    "source": "https://econpapers.repec.org/RePEc:imf:imfwpa:15/214",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "koltsegvetes-hiany-01",
+  "add_evidence": [
+   {
+    "where": "OECD-országok",
+    "when": "OECD-minta",
+    "what": "A költségvetési kiigazítások szerkezete: kiadáscsökkentés vs adóemelés (Alesina és Ardagna).",
+    "numbers": "számszerű adat nem áll rendelkezésre",
+    "verdict": "jo",
+    "why": "Mért cél: a kiigazítás tartóssága és a visszaesés mélysége; a kiadáscsökkentésen alapuló kiigazítások ritkábban fordulnak vissza és kisebb recessziót okoztak (a szerzők eredménye, vitatott).",
+    "source": "https://www.nber.org/papers/w18423",
+    "confidence": "high"
+   },
+   {
+    "where": "Fejlett gazdaságok",
+    "when": "2010–2011",
+    "what": "A tervezett költségvetési konszolidáció és a növekedési előrejelzési hibák kapcsolata (IMF, Blanchard–Leigh).",
+    "numbers": "számszerű adat nem áll rendelkezésre",
+    "verdict": "rossz",
+    "why": "Mért cél: a növekedés; az erősebb tervezett konszolidáció az előre jelzettnél gyengébb növekedéssel járt, azaz a szorzók nagyobbak voltak a feltételezettnél (a kapcsolat később gyengült).",
+    "source": "https://econpapers.repec.org/RePEc:imf:imfwpa:2013/001",
+    "confidence": "high"
+   },
+   {
+    "where": "Németország",
+    "when": "2009–2025",
+    "what": "Az adósságfék: a szerkezeti hiány legfeljebb 0,35% GDP (szövetségi szinten), a 2025-ös reformjavaslat.",
+    "numbers": "0,35% GDP szerkezeti hiány; a 2025. márciusi javaslat 11% GDP-nyi infrastruktúra-alapot és a védelmi kiadások nagy részének kivételét tartalmazta; a költségvetésen belül kb. 1,7% GDP közberuházás finanszírozódik.",
+    "verdict": "vegyes",
+    "why": "Mért cél: adósság és beruházás; a szabály fegyelmezett, de a bírálók szerint visszafogja a közberuházást (Bruegel-elemzés, nem utólagos mérés).",
+    "source": "https://www.bruegel.org/sites/default/files/2025-03/1103_Can%20Germany%20afford%20it_final%201.pdf",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "koltsegvetes-euro-02",
+  "add_evidence": [
+   {
+    "where": "Szlovákia",
+    "when": "2009",
+    "what": "Az euró bevezetése (szintetikus kontroll becslés).",
+    "numbers": "A GDP/fő 2011-re kb. 10%-kal magasabb lett; ennek kétharmada már 2008-ban (várakozási hatás); a 2009-es recesszióban az önálló valuta kb. 2%-kal jobb helyzetet jelentett volna.",
+    "verdict": "jo",
+    "why": "Mért cél: reál-GDP/fő; tartós nyereség, de a válságban átmeneti ár (a Pénzügyminisztérium szakértői, OECD-sorozat).",
+    "source": "https://ideas.repec.org/p/oec/ecoaaa/1317-en.html",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "koltsegvetes-fek-04",
+  "add_evidence": [
+   {
+    "where": "OECD-országok",
+    "when": "OECD-minta",
+    "what": "A költségvetési kiigazítások szerkezete: kiadáscsökkentés vs adóemelés (Alesina és Ardagna).",
+    "numbers": "számszerű adat nem áll rendelkezésre",
+    "verdict": "jo",
+    "why": "Mért cél: a kiigazítás tartóssága és a visszaesés mélysége; a kiadáscsökkentésen alapuló kiigazítások ritkábban fordulnak vissza és kisebb recessziót okoztak (a szerzők eredménye, vitatott).",
+    "source": "https://www.nber.org/papers/w18423",
+    "confidence": "high"
+   },
+   {
+    "where": "Németország",
+    "when": "2009–2025",
+    "what": "Az adósságfék: a szerkezeti hiány legfeljebb 0,35% GDP (szövetségi szinten), a 2025-ös reformjavaslat.",
+    "numbers": "0,35% GDP szerkezeti hiány; a 2025. márciusi javaslat 11% GDP-nyi infrastruktúra-alapot és a védelmi kiadások nagy részének kivételét tartalmazta; a költségvetésen belül kb. 1,7% GDP közberuházás finanszírozódik.",
+    "verdict": "vegyes",
+    "why": "Mért cél: adósság és beruházás; a szabály fegyelmezett, de a bírálók szerint visszafogja a közberuházást (Bruegel-elemzés, nem utólagos mérés).",
+    "source": "https://www.bruegel.org/sites/default/files/2025-03/1103_Can%20Germany%20afford%20it_final%201.pdf",
+    "confidence": "medium"
+   }
+  ]
+ }
+]

@@ -1,0 +1,272 @@
+[
+ {
+  "key": "nyugdij-korhatar-01|Dánia|https://www.thelocal.com/20250524/inside-denmark-the-highest-retirement-age-in-europe",
+  "id": "nyugdij-korhatar-01",
+  "where": "Dánia",
+  "when": "2025–2040",
+  "what": "A nyugdíjkorhatár emelése 70 évre (jelenleg 67), a várható élettartamhoz kötve.",
+  "numbers": "68 év 2030-ra, 69 év 2035-re, 70 év 2040-re; a parlament 81–21 arányban szavazta meg.",
+  "source": "https://www.thelocal.com/20250524/inside-denmark-the-highest-retirement-age-in-europe"
+ },
+ {
+  "key": "agrar-falu-01|Európai Unió|https://eu-cap-network.ec.europa.eu/news/leader-impact-report-balanced-territorial-development_en",
+  "id": "agrar-falu-01",
+  "where": "Európai Unió",
+  "when": "2014–2022",
+  "what": "A LEADER helyi fejlesztési program értékelése.",
+  "numbers": "Kb. 60 000 munkahely támogatása; a LEADER a KAP kiadásának csak kb. 2%-a.",
+  "source": "https://eu-cap-network.ec.europa.eu/news/leader-impact-report-balanced-territorial-development_en"
+ },
+ {
+  "key": "vagyon-toke-04|OECD|https://www.oecd.org/en/publications/2018/04/the-role-and-design-of-net-wealth-taxes-in-the-oecd_g1g89919.html",
+  "id": "vagyon-toke-04",
+  "where": "OECD",
+  "when": "2018",
+  "what": "A nettó vagyonadó és a tőkejövedelem-adó kapcsolata.",
+  "numbers": "Az OECD szerint korlátozott érv szól a vagyonadó mellett, ha jól tervezett tőkejövedelem-adó van.",
+  "source": "https://www.oecd.org/en/publications/2018/04/the-role-and-design-of-net-wealth-taxes-in-the-oecd_g1g89919.html"
+ },
+ {
+  "key": "lakas-lakber-01|Berlin|https://www.diw.de/de/diw_01.c.873005.de/publikationen/externe_referierte_aufsaetze/2024_0003/forward_to_the_past__short-term_effects_of_the_rent_freeze_in_berlin.html",
+  "id": "lakas-lakber-01",
+  "where": "Berlin",
+  "when": "2020–2021",
+  "what": "Lakbérfagyasztás (Mietendeckel), amelyet az Alkotmánybíróság egy év után megsemmisített.",
+  "numbers": "A meghirdetett bérleti díjak kb. 8–10%-kal csökkentek; a bérlakás-hirdetések száma kb. 52% (IW Köln) – 60% (ifo) körül esett, a különbség módszertani; a határon túli települések bérleti díja gyorsan nőtt (Hahn et al., Management Science).",
+  "source": "https://www.diw.de/de/diw_01.c.873005.de/publikationen/externe_referierte_aufsaetze/2024_0003/forward_to_the_past__short-term_effects_of_the_rent_freeze_in_berlin.html"
+ },
+ {
+  "key": "kozlekedes-eauto-01|Norvégia|https://hydrocarbonprocessing.com/news/2026/01/norways-new-car-sales-were-96-electric-in-2025/",
+  "id": "kozlekedes-eauto-01",
+  "where": "Norvégia",
+  "when": "2025",
+  "what": "Áfa- és regisztrációs adómentesség az elektromos autóknak.",
+  "numbers": "Az új autók 95,9%-a elektromos volt 2025-ben (88,9% 2024-ben); a mentességi küszöböt 2026-ban 500 ezer NOK-ról 300 ezerre vágták, a teljes kivezetés későbbre tolódik; a költséget a források nem számszerűsítik.",
+  "source": "https://hydrocarbonprocessing.com/news/2026/01/norways-new-car-sales-were-96-electric-in-2025/"
+ },
+ {
+  "key": "kulpol-sorkatonasag-01|Svédország (2025–26-os behívás)|https://nordicdefencesector.com/en/article/the-swedish-defence-recruitment-agency-calls-07s-for-conscri",
+  "id": "kulpol-sorkatonasag-01",
+  "where": "Svédország (2025–26-os behívás)",
+  "when": "2025–2027",
+  "what": "A sorozás 2017-es újraindítása után a 2007-es évfolyamot a Pliktverket felmérésre hívja.",
+  "numbers": "28 184 fiatalt hívnak felmérésre (2025 május–2026 április); a ~110 000 kapott kérdőív 98%-ára érkezett válasz; kb. 9000 fő kezd alapkiképzést 2026–27-ben, 9–15 hónapos szolgálattal (Nordic Defence Sector).",
+  "source": "https://nordicdefencesector.com/en/article/the-swedish-defence-recruitment-agency-calls-07s-for-conscri"
+ },
+ {
+  "key": "nyugdij-13-14-01|Lengyelország (Kolasa, Varsói Egyetem)|https://www.wne.uw.edu.pl/download_file/2343/0",
+  "id": "nyugdij-13-14-01",
+  "where": "Lengyelország (Kolasa, Varsói Egyetem)",
+  "when": "2019–",
+  "what": "A 13. havi nyugdíj (kvázi-univerzális transzfer) hosszú távú hatásait vizsgáló általános egyensúlyi, generációk átfedő modellje.",
+  "numbers": "A modell szerint jelentősen javítja a medián nyugdíjas háztartás anyagi helyzetét, de a jóléti veszteség a háztartások élettartam-fogyasztásának 0,7%-ának felel meg; a szegénységre és egyenlőtlenségre csak mérsékelt hatású.",
+  "source": "https://www.wne.uw.edu.pl/download_file/2343/0"
+ },
+ {
+  "key": "vagyon-ingatlanado-03|OECD-országok|https://www.oecd.org/en/publications/making-property-tax-reform-happen-in-china_bd0fbae3-en/full-report/component-4.html",
+  "id": "vagyon-ingatlanado-03",
+  "where": "OECD-országok",
+  "when": "2019",
+  "what": "Az ismétlődő ingatlanadók átlagos súlya.",
+  "numbers": "Az ingatlanadó-bevétel 61%-a ismétlődő adó, az összes adóbevétel 3,2%-a; nagy része a helyi önkormányzatoké.",
+  "source": "https://www.oecd.org/en/publications/making-property-tax-reform-happen-in-china_bd0fbae3-en/full-report/component-4.html"
+ },
+ {
+  "key": "egeszsegugy-biztositas-02|Németország|https://www.thelocal.de/20251103/how-youll-be-affected-by-a-steep-rise-in-german-health-insurance-contributions",
+  "id": "egeszsegugy-biztositas-02",
+  "where": "Németország",
+  "when": "2024–2026",
+  "what": "Bismarck-típusú járulékfinanszírozás: 14,6%-os általános ráta plusz kasszánként megállapított pótjárulék.",
+  "numbers": "Az átlagos pótjárulék 2024 elején 1,7%, 2025 folyamán kb. 3,1%; az IGES előrejelzése 2026-ra 3,3%.",
+  "source": "https://www.thelocal.de/20251103/how-youll-be-affected-by-a-steep-rise-in-german-health-insurance-contributions"
+ },
+ {
+  "key": "kozlekedes-berlet-01|Németország|https://www.cleanenergywire.org/news/germanys-flat-rate-transport-ticket-working-mobility-and-climate-govt-evaluation",
+  "id": "kozlekedes-berlet-01",
+  "where": "Németország",
+  "when": "2023–",
+  "what": "A Deutschlandticket országos havi átalánybérlet, 63 euróért.",
+  "numbers": "Kb. 14,5 millió előfizető; a kormányzati értékelés szerint évi 2,5–3 millió tonna CO2-megtakarítás (kb. 3%-kal kevesebb autóhasználat); az előfizetők száma 2025-ben csökkent az áremelés miatt. Egy müncheni tanulmány szerint az autóhasználatot alig csökkentette.",
+  "source": "https://www.cleanenergywire.org/news/germanys-flat-rate-transport-ticket-working-mobility-and-climate-govt-evaluation"
+ },
+ {
+  "key": "koltsegvetes-hiany-01|Németország|https://www.bruegel.org/sites/default/files/2025-03/1103_Can%20Germany%20afford%20it_final%201.pdf",
+  "id": "koltsegvetes-hiany-01",
+  "where": "Németország",
+  "when": "2009–2025",
+  "what": "Az adósságfék: a szerkezeti hiány legfeljebb 0,35% GDP (szövetségi szinten), a 2025-ös reformjavaslat.",
+  "numbers": "0,35% GDP szerkezeti hiány; a 2025. márciusi javaslat 11% GDP-nyi infrastruktúra-alapot és a védelmi kiadások nagy részének kivételét tartalmazta; a költségvetésen belül kb. 1,7% GDP közberuházás finanszírozódik.",
+  "source": "https://www.bruegel.org/sites/default/files/2025-03/1103_Can%20Germany%20afford%20it_final%201.pdf"
+ },
+ {
+  "key": "energia-orosz-01|Magyarország|https://www.aljazeera.com/news/2026/4/17/can-hungary-wean-itself-off-russian-energy-as-its-new-leader-has-promised",
+  "id": "energia-orosz-01",
+  "where": "Magyarország",
+  "when": "2021–2025",
+  "what": "Az orosz olajra való ráhagyatkozás nőtt, a Druzhba déli ágán érkező nyersolajjal.",
+  "numbers": "Az orosz nyersolaj aránya 61%-ról 93%-ra nőtt (CSD jelentés, Al Jazeera idézi); a gázarány forrásonként 75% vagy 90%.",
+  "source": "https://www.aljazeera.com/news/2026/4/17/can-hungary-wean-itself-off-russian-energy-as-its-new-leader-has-promised"
+ },
+ {
+  "key": "egeszsegugy-berek-03|Románia (2010-es bércsökkentés)|https://uhra.herts.ac.uk/handle/2299/8809",
+  "id": "egeszsegugy-berek-03",
+  "where": "Románia (2010-es bércsökkentés)",
+  "when": "2010–",
+  "what": "A romániai megszorítások 25%-kal csökkentették a közszféra béreit, az egészségügyben is.",
+  "numbers": "A tanulmány absztraktja szerint a 25%-os közszférai bércsökkentés a mobilitás egyik fő hajtóereje volt (további tényezők: felvételi tilalom, kórházi létszámkeretek, rossz munkakörülmények); pontos elvándorlási arány az absztraktban nincs.",
+  "source": "https://uhra.herts.ac.uk/handle/2299/8809"
+ },
+ {
+  "key": "igazsag-kozbeszerzes-03|Magyarország|https://www.kozbeszerzes.hu/media/documents/Beszamolo_2024.pdf",
+  "id": "igazsag-kozbeszerzes-03",
+  "where": "Magyarország",
+  "when": "2021–2024",
+  "what": "Az egyajánlatos eljárások arányának alakulása.",
+  "numbers": "40% (2021, EU: 25%); a 15% alatti cél nem teljesült; 2024-ben a Hatóság szerint 6,8 százalékpontos csökkenés.",
+  "source": "https://www.kozbeszerzes.hu/media/documents/Beszamolo_2024.pdf"
+ },
+ {
+  "key": "csalad-anyak-01|Magyarország|https://www.niussp.org/fertility-and-reproduction/evaluating-pronatalist-policies-with-tfr-brings-misleading-conclusions-examples-fromhungary/",
+  "id": "csalad-anyak-01",
+  "where": "Magyarország",
+  "when": "2010–2021",
+  "what": "A TFR 1,25-ről emelkedett a családpolitikai csomag mellett.",
+  "numbers": "A kutatás szerint a TFR-növekedés főleg a szülések halasztásának lassulása, nem a befejezett termékenység növekedése (NIUSSP elemzés).",
+  "source": "https://www.niussp.org/fertility-and-reproduction/evaluating-pronatalist-policies-with-tfr-brings-misleading-conclusions-examples-fromhungary/"
+ },
+ {
+  "key": "lakas-hitel-01|Anglia|https://repec.cepr.org/repec/cpr/ceprdp/DP14620.pdf",
+  "id": "lakas-hitel-01",
+  "where": "Anglia",
+  "when": "2013–2020",
+  "what": "Akadémiai becslés a Help to Buy árhatásáról (Carozzi–Hilber–Yu, LSE).",
+  "numbers": "Számszerű érték nem került ellenőrzésre; az ár nőtt az érték fölött a kamattámogatás jelenértékénél, érdemi építési hatás nélkül.",
+  "source": "https://repec.cepr.org/repec/cpr/ceprdp/DP14620.pdf"
+ },
+ {
+  "key": "afa-gyogyszer-04|Spanyolország|https://repositorio.bde.es/bitstream/123456789/36652/4/dt2417e.pdf",
+  "id": "afa-gyogyszer-04",
+  "where": "Spanyolország",
+  "when": "2023",
+  "what": "Alapélelmiszerek áfájának csökkentése.",
+  "numbers": "A 0%-os alapélelmiszer-csoportnál kb. 50% volt a továbbhárítás, a 10%-ról 5%-ra csökkent termékeknél 100% felett.",
+  "source": "https://repositorio.bde.es/bitstream/123456789/36652/4/dt2417e.pdf"
+ },
+ {
+  "key": "csalad-babavaro-01|Magyarország|https://bankmonitor.hu/?p=102284",
+  "id": "csalad-babavaro-01",
+  "where": "Magyarország",
+  "when": "2025",
+  "what": "MNB-becslés a babaváró törlesztési kockázatáról.",
+  "numbers": "Kb. 32 ezer házaspárnál nem született gyermek; kb. 4 ezer családnál lehet tényleges törlesztési gond.",
+  "source": "https://bankmonitor.hu/?p=102284"
+ },
+ {
+  "key": "szocialis-rezsi-01|Európa|https://imf.org/-/media/Files/Publications/Fandd/Article/2022/December/Celasun.ashx",
+  "id": "szocialis-rezsi-01",
+  "where": "Európa",
+  "when": "2022",
+  "what": "Az energiaválság kormányzati válaszai (IMF).",
+  "numbers": "A válaszok több mint fele költséges, nem célzott intézkedés volt az első évben; az IMF a célzott jövedelemtámogatást javasolta.",
+  "source": "https://imf.org/-/media/Files/Publications/Fandd/Article/2022/December/Celasun.ashx"
+ },
+ {
+  "key": "kornyezet-viz-01|Magyarország|https://www.circleofblue.org/2025/supply/drought/farmers-consider-abandoning-drought-hit-region-in-central-hungary/",
+  "id": "kornyezet-viz-01",
+  "where": "Magyarország",
+  "when": "2022–2025",
+  "what": "A Homokhátság vízpótlási program (200 Mrd Ft, 8 év), 2025-ben 5 Mrd Ft csatornatisztítási projekt.",
+  "numbers": "2022 márciusában a munka kb. 10%-a készült el; 2025-re az agrárkár nyár végéig kb. 100 Mrd Ft volt.",
+  "source": "https://www.circleofblue.org/2025/supply/drought/farmers-consider-abandoning-drought-hit-region-in-central-hungary/"
+ },
+ {
+  "key": "szocialis-alapjov-01|Stockton (USA)|https://sp2.upenn.edu/guaranteed-income-increases-employment-improves-financial-and-physical-health/",
+  "id": "szocialis-alapjov-01",
+  "where": "Stockton (USA)",
+  "when": "2019–2021",
+  "what": "125 alacsony jövedelmű lakos havi 500 dollárt kapott 24 hónapig.",
+  "numbers": "A teljes munkaidős foglalkoztatás 28%-ról 40%-ra nőtt a kontrollcsoport 32%-ról 37%-ra növekedéséhez képest, kb. +7 százalékpont nettó.",
+  "source": "https://sp2.upenn.edu/guaranteed-income-increases-employment-improves-financial-and-physical-health/"
+ },
+ {
+  "key": "gazd-arresstop-01|Magyarország (MNB Inflációs jelentés, 2026. június)|https://telex.hu/gazdasag/2026/06/25/mnb-inflacios-jelentes-arresstop",
+  "id": "gazd-arresstop-01",
+  "where": "Magyarország (MNB Inflációs jelentés, 2026. június)",
+  "when": "2025–2026",
+  "what": "Az MNB becslése a jelenleg érvényes árrésstop bevezetéskori és kivezetési hatásáról (a Telex beszámolója alapján).",
+  "numbers": "Bevezetéskor kb. 1,4%-kal mérsékelte az árakat; ennek kb. negyede épülne vissza; a kivezetés a következő negyedévekben kb. +0,4 százalékponttal, egy év múlva +0,1 százalékponttal emelné az inflációs pályát; a négy vizsgált lánc 2025-ös összesített működési vesztesége 20,9 Mrd Ft.",
+  "source": "https://telex.hu/gazdasag/2026/06/25/mnb-inflacios-jelentes-arresstop"
+ },
+ {
+  "key": "egeszsegugy-varolista-04|Anglia (NHS)|https://health.org.uk/publications/long-reads/returning-nhs-waiting-times-to-18-weeks",
+  "id": "egeszsegugy-varolista-04",
+  "where": "Anglia (NHS)",
+  "when": "2004–2008",
+  "what": "Az „18 hónapról 18 hétre” program: célszámok, teljesítménymenedzsment, forrásbővítés és kapacitásnövelés.",
+  "numbers": "2008 decemberére a felvételes betegek 90,3%-a, a nem felvételes betegek 96,8%-a 18 héten belül ellátott lett.",
+  "source": "https://health.org.uk/publications/long-reads/returning-nhs-waiting-times-to-18-weeks"
+ },
+ {
+  "key": "szocialis-gyermekszeg-01|Egyesült Királyság|https://ifs.org.uk/news/abolishing-two-child-limit-would-be-cost-effective-way-reducing-child-poverty-no-silver-bullet",
+  "id": "szocialis-gyermekszeg-01",
+  "where": "Egyesült Királyság",
+  "when": "2024 (IFS-becslés)",
+  "what": "A két gyermek feletti korlát eltörlése.",
+  "numbers": "Kb. 540 ezer gyermekkel kevesebb az abszolút szegénységben, kb. 2,5 Mrd font éves költség.",
+  "source": "https://ifs.org.uk/news/abolishing-two-child-limit-would-be-cost-effective-way-reducing-child-poverty-no-silver-bullet"
+ },
+ {
+  "key": "agrar-falu-01|Skócia|https://www.gov.scot/publications/process-evaluation-leader-2014-2020/pages/6/",
+  "id": "agrar-falu-01",
+  "where": "Skócia",
+  "when": "2014–2023",
+  "what": "LEADER 2014–2020: foglalkoztatási célok.",
+  "numbers": "523 támogatott munkahely a 551-es cél ellenében (kb. 95%).",
+  "source": "https://www.gov.scot/publications/process-evaluation-leader-2014-2020/pages/6/"
+ },
+ {
+  "key": "szja-minimalber-03|Magyarország|https://old.kti.krtk.hu/lmyb2019_infocus_5_3",
+  "id": "szja-minimalber-03",
+  "where": "Magyarország",
+  "when": "2013–2015",
+  "what": "Járulékkedvezmény az alacsonyabb foglalkoztatású csoportoknak.",
+  "numbers": "A 25 év alattiak foglalkoztatási valószínűsége 2015-re 2,6%-kal nőtt.",
+  "source": "https://old.kti.krtk.hu/lmyb2019_infocus_5_3"
+ },
+ {
+  "key": "media-sport-01|Magyarország|https://444.hu/2026/10/06/tobb-mint-7-milliard-forintnyi-tao-tamogatast-nem-sikerult-visszaszerezni-a-sportszervezetektol",
+  "id": "media-sport-01",
+  "where": "Magyarország",
+  "when": "2022–2026",
+  "what": "A sport-TAO elszámolások ellenőrzése.",
+  "numbers": "Több mint 21 Mrd Ft visszakövetelés, amiből több mint 7 Mrd Ft nem volt behajtható.",
+  "source": "https://444.hu/2026/10/06/tobb-mint-7-milliard-forintnyi-tao-tamogatast-nem-sikerult-visszaszerezni-a-sportszervezetektol"
+ },
+ {
+  "key": "egeszsegugy-finanszirozas-01|Anglia (NHS)|https://health.org.uk/publications/long-reads/returning-nhs-waiting-times-to-18-weeks",
+  "id": "egeszsegugy-finanszirozas-01",
+  "where": "Anglia (NHS)",
+  "when": "2000–2008",
+  "what": "Jelentős NHS-forrásbővítés és központi várakozásiidő-célok (18 hónapról 18 hétre a kezelésig).",
+  "numbers": "2008 decemberére a felvételes betegek 90,3%-a, a nem felvételes betegek 96,8%-a 18 héten belül ellátott lett.",
+  "source": "https://health.org.uk/publications/long-reads/returning-nhs-waiting-times-to-18-weeks"
+ },
+ {
+  "key": "gazd-kkv-01|Magyarország|https://www.mnb.hu/en/pressroom/press-releases/press-releases-2017/the-funding-for-growth-scheme-has-achieved-its-objectives",
+  "id": "gazd-kkv-01",
+  "where": "Magyarország",
+  "when": "2013–2017",
+  "what": "Az MNB Növekedési Hitelprogramja (Funding for Growth Scheme).",
+  "numbers": "Az MNB szerint megállította a KKV-hitelezés folyamatos csökkenését; a vállalatok fele szerint nélküle nem vett volna fel hitelt; becsült növekedési hatás kb. 2 százalékpont 2013–2016 között (az MNB saját becslése).",
+  "source": "https://www.mnb.hu/en/pressroom/press-releases/press-releases-2017/the-funding-for-growth-scheme-has-achieved-its-objectives"
+ },
+ {
+  "key": "kornyezet-co2-01|Svédország|https://taxfoundation.org/sweden-carbon-tax-revenue-greenhouse-gas-emissions/",
+  "id": "kornyezet-co2-01",
+  "where": "Svédország",
+  "when": "1991–",
+  "what": "Szén-dioxid-adót vezettek be 1991-ben.",
+  "numbers": "Az adó bevezetése óta az ÜHG-kibocsátás 26%-kal esett (Tax Foundation); 1990–2007 között -9% kibocsátás mellett +48% GDP; a közlekedési szintetikus kontroll-vizsgálat szerint az adó éves átlagban 4,9%-os kibocsátás-csökkenést okozott.",
+  "source": "https://taxfoundation.org/sweden-carbon-tax-revenue-greenhouse-gas-emissions/"
+ }
+]

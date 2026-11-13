@@ -1,0 +1,200 @@
+[
+ {
+  "key": "szja-mentessegek-02|Magyarország|https://ideas.repec.org/a/pfq/journl/v64y2019i1p72-92.html",
+  "id": "szja-mentessegek-02",
+  "where": "Magyarország",
+  "when": "2013–2015",
+  "what": "A Munkahelyvédelmi Akcióterv: járulékkedvezmény fiatal, alacsony képzettségű és idős munkavállalók foglalkoztatása után (célzott munkaerőköltség-csökkentés).",
+  "numbers": "A foglalkoztatási ráta összesen 1,2 százalékponttal nőtt a bevezetés után három évvel; a fiatal és alacsony képzettségű csoportnál magas, az idősnél csak csekély volt a hatás.",
+  "source": "https://ideas.repec.org/a/pfq/journl/v64y2019i1p72-92.html"
+ },
+ {
+  "key": "koltsegvetes-uniosforras-03|Lengyelország|https://ec.europa.eu/regional_policy/sources/evaluation/expost2013/wp1_pl_report_en.pdf",
+  "id": "koltsegvetes-uniosforras-03",
+  "where": "Lengyelország",
+  "when": "2007–2013",
+  "what": "Uniós kohéziós alapok (ERDF és Kohéziós Alap) felhasználása főleg közlekedésre, vállalkozásokra, környezetvédelemre.",
+  "numbers": "57,2 Mrd euró (a GDP 2,3%-a, a kormányzati beruházások 41%-a); az Európai Bizottság becslése szerint a GDP 2015-ben több mint 4%-kal, 2023-ban csaknem 6%-kal magasabb a támogatás nélküli szintnél; közvetlenül 87 427 bruttó munkahely.",
+  "source": "https://ec.europa.eu/regional_policy/sources/evaluation/expost2013/wp1_pl_report_en.pdf"
+ },
+ {
+  "key": "munka-bertranszparencia-05|Dánia|https://www.nber.org/papers/w25435",
+  "id": "munka-bertranszparencia-05",
+  "where": "Dánia",
+  "when": "2006–",
+  "what": "Kötelező nemek szerint bontott bérstatisztika a cégeknek (2006-os törvény).",
+  "numbers": "A nemi bérkülönbség kb. 2 százalékponttal, a törvény előtti átlag 13%-ával csökkent, főleg a férfiak lassabb bérnövekedése miatt; a bérköltség csökkent, a profitabilitás nem változott (NBER w25435).",
+  "source": "https://www.nber.org/papers/w25435"
+ },
+ {
+  "key": "afa-kulcs-01|Finnország|https://ideas.repec.org/p/fer/wpaper/52.html",
+  "id": "afa-kulcs-01",
+  "where": "Finnország",
+  "when": "2010",
+  "what": "A vendéglátás áfájának csökkentése 22%-ról 13%-ra.",
+  "numbers": "Az éttermek átlagosan kb. 2%-kal csökkentették az árat, ez a teljes átgurulás kb. negyede; a nagyobb éttermek gyakrabban csökkentettek; nem nőtt az eladott szolgáltatás és a bérköltség.",
+  "source": "https://ideas.repec.org/p/fer/wpaper/52.html"
+ },
+ {
+  "key": "lakas-airbnb-01|Barcelona (Garcia-López és társai)|https://econpapers.repec.org/RePEc:uab:wprdea:wpdea2006",
+  "id": "lakas-airbnb-01",
+  "where": "Barcelona (Garcia-López és társai)",
+  "when": "2020",
+  "what": "Az Airbnb-aktivitás hatásának becslése a barcelonai lakbérekre és lakásárakra (szabályozatlan rövid távú kiadás).",
+  "numbers": "Az átlagos városnegyedben a bérleti díj +1,9%, az ingatlan-tranzakciós ár +4,6%, a meghirdetett ár +3,7%; a legerősebb Airbnb-aktivitású tizedben kb. +7% bérleti díj, +17% tranzakciós ár.",
+  "source": "https://econpapers.repec.org/RePEc:uab:wprdea:wpdea2006"
+ },
+ {
+  "key": "vagyon-ingatlanado-03|Magyarország|https://data.consilium.europa.eu/doc/document/ST-16801-2025-ADD-13/en/pdf",
+  "id": "vagyon-ingatlanado-03",
+  "where": "Magyarország",
+  "when": "2023",
+  "what": "Az ismétlődő ingatlanadó szintje.",
+  "numbers": "A GDP 0,3%-a az uniós 0,9%-os átlaggal szemben.",
+  "source": "https://data.consilium.europa.eu/doc/document/ST-16801-2025-ADD-13/en/pdf"
+ },
+ {
+  "key": "igazsag-kozbeszerzes-03|Magyarország (Single Market Scoreboard 2024)|https://single-market-scoreboard.ec.europa.eu/node/315_cs",
+  "id": "igazsag-kozbeszerzes-03",
+  "where": "Magyarország (Single Market Scoreboard 2024)",
+  "when": "2024",
+  "what": "Az egyajánlatos közbeszerzések aránya az uniós adatokban.",
+  "numbers": "Magyarország 34%, az EU-átlag 28% (2024) (Európai Bizottság, Single Market Scoreboard).",
+  "source": "https://single-market-scoreboard.ec.europa.eu/node/315_cs"
+ },
+ {
+  "key": "afa-elelmiszer-02|Magyarország|https://econpapers.repec.org/RePEc:pfq:journl:v:63:y:2018:i:3:p:355-375",
+  "id": "afa-elelmiszer-02",
+  "where": "Magyarország",
+  "when": "2016–2017",
+  "what": "Áfa-csökkentés sertéshúsra, csirkére, tejre, tojásra és a vendéglátásra (szintetikus kontroll módszer).",
+  "numbers": "Szinte teljes átgurulás sertés- és csirkehúsnál; részleges tejnél és tojásnál; a vendéglátásnál a csökkentés nem jelent meg a fogyasztói árakban (a számszerű becslések a teljes szövegben vannak).",
+  "source": "https://econpapers.repec.org/RePEc:pfq:journl:v:63:y:2018:i:3:p:355-375"
+ },
+ {
+  "key": "munka-minimalber-01|Magyarország (Kertesi–Köllő)|https://econpapers.repec.org/RePEc:iza:izadps:dp970",
+  "id": "munka-minimalber-01",
+  "where": "Magyarország (Kertesi–Köllő)",
+  "when": "2001–2002",
+  "what": "2001 januárjában a minimálbér 25 500 Ft-ról 40 000 Ft-ra (kb. +57%), egy évvel később 50 000 Ft-ra nőtt.",
+  "numbers": "A tanulmány szerint az emelés érdemben növelte a munkaerőköltséget és csökkentette a foglalkoztatást a kisvállalati szektorban, rontotta az alacsony bérűek állásmegtartási és állásszerzési esélyét; a regionális egyenlőtlenségek nőttek. Pontos százalékos hatás az absztraktban nem szerepel.",
+  "source": "https://econpapers.repec.org/RePEc:iza:izadps:dp970"
+ },
+ {
+  "key": "media-kozmedia-01|Magyarország (Reuters Institute Digital News Report 2025)|https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025/hungary",
+  "id": "media-kozmedia-01",
+  "where": "Magyarország (Reuters Institute Digital News Report 2025)",
+  "when": "2025",
+  "what": "A Reuters Institute éves reprezentatív felmérése a magyar hírfogyasztásról; országoldal.",
+  "numbers": "A közszolgálati média iránti bizalom 23% (előző évhez képest -7 százalékpont); a hírek iránti általános bizalom 22%, a 48 vizsgált piac közül az utolsó (Görögországgal holtversenyben).",
+  "source": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025/hungary"
+ },
+ {
+  "key": "vallalkozas-kkv-02|Észtország|https://mjtoimetised.ut.ee/febpdf/febawb81.pdf",
+  "id": "vallalkozas-kkv-02",
+  "where": "Észtország",
+  "when": "2000–",
+  "what": "Az újra befektetett nyereség adómentessége, adó csak az osztalékra (az észt vállalati adó).",
+  "numbers": "Az eladósodottság átlagosan 7 százalékponttal esett; a likvid eszközök aránya 2–3 pontot nőtt (a 10 fő alatti cégeknél majdnem kétszer); a bevételi tartalékok aránya 11 ponttal nőtt; pozitív hatás a beruházásra és termelékenységre, főleg a szolgáltatásoknál (Lettországhoz és Litvániához képest).",
+  "source": "https://mjtoimetised.ut.ee/febpdf/febawb81.pdf"
+ },
+ {
+  "key": "lakas-lakber-01|Berlin (Mietendeckel, ifo)|https://www.ifo.de/publikationen/2022/aufsatz-zeitschrift/entwicklungen-am-berliner-immobilienmarkt-ein-jahr-nach-dem",
+  "id": "lakas-lakber-01",
+  "where": "Berlin (Mietendeckel, ifo)",
+  "when": "2020–2021",
+  "what": "Berlin 5 éves lakbér-befagyasztás/plafon, majd az Alkotmánybíróság 2021 áprilisában megsemmisítette.",
+  "numbers": "A bérlakás-hirdetések száma a bevezetés után akár 60%-kal esett és az eltörlés után is alacsony maradt; a szabályozott lakások lakbére érdemben csökkent, a szabályozatlanoké a többi nagyvárosnál jobban nőtt (ifo Schnelldienst 2022).",
+  "source": "https://www.ifo.de/publikationen/2022/aufsatz-zeitschrift/entwicklungen-am-berliner-immobilienmarkt-ein-jahr-nach-dem"
+ },
+ {
+  "key": "kozbiztonsag-rendorseg-01|Egyesült Államok (Chalfin–McCrary)|https://econpapers.repec.org/RePEc:tpr:restat:v:100:y:2018:i:1:p:167-186",
+  "id": "kozbiztonsag-rendorseg-01",
+  "where": "Egyesült Államok (Chalfin–McCrary)",
+  "when": "1960–2010",
+  "what": "Mérési hibával korrigált becslés a rendőri létszám és bűnözés kapcsolatáról (Rev. Econ. Stat. 2018).",
+  "numbers": "A szerzők következtetése: az amerikai városok jelentősen alullétszámozottak; konkrét elaszticitás-érték az oldalon nincs.",
+  "source": "https://econpapers.repec.org/RePEc:tpr:restat:v:100:y:2018:i:1:p:167-186"
+ },
+ {
+  "key": "szocialis-alapjov-01|Kenya (GiveDirectly)|https://www.econometricsociety.org/publications/econometrica/2022/11/01/General-Equilibrium-Effects-of-Cash-Transfers-Experimental-Evidence-From-Kenya",
+  "id": "szocialis-alapjov-01",
+  "where": "Kenya (GiveDirectly)",
+  "when": "2014–2017",
+  "what": "Egyszeri, kb. 1000 USD-s feltétel nélküli pénzátutalás 10 500+ szegény háztartásnak 653 faluban (randomizált kísérlet).",
+  "numbers": "Helyi transzfer-szorzó 2,5; az átutalás a helyi GDP több mint 15%-a volt, mégis 'minimális áraemelkedés' (Econometrica 2022).",
+  "source": "https://www.econometricsociety.org/publications/econometrica/2022/11/01/General-Equilibrium-Effects-of-Cash-Transfers-Experimental-Evidence-From-Kenya"
+ },
+ {
+  "key": "lakas-hitel-01|Magyarország (MNB, Hajnal–Winkler)|https://www.mnb.hu/letoltes/hajnal-gabor-winkler-sandor-mennyiben-tamogattak-az-otthonteremtesi-kedvezmenyek-a-lakasvasarlast.pdf",
+  "id": "lakas-hitel-01",
+  "where": "Magyarország (MNB, Hajnal–Winkler)",
+  "when": "2016–2021",
+  "what": "A CSOK 2016-os bővítésének és a Babaváró hitelnek (2019) hatása a lakásvásárlás elérhetőségére az MNB lakásmegfizethetőségi mutatója alapján.",
+  "numbers": "Egy vidéki kétgyerekes családnál 20%-kal, háromgyerekesnél 70%-kal csökkent az új lakáshoz szükséges hitelösszeg; budapesti háromgyerekes családnál 30% felett (Babaváróval kb. 40%); a maximális CSOK csak új lakásra járt, ami a tranzakciók kb. 12%-a; a budapesti lakásárak 2013–2019 között háromszorosukra nőttek; gyermeket nem vállalók számára az elérhetőség romlott.",
+  "source": "https://www.mnb.hu/letoltes/hajnal-gabor-winkler-sandor-mennyiben-tamogattak-az-otthonteremtesi-kedvezmenyek-a-lakasvasarlast.pdf"
+ },
+ {
+  "key": "csalad-bolcsode-01|Québec (Kanada, Baker–Gruber–Milligan)|https://www.nber.org/papers/w11832",
+  "id": "csalad-bolcsode-01",
+  "where": "Québec (Kanada, Baker–Gruber–Milligan)",
+  "when": "1997–",
+  "what": "Napi 5 dolláros általános bölcsőde/óvoda-hozzáférés.",
+  "numbers": "Az ellátásban lévő 0–4 évesek aránya 14 százalékponttal nőtt a többi tartományhoz képest (kb. a kiindulási szint egyharmada); az anyai munkakínálat rugalmassága 0,236; a gyerekek viselkedési és egészségi mutatói romlottak (NBER w11832).",
+  "source": "https://www.nber.org/papers/w11832"
+ },
+ {
+  "key": "szja-minimalber-03|Svédország|https://econpapers.repec.org/RePEc:eee:labeco:v:55:y:2018:i:c:p:163-177",
+  "id": "szja-minimalber-03",
+  "where": "Svédország",
+  "when": "2007–2009",
+  "what": "A fiatalok munkáltatói járulékának nagyarányú csökkentése.",
+  "numbers": "A munkaerő-keresleti rugalmasság kb. -0,3; szignifikáns, de kis hatás a foglalkoztatásra és a bérekre; a fiatalabbaknál kb. négyszer erősebb; óraszámra nincs hatás; a jogosultság megszűnése után alig marad tartós hatás.",
+  "source": "https://econpapers.repec.org/RePEc:eee:labeco:v:55:y:2018:i:c:p:163-177"
+ },
+ {
+  "key": "szja-jarulek-04|Magyarország|https://ideas.repec.org/a/pfq/journl/v64y2019i1p72-92.html",
+  "id": "szja-jarulek-04",
+  "where": "Magyarország",
+  "when": "2013–2015",
+  "what": "A Munkahelyvédelmi Akcióterv: járulékkedvezmény fiatal, alacsony képzettségű és idős munkavállalók foglalkoztatása után (célzott munkaerőköltség-csökkentés).",
+  "numbers": "A foglalkoztatási ráta összesen 1,2 százalékponttal nőtt a bevezetés után három évvel; a fiatal és alacsony képzettségű csoportnál magas, az idősnél csak csekély volt a hatás.",
+  "source": "https://ideas.repec.org/a/pfq/journl/v64y2019i1p72-92.html"
+ },
+ {
+  "key": "munka-kozmunka-01|Magyarország (MNB Occasional Paper 2022/145)|https://econpapers.repec.org/RePEc:mnb:opaper:2022/145",
+  "id": "munka-kozmunka-01",
+  "where": "Magyarország (MNB Occasional Paper 2022/145)",
+  "when": "2011–2019",
+  "what": "Szabó Lajos az Államkincstár adataiból követte a közmunkások pályáját a program után.",
+  "numbers": "Kb. 676 ezer résztvevő; kb. kétharmaduk korábban inaktív volt; a kilépés utáni évben az idő kb. 15%-át (2012-es kilépők) illetve kb. 25%-át (2018-as kilépők) töltötték elsődleges munkaerőpiaci foglalkoztatásban; átlagos programidő 1,5 év felett, a legelmaradottabb járásokban 3 év felett.",
+  "source": "https://econpapers.repec.org/RePEc:mnb:opaper:2022/145"
+ },
+ {
+  "key": "afa-gyogyszer-04|Németország|https://www.ifo.de/publikationen/2020/working-paper/pass-through-temporary-vat-rate-cuts-german-supermarket-retail",
+  "id": "afa-gyogyszer-04",
+  "where": "Németország",
+  "when": "2020",
+  "what": "Átmeneti áfacsökkentés.",
+  "numbers": "Kb. 70% továbbhárítás, a verseny erősségével nő.",
+  "source": "https://www.ifo.de/publikationen/2020/working-paper/pass-through-temporary-vat-rate-cuts-german-supermarket-retail"
+ },
+ {
+  "key": "energia-paks2-01|Egyesült Királyság (Hinkley Point C)|https://www.nao.org.uk/wp-content/uploads/2026/05/sizewell-c-summary.pdf",
+  "id": "energia-paks2-01",
+  "where": "Egyesült Királyság (Hinkley Point C)",
+  "when": "2016–2026",
+  "what": "Az NAO 2026-os Sizewell C-jelentése benchmarkként használja az épülő HPC-t.",
+  "numbers": "Az NAO szerint a HPC 5–7 éves késéssel és kb. 100%-os költségtúllépéssel épül.",
+  "source": "https://www.nao.org.uk/wp-content/uploads/2026/05/sizewell-c-summary.pdf"
+ },
+ {
+  "key": "igazsag-vagyonvisszaszerzes-02|Európai Ügyészség|https://www.eppo.europa.eu/en/2025-numbers",
+  "id": "igazsag-vagyonvisszaszerzes-02",
+  "where": "Európai Ügyészség",
+  "when": "2025",
+  "what": "A zárolási végzések és a ténylegesen zárolt vagyon aránya.",
+  "numbers": "1,13 Mrd € zárolási végzés, ténylegesen zárolt vagyon 288,93 M €.",
+  "source": "https://www.eppo.europa.eu/en/2025-numbers"
+ }
+]

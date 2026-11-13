@@ -1,0 +1,209 @@
+[
+ {
+  "key": "koltsegvetes-uniosforras-03|Magyarország|https://www.mnb.hu/letoltes/eufa-wp-final.pdf",
+  "id": "koltsegvetes-uniosforras-03",
+  "where": "Magyarország",
+  "when": "2007–2013",
+  "what": "Gazdaságfejlesztési uniós támogatások kkv-knak, az MNB hatásvizsgálata.",
+  "numbers": "Szignifikáns pozitív hatás a foglalkoztatotti létszámra, árbevételre és bruttó hozzáadott értékre; a munkatermelékenységre egyik támogatási konstrukció sem hatott szignifikánsan; vissza nem térítendő és visszatérítendő támogatás között nincs szignifikáns különbség.",
+  "source": "https://www.mnb.hu/letoltes/eufa-wp-final.pdf"
+ },
+ {
+  "key": "vagyon-toke-04|Norvégia|https://econpapers.repec.org/RePEc:ces:ceswps:_2530",
+  "id": "vagyon-toke-04",
+  "where": "Norvégia",
+  "when": "2004–2006",
+  "what": "Az osztalék személyi adóztatásának bevezetése 2006-tól (0%-ról 28%-ra a legfelső határkulcs), előre bejelentve.",
+  "numbers": "A kifizetések 2006 előtt megugrottak, utána élesen visszaestek; a cégek adósságrátája a reform után erősen csökkent; az osztalékemelés nagy része a tőke visszapumpálásával ellensúlyozódott.",
+  "source": "https://econpapers.repec.org/RePEc:ces:ceswps:_2530"
+ },
+ {
+  "key": "afa-egeszsegado-03|Mexikó|https://www.bmj.com/content/352/bmj.h6704",
+  "id": "afa-egeszsegado-03",
+  "where": "Mexikó",
+  "when": "2014",
+  "what": "Üdítőital-jövedéki adó.",
+  "numbers": "Az adózott italok vásárlása 2014-ben átlagosan 6%-kal esett, decemberre 12%-kal; az adómentes italok kb. 4%-kal nőttek.",
+  "source": "https://www.bmj.com/content/352/bmj.h6704"
+ },
+ {
+  "key": "oktatas-tankotelezettseg-02|Finnország|https://valtioneuvosto.fi/en/-/56901608/compulsory-education-to-be-extended-in-2021",
+  "id": "oktatas-tankotelezettseg-02",
+  "where": "Finnország",
+  "when": "2021–",
+  "what": "A tankötelezettség 18 éves korig (vagy középfokú képesítés megszerzéséig) tart; a középfokú oktatás, tankönyvek és eszközök ingyenesek.",
+  "numbers": "Minimális iskolaelhagyási kor 18; a 2021 tavaszán 9. évfolyamos diákok voltak az elsők; az oldal költség- vagy hatásszámot nem közöl.",
+  "source": "https://valtioneuvosto.fi/en/-/56901608/compulsory-education-to-be-extended-in-2021"
+ },
+ {
+  "key": "szja-szerkezet-01|Magyarország (2007-es különadó)|https://www.mnb.hu/letoltes/wp-2011-11.pdf",
+  "id": "szja-szerkezet-01",
+  "where": "Magyarország (2007-es különadó)",
+  "when": "2007–2008",
+  "what": "Magas jövedelműek különadójának bevezetése; az adóbevallási panel alapján becsülték a magas jövedelműek reakcióját.",
+  "numbers": "Az adóköteles jövedelem rugalmassága kb. 0,2; a felső kulcs 1 százalékpontos emelésének többletbevételét a viselkedési válasz kb. 60%-kal csökkentené (MNB WP 2011/11).",
+  "source": "https://www.mnb.hu/letoltes/wp-2011-11.pdf"
+ },
+ {
+  "key": "agrar-fold-01|Európai Unió (Európai Számvevőszék, BPS)|https://www.eca.europa.eu/Lists/ECADocuments/INSR18_10/INSR_BPS_EN.pdf",
+  "id": "agrar-fold-01",
+  "where": "Európai Unió (Európai Számvevőszék, BPS)",
+  "when": "2015–2018",
+  "what": "Az alapjövedelem-támogatási rendszer (BPS) értékelése a 2013-as KAP-reform után.",
+  "numbers": "Éves kiadás kb. 18 Mrd euró, kb. 4 millió gazdálkodó; a területalapú támogatás a nagyobb gazdaságokat favorizálja (pontos koncentrációs arány a jelentés ismertetőjében nem szerepel).",
+  "source": "https://www.eca.europa.eu/Lists/ECADocuments/INSR18_10/INSR_BPS_EN.pdf"
+ },
+ {
+  "key": "afa-elelmiszer-02|Eurózóna (17 ország)|https://econpapers.repec.org/RePEc:imf:imfwpa:15/214",
+  "id": "afa-elelmiszer-02",
+  "where": "Eurózóna (17 ország)",
+  "when": "1999–2013",
+  "what": "Áfa-kulcsváltozások átgurulása a fogyasztói árakba (IMF-tanulmány).",
+  "numbers": "Az általános kulcs változásánál kb. 100%-os átgurulás; a kedvezményes kulcs változásánál kb. 30%; az átsorolásnál lényegében 0.",
+  "source": "https://econpapers.repec.org/RePEc:imf:imfwpa:15/214"
+ },
+ {
+  "key": "igazsag-eppo-01|Európai Ügyészség|https://www.eppo.europa.eu/en/2025-numbers",
+  "id": "igazsag-eppo-01",
+  "where": "Európai Ügyészség",
+  "when": "2025",
+  "what": "Az EPPO 2025-ös működése a tagállamokban.",
+  "numbers": "3602 aktív nyomozás, becsült kár 67,27 Mrd €; 2025-ben 2030 új nyomozás (+35%); bírói zárolási végzések 1,13 Mrd € értékben, de ténylegesen zárolt vagyon 288,93 M €.",
+  "source": "https://www.eppo.europa.eu/en/2025-numbers"
+ },
+ {
+  "key": "gazd-arresstop-01|Magyarország|https://www.portfolio.hu/en/economy/20251008/hungarian-central-bank-reveals-how-much-inflation-would-be-without-margin-caps-791738",
+  "id": "gazd-arresstop-01",
+  "where": "Magyarország",
+  "when": "2025–2026",
+  "what": "Az MNB elemzése az árrésstop inflációs hatásáról.",
+  "numbers": "A kezdeti hatás kb. 0,8 pp, később kb. 1,2–1,5 pp inflációcsökkentés; az MNB szerint a kivezetés hasonló nagyságú visszapattanást okozhat.",
+  "source": "https://www.portfolio.hu/en/economy/20251008/hungarian-central-bank-reveals-how-much-inflation-would-be-without-margin-caps-791738"
+ },
+ {
+  "key": "afa-kulcs-01|Magyarország|https://econpapers.repec.org/RePEc:pfq:journl:v:63:y:2018:i:3:p:355-375",
+  "id": "afa-kulcs-01",
+  "where": "Magyarország",
+  "when": "2016–2017",
+  "what": "Áfa-csökkentés sertéshúsra, csirkére, tejre, tojásra és a vendéglátásra (szintetikus kontroll módszer).",
+  "numbers": "Szinte teljes átgurulás sertés- és csirkehúsnál; részleges tejnél és tojásnál; a vendéglátásnál a csökkentés nem jelent meg a fogyasztói árakban (a számszerű becslések a teljes szövegben vannak).",
+  "source": "https://econpapers.repec.org/RePEc:pfq:journl:v:63:y:2018:i:3:p:355-375"
+ },
+ {
+  "key": "afa-elelmiszer-02|Németország|https://www.ifo.de/publikationen/2020/working-paper/pass-through-temporary-vat-rate-cuts-german-supermarket-retail",
+  "id": "afa-elelmiszer-02",
+  "where": "Németország",
+  "when": "2020",
+  "what": "Átmeneti áfacsökkentés.",
+  "numbers": "Kb. 70%-os továbbhárítás; erősebb verseny mellett nagyobb.",
+  "source": "https://www.ifo.de/publikationen/2020/working-paper/pass-through-temporary-vat-rate-cuts-german-supermarket-retail"
+ },
+ {
+  "key": "oktatas-berek-01|Egyesült Államok (Dallas ISD)|https://www.nber.org/papers/w31073",
+  "id": "oktatas-berek-01",
+  "where": "Egyesült Államok (Dallas ISD)",
+  "when": "2015–",
+  "what": "Az egységes bértábla helyett a bér teljes egészében az osztálytermi hatékonyságtól függött.",
+  "numbers": "Az NBER-tanulmány szerint nagy, szignifikáns, idővel növekvő matematika-hatás szintetikus kontrollhoz képest, olvasásban nincs egyértelmű javulás; a javulás nagy részét a tanári állomány összetételének változása magyarázza (hatásméret az absztraktban nincs).",
+  "source": "https://www.nber.org/papers/w31073"
+ },
+ {
+  "key": "kozbiztonsag-rendorseg-01|Egyesült Államok (Chalfin et al.)|https://econpapers.repec.org/RePEc:nbr:nberwo:28202",
+  "id": "kozbiztonsag-rendorseg-01",
+  "where": "Egyesült Államok (Chalfin et al.)",
+  "when": "1960–2010-es városi panelek",
+  "what": "Nagyobb rendőri létszám hatása az emberölésekre (NBER 28202; AER: Insights 2022).",
+  "numbers": "Egy további rendőr kb. 0,1 emberölést előz meg; a fejenkénti hatás kétszer akkora a fekete áldozatoknál; ugyanakkor több alacsony szintű (életminőségi) letartóztatás.",
+  "source": "https://econpapers.repec.org/RePEc:nbr:nberwo:28202"
+ },
+ {
+  "key": "munka-bertranszparencia-05|Egyesült Királyság|https://www.aeaweb.org/research/chart/pay-transparency-gender-equality",
+  "id": "munka-bertranszparencia-05",
+  "where": "Egyesült Királyság",
+  "when": "2017–",
+  "what": "2017-es rendelet: 250+ fős cégek közzéteszik a nemi bérkülönbséget (2018-tól).",
+  "numbers": "A rés kb. 20%-kal csökkent, teljesen a férfiak kb. 3%-kal lassabb bérnövekedése miatt; a nők bére nem nőtt a szabály hatására (AEA Research Highlights, Blundell és társai 2025).",
+  "source": "https://www.aeaweb.org/research/chart/pay-transparency-gender-equality"
+ },
+ {
+  "key": "vallalkozas-tao-01|Írország|https://www.fiscalcouncil.ie/wp-content/uploads/2026/02/Corporation-tax-slides-conference_2026.pdf",
+  "id": "vallalkozas-tao-01",
+  "where": "Írország",
+  "when": "2015–2024",
+  "what": "12,5%-os tao, a multinacionális bevétel összpontosulása.",
+  "numbers": "A társasági adó az adóbevétel több mint negyede (korábban kb. 13%), a 10 legnagyobb csoport 2024-ben közel 60%-ot adott.",
+  "source": "https://www.fiscalcouncil.ie/wp-content/uploads/2026/02/Corporation-tax-slides-conference_2026.pdf"
+ },
+ {
+  "key": "gazd-kkv-01|Olaszország (Fondo Centrale di Garanzia)|https://econpapers.repec.org/RePEc:bdi:wptemi:td_1265_20",
+  "id": "gazd-kkv-01",
+  "where": "Olaszország (Fondo Centrale di Garanzia)",
+  "when": "2020-as értékelés",
+  "what": "A kkv-k hitelgarancia-alapja; az alapra való jogosultságot eszközváltozóként használó értékelés (Bank of Italy).",
+  "numbers": "A garantált cégek többlethitele a teljes banki kitettségük 7–8%-a, a lejáratú hitelek kamata kb. 50 bázisponttal alacsonyabb; a hatás a közepes kockázatú cégeknél koncentrálódik.",
+  "source": "https://econpapers.repec.org/RePEc:bdi:wptemi:td_1265_20"
+ },
+ {
+  "key": "afa-kulcs-01|Eurózóna (17 ország)|https://econpapers.repec.org/RePEc:imf:imfwpa:15/214",
+  "id": "afa-kulcs-01",
+  "where": "Eurózóna (17 ország)",
+  "when": "1999–2013",
+  "what": "Áfa-kulcsváltozások átgurulása a fogyasztói árakba (IMF-tanulmány).",
+  "numbers": "Az általános kulcs változásánál kb. 100%-os átgurulás; a kedvezményes kulcs változásánál kb. 30%; az átsorolásnál lényegében 0.",
+  "source": "https://econpapers.repec.org/RePEc:imf:imfwpa:15/214"
+ },
+ {
+  "key": "koltsegvetes-euro-02|Horvátország|https://ec.europa.eu/eurostat/documents/272892/7106809/euro-changeover-note-croatia-2023.pdf",
+  "id": "koltsegvetes-euro-02",
+  "where": "Horvátország",
+  "when": "2023",
+  "what": "Az euró bevezetése magas infláció idején.",
+  "numbers": "Eurostat: az euró havi inflációs hatása januártól márciusig 0,04–0,20 százalékpont; a horvát jegybank szerint 0,2–0,4 százalékpont.",
+  "source": "https://ec.europa.eu/eurostat/documents/272892/7106809/euro-changeover-note-croatia-2023.pdf"
+ },
+ {
+  "key": "vagyon-toke-04|Svájc|https://econpapers.repec.org/RePEc:cpr:ceprdp:14054",
+  "id": "vagyon-toke-04",
+  "where": "Svájc",
+  "when": "kantoni reformok",
+  "what": "Kantoni vagyonadó-kulcsok csökkentése/emelése (éves vagyonadó) és a bejelentett vagyon reakciója.",
+  "numbers": "1 százalékpontos kulcscsökkentés legalább 43%-kal növeli a bejelentett vagyont hat év alatt; ebből kb. 24% költözés, kb. 20% ingatlanár-tőkésítés, a maradék főleg adókikerülés.",
+  "source": "https://econpapers.repec.org/RePEc:cpr:ceprdp:14054"
+ },
+ {
+  "key": "lakas-lakber-01|San Francisco|https://www.aeaweb.org/doi/10.1257/aer.20181289",
+  "id": "lakas-lakber-01",
+  "where": "San Francisco",
+  "when": "1994–",
+  "what": "A lakbérszabályozás kiterjesztése kis, többlakásos épületekre.",
+  "numbers": "A bérlők mobilitása kb. 20%-kal csökkent; a szabályozott tulajdonosok kb. 15%-kal csökkentették a bérlakás-kínálatot (Diamond–McQuade–Qian, AER 2019).",
+  "source": "https://www.aeaweb.org/doi/10.1257/aer.20181289"
+ },
+ {
+  "key": "munka-vendegmunka-01|Kanada (ideiglenes külföldi munkavállalók, 2014-es szigorítás)|https://www.iza.org/publications/dp/18240/the-wage-effects-of-restricting-temporary-foreign-workers-evidence-from-canadas-2014-tfwp-reforms",
+  "id": "munka-vendegmunka-01",
+  "where": "Kanada (ideiglenes külföldi munkavállalók, 2014-es szigorítás)",
+  "when": "2014–",
+  "what": "Az alacsony bérű ideiglenes külföldi munkavállalók (TFWP) alkalmazásának korlátozása; különbség-a-különbségben becslés a Munkaerő-felmérés 2005–2019-es adatain.",
+  "numbers": "A korlátozás a TFW-intenzív foglalkozásokban dolgozó hazai munkavállalók bérét 3,7–4,5%-kal emelte.",
+  "source": "https://www.iza.org/publications/dp/18240/the-wage-effects-of-restricting-temporary-foreign-workers-evidence-from-canadas-2014-tfwp-reforms"
+ },
+ {
+  "key": "szja-jarulek-04|Magyarország|https://econpapers.repec.org/RePEc:pfq:journl:v:58:y:2013:i:4:p:369-385",
+  "id": "szja-jarulek-04",
+  "where": "Magyarország",
+  "when": "2011–2013",
+  "what": "A 16%-os egykulcsos szja bevezetése (2011) a progresszív szerkezet helyett.",
+  "numbers": "Statikus mikroszimuláció: évi 444 Mrd Ft bevételkiesés; ennek 74%-a a két legfelső jövedelmi tizedben élő gyermektelen adózóknál növelte a nettó jövedelmet.",
+  "source": "https://econpapers.repec.org/RePEc:pfq:journl:v:58:y:2013:i:4:p:369-385"
+ },
+ {
+  "key": "szocialis-munkanelkuli-01|Magyarország (2005-ös reform)|https://www.aeaweb.org/doi/10.1257/app.20180138",
+  "id": "szocialis-munkanelkuli-01",
+  "where": "Magyarország (2005-ös reform)",
+  "when": "2005. nov.–",
+  "what": "A munkanélküli-segély 'előretöltése': aki 2005. nov. 1. után igényelt, magasabb, de rövidebb ideig járó ellátást kapott.",
+  "numbers": "A nem-foglalkoztatás időtartama kb. 2 héttel rövidült, az újrafoglalkoztatási bér 1,4%-kal nőtt (AEJ: Applied 2020).",
+  "source": "https://www.aeaweb.org/doi/10.1257/app.20180138"
+ }
+]

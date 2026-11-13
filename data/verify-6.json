@@ -1,0 +1,182 @@
+[
+ {
+  "key": "egeszsegugy-varolista-04|Anglia (NHS)|https://www.bma.org.uk/advice-and-support/nhs-delivery-and-workforce/pressures/nhs-backlog-data-analysis",
+  "status": "partly",
+  "note": "Az oldal a 2026. szeptemberi RTT-adatot adja (7,38 M lista, kb. 2,52 M 18 hétnél hosszabb, kb. 116 000 egy évnél hosszabb), nem az augusztusit/áprilisit; a 65%-os cél teljesüléséről nem szól, a 92%-ot 2029 márciusára ígérik.",
+  "correct": "7,38 M várakozó (2026 szept.), kb. 2,52 M >18 hét, kb. 116 000 >52 hét"
+ },
+ {
+  "key": "afa-elelmiszer-02|Spanyolország|https://repositorio.bde.es/bitstream/123456789/36652/4/dt2417e.pdf",
+  "status": "unreachable",
+  "note": "A BdE PDF HTTP 400-at adott, az alternatív bde.es/repozitórium linkek is hibára (404/400) futottak.",
+  "correct": null
+ },
+ {
+  "key": "szja-jarulek-04|Magyarország|https://old.kti.krtk.hu/lmyb2019_infocus_5_3",
+  "status": "confirmed",
+  "note": "A kti.krtk.hu PDF szerint a 25 év alattiak foglalkoztatási valószínűsége 2015-re 2,6%-kal nőtt a kontrollcsoporthoz képest (55 felettieknél 0,8%).",
+  "correct": null
+ },
+ {
+  "key": "vagyon-oroklesi-02|OECD-országok|https://taxfoundation.org/data/all/global/inheritance-estate-and-gift-taxes-oecd/",
+  "status": "confirmed",
+  "note": "Mind az 5 szám szerepel (0,36%, 0,56%, 24 ország, 10 eltörölte, 1,27% 1965); az 1,27% azonban a kormányzati bevétel, nem az összes adóbevétel része.",
+  "correct": null
+ },
+ {
+  "key": "igazsag-kozbeszerzes-03|Ukrajna (ProZorro)|https://open-contracting.org/?p=2774",
+  "status": "confirmed",
+  "note": "15%-os ajánlatszám-növekedés, 14,1% (2016 közepe) és 9,6% (2017 márc.) szerepel; a ~20% megtakarítás 'több mint három' ajánlattevőnél lehetséges, nem garantált.",
+  "correct": null
+ },
+ {
+  "key": "vallalkozas-minimumado-04|Írország|https://www.fiscalcouncil.ie/wp-content/uploads/2026/02/Corporation-tax-slides-conference_2026.pdf",
+  "status": "partly",
+  "note": "A PDF-ben szerepel, hogy a 10 legnagyobb csoport 2024-ben az összes társasági adó közel 60%-át adta (59%), de a Pillar Two/15%-os minimum állítás szövege nem olvasható ki a diákból.",
+  "correct": null
+ },
+ {
+  "key": "nyugdij-idosgondozas-01|Japán|https://healthsystemsfacts.org/japan-aging",
+  "status": "confirmed",
+  "note": "A 2,7%, az egytizedről egynegyedre növekedés (Ikegami–Rice, nem OECD) és az 1 218 498 / 477 434 FTE mind az oldalon van.",
+  "correct": null
+ },
+ {
+  "key": "oktatas-berek-01|OECD-átlag|https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/how-much-are-teachers-and-school-heads-paid_a6233c97",
+  "status": "unreachable",
+  "note": "Az OECD oldal HTTP 403-at adott.",
+  "correct": null
+ },
+ {
+  "key": "szocialis-rezsi-01|Németország|https://iwh-halle.de/fileadmin/user_upload/publications/iwh_discussion_papers/iwh-discussion-paper_2025-01_Gutsch_Schult.pdf",
+  "status": "confirmed",
+  "note": "Az IWH absztrakt szerint a nem célzott transzfer hatott a legerősebben rövid távon, a célzott költséghatékonyabb; az árfék hatása 'nagyon kicsi' volt, számszerű érték nincs.",
+  "correct": null
+ },
+ {
+  "key": "egeszsegugy-varolista-04|Anglia (keresletkezelés)|https://www.instituteforgovernment.org.uk/comment/government-nhs-elective-care-reform",
+  "status": "partly",
+  "note": "Az 1,8 M és 8,6% a 20,5 M-ból stimmel, de ez a listára kerülő hozzáadások (additions), nem beutalók csökkenése; az NHS 1,2 M kevesebb beutalós becslése szerepel.",
+  "correct": null
+ },
+ {
+  "key": "vallalkozas-kulonado-03|Európa|https://taxfoundation.org/data/all/eu/windfall-tax-europe/",
+  "status": "confirmed",
+  "note": "Spanyol energiacégek 1,2% (bankok 4,8%), Görögország legfeljebb 90%, EB legfeljebb 200 Mrd euró, olasz adó 11 Mrd helyett kb. 2 Mrd mind szerepel.",
+  "correct": null
+ },
+ {
+  "key": "oktatas-tankotelezettseg-02|Magyarország|https://op.europa.eu/webpub/eac/education-and-training-monitor/en/country-reports/hungary.html",
+  "status": "confirmed",
+  "note": "A jelentés szerint a roma lemorzsolódás 58,7%, a nem romáké 9,3% (2023).",
+  "correct": null
+ },
+ {
+  "key": "csalad-anyak-01|Lengyelország|https://www.niussp.org/fertility-and-reproduction/lessons-from-polands-pro-natalist-family-500-program/",
+  "status": "confirmed",
+  "note": "A cikk szerint a program 1,5 százalékponttal növelte a gyermekvállalás valószínűségét, a 31–40 évesek reagáltak legerősebben (0,7–1,8 pp), a 21–30 éveseknél csökkenés volt.",
+  "correct": null
+ },
+ {
+  "key": "szja-szerkezet-01|Szlovákia|https://www.york.ac.uk/media/economics/documents/discussionpapers/2015/1512.pdf",
+  "status": "partly",
+  "note": "A 19%-os egykulcs, a 2013-as 25%-os felső kulcs és a csekély makrohatás megvan, de a 377 M euró / 0,51% GDP nem szerepel a PDF-ben (a statikus bevételhatás +0,8% a PIT-bevételben).",
+  "correct": "2013-as kétkulcsos váltás: a személyi jövedelemadó-bevétel statikusan +0,8%"
+ },
+ {
+  "key": "munka-minimalber-01|Németország|https://www.iza.org/publications/dp/11190/imprint",
+  "status": "confirmed",
+  "note": "180 000 mini-job (2,4%) csökkenés és a rendszeres foglalkoztatásra jellemzően nem szignifikáns hatás szerepel (néhány becslés -78 000).",
+  "correct": null
+ },
+ {
+  "key": "csalad-babavaro-01|Magyarország|https://www.niussp.org/fertility-and-reproduction/evaluating-pronatalist-policies-with-tfr-brings-misleading-conclusions-examples-fromhungary/",
+  "status": "confirmed",
+  "note": "A TFR-növekedés elsősorban a szülések időzítésének változásából ered, a kohorsz-termékenységben nincs fordulat (TFR 1,25-ről 1,59-re).",
+  "correct": null
+ },
+ {
+  "key": "koltsegvetes-hiany-01|Svédország|https://cepr.org/index%2ephp/voxeu/columns/fiscal-consolidation-sweden-role-model",
+  "status": "unreachable",
+  "note": "A CEPR oldal HTTP 403-at adott.",
+  "correct": null
+ },
+ {
+  "key": "energia-orosz-01|Magyarország|https://ember-energy.org/latest-insights/turning-to-the-sun-solar-rise-in-central-europe/",
+  "status": "partly",
+  "note": "A 4% (2019) és közel 25% (2024) stimmel; a 28%-os 2025-ös arány és az import-összehasonlítás nincs a cikkben (csak júniusi 42% havi rekord).",
+  "correct": null
+ },
+ {
+  "key": "vallalkozas-kkv-02|Magyarország|https://telex.hu/g7/kozelet/2022/06/24/nem-veletlen-hogy-egy-koltsegvetesi-kiigazitas-kozben-nyul-a-kormany-a-tul-jol-sikerult-katahoz",
+  "status": "confirmed",
+  "note": "A Telex szerint a kisadózók száma 130 ezerről 450 ezerre nőtt (2015–2021), BKIK: 100–150 ezer vállalkozó használhatja; 'közteher', nem csak járulék.",
+  "correct": null
+ },
+ {
+  "key": "media-sport-01|Egyesült Királyság|https://theweek.com/olympics-2016/75856/how-the-national-lottery-turned-team-gb-into-world-beaters",
+  "status": "unreachable",
+  "note": "A cikk szövege csonkolt volt, a számok nem ellenőrizhetők.",
+  "correct": null
+ },
+ {
+  "key": "lakas-hitel-01|Anglia|https://www.gov.uk/government/publications/evaluation-of-the-help-to-buy-scheme",
+  "status": "not_found",
+  "note": "Az oldal csak az értékelés leírását adja; a 15%, 78%/62% nincs rajta (a kapcsolódó jelentésekben lehet).",
+  "correct": null
+ },
+ {
+  "key": "egeszsegugy-varolista-04|Anglia (NHS, 2009–2026)|https://www.nuffieldtrust.org.uk/resource/treatment-waiting-times",
+  "status": "confirmed",
+  "note": "4,4 M (2020 feb.), 7,75 M csúcs (2023 aug.), 7,12 M (2026 feb.), 91,8% (2015 dec.) és 62,5% (2026 feb.) mind szerepel.",
+  "correct": null
+ },
+ {
+  "key": "koltsegvetes-euro-02|Szlovákia|https://www.bta.bg/en/news/890398-fiscal-council-of-bulgaria-analysis-euro-s-adoption-in-croatia-had-insignifican",
+  "status": "not_found",
+  "note": "A BTA cikk fizetőfal mögött van; az elérhető rész nem említi Szlovákiát, a 0,2–0,3 pp inflációt vagy a 4,3–6,3% kereskedelmi hatást.",
+  "correct": null
+ },
+ {
+  "key": "lakas-berlakas-01|Bécs (IBA Wien)|https://www.iba-wien.at/en/iba-wien/iba-wien-1-1-1-1-1",
+  "status": "confirmed",
+  "note": "220 000 önkormányzati, kb. 185 000 nonprofit (limited-profit) lakás, kb. 40%, kb. 60% támogatott lakásban, 4,97 EUR/m² mind szerepel.",
+  "correct": null
+ },
+ {
+  "key": "szocialis-gyermekszeg-01|Lengyelország|https://wol.iza.org/news/polands-child-benefit-decreases-female-labor-force-participation",
+  "status": "confirmed",
+  "note": "Az IZA szerint az anyák munkaerő-piaci részvétele 2017 közepére 2,4%-kal csökkent (az oldal nem különbözteti meg a %-ot és a százalékpontot).",
+  "correct": null
+ },
+ {
+  "key": "vagyon-vagyonado-01|Franciaország|https://strategie.gouv.fr/files/2025-01/avis-comite-evaluation-fiscalite-capital-septembre-2019.pdf",
+  "status": "partly",
+  "note": "A 360 000-ről 130 000-re esés megvan, de a 2019-es dokumentum nem tartalmazza a 2022-es >4 Mrd eurót (az IFI költsége kb. 3,1 Mrd euró) és a 'kevesebb mint 900 a 400 000-ből' sem szó szerint (évi átlag 750, csúcs 900 2013-ban).",
+  "correct": "A költségvetési költség kb. 3,1 Mrd euró (IFI 1,3 Mrd vs ISF 4,2 Mrd 2017-ben)"
+ },
+ {
+  "key": "igazsag-kozbeszerzes-03|Ukrajna (ProZorro)|https://ti-ukraine.org/en/?p=30649",
+  "status": "unreachable",
+  "note": "A TI Ukraine oldal HTTP 403-at adott; egy keresés szerint a 2024-es átlag 2,38 ajánlattevő (EBRD), a TI 1,79-ről 2,06-ra nőtt 2023 végéig, 1,88-at nem találtam.",
+  "correct": "Alternatív források: 2,38 (EBRD, 2024); 2,06 (TI, 2023 vége)"
+ },
+ {
+  "key": "kozlekedes-gyorsvasut-01|Magyarország–Szerbia|https://railwaynews.net/budapest-belgrade-rail-confirms-launch-delayed-to-sept-2026.html",
+  "status": "partly",
+  "note": "Az átadás legkorábban 2026 szept. és az 2,5–2,7 Mrd euró stimmel, de az 1,875 Mrd dolláros hitel, az 800 Mrd Ft és a 2025-ös eredeti dátum nincs az oldalon.",
+  "correct": null
+ },
+ {
+  "key": "csalad-bolcsode-01|Québec (Kanada)|https://www.nber.org/index%2ephp/papers/w35514",
+  "status": "partly",
+  "note": "Az NBER oldal csak minőségi állítást ad (tartós pozitív foglalkoztatási hatás, a keresethatás a részvételi hatás kétszerese); a 4 pp és 3,3% nincs rajta.",
+  "correct": null
+ },
+ {
+  "key": "media-kozmedia-01|Lengyelország|https://polskieradio.pl/395/7791/Artykul/3613718,polish-journalists’-association-urges-greater-funding-for-public-media",
+  "status": "partly",
+  "note": "A 2,5 Mrd zloty (~590 M euró) és az uniós 0,12% szerepel (a javaslat kb. 0,06% GDP), de a KRRiT 'látszat' állítás nincs rajta, és csak 'late 2023' szerepel, nem december.",
+  "correct": null
+ }
+]

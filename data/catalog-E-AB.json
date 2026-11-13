@@ -1,0 +1,89 @@
+[
+ {
+  "id": "munka-bertranszparencia-05",
+  "topic": "Munkaerőpiac és bérek",
+  "q": "Hogyan vezessük be a bértranszparenciát az EU 2023/970 irányelv szerint?",
+  "context": {
+   "fidesz": "Az irányelvet 2023 májusában fogadták el, átültetési határideje 2026. június 7. (CMS). Egy 2026. márciusi elemzés szerint a részletes szabályok előkészítése Magyarországon még nem kezdődött meg, tervezetet nem tettek közzé (Grant Thornton).",
+   "tisza": "[nincs ellenőrzött bejelentés] A 2026. szeptember 23-i uniós nyomkövető szerint Magyarországon nincs közzétett törvénytervezet és az irányelv átültetése nem történt meg; a határidő lejárt (Lockton). Konkrét Tisza-kormányzati tervet nem találtam.",
+   "sources": [
+    "https://global.lockton.com/us/en/news-insights/eu-pay-transparency-directive-implementation-status",
+    "https://grantthornton.hu/en/news/pay-transparency-part-1-where-does-hungarian-implementation-stand",
+    "https://cms.law/en/hun/legal-updates/hungary-may-miss-deadline-for-transposing-eu-s-pay-transparency-directive-what-should-hungarian-employers-expect"
+   ]
+  },
+  "options": [
+   {
+    "label": "Minimális átültetés: egyéni bérinformációs jog és jelentés a nagyobb cégeknek",
+    "pro": "Teljesíti az uniós kötelezettséget, mérsékelt költséggel.",
+    "con": "A hatás kicsi lehet, a kisebb cégekre nem terjed ki.",
+    "effects": {
+     "gdp": 0,
+     "infl": 0,
+     "wage": 1,
+     "housing": 0,
+     "health": 0,
+     "deficit": 0
+    }
+   },
+   {
+    "label": "Kiterjesztett rendszer: korai jelentés, izlandi típusú tanúsítás, állami ellenőrzés",
+    "pro": "Erősebb bérkülönbség-csökkentés, nagyobb átláthatóság.",
+    "con": "Jelentős adminisztratív és állami ellenőrzési költség, főleg kkv-knak.",
+    "effects": {
+     "gdp": -1,
+     "infl": 0,
+     "wage": 2,
+     "housing": 0,
+     "health": 0,
+     "deficit": -1
+    }
+   },
+   {
+    "label": "Lassú bevezetés: hosszú átmenet, útmutatók, kkv-mentességek",
+    "pro": "Kisebb teher a vállalkozásoknak.",
+    "con": "Késhet a hatás, nő a késedelem miatti uniós jogi kockázat.",
+    "effects": {
+     "gdp": 1,
+     "infl": 0,
+     "wage": 0,
+     "housing": 0,
+     "health": 0,
+     "deficit": 0
+    }
+   }
+  ],
+  "evidence": [
+   {
+    "where": "Dánia",
+    "when": "2006–",
+    "what": "Kötelező nemek szerint bontott bérstatisztika a cégeknek (2006-os törvény).",
+    "numbers": "A nemi bérkülönbség kb. 2 százalékponttal, a törvény előtti átlag 13%-ával csökkent, főleg a férfiak lassabb bérnövekedése miatt; a bérköltség csökkent, a profitabilitás nem változott (NBER w25435).",
+    "verdict": "vegyes",
+    "why": "Mért cél: nemi bérkülönbség; a rés zsugorodott, de nem a nők bére nőtt.",
+    "source": "https://www.nber.org/papers/w25435",
+    "confidence": "high"
+   },
+   {
+    "where": "Egyesült Királyság",
+    "when": "2017–",
+    "what": "2017-es rendelet: 250+ fős cégek közzéteszik a nemi bérkülönbséget (2018-tól).",
+    "numbers": "A rés kb. 20%-kal csökkent, teljesen a férfiak kb. 3%-kal lassabb bérnövekedése miatt; a nők bére nem nőtt a szabály hatására (AEA Research Highlights, Blundell és társai 2025).",
+    "verdict": "vegyes",
+    "why": "Mért cél: nemi bérkülönbség; a nyilvánosság egyedül nem javította a nők bérét.",
+    "source": "https://www.aeaweb.org/research/chart/pay-transparency-gender-equality",
+    "confidence": "high"
+   },
+   {
+    "where": "Izland",
+    "when": "2018–",
+    "what": "Egyenlő bér tanúsítás (ÍST 85) 25+ fős szervezeteknek, 3 évente megújítva.",
+    "numbers": "A bérkülönbség 20,5%-ról 13,8%-ra csökkent 2008–2019 között (munkaidőre korrigált), de a forrás nem ennek a szabálynak tulajdonítja; hátrány: erőforrás-igényes, szervezeten belüli egyenlőséget biztosít (Scottish Government kutatás).",
+    "verdict": "vegyes",
+    "why": "Mért cél: szervezeten belüli egyenlő bér; ok-okozati hatást a forrás nem mér.",
+    "source": "https://gov.scot/publications/international-mechanisms-revalue-womens-work-research-exploring-evaluating-international-mechanisms-aim-revalue-result-revaluation-womens-work/pages/13",
+    "confidence": "medium"
+   }
+  ]
+ }
+]

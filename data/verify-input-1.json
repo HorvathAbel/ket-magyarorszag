@@ -1,0 +1,209 @@
+[
+ {
+  "key": "vagyon-vagyonado-01|Skandinávia (Svédország, Dánia, Norvégia)|https://www.nber.org/papers/w32153",
+  "id": "vagyon-vagyonado-01",
+  "where": "Skandinávia (Svédország, Dánia, Norvégia)",
+  "when": "1990–2010-es évek",
+  "what": "Vagyonadó-változások hatása a gazdag adózók elvándorlására és a vállalkozásokra, adminisztratív adatok alapján.",
+  "numbers": "1 százalékpontos vagyonadó-kulcs-emelés kb. 2%-kal csökkenti a gazdag adózók számát; a foglalkoztatás -0,02%, a beruházás -0,07%, a hozzáadott érték -0,10% (NBER w32153).",
+  "source": "https://www.nber.org/papers/w32153"
+ },
+ {
+  "key": "igazsag-eppo-01|Európai Ügyészség|https://www.eppo.europa.eu/en/media/news/2024-annual-report-eppo-leading-charge-against-eu-fraud",
+  "id": "igazsag-eppo-01",
+  "where": "Európai Ügyészség",
+  "when": "2024",
+  "what": "Az EPPO 2024-es éves eredménye.",
+  "numbers": "2666 aktív nyomozás, 24,8 Mrd € becsült kár; 2,42 Mrd € zárolási végzés, ténylegesen 849 M € zárolt vagyon.",
+  "source": "https://www.eppo.europa.eu/en/media/news/2024-annual-report-eppo-leading-charge-against-eu-fraud"
+ },
+ {
+  "key": "afa-gyogyszer-04|35 ország|https://researchonline.lse.ac.uk/id/eprint/124243",
+  "id": "afa-gyogyszer-04",
+  "where": "35 ország",
+  "when": "2025",
+  "what": "Vényköteles gyógyszerek forgalmi adóztatása és forgalmazói árrések (LSE/Kanavos és mások).",
+  "numbers": "A 35 országból kb. 83% adóztatja a vényköteles gyógyszert, 63% a normál kulcsnál alacsonyabb áfával; az adók és árrések együtt az ex-factory ár 5–187%-át tették ki; a szerzők szerint az adó eltörlése azonnal csökkentené a gyógyszerek árát.",
+  "source": "https://researchonline.lse.ac.uk/id/eprint/124243"
+ },
+ {
+  "key": "kornyezet-co2-01|Svédország (Andersson 2019)|https://www.aeaweb.org/doi/10.1257/pol.20170144",
+  "id": "kornyezet-co2-01",
+  "where": "Svédország (Andersson 2019)",
+  "when": "1991–2005",
+  "what": "Szintetikus kontrollos vizsgálat a svéd szén-dioxid-adó közlekedési hatásáról (AEJ: Economic Policy).",
+  "numbers": "A közlekedési CO2-kibocsátás az adó bevezetése után majdnem 11%-kal csökkent a szintetikus kontrollhoz képest; a gázolajkereslet adórugalmassága háromszor nagyobb az árrugalmasságnál; nincs hiteles összefüggés a lassabb növekedéssel (AEA).",
+  "source": "https://www.aeaweb.org/doi/10.1257/pol.20170144"
+ },
+ {
+  "key": "gazd-fdi-01|Írország (tao-modell)|https://www.revenue.ie/ga/corporate/documents/research/ct-analysis-2025.pdf",
+  "id": "gazd-fdi-01",
+  "where": "Írország (tao-modell)",
+  "when": "2023–2024",
+  "what": "Nagy külföldi multicégekre épülő társasági adóbevétel.",
+  "numbers": "2024: nettó társasági adó 39 Mrd € (az adóbevétel 36%-a; a CJEU-ítélet egyszeri bevétele nélkül 28,1 Mrd €); top 10 cég 57%; külföldi multik 88%, ír multik 4%, hazai cégek 8%.",
+  "source": "https://www.revenue.ie/ga/corporate/documents/research/ct-analysis-2025.pdf"
+ },
+ {
+  "key": "munka-vendegmunka-01|Új-Zéland (RSE-program, Gibson–McKenzie)|https://repec.its.waikato.ac.nz/wai/econwp/1008_Gibson_Mckenzie.pdf",
+  "id": "munka-vendegmunka-01",
+  "where": "Új-Zéland (RSE-program, Gibson–McKenzie)",
+  "when": "2007–2010",
+  "what": "Szezonális vendégmunkás-program (Recognised Seasonal Employer) tongai és vanuatui munkásoknak, többéves követéses felméréssel értékelve.",
+  "numbers": "A részt vevő háztartások egy főre jutó jövedelme a kontrollcsoporthoz képest több mint 30%-kal nőtt (a cikk becslése Tongában kb. 34–38%); a program megnövelte a tartós fogyasztási cikkek vásárlását és Tongában a gyerekek iskoláztatását.",
+  "source": "https://repec.its.waikato.ac.nz/wai/econwp/1008_Gibson_Mckenzie.pdf"
+ },
+ {
+  "key": "agrar-tamogatas-01|Európai Unió (Európai Számvevőszék, BPS)|https://www.eca.europa.eu/Lists/ECADocuments/INSR18_10/INSR_BPS_EN.pdf",
+  "id": "agrar-tamogatas-01",
+  "where": "Európai Unió (Európai Számvevőszék, BPS)",
+  "when": "2015–2018",
+  "what": "Az alapjövedelem-támogatási rendszer (BPS) értékelése a 2013-as KAP-reform után.",
+  "numbers": "Éves kiadás kb. 18 Mrd euró, kb. 4 millió gazdálkodó; a területalapú támogatás a nagyobb gazdaságokat favorizálja (pontos koncentrációs arány a jelentés ismertetőjében nem szerepel).",
+  "source": "https://www.eca.europa.eu/Lists/ECADocuments/INSR18_10/INSR_BPS_EN.pdf"
+ },
+ {
+  "key": "kozbiztonsag-buntetes-02|Nemzetközi kutatás (Nagin; NIJ)|https://nij.ojp.gov/topics/articles/five-things-about-deterrence",
+  "id": "kozbiztonsag-buntetes-02",
+  "where": "Nemzetközi kutatás (Nagin; NIJ)",
+  "when": "2009–2013",
+  "what": "Elrettentés-szakirodalom összegzése (Nagin 2013; Nagin–Cullen–Johnson 2009).",
+  "numbers": "Az elkapás bizonyossága sokkal erősebb elrettentő, mint a büntetés súlya; a börtönbüntetés nem hatékony elrettentő; az elkövetők 2–5%-a okozza a bűncselekmények 50%+-át.",
+  "source": "https://nij.ojp.gov/topics/articles/five-things-about-deterrence"
+ },
+ {
+  "key": "koltsegvetes-euro-02|Szlovákia|https://ideas.repec.org/p/oec/ecoaaa/1317-en.html",
+  "id": "koltsegvetes-euro-02",
+  "where": "Szlovákia",
+  "when": "2009",
+  "what": "Az euró bevezetése (szintetikus kontroll becslés).",
+  "numbers": "A GDP/fő 2011-re kb. 10%-kal magasabb lett; ennek kétharmada már 2008-ban (várakozási hatás); a 2009-es recesszióban az önálló valuta kb. 2%-kal jobb helyzetet jelentett volna.",
+  "source": "https://ideas.repec.org/p/oec/ecoaaa/1317-en.html"
+ },
+ {
+  "key": "kozbiztonsag-kamera-04|Nemzetközi (80 tanulmány)|https://www.ojp.gov/ncjrs/virtual-library/abstracts/cctv-surveillance-crime-prevention-40-year-systematic-review-meta",
+  "id": "kozbiztonsag-kamera-04",
+  "where": "Nemzetközi (80 tanulmány)",
+  "when": "1970–2018",
+  "what": "40 éves szisztematikus áttekintés és metaelemzés a térfigyelés bűnmegelőző hatásáról.",
+  "numbers": "Mérsékelt, szignifikáns bűnözéscsökkenés; a legerősebb hatás parkolókban; kábítószer-bűncselekményeknél kb. 20%; az erőszakos bűncselekményekre nincs szignifikáns hatás; az aktív megfigyelés és a több beavatkozás együtt erősebb.",
+  "source": "https://www.ojp.gov/ncjrs/virtual-library/abstracts/cctv-surveillance-crime-prevention-40-year-systematic-review-meta"
+ },
+ {
+  "key": "kozlekedes-berlet-01|Németország (Deutschlandticket)|https://www.bmv.de/SharedDocs/DE/Pressemitteilungen/2026/027-schnieder-evaluation-deutschlandticket.html",
+  "id": "kozlekedes-berlet-01",
+  "where": "Németország (Deutschlandticket)",
+  "when": "2023–2025",
+  "what": "Országos havi bérlet; szövetségi értékelés (3. köztes jelentés).",
+  "numbers": "Kb. 14,5 M használó (a lakosság ötöde), 2025-ben stagnált; ~2,5 Mt/év CO2-megtakarítás (a magánautós kibocsátás ~3%-a); finanszírozás 2030-ig biztosított; a becsült gazdasági haszon meghaladja az állami kompenzációt.",
+  "source": "https://www.bmv.de/SharedDocs/DE/Pressemitteilungen/2026/027-schnieder-evaluation-deutschlandticket.html"
+ },
+ {
+  "key": "energia-orosz-01|Európai Unió (Bruegel)|https://www.bruegel.org/analysis/future-european-union-gas-imports-balancing-different-objectives",
+  "id": "energia-orosz-01",
+  "where": "Európai Unió (Bruegel)",
+  "when": "2020–2023",
+  "what": "Az orosz gáz részaránya az uniós importban.",
+  "numbers": "Az orosz gáz részaránya kb. felről 15%-ra esett (2020–2023); az LNG részaránya 35%-ról 42%-ra nőtt (2022–2023).",
+  "source": "https://www.bruegel.org/analysis/future-european-union-gas-imports-balancing-different-objectives"
+ },
+ {
+  "key": "afa-gyogyszer-04|Eurózóna (17 ország)|https://econpapers.repec.org/RePEc:imf:imfwpa:15/214",
+  "id": "afa-gyogyszer-04",
+  "where": "Eurózóna (17 ország)",
+  "when": "1999–2013",
+  "what": "Áfa-kulcsváltozások átgurulása a fogyasztói árakba (IMF-tanulmány).",
+  "numbers": "Az általános kulcs változásánál kb. 100%-os átgurulás; a kedvezményes kulcs változásánál kb. 30%; az átsorolásnál lényegében 0.",
+  "source": "https://econpapers.repec.org/RePEc:imf:imfwpa:15/214"
+ },
+ {
+  "key": "agrar-fold-01|Magyarország|https://fra.europa.eu/ga/caselaw-reference/cjeu-case-c-23517-judgment",
+  "id": "agrar-fold-01",
+  "where": "Magyarország",
+  "when": "2013–2024",
+  "what": "A haszonélvezeti jogok eltörlése a külföldi művelők kizárására.",
+  "numbers": "A jogokat a nyilvántartásból törölték 2014-től; az EUB két ítéletben (2018, 2019) elmarasztalta Magyarországot; a 2024-es ítélet engedte a visszaállítást (C-419/23).",
+  "source": "https://fra.europa.eu/ga/caselaw-reference/cjeu-case-c-23517-judgment"
+ },
+ {
+  "key": "afa-kulcs-01|Németország|https://www.ifo.de/publikationen/2020/working-paper/pass-through-temporary-vat-rate-cuts-german-supermarket-retail",
+  "id": "afa-kulcs-01",
+  "where": "Németország",
+  "when": "2020",
+  "what": "Átmeneti áfacsökkentés a szupermarketekben.",
+  "numbers": "Az árak átlagosan kb. 1,3%-kal estek, ami kb. 70%-os továbbhárítás.",
+  "source": "https://www.ifo.de/publikationen/2020/working-paper/pass-through-temporary-vat-rate-cuts-german-supermarket-retail"
+ },
+ {
+  "key": "kornyezet-akku-01|Európai Unió (Számvevőszék)|https://www.eca.europa.eu/ECAHTMLNews/NEWS-SR-2023-15/en/body.html",
+  "id": "kornyezet-akku-01",
+  "where": "Európai Unió (Számvevőszék)",
+  "when": "2023",
+  "what": "Az EU akkumulátoripari politikájának auditja (különjelentés 15/2023).",
+  "numbers": "Mintegy 8 Mrd euró uniós támogatás áll rendelkezésre; Kína a globális akkumulátor-kapacitás 76%-át adja; az EU kapacitása 44 GWh-ról (2020) 1200 GWh-ra nőhetne 2030-ra, de ez nem biztos; a lítium 87%-a Ausztráliából jön.",
+  "source": "https://www.eca.europa.eu/ECAHTMLNews/NEWS-SR-2023-15/en/body.html"
+ },
+ {
+  "key": "energia-orosz-01|Európai Unió (Bizottság, REPowerEU)|https://energy.ec.europa.eu/strategy/repowereu-phase-out-russian-energy-imports/repowereu-4-years_en",
+  "id": "energia-orosz-01",
+  "where": "Európai Unió (Bizottság, REPowerEU)",
+  "when": "2021–2025",
+  "what": "Az orosz gáz kivezetése: diverzifikáció, keresletcsökkentés, LNG.",
+  "numbers": "Az orosz gáz 152 mrd m3-ről 36 mrd m3-re, az uniós import 45%-áról 12%-ára esett (2021–2025); a gázkereslet 2022 augusztusa és 2026 januárja között kb. 19%-kal volt alacsonyabb a válság előtti referenciánál (~80 mrd m3/év).",
+  "source": "https://energy.ec.europa.eu/strategy/repowereu-phase-out-russian-energy-imports/repowereu-4-years_en"
+ },
+ {
+  "key": "koltsegvetes-hiany-01|Magyarország|https://www.ksh.hu/en/first-releases/krm/ekrm2512.html",
+  "id": "koltsegvetes-hiany-01",
+  "where": "Magyarország",
+  "when": "2025",
+  "what": "A hiánycél túllépése.",
+  "numbers": "A tényleges hiány 4,7% volt a 3,7%-os eredeti céllal szemben; az adósság 74,6%.",
+  "source": "https://www.ksh.hu/en/first-releases/krm/ekrm2512.html"
+ },
+ {
+  "key": "szja-mentessegek-02|Svédország|https://econpapers.repec.org/RePEc:eee:labeco:v:55:y:2018:i:c:p:163-177",
+  "id": "szja-mentessegek-02",
+  "where": "Svédország",
+  "when": "2007–2009",
+  "what": "A fiatalok munkáltatói járulékának nagyarányú csökkentése.",
+  "numbers": "A munkaerő-keresleti rugalmasság kb. -0,3; szignifikáns, de kis hatás a foglalkoztatásra és a bérekre; a fiatalabbaknál kb. négyszer erősebb; óraszámra nincs hatás; a jogosultság megszűnése után alig marad tartós hatás.",
+  "source": "https://econpapers.repec.org/RePEc:eee:labeco:v:55:y:2018:i:c:p:163-177"
+ },
+ {
+  "key": "szja-minimalber-03|Magyarország|https://ideas.repec.org/a/pfq/journl/v64y2019i1p72-92.html",
+  "id": "szja-minimalber-03",
+  "where": "Magyarország",
+  "when": "2013–2015",
+  "what": "A Munkahelyvédelmi Akcióterv: járulékkedvezmény fiatal, alacsony képzettségű és idős munkavállalók foglalkoztatása után (célzott munkaerőköltség-csökkentés).",
+  "numbers": "A foglalkoztatási ráta összesen 1,2 százalékponttal nőtt a bevezetés után három évvel; a fiatal és alacsony képzettségű csoportnál magas, az idősnél csak csekély volt a hatás.",
+  "source": "https://ideas.repec.org/a/pfq/journl/v64y2019i1p72-92.html"
+ },
+ {
+  "key": "gazd-arresstop-01|Egyesült Államok|https://www.nber.org/papers/w0279.pdf",
+  "id": "gazd-arresstop-01",
+  "where": "Egyesült Államok",
+  "when": "1971–1974",
+  "what": "A Nixon-féle bér- és árszabályozás.",
+  "numbers": "A nem élelmiszer-, nem energia-árszintet 1974 februárjáig 3–4%-kal csökkentette (Blinder–Newton); a kivezetés után a kétszámjegyű infláció nagy részét a szabályozás megszűnése okozta; a végső árszint 0–2%-kal volt alacsonyabb.",
+  "source": "https://www.nber.org/papers/w0279.pdf"
+ },
+ {
+  "key": "vagyon-vagyonado-01|OECD-országok|https://www.oecd.org/en/publications/2018/04/the-role-and-design-of-net-wealth-taxes-in-the-oecd_g1g89919.html",
+  "id": "vagyon-vagyonado-01",
+  "where": "OECD-országok",
+  "when": "1990–2017",
+  "what": "A nettó vagyonadót alkalmazó országok száma 12-ről 4-re csökkent.",
+  "numbers": "2016-ban a bevétel a GDP 0,2%-a (Spanyolország) és 1,0%-a (Svájc) között volt.",
+  "source": "https://www.oecd.org/en/publications/2018/04/the-role-and-design-of-net-wealth-taxes-in-the-oecd_g1g89919.html"
+ },
+ {
+  "key": "afa-elelmiszer-02|Spanyolország|https://www.banque-france.fr/en/publications-and-statistics/publications/analysing-vat-cut-pass-through-spain-using-web-scraped-supermarket-data-and-machine-learning",
+  "id": "afa-elelmiszer-02",
+  "where": "Spanyolország",
+  "when": "2023",
+  "what": "Alapélelmiszerek áfájának csökkentése (4%-ról 0%-ra, 10%-ról 5%-ra); online szupermarket-árak elemzése.",
+  "numbers": "Összességében kb. 90% átgurulás az első hetekben; 4%→0% csoportban kb. 50%, 10%→5% csoportban 100% fölötti; kb. 10 000 termék egy szupermarketláncból.",
+  "source": "https://www.banque-france.fr/en/publications-and-statistics/publications/analysing-vat-cut-pass-through-spain-using-web-scraped-supermarket-data-and-machine-learning"
+ }
+]

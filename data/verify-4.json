@@ -1,0 +1,182 @@
+[
+ {
+  "key": "koltsegvetes-fek-04|Németország|https://www.bruegel.org/sites/default/files/2025-03/1103_Can%20Germany%20afford%20it_final%201.pdf",
+  "status": "confirmed",
+  "note": "A Bruegel-PDF szerint 0,35% GDP a szerkezeti hiány plafonja, 11% GDP-s infrastruktúra-alap és a védelmi kiadás nagy része kimarad (csak 1% GDP marad a plafon alatt), és kb. 1,7% GDP közberuházás van a költségvetésen belül.",
+  "correct": null
+ },
+ {
+  "key": "energia-rezsi-01|Magyarország (KRTK, Szép–Weiner)|https://telex.hu/gazdasag/2022/10/11/megis-mit-adott-nekunk-a-rezsicsokkentes",
+  "status": "confirmed",
+  "note": "A Telex cikk idézi a 632 Mrd Ft pozitívumot, a 13 PJ pótlólagos energiafelhasználást és a 25%-ról 11%-ra eső számlafizetési problémát.",
+  "correct": null
+ },
+ {
+  "key": "szocialis-gyermekszeg-01|Kanada|https://www.nber.org/papers/w28556",
+  "status": "partly",
+  "note": "Az NBER-absztrakt szerint a CCB csökkentette a gyerekszegénységet és nincs munkakínálati hatás, de a 11%/17% nem szerepel az oldalon, és a vizsgálat egyedülálló anyákat hasonlít egyedülálló gyermektelen nőkhöz (kétszülős családokról nincs szó).",
+  "correct": null
+ },
+ {
+  "key": "lakas-hitel-01|Magyarország (Szabó Bence, strukturális modell)|https://benceszabo.github.io/papers_currentversion/bence_szabo_fertility_housing_current.pdf",
+  "status": "confirmed",
+  "note": "Az absztrakt szerint a támogatás és az alacsony kamat érdemben emeli a lakásárakat, a befejezett termékenység kb. 5–10%-kal nő (főleg szegényebbeknél), lakáskörülményeik hosszú távon romlanak.",
+  "correct": null
+ },
+ {
+  "key": "egeszsegugy-gyogyszer-05|Magyarország (0% áfa)|https://xpatloop.com/channels/2026/07/vat-to-be-cut-on-prescription-drugs-in-hungary-to-0-percent.html",
+  "status": "confirmed",
+  "note": "A cikk szerint szept. 1-jén lépne hatályba, az éves bevételkiesés 7 Mrd Ft (2026-ban 2 Mrd Ft).",
+  "correct": null
+ },
+ {
+  "key": "szocialis-alapjov-01|Finnország|https://stm.fi/en/-/perustulokokeilun-tulokset-tyollisyysvaikutukset-vahaisia-toimeentulo-ja-psyykkinen-terveys-koettiin-paremmaksi",
+  "status": "confirmed",
+  "note": "STM: 2000 munkanélküli, 560 euró/hó, két év; az első évben nincs hatás, a másodikban kb. 6 nappal több foglalkoztatott nap (de a 2018-as aktivációs modellel összemosódik), jobb életelégedettség; a 25–58 éves korhatár az oldalon nincs.",
+  "correct": null
+ },
+ {
+  "key": "kornyezet-akku-01|Magyarország–Lengyelország (T&E 2025)|https://www.transportenvironment.org/articles/assembly-plant-or-battery-powerhouse-analysis-of-foreign-battery-investments-in-eu",
+  "status": "confirmed",
+  "note": "A T&E szerint a CATL (HU) és az LG (PL) legalább 900 M euró állami támogatást kapott, csak a magyar gyár lépte túl az NMP-szintet, az LG-nél az erratum szerint nincs jogsértés, és a Bizottság nem csatolt feltételt; Debrecen név nem szerepel az oldalon.",
+  "correct": null
+ },
+ {
+  "key": "nyugdij-magan-01|Chile|https://www.imf.org/-/media/files/publications/cr/2026/english/1chlea2026002.pdf",
+  "status": "confirmed",
+  "note": "Az IMF-jelentés szerint a nettó pótlási ráta 37,3%-ról 47,5%-ra nő, a munkáltatói járulék 7 ponttal, összesen 8,5%-ra emelkedik 9 éves átmenettel (kb. 2033).",
+  "correct": null
+ },
+ {
+  "key": "oktatas-berek-01|Egyesült Államok (Hanushek–Kain–Rivkin)|https://www.nber.org/papers/w7082",
+  "status": "confirmed",
+  "note": "Az NBER-absztrakt (1999. április) szerint a fizetés 'szerény' hatású, az egyetlen szignifikáns összefüggés (implauzibilisen) a tapasztalt tanárokra áll.",
+  "correct": null
+ },
+ {
+  "key": "kozlekedes-eauto-01|Norvégia (áfamentesség)|https://newmobility.news/en/2025/10/16/norway-to-tighten-vat-gap-phasing-out-ev-perks-hiking-ice-taxes/",
+  "status": "confirmed",
+  "note": "A cikk 17,5 Mrd NOK kiesést, 500 ezer NOK küszöböt (2026-ban 300 ezer, 2027-ben megszűnik), 98,3%-os e-autó-arányt és 100 Mrd NOK feletti ösztönzőt közöl; az 'évente' szó nincs kiírva.",
+  "correct": null
+ },
+ {
+  "key": "igazsag-vagyonvisszaszerzes-02|Írország (CAB) 2012–2023|https://www.irishtimes.com/crime-law/2024/10/24/cab-seizes-more-than-116m-in-assets-over-12-years-with-644m-transferred-to-exchequer",
+  "status": "confirmed",
+  "note": "Az Irish Times szerint 116 074 687 € zárolás, 64 445 239 € az államkasszába (22,2+38,0+4,2 M €), 2023-ban több mint 8,6 M € rekord.",
+  "correct": null
+ },
+ {
+  "key": "gazd-arresstop-01|Horvátország|https://hnb.hr/en/-/can-selective-price-controls-fight-off-inflation-lessons-from-milk-products-in-croatia",
+  "status": "confirmed",
+  "note": "A HNB-tanulmány szerint a szabályozott tej kb. 35%-kal olcsóbb, a teljes inflációra a hatás nagyon kicsi, a szegényebbeknél erősebb.",
+  "correct": null
+ },
+ {
+  "key": "energia-rezsi-01|Németország|https://ifo.de/en/press-release/2023-08-09/german-gas-price-brake-will-be-much-cheaper-expected",
+  "status": "partly",
+  "note": "Az ifo 13,1 Mrd eurót becsül, ami az eredeti keret harmada, de az eredeti keret az oldalon 40,3 Mrd euró (nem 83); a 16,3/14,3 Mrd-os adat nincs az oldalon.",
+  "correct": "Eredeti keret: 40,3 Mrd euró (Gazdasági Stabilizációs Alap); ifo-becslés: 13,1 Mrd euró (háztartások/kkv ~12,4, ipar ~0,7)"
+ },
+ {
+  "key": "agrar-tamogatas-01|Új-Zéland|https://www.richmondfed.org/publications/research/econ_focus/2003/winter/feature3_sidebar3",
+  "status": "partly",
+  "note": "A Richmond Fed szerint 1984-ben a gazdaságok bruttó bevételének majdnem 40%-a állami kifizetés volt, de a mezőgazdasági termelékenység-növekedés 3,9%/év (a gazdaság többi részén 0,9%), nem a sorban szereplő 2,5% vs 1,5%.",
+  "correct": "40% (majdnem); termelékenység 3,9%/év vs 0,9% a gazdaság többi részén"
+ },
+ {
+  "key": "vallalkozas-kulonado-03|Olaszország|https://www.investing.com/news/commodities-news/italy-collects-around-28-billion-euros-from-energy-windfall-tax-2964366",
+  "status": "confirmed",
+  "note": "A Reuters-cikk szerint a 25%-os adóból nov. 30-ig kb. 2,757 Mrd euró folyt be a Draghi-kormány 10–11 Mrd-os várakozásával szemben, és sok cég megtagadta a fizetést (az adat nov. 30-i, nem év végi).",
+  "correct": null
+ },
+ {
+  "key": "vallalkozas-kulonado-03|Magyarország|https://imf.org/-/media/Files/Publications/CR/2024/English/1hunea2024001-print-pdf.ashx",
+  "status": "unreachable",
+  "note": "Az IMF oldala 'Access Denied'-t ad (curl és WebFetch is), a keresés sem találta a 440 Mrd Ft-os 2026-os számot; az IMF 2024-es jelentés a windfall adók beruházási bizonytalanságot okozó hatását említi.",
+  "correct": null
+ },
+ {
+  "key": "szja-jarulek-04|OECD-országok|https://www.oecd.org/en/publications/taxing-wages-2025_b3a95829-en/full-report/overview_715add19.html",
+  "status": "contradicted",
+  "note": "Az OECD Taxing Wages 2025 magyar országjegyzete szerint az egyedülálló átlagkereső adóéke 2024-ben 41,2% (nem 39,8%), az OECD-átlag 34,9%, a szja+munkáltatói járulék aránya 60% vs 77% stimmel.",
+  "correct": "Magyarország 41,2% (2023 és 2024), OECD-átlag 34,9%"
+ },
+ {
+  "key": "oktatas-tandij-04|Németország (tandíj-kivezetés)|https://researchonline.lse.ac.uk/id/eprint/71668",
+  "status": "partly",
+  "note": "Wigger szerint a tandíjnak nem volt azonosítható negatív beiratkozási hatása és minden tartomány megszüntette, de az absztraktban a 2014-es megszűnési év nem szerepel (az csak a rekord dátuma).",
+  "correct": null
+ },
+ {
+  "key": "vallalkozas-minimumado-04|Magyarország|https://www.mondaq.com/tax-authorities/1755988/global-minimum-tax-practical-experience-from-hungary",
+  "status": "confirmed",
+  "note": "A cikk szerint a teljes GloBE-számításban a tao+iparűzési adó+innovációs járulék gyakran eléri a 15%-ot (QDMTT nulla), és akár 50 000 euró fix bírság járhat (a 9%-os tao nincs említve).",
+  "correct": null
+ },
+ {
+  "key": "nyugdij-magan-01|Magyarország|https://retirementincomejournal.com/?p=821",
+  "status": "partly",
+  "note": "A cikk szerint 'közel 10 Mrd euró' (HUF 2,7 ezer Mrd, ~9,6 Mrd euró) került az államhoz, tehát nem 'több mint 10', és a hiányra gyakorolt hatást nem számszerűsíti (csak a Bizottság: folyó kiadások finanszírozására használták).",
+  "correct": "Kb. 9,6 Mrd euró (HUF 2,7 billió), 'közel 10 Mrd euró'"
+ },
+ {
+  "key": "energia-paks2-01|Finnország|https://www.statista.com/chart/36138/cost-overruns-and-construction-delays-of-epr-nuclear-reactors-in-europe/",
+  "status": "confirmed",
+  "note": "A Statista szerint a költség 3,2-ről 11 Mrd euróra, az építési idő 4-ről 18 évre nőtt; a 2005-ös kezdés és 2009-es terv az oldalon szövegesen nincs.",
+  "correct": null
+ },
+ {
+  "key": "lakas-airbnb-01|USA|https://papers.ssrn.com/abstract=3006832",
+  "status": "partly",
+  "note": "Az SSRN-oldal 403-at adott, de a Wharton-féle munkaváltozat megerősíti a 0,018% és 0,026% számokat (medián irányítószám); az 'egyötöd' nincs benne, ott a medián növekedés a bérleti díj éves növekedésének 0,5, az áraknak 0,7 százalékpontját magyarázza.",
+  "correct": "1% több hirdetés: +0,018% bérleti díj, +0,026% lakásár; az 'egyötöd' állítás a letölthető változatban nem szerepel"
+ },
+ {
+  "key": "munka-kozmunka-01|Magyarország|https://www.mnb.hu/letoltes/mnb-op-145-final.pdf",
+  "status": "confirmed",
+  "note": "Az MNB-tanulmány szerint a közmunkások kb. kétharmada inaktív volt előtte, és a közmunkások gyakrabban váltanak állást, rövidebb ideig maradnak egy munkahelyen.",
+  "correct": null
+ },
+ {
+  "key": "energia-paks2-01|Egyesült Arab Emírségek|https://www.mediaoffice.abudhabi/en/energy/led-by-emirates-nuclear-energy-company-barakah-nuclear-energy-plant-completes-first-year-of-full-fleet-operations",
+  "status": "partly",
+  "note": "A forrás szerint a 4. blokk 2023 decemberében készült el, szeptemberre működött a teljes flotta, és 40% költség-, idő- és munkaerő-csökkenés volt az 1. és 4. blokk között, de dollárköltség és a 2017-es terv nincs az oldalon (másodlagos források: 24,4–32 Mrd USD).",
+  "correct": null
+ },
+ {
+  "key": "igazsag-vagyonvisszaszerzes-02|Bulgária|https://www.novinite.com/view_news.php?id=226329",
+  "status": "partly",
+  "note": "Az oldal szerint a Bíróság szerint nem állapítottak meg egyértelmű kapcsolatot az elkobzott vagyon és a bűncselekmények között és 5 panaszt vontak össze, de a bizonyítási teher megfordítása nincs említve.",
+  "correct": null
+ },
+ {
+  "key": "kulpol-sorkatonasag-01|Svédország (2017-es újrabevezetés)|https://nordicdefencesector.com/en/article/sweden-increases-war-organization-in-2025",
+  "status": "confirmed",
+  "note": "A cikk szerint 2025-ben 8136 sorkatona, 30 442 alkalmazott és 863 tisztképzésbe lépő (a 21. század legmagasabb éves értéke).",
+  "correct": null
+ },
+ {
+  "key": "csalad-csp-01|Kanada|https://www.nber.org/papers/w28556",
+  "status": "confirmed",
+  "note": "Az NBER-absztrakt szerint a CCB-nek nagyobb szegénységcsökkentő hatása volt és nincs munkakínálati reakció, de a 11%/17% nem szerepel az oldalon, és a kétszülős családok sincsenek benne.",
+  "correct": null
+ },
+ {
+  "key": "munka-minimalber-01|Németország (regionális elemzés)|https://iwh-halle.de/publikationen/detail/employment-effects-of-introducing-a-minimum-wage-the-case-of-germany",
+  "status": "partly",
+  "note": "Az IWH-oldal (Holtemöller–Pohle) szerint a marginális foglalkoztatás csökkent, a rendszeres nőtt, és összességében negatív a hatás, de a Pestel/IZA-hivatkozás és a 'statisztikailag szignifikáns, de kis' minősítés nincs az oldalon.",
+  "correct": null
+ },
+ {
+  "key": "kornyezet-akku-01|Magyarország|https://telex.hu/gazdasag/2026/03/17/catl-kormanyhivatal-valasz",
+  "status": "contradicted",
+  "note": "A hivatal közlése szerint nem tett említést veszélyes anyagokról és raktározásról, környezetvédelmi eljárás nem indult (csak vizsgálat), építésügyi hatóság tiltotta meg az engedély nélkül használatba vett épület használatát; nikkelterhelés és kb. 9000 fő nincs a cikkben.",
+  "correct": null
+ },
+ {
+  "key": "munka-bertranszparencia-05|Izland|https://gov.scot/publications/international-mechanisms-revalue-womens-work-research-exploring-evaluating-international-mechanisms-aim-revalue-result-revaluation-womens-work/pages/13",
+  "status": "confirmed",
+  "note": "A Scottish Government oldala szerint a 25+ fős szervezeteknek ÍST 85 szerinti igazolás kell, 3 évente megújítva, a bérrés 20,5%-ról 13,8%-ra csökkent 2008–2019 között, és az eljárás időigényes/erőforrás-igényes.",
+  "correct": null
+ }
+]

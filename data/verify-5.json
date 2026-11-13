@@ -1,0 +1,182 @@
+[
+ {
+  "key": "nyugdij-korhatar-01|Dánia|https://www.thelocal.com/20250524/inside-denmark-the-highest-retirement-age-in-europe",
+  "status": "confirmed",
+  "note": "A cikk szerint 67 -> 68 (2030) -> 69 (2035) -> 70 (2040), a szavazás 81:21.",
+  "correct": null
+ },
+ {
+  "key": "agrar-falu-01|Európai Unió|https://eu-cap-network.ec.europa.eu/news/leader-impact-report-balanced-territorial-development_en",
+  "status": "confirmed",
+  "note": "Az oldal 'close to 60 000' munkahelyet és a KAP-kiadás 2%-át említi a 2014-2022-es időszakra.",
+  "correct": null
+ },
+ {
+  "key": "vagyon-toke-04|OECD|https://www.oecd.org/en/publications/2018/04/the-role-and-design-of-net-wealth-taxes-in-the-oecd_g1g89919.html",
+  "status": "partly",
+  "note": "Az OECD oldal 403-at adott; keresési kivonat szerint a jelentés korlátozott érvet lát a vagyonadóra széles tőkejövedelem-adó és jó örökösödési adó mellett, de a teljes szöveget nem láttam.",
+  "correct": null
+ },
+ {
+  "key": "lakas-lakber-01|Berlin|https://www.diw.de/de/diw_01.c.873005.de/publikationen/externe_referierte_aufsaetze/2024_0003/forward_to_the_past__short-term_effects_of_the_rent_freeze_in_berlin.html",
+  "status": "partly",
+  "note": "Az oldal csak minőségileg írja le (csökkenés, kínálatcsökkenés, a határ menti települések bérleti díja nő, az Alkotmánybíróság egy év után megsemmisítette), számokat nem; keresés alapján a DIW 7-11%-os hirdetett bérletidíj-csökkenést közöl, az 52%/60% nem található.",
+  "correct": "7-11% (DIW) a 8-10% helyett; 52%/60% nem igazolt"
+ },
+ {
+  "key": "kozlekedes-eauto-01|Norvégia|https://hydrocarbonprocessing.com/news/2026/01/norways-new-car-sales-were-96-electric-in-2025/",
+  "status": "partly",
+  "note": "95,9% (2025) és 88,9% (2024) szerepel; az oldal szerint 300 ezer NOK alatt marad az áfamentesség 2026-ban, de az előző 500 ezres küszöböt nem említi.",
+  "correct": null
+ },
+ {
+  "key": "kulpol-sorkatonasag-01|Svédország (2025–26-os behívás)|https://nordicdefencesector.com/en/article/the-swedish-defence-recruitment-agency-calls-07s-for-conscri",
+  "status": "confirmed",
+  "note": "28 184 fő, 110 ezer kérdőív ~98% válasszal, ~9000 fő alapkiképzés 2026-27-ben, 9-15 hónap mind szerepel.",
+  "correct": null
+ },
+ {
+  "key": "nyugdij-13-14-01|Lengyelország (Kolasa, Varsói Egyetem)|https://www.wne.uw.edu.pl/download_file/2343/0",
+  "status": "confirmed",
+  "note": "Az absztrakt szerint a medián nyugdíjas helyzetét jelentősen javítja, 0,7%-os életpálya-fogyasztási jóléti veszteség, mérsékelt szegénység/egyenlőtlenség-hatás.",
+  "correct": null
+ },
+ {
+  "key": "vagyon-ingatlanado-03|OECD-országok|https://www.oecd.org/en/publications/making-property-tax-reform-happen-in-china_bd0fbae3-en/full-report/component-4.html",
+  "status": "unreachable",
+  "note": "Az OECD oldal 403-at adott, keresés sem hozta meg a 61% / 3,2% számokat.",
+  "correct": null
+ },
+ {
+  "key": "egeszsegugy-biztositas-02|Németország|https://www.thelocal.de/20251103/how-youll-be-affected-by-a-steep-rise-in-german-health-insurance-contributions",
+  "status": "partly",
+  "note": "1,7% (2024 eleje), ~3,1% (2025) és 3,3% (IGES 2026) szerepel; a 14,6%-os általános ráta nem szerepel a cikkben.",
+  "correct": null
+ },
+ {
+  "key": "kozlekedes-berlet-01|Németország|https://www.cleanenergywire.org/news/germanys-flat-rate-transport-ticket-working-mobility-and-climate-govt-evaluation",
+  "status": "partly",
+  "note": "14,5 millió előfizető, ~2,5 Mt CO2/év és 3%-os autóhasználat-csökkenés, valamint 2025-ös előfizetőszám-csökkenés szerepel; a 2,5-3 Mt sáv (csak 2,5) és a müncheni tanulmány nincs az oldalon.",
+  "correct": "kb. 2,5 Mt CO2/év"
+ },
+ {
+  "key": "koltsegvetes-hiany-01|Németország|https://www.bruegel.org/sites/default/files/2025-03/1103_Can%20Germany%20afford%20it_final%201.pdf",
+  "status": "confirmed",
+  "note": "A Bruegel PDF-ben szerepel 0,35% GDP, 11% GDP-s infrastruktúra-alap, védelmi kiadások kivétele (csak 1% GDP marad a keretben) és kb. 1,7% GDP közberuházás.",
+  "correct": null
+ },
+ {
+  "key": "energia-orosz-01|Magyarország|https://www.aljazeera.com/news/2026/4/17/can-hungary-wean-itself-off-russian-energy-as-its-new-leader-has-promised",
+  "status": "confirmed",
+  "note": "Az Al Jazeera a CSD alapján 61%-ról 93%-ra (2021-2025) írja az olajarányt, a gáz kb. háromnegyed (75%); a 90% nem szerepel.",
+  "correct": null
+ },
+ {
+  "key": "egeszsegugy-berek-03|Románia (2010-es bércsökkentés)|https://uhra.herts.ac.uk/handle/2299/8809",
+  "status": "confirmed",
+  "note": "Az absztrakt: 25%-os közszféra-bércsökkentés, felvételi tilalom, kórházi létszámkeret-plafon, rossz munkakörülmények mint mobilitási tényezők; arányszám nincs.",
+  "correct": null
+ },
+ {
+  "key": "igazsag-kozbeszerzes-03|Magyarország|https://www.kozbeszerzes.hu/media/documents/Beszamolo_2024.pdf",
+  "status": "partly",
+  "note": "A PDF túl nagy volt a letöltéshez; keresés szerint 2024-ben az uniós eljárásrendben 6,8 pp-tal csökkent az egyajánlatos szerződések aránya az előző évhez képest, a 2021-es érték 41,2% (nem 40%); a 15% alatti cél nem ellenőrizve.",
+  "correct": "2021: 41,2% (uniós eljárásrend); a 6,8 pp a 2023-hoz képesti"
+ },
+ {
+  "key": "csalad-anyak-01|Magyarország|https://www.niussp.org/fertility-and-reproduction/evaluating-pronatalist-policies-with-tfr-brings-misleading-conclusions-examples-fromhungary/",
+  "status": "confirmed",
+  "note": "A TFR 2021-re 1,59, a növekedést főleg a szülések időzítése hajtotta, a befejezett termékenység nem fordult; a 2010-es 1,25 nincs kifejezetten kinyerve.",
+  "correct": null
+ },
+ {
+  "key": "lakas-hitel-01|Anglia|https://repec.cepr.org/repec/cpr/ceprdp/DP14620.pdf",
+  "status": "partly",
+  "note": "A PDF-et nem sikerült megnyitni (400); az absztrakt/keresés szerint az ár London-szerte nőtt a kamattámogatás jelenértéke fölött és építési hatás nem volt, számérték nincs.",
+  "correct": null
+ },
+ {
+  "key": "afa-gyogyszer-04|Spanyolország|https://repositorio.bde.es/bitstream/123456789/36652/4/dt2417e.pdf",
+  "status": "unreachable",
+  "note": "A BdE PDF 403, a keresés nem hozta meg a 0%-os (kb. 50% továbbhárítás) és >100%-os számokat; a keresési kivonatok szerint a továbbhárítás 80-90% körüli volt az első hetekben.",
+  "correct": null
+ },
+ {
+  "key": "csalad-babavaro-01|Magyarország|https://bankmonitor.hu/?p=102284",
+  "status": "confirmed",
+  "note": "A cikk ~32 ezer házaspárt és ~4 ezer családot említ az MNB 2025. májusi stabilitási jelentése alapján.",
+  "correct": null
+ },
+ {
+  "key": "szocialis-rezsi-01|Európa|https://imf.org/-/media/Files/Publications/Fandd/Article/2022/December/Celasun.ashx",
+  "status": "partly",
+  "note": "Az IMF-cikk keresési kivonata szerint az első évi költség több mint fele költséges, nem célzott intézkedés (egyes országokban), és célzott jövedelemtámogatást javasol; az eredeti URL nem volt megnyitható.",
+  "correct": null
+ },
+ {
+  "key": "kornyezet-viz-01|Magyarország|https://www.circleofblue.org/2025/supply/drought/farmers-consider-abandoning-drought-hit-region-in-central-hungary/",
+  "status": "partly",
+  "note": "Az 5 Mrd Ft-os csatornatisztítási projekt (május 2025) szerepel; a 200 Mrd/8 év, 10% és 100 Mrd Ft agrárkár állítások megerősítése bizonytalan, a cikk főszövege a 2022-es aszály ~1000 Mrd Ft-os kárát említi.",
+  "correct": null
+ },
+ {
+  "key": "szocialis-alapjov-01|Stockton (USA)|https://sp2.upenn.edu/guaranteed-income-increases-employment-improves-financial-and-physical-health/",
+  "status": "partly",
+  "note": "Az UPenn oldal csak 125 főt és havi 500 dollárt/24 hónapot erősíti meg, a 28->40% és 32->37% számokat nem; ezek másodlagos források (Yahoo/CBS) szerint az első évre igazak, az oldal 'több mint kétszeres' arányról ír.",
+  "correct": null
+ },
+ {
+  "key": "gazd-arresstop-01|Magyarország (MNB Inflációs jelentés, 2026. június)|https://telex.hu/gazdasag/2026/06/25/mnb-inflacios-jelentes-arresstop",
+  "status": "confirmed",
+  "note": "A Telex-cikk: 1,4%-os árcsökkentés, kb. negyede épülne vissza, +0,4 pp majd +0,1 pp, a négy lánc 20,9 Mrd Ft vesztesége 2025-ben.",
+  "correct": null
+ },
+ {
+  "key": "egeszsegugy-varolista-04|Anglia (NHS)|https://health.org.uk/publications/long-reads/returning-nhs-waiting-times-to-18-weeks",
+  "status": "confirmed",
+  "note": "Az oldal 403, de keresés szerint a Health Foundation anyaga 90,3% (felvételes) és 96,8% (nem felvételes) értéket közöl 2008 decemberére.",
+  "correct": null
+ },
+ {
+  "key": "szocialis-gyermekszeg-01|Egyesült Királyság|https://ifs.org.uk/news/abolishing-two-child-limit-would-be-cost-effective-way-reducing-child-poverty-no-silver-bullet",
+  "status": "confirmed",
+  "note": "Az IFS oldal 403, de a keresési eredmények az IFS összefoglalójából 540 ezer gyermek és 2,5 Mrd font éves költség adatot idézik.",
+  "correct": null
+ },
+ {
+  "key": "agrar-falu-01|Skócia|https://www.gov.scot/publications/process-evaluation-leader-2014-2020/pages/6/",
+  "status": "not_found",
+  "note": "A megadott 2018-as process evaluation oldal nem tartalmazza az 523/551 számot; ez a Skót SRDP 2014-2020 ex-post értékelésben szerepel (523 munkahely, a cél 94,9%-a).",
+  "correct": "523/551 az ex-post értékelésben: gov.scot/publications/scottish-rural-development-programme-2014-2020-ex-post-evaluation-main-report"
+ },
+ {
+  "key": "szja-minimalber-03|Magyarország|https://old.kti.krtk.hu/lmyb2019_infocus_5_3",
+  "status": "confirmed",
+  "note": "A PDF szerint a 25 év alattiak foglalkoztatási valószínűsége 2015-re 2,6%-kal nőtt a kontrollcsoporthoz képest (relatív %).",
+  "correct": null
+ },
+ {
+  "key": "media-sport-01|Magyarország|https://444.hu/2026/10/06/tobb-mint-7-milliard-forintnyi-tao-tamogatast-nem-sikerult-visszaszerezni-a-sportszervezetektol",
+  "status": "confirmed",
+  "note": "Több mint 7 Mrd Ft behajthatatlan a kb. 21 Mrd Ft visszakövetelésből, 2022-2026 elszámolások.",
+  "correct": null
+ },
+ {
+  "key": "egeszsegugy-finanszirozas-01|Anglia (NHS)|https://health.org.uk/publications/long-reads/returning-nhs-waiting-times-to-18-weeks",
+  "status": "confirmed",
+  "note": "Lásd az NHS 18 hetes sor: Health Foundation 90,3% / 96,8% 2008 decemberére (a forrásmegjegyzés szerint a cél 90/95% volt).",
+  "correct": null
+ },
+ {
+  "key": "gazd-kkv-01|Magyarország|https://www.mnb.hu/en/pressroom/press-releases/press-releases-2017/the-funding-for-growth-scheme-has-achieved-its-objectives",
+  "status": "partly",
+  "note": "Az MNB szerint a KKV-hitelezés csökkenése megállt és kb. 2 pp növekedési hatás 2013-2016; a 'vállalatok fele nem vett volna fel hitelt' nem szerepel az oldalon.",
+  "correct": null
+ },
+ {
+  "key": "kornyezet-co2-01|Svédország|https://taxfoundation.org/sweden-carbon-tax-revenue-greenhouse-gas-emissions/",
+  "status": "partly",
+  "note": "A Tax Foundation cikk 1990-2018 között 27%-os ÜHG-csökkenést ír (nem 26%), az 1990-2007 (-9%/+48%) és a 4,9%-os szintetikus kontroll adat nem szerepel rajta.",
+  "correct": "27% (1990-2018)"
+ }
+]

@@ -1,0 +1,182 @@
+[
+ {
+  "key": "media-sport-01|Magyarország (ÁSZ-elemzés a látvány-csapatsport TAO-ról)|https://adozona.hu/tarsasagi_ado_innovacios_jarulek/ASZ_Allami_Szamvevoszek_latvanycsapatsport__RT3IYK",
+  "status": "confirmed",
+  "note": "Mind a négy szám (367,5 Mrd, 15–20%, 49,2 Mrd, 7563→10 466) szó szerint szerepel a cikkben.",
+  "correct": null
+ },
+ {
+  "key": "munka-munkaido-01|Egyesült Királyság|https://weforum.org/agenda/2023/03/four-day-work-week-uk-trial",
+  "status": "unreachable",
+  "note": "A weforum.org 403-at adott, az alternatív URL-t sem sikerült elérni.",
+  "correct": null
+ },
+ {
+  "key": "afa-kulcs-01|Magyarország|https://mpra.ub.uni-muenchen.de/89687/",
+  "status": "unreachable",
+  "note": "Az MPRA szerver kapcsolatot megtagadta (ECONNREFUSED), a PDF-változat sem nyílt meg.",
+  "correct": null
+ },
+ {
+  "key": "kulpol-vedelem-01|Lengyelország|https://www.pap.pl/en/news/poland-leads-nato-defence-spending-allies-boost-outlays-2025",
+  "status": "unreachable",
+  "note": "A PAP-oldal üres/értelmezhetetlen tartalmat adott, a 4,3%/2,77%/4,8% nem ellenőrizhető.",
+  "correct": null
+ },
+ {
+  "key": "kozbiztonsag-bortonpolitika-03|Magyarország|https://helsinki.hu/en/akta/prison-conditions/",
+  "status": "partly",
+  "note": "Az oldal csak a 2026. januári HHC-közleményt említi a megoldatlan túlzsúfoltságról és a Varga-ítélet végrehajtásáról; a 2016-os kártalanítási mechanizmus és az ideiglenes felfüggesztés nem szerepel rajta.",
+  "correct": null
+ },
+ {
+  "key": "kozlekedes-eauto-01|Németország|https://www.carscoops.com/2025/01/ev-sales-in-germany-plunge-over-27-in-2024-after-subsidies-were-scrapped/",
+  "status": "partly",
+  "note": "A 27,4%-os esés, a 380 609 darab, a 13,5%-os részarány és a 2023 végi támogatásmegszüntetés szerepel; a 18,4%-os korábbi részarány nem.",
+  "correct": null
+ },
+ {
+  "key": "lakas-berlakas-01|Bécs|https://policyoptions.irpp.org/magazines/march-2024/vienna-housing-lessons/",
+  "status": "confirmed",
+  "note": "A 43% (2022), a bérleti díjak egyharmados emelkedése 2015 óta és a Gemeindebau-építés 2005-ös leállítása szerepel a cikkben.",
+  "correct": null
+ },
+ {
+  "key": "nyugdij-korhatar-01|Dánia (OECD-elemzés)|https://oecdecoscope.blog/2019/01/15/ambitious-retirement-age-indexation-ensures-sustainable-public-finances-in-denmark/",
+  "status": "confirmed",
+  "note": "Max. 1 év/5 év, 73 év 2060-ra, adósság jóval 60% alatt, 2030-as leállításnál tartós hiány és gyorsan növő adósság: mind szerepel (2019-es előrejelzésként).",
+  "correct": null
+ },
+ {
+  "key": "vallalkozas-tao-01|Észtország|https://www.econbiz.de/Record/shift-from-gross-profit-taxation-to-distributed-profit-taxation-are-there-effects-on-firms-masso-jaan/10011052847",
+  "status": "unreachable",
+  "note": "Az econbiz oldal Anubis bot-védelem mögött van, az absztrakt nem érhető el.",
+  "correct": null
+ },
+ {
+  "key": "csalad-anyak-01|Magyarország (Szabó Bence, lakástámogatás és termékenység)|https://benceszabo.github.io/papers_currentversion/bence_szabo_fertility_housing_current.pdf",
+  "status": "partly",
+  "note": "Az 5–10%-os befejezett termékenység-növekedés és a szegényebb háztartások szerepe stimmel (a PDF-ben, 2022. dec.), de a gazdagabbaknál az absztrakt szerint a termékenység változatlan, a modell-táblázatban viszont a magasan képzetteknél kb. +2,5% szerepel; a CSOK-ra és KRTK-adatra külön nem kerestem rá.",
+  "correct": null
+ },
+ {
+  "key": "igazsag-kormanyzat-04|Szubszaharai Afrika (Világbank)|https://econpapers.repec.org/RePEc:wbk:wbrwps:9232",
+  "status": "confirmed",
+  "note": "A World Bank-összefoglaló negatív összefüggést és az országon belüli időbeli variációt is említi, és idézi a 'sizable increase ... bad news' mondatot; számszerű együttható nincs.",
+  "correct": null
+ },
+ {
+  "key": "igazsag-eppo-01|Románia (DNA) 2024|https://www.rri.ro/en/news-and-current-affairs/today-in-the-news/anticorruption-annual-report-id866472.html",
+  "status": "partly",
+  "note": "Az 5400 lezárt nyomozás és 56 M € feletti zárolt vagyon stimmel, de a cikk szerint 'közel 260 vezető beosztású személyt' vontak felelősségre (prosecuted), nem 'emeltek vádat'.",
+  "correct": null
+ },
+ {
+  "key": "koltsegvetes-fek-04|Svédország|https://cepr.org/index%2ephp/voxeu/columns/fiscal-consolidation-sweden-role-model",
+  "status": "unreachable",
+  "note": "A CEPR oldal 403-at adott mindkét URL-formával.",
+  "correct": null
+ },
+ {
+  "key": "csalad-csp-01|Egyesült Királyság|https://ifs.org.uk/news/abolishing-two-child-limit-would-be-cost-effective-way-reducing-child-poverty-no-silver-bullet",
+  "status": "unreachable",
+  "note": "Az IFS oldal 403-at adott, a 540 ezer / 2,5 Mrd font nem ellenőrizhető.",
+  "correct": null
+ },
+ {
+  "key": "kulpol-vedelem-01|Lengyelország (költségvetési ár)|https://notesfrompoland.com/2026/08/28/polish-government-sets-out-draft-2027-budget-with-deficit-remaining-at-7-1-of-gdp/",
+  "status": "confirmed",
+  "note": "4,5% GDP védelmi kiadás, hiány 6,4%→7,3%, 7,1% 2027-re, adósság 60% felett és 2024-es túlzottdeficit-eljárás szerepel; a '198,1 Mrd zł' összeget a lekérdezés külön nem idézte, de a 4,5% igen.",
+  "correct": null
+ },
+ {
+  "key": "media-kultura-01|Magyarország (filmipari adókedvezmény)|https://hu.andersen.com/?p=285",
+  "status": "partly",
+  "note": "A 30%-ra emelés 2018. június 11-től (25%-ról) és a 69/81/70 Mrd Ft keretek szerepelnek; a 110,1 Mrd Ft-os 2018-as költés és a 84%-os külföldi arány nincs az oldalon.",
+  "correct": null
+ },
+ {
+  "key": "energia-orosz-01|Európai Unió|https://oenergetice.cz/en/european-union/european-energy-independence-statistics-on-the-shift-away-from-russian-gas-oil-and-nuclear-power",
+  "status": "unreachable",
+  "note": "Az oenergetice cikk statisztikai része paywall mögött van; a 150→52 mrd m3, 45%→19% és LNG/csővezeték számok nem láthatók.",
+  "correct": null
+ },
+ {
+  "key": "kornyezet-akku-01|Svédország|https://techcrunch.com/2025/03/12/battery-manufacturer-northvolt-nears-the-end-as-it-files-for-bankruptcy-in-sweden",
+  "status": "partly",
+  "note": "A 2025. márciusi csőd és a 14 Mrd dollár feletti összegyűjtött tőke szerepel (nem 10–14); az 5 Mrd dolláros 2024-es adósságügylet nem 'zöldhitel' és nem szerepel visszavonásként, a svéd állami segítségről nincs szó.",
+  "correct": "Northvolt: összesen több mint 14 Mrd dollárt gyűjtött; 2024 januárjában 5 Mrd dolláros adósságügyletet kötött."
+ },
+ {
+  "key": "kulpol-unio-01|Magyarország|https://www.portfolio.hu/en/eu-funds/20240314/hungarian-veto-lifted-eus-massive-aid-package-to-ukraine-set-to-go-ahead-674867",
+  "status": "contradicted",
+  "note": "Az oldal szerint Budapest 500 millió € EPF-visszatérítést blokkol, nem 6,6 Mrd eurót; kétéves időtartam és önkéntes hozzájárulás nem szerepel, helyette konstruktív tartózkodás.",
+  "correct": "500 millió € blokkolt EPF-visszatérítés (2024. márc.), konstruktív tartózkodás az Ukrajna Támogatási Alapnál."
+ },
+ {
+  "key": "koltsegvetes-fek-04|Magyarország|https://www.portfolio.hu/en/economy/20251113/hungarian-govt-decides-to-pay-first-instalment-of-14th-month-pension-next-year-799434",
+  "status": "not_found",
+  "note": "Az oldal nem tartalmazza a GDP 0,3%/0,6% hatást és a ~600 Mrd Ft-os teljes költséget; a 14. havi nyugdíjra 2026-ra kb. 170 Mrd Ft többletet, négy részletben, évek alatt épülő teljes hatással említ.",
+  "correct": "2026: kb. 170 Mrd Ft többletkiadás (Gulyás)."
+ },
+ {
+  "key": "munka-minimalber-01|Magyarország|https://www.aeaweb.org/doi/10.1257/aer.20171445",
+  "status": "partly",
+  "note": "Az absztrakt szerint a foglalkoztatási rugalmasság negatív, de kicsi négy év után, és a költség kb. 75%-a a fogyasztókra hárult (nem 'nagyrészt'); a 60%-os emelés, 35→55% arány és a ~10%-os foglalkoztatás-csökkenés nincs az absztraktban (csak absztraktot értem el).",
+  "correct": null
+ },
+ {
+  "key": "szja-szerkezet-01|Oroszország|https://www.nber.org/system/files/working_papers/w13719/revisions/w13719.rev0.pdf",
+  "status": "partly",
+  "note": "A PDF-ben az 'legalább 30%-kal kisebb' hatékonysági nyereség, a 13%-os adó és a 0–4% termelékenységi hatás szerepel, de az adókijátszási hatás 10–11% (nem 10–12%).",
+  "correct": "Adókijátszási hatás 10–11%, termelékenység 0–4%, windfall 4–5%."
+ },
+ {
+  "key": "nyugdij-magan-01|Lengyelország|https://www.ebrd.com/news/2013/polands-new-pension-measures.html",
+  "status": "partly",
+  "note": "Az EBRD szerint az OFE-átvétel rövid távon pozitív a hiányra, az eszköz a kormányzati számlákon jelenik meg és az adósságráta kb. 8 százalékponttal esik; a 120 Mrd PLN/30 Mrd € összeget és a törlést a lekérdezés nem találta kifejezetten.",
+  "correct": null
+ },
+ {
+  "key": "csalad-csp-01|Lengyelország|https://wol.iza.org/news/polands-child-benefit-decreases-female-labor-force-participation",
+  "status": "partly",
+  "note": "Az IZA-cikk szerint az anyák részvétele 2017 közepére 2,4%-kal csökkent (nem 2–3 pp), a 500 zł és a Bokun-féle +1,5 pp nincs az oldalon; a 'második gyerektől általános' állítás stimmel.",
+  "correct": "Munkaerő-piaci részvétel -2,4% (2017 közepére)."
+ },
+ {
+  "key": "koltsegvetes-uniosforras-03|Lengyelország|https://ec.europa.eu/regional_policy/sources/evaluation/eval2007/2013_een_task2_pl.pdf",
+  "status": "partly",
+  "note": "A bizottsági PDF-ben a 2012-es 0,6–1,4 pp szerepel (MRD 2013), és '2011-nél kicsivel magasabb'; a 2011-es 0,5–0,9 pp és a 0,4–1,7 pp-os hazai szórás nem található meg.",
+  "correct": "2012: 0,6–1,4 pp."
+ },
+ {
+  "key": "vagyon-vagyonado-01|Norvégia|https://researchonline.lse.ac.uk/id/eprint/130959",
+  "status": "partly",
+  "note": "Az 1 pp-os emelés -2%-os gazdag adófizető-állomány és a szerény aggregált hatás stimmel, de a tanulmány skandináv országokra vonatkozik, nem csak Norvégiára.",
+  "correct": null
+ },
+ {
+  "key": "vallalkozas-kulonado-03|Olaszország|https://taxfoundation.org/blog/italy-windfall-profits-tax/",
+  "status": "confirmed",
+  "note": "Az oldal szerint kb. 2,8 Mrd € folyt be a várt 11 Mrd €-ból.",
+  "correct": null
+ },
+ {
+  "key": "afa-egeszsegado-03|Egyesült Királyság|https://strathprints.strath.ac.uk/84955/1/Dickson_etal_RES_2023_Does_a_spoonful_of_sugar_levy_help_the_calories_go_down.pdf",
+  "status": "partly",
+  "note": "A 6600 kalória/fő/év szerepel a Dickson-tanulmányban, de a 12,1%-os fogszuvasodási kórházi felvétel (CI 7,2–17,0) nincs ebben a PDF-ben, az másik tanulmány adata.",
+  "correct": null
+ },
+ {
+  "key": "csalad-bolcsode-01|Magyarország|https://www.ksh.hu/infografika/2025/magyarorszag_2024_6_fejezet_hu.pdf",
+  "status": "partly",
+  "note": "A KSH-infografika szerint 64,7 ezer férőhely, +7,3% (2024); a 60,3 ezres 2023-as érték levezethető, de a '3 járásban maradt hiány' nincs az oldalon (infografika-kivonat).",
+  "correct": null
+ },
+ {
+  "key": "kozlekedes-gyorsvasut-01|Spanyolország (AVE)|https://www.adb.org/adbi/publications/when-speed-outruns-demand-political-drivers-and-economic-outcomes-of-high-speed-rail-in-spain",
+  "status": "confirmed",
+  "note": "Az ADBI-összefoglaló szerint a folyosók többségénél nagyon gyenge vagy negatív a társadalmi megtérülés alacsony forgalom miatt, a km-költség viszonylag alacsony, konkrét szám nincs.",
+  "correct": null
+ }
+]

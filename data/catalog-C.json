@@ -1,0 +1,436 @@
+[
+ {
+  "id": "egeszsegugy-finanszirozas-01",
+  "topic": "Egészségügy",
+  "q": "Mekkora legyen az állami egészségügyi kiadások tartós növekedése?",
+  "context": {
+   "fidesz": "Az egészségügyi kiadás a GDP 6,4%-a volt 2023-ban (Világbank-alapú adat); a háztartások zsebből fizetett aránya 25% volt az OECD 18%-os átlagával szemben, a kötelező előfinanszírozású rész 72% az OECD 76%-ával szemben (OECD, 2023-as országjegyzet).",
+   "tisza": "[bejelentve] A 2027-es költségvetési javaslat sajtóbeszámolók szerint kb. 510 Mrd Ft-tal növelné az állami egészségügy forrásait 2026-hoz képest (a kampányígéret évi 500 Mrd Ft volt); ebből 192 Mrd Ft a nem orvos szakdolgozók béremelése, 19,7 Mrd Ft CT/MR eszköz, 86,7 Mrd Ft drága gyógyszerek. A költségvetési törvény elfogadását a keresés nem erősítette meg.",
+   "sources": [
+    "https://adozona.hu/altalanos/Koltsegvetes_2027__az_egeszsegugyben_bereme_FZPKWM",
+    "https://444.hu/2025/10/03/500-milliardos-emelest-szuperkorhazakat-rovidebb-varolistakat-iger-az-egeszsegugynek-magyar-peter",
+    "https://www.oecd.org/hungary/health-at-a-glance-Hungary-EN.pdf",
+    "https://statisticsoftheworld.com/country/hungary/health-spending"
+   ]
+  },
+  "options": [
+   {"label": "Tartós, évi ~500 Mrd Ft-os emelés (a terv szerint)", "pro": "Gyorsan javíthatja a bérek, az eszközök és a várólisták helyzetét.", "con": "Tartós kiadás, amely nehezíti a 3% alatti hiánycélt.", "effects": {"gdp": 0, "infl": 0, "wage": 1, "housing": 0, "health": 3, "deficit": -2}},
+   {"label": "Mérsékeltebb emelés, hatékonysági feltételekhez kötve", "pro": "Kisebb hiánykockázat, célzottabb felhasználás.", "con": "Lassabb javulás, a szakemberhiány és a várólisták megmaradhatnak.", "effects": {"gdp": 0, "infl": 0, "wage": 1, "housing": 0, "health": 1, "deficit": 0}},
+   {"label": "Kisebb állami emelés, a többletet adókedvezményes magánforrások adják", "pro": "Kíméli a költségvetést, több pénz jut a rendszerbe.", "con": "Nő az egyenlőtlen hozzáférés és a zsebből fizetés kockázata.", "effects": {"gdp": 1, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 1}}
+  ],
+  "evidence": [
+   {"where": "Anglia (NHS)", "when": "2000–2008", "what": "Jelentős NHS-forrásbővítés és központi várakozásiidő-célok (18 hónapról 18 hétre a kezelésig).", "numbers": "2008 decemberére a felvételes betegek 90,3%-a, a nem felvételes betegek 96,8%-a 18 héten belül ellátott lett.", "verdict": "jo", "why": "A mért cél a várakozási idő volt, amely a forrásbővítés és teljesítménymenedzsment mellett érdemben rövidült.", "source": "https://health.org.uk/publications/long-reads/returning-nhs-waiting-times-to-18-weeks", "confidence": "medium"},
+   {"where": "Hollandia", "when": "2006–", "what": "A 2006-os biztosítási reform után a kiadások tartósan nőttek.", "numbers": "Számszerű adat forrásonként eltér (GDP-arány: 9,4% 2006-ban, 10,1% 2017-ben két különböző forrásban, eltérő definíciókkal), ezért megbízhatatlan.", "verdict": "rossz", "why": "A mért cél a költségfékezés volt; az LSE-elemzés a kiadások folyamatos növekedését a reform egyik váratlan, nem kívánt következményének nevezte.", "source": "https://blogs.lse.ac.uk/europpblog/2013/01/30/health-reforms-netherlands-ilaria-mosca", "confidence": "low"}
+  ]
+ },
+ {
+  "id": "egeszsegugy-biztositas-02",
+  "topic": "Egészségügy",
+  "q": "Egységes TB, kiegészítő vagy versengő biztosítás legyen az egészségügy alapja?",
+  "context": {
+   "fidesz": "Magyarországon egységes, állami társadalombiztosítás működik; az önkéntes (pénztári és magán-) kifizetések a folyó egészségügyi kiadás kb. 3,5%-át tették ki 2019-ben (2010-ben kb. 5,5%), és nagy részük nem valódi kockázatmegosztó biztosítás, hanem egyéni megtakarítási számla jellegű. A zsebből fizetés aránya 25% (OECD).",
+   "tisza": "[bejelentve] A keresésben nem találtam elfogadott vagy bejelentett Tisza-intézkedést kiegészítő vagy versengő biztosításról; az egészségügyi miniszter a magán- és állami ellátás együttélési szabályainak felülvizsgálatát ígérte (2026. április).",
+   "sources": [
+    "https://ojs.mtak.hu/index.php/ime/article/view/9273",
+    "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/countries-hspm/hspm/hungary-2011/financing/sources-of-revenue-and-financial-flows",
+    "https://www.oecd.org/hungary/health-at-a-glance-Hungary-EN.pdf",
+    "https://www.economx.hu/belfold/2026/04/28/hegedus-zsolt-leendo-egeszsegugyi-miniszter-allami-korhazak-maganellatas-felulvizsgalat/"
+   ]
+  },
+  "options": [
+   {"label": "Egységes, állami finanszírozású TB marad", "pro": "Egyenlő hozzáférés és alacsony adminisztratív teher.", "con": "A teher az állami forrásokon marad, a zsebből fizetés magas maradhat.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 1, "deficit": 0}},
+   {"label": "Kiegészítő biztosítás/pénztár adókedvezménnyel (német–francia irány)", "pro": "Csökkentheti a zsebből fizetést és a hálapénz szerepét.", "con": "Adókiesés, és a jobb helyzetűek előnyt szerezhetnek.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 2, "deficit": -1}},
+   {"label": "Kötelező alapbiztosítás versengő biztosítókkal (holland irány)", "pro": "A verseny és a szerződéses vásárlás hatékonyságot hozhat.", "con": "Drága átállás, és a prémiumok, kiadások emelkedhetnek.", "effects": {"gdp": 0, "infl": 0, "wage": -1, "housing": 0, "health": 1, "deficit": 0}}
+  ],
+  "evidence": [
+   {"where": "Hollandia", "when": "2006–", "what": "Kötelező, versengő magán-alapbiztosítás elfogadási kötelezettséggel és prémiumtámogatással (korábban kb. 63% betegpénztári / 37% magánbiztosított).", "numbers": "A CPB 2008-as prezentációja szerint a lakosság 1,5%-a maradt biztosítatlan, kevés kockázatszelekciós problémával; a kiadásnövekedést nem sikerült fékezni.", "verdict": "vegyes", "why": "A lefedettség és a szelekció kedvező, a költségfékezés (mért cél) elmaradt.", "source": "https://www.cpb.nl/sites/default/files/publicaties/download/harvard.pdf", "confidence": "medium"},
+   {"where": "Németország", "when": "2024–2026", "what": "Bismarck-típusú járulékfinanszírozás: 14,6%-os általános ráta plusz kasszánként megállapított pótjárulék.", "numbers": "Az átlagos pótjárulék 2024 elején 1,7%, 2025 folyamán kb. 3,1%; az IGES előrejelzése 2026-ra 3,3%.", "verdict": "rossz", "why": "A mért cél a járulékteher stabilitása volt, amely a kiadások gyors növekedése miatt nem teljesült.", "source": "https://www.thelocal.de/20251103/how-youll-be-affected-by-a-steep-rise-in-german-health-insurance-contributions", "confidence": "medium"},
+   {"where": "Magyarország", "when": "2010–2019", "what": "Az önkéntes pénztári/magánbiztosítási kiegészítő finanszírozás szerepe a 2003-as kockázatmegosztás-megszüntetés után szűk maradt.", "numbers": "Az önkéntes kifizetések aránya a folyó egészségügyi kiadásban kb. 5,5%-ról (2010) kb. 3,5%-ra (2019) csökkent.", "verdict": "vegyes", "why": "A kiegészítő finanszírozás nem tudta érdemben csökkenteni a 25%-os zsebből fizetést; kauzális értékelés nem áll rendelkezésre.", "source": "https://ojs.mtak.hu/index.php/ime/article/view/9273", "confidence": "low"}
+  ]
+ },
+ {
+  "id": "egeszsegugy-berek-03",
+  "topic": "Egészségügy",
+  "q": "Mekkora és kinek szóló béremelést kapjanak az egészségügyi dolgozók?",
+  "context": {
+   "fidesz": "A 2020 őszén elfogadott orvosi bértábla-emelés az orvosi béreket nagyjából megduplázta: a célszint 70%-át 2021-ben, 90%-át 2022-ben, 100%-át 2023-ban érték el. A szakdolgozók alapbére 2023 júliusától 18%-kal nőtt (50 Mrd Ft), 2024 márciusától újabb ~200 Mrd Ft-os emelés (kb. 84 000 fő) következett. Egy összefoglaló szerint 2023-ban az orvosok átlagbére 2,197 M Ft, a szakápolóké 595 000 Ft volt.",
+   "tisza": "[bejelentve] A 2027-es költségvetési javaslat 192 Mrd Ft-ot szán a nem orvos egészségügyi dolgozók béremelésére; külön orvosi béremelési tételt a keresésben nem találtam.",
+   "sources": [
+    "https://infostart.hu/belfold/2020/10/04/itt-vannak-a-reszletek-igy-emeli-duplajara-az-orvosbereket-az-orban-kormany",
+    "https://telex.hu/belfold/2020/10/05/orvos-beremeles-bertabla-halapenz-fizetes-vezenyles-feltetel-maganorvos",
+    "https://444.hu/2023/05/17/megjelent-az-egeszsegugyi-szakdolgozok-beremeleserol-szolo-rendelet-amit-a-kormany-regota-igergetett",
+    "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2024/03/mindenki-orulhet-az-egeszsegugyi-szakdolgozok-bere-ujabb-20-szazalekkal-emelkedik",
+    "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2025/02/orvos-atlagber-halapenz",
+    "https://adozona.hu/altalanos/Koltsegvetes_2027__az_egeszsegugyben_bereme_FZPKWM"
+   ]
+  },
+  "options": [
+   {"label": "Szakdolgozói fókusz (a 192 Mrd Ft-os terv), orvosoknál nincs új emelés", "pro": "Ott segít, ahol a bér a legalacsonyabb és a pályaelhagyás nagy.", "con": "Az orvosi bérek reálértéke kopik, a hálapénz-függés megmaradhat.", "effects": {"gdp": 0, "infl": 0, "wage": 1, "housing": 0, "health": 2, "deficit": -1}},
+   {"label": "Egységes, inflációt meghaladó ágazati emelés orvosoknak és szakdolgozóknak", "pro": "Mindenkit megtart, csökkentheti a kivándorlást.", "con": "A legdrágább, nehezen fér a 3% alatti hiánycél mellé.", "effects": {"gdp": 0, "infl": -1, "wage": 2, "housing": 0, "health": 3, "deficit": -3}},
+   {"label": "Sávos, hiányszakma- és teljesítményalapú rendszer kisebb alapemeléssel", "pro": "Célzottabb és olcsóbb, vonzza a hiányszakmákat.", "con": "Bonyolult, igazságtalannak érezhető (a sávos modellt az ápolók kritizálták).", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 1, "deficit": 0}}
+  ],
+  "evidence": [
+   {"where": "Magyarország", "when": "2021–2023", "what": "Az orvosi bértábla megduplázása három év alatt, szolgálati jogviszony bevezetésével.", "numbers": "Célszint 70% (2021), 90% (2022), 100% (2023); a megtartásra vagy a hálapénzre gyakorolt hatásról számszerű adat nem áll rendelkezésre.", "verdict": "vegyes", "why": "A bérszint-cél teljesült, de a mért hatás (megtartás, hálapénz) a keresésben nem volt kimutatható.", "source": "https://telex.hu/belfold/2020/10/05/orvos-beremeles-bertabla-halapenz-fizetes-vezenyles-feltetel-maganorvos", "confidence": "low"},
+   {"where": "Magyarország", "when": "2023", "what": "A szakdolgozók 18%-os alapbéremelése 2023 júliusától.", "numbers": "18% alapbér-emelés, 50 Mrd Ft keret; a Telex G7 szerint az emelés a 2023-as infláció ellensúlyozására sem lett volna elég.", "verdict": "vegyes", "why": "A mért cél a reálbér védelme volt, amelyet a lap számítása szerint csak részben teljesített.", "source": "https://telex.hu/g7/adat/2023/04/27/az-idei-inflacio-ellensulyozasara-se-lenne-eleg-a-18-szazalekos-apoloi-beremeles", "confidence": "low"}
+  ]
+ },
+ {
+  "id": "egeszsegugy-varolista-04",
+  "topic": "Egészségügy",
+  "q": "Hogyan rövidítsük a műtéti várólistákat: állami kapacitás vagy magánellátók bevonása?",
+  "context": {
+   "fidesz": "A csípő- és térdprotézis-műtétekre éveket is várni kellett (sajtóbeszámoló, 2026. április); hivatalos, összehasonlítható várólista-adat a keresésben nem szerepelt.",
+   "tisza": "[elfogadva] A kormány 10 Mrd Ft-os várólistacsökkentő programot fogadott el (eredmény legkésőbb január 1-ig várható). [bejelentve] Kampányígéret: átlátható várólisták hat hónappal a hivatalba lépés után, műtéti várakozás legfeljebb 6 hónap 2027 végéig; az egészségügyi miniszter a magán- és állami ellátás együttélési szabályait felülvizsgálja.",
+   "sources": [
+    "https://economx.hu/belfold/2026/04/02/egeszsegugy-csipo-es-terdprotezis-varolista-betegek-korhaz-neak-mutet-eveket-is-kell-varni/",
+    "https://adozona.hu/altalanos/Koltsegvetes_2027__az_egeszsegugyben_bereme_FZPKWM",
+    "https://444.hu/2025/10/03/500-milliardos-emelest-szuperkorhazakat-rovidebb-varolistakat-iger-az-egeszsegugynek-magyar-peter",
+    "https://telex.hu/belfold/2026/09/13/varolista-csokkentes-egeszsegugy-szakemberhiany-szakpolitika-miniszterium"
+   ]
+  },
+  "options": [
+   {"label": "Állami program: célzott kapacitás- és béremelés (a 10 Mrd Ft kiterjesztése)", "pro": "Állami kézben marad az ellátás, nincs kétszintű rendszer.", "con": "Lassú, ha a szakemberhiány a szűk keresztmetszet.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 2, "deficit": -1}},
+   {"label": "Magánszolgáltatók szerződéses bevonása közfinanszírozással", "pro": "Gyorsan nyit kapacitást meglévő műtőkben.", "con": "Drágább lehet, és elszívhatja az állami szakembereket.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 2, "deficit": -2}},
+   {"label": "Átláthatóság és a párhuzamos állami/magán munka korlátozása", "pro": "Olcsó, és csökkenti a sorfelugrást.", "con": "Bér-kompenzáció nélkül orvosokat veszíthet a rendszer.", "effects": {"gdp": 0, "infl": 0, "wage": -1, "housing": 0, "health": 1, "deficit": 1}}
+  ],
+  "evidence": [
+   {"where": "Anglia (NHS)", "when": "2004–2008", "what": "Az „18 hónapról 18 hétre” program: célszámok, teljesítménymenedzsment, forrásbővítés és kapacitásnövelés.", "numbers": "2008 decemberére a felvételes betegek 90,3%-a, a nem felvételes betegek 96,8%-a 18 héten belül ellátott lett.", "verdict": "jo", "why": "A mért cél (18 hetes várakozás) teljesült; a King's Fund a sikert a befektetésnek és az egyértelmű központi célnak tulajdonítja.", "source": "https://health.org.uk/publications/long-reads/returning-nhs-waiting-times-to-18-weeks", "confidence": "medium"},
+   {"where": "Anglia (NHS)", "when": "2025–2026", "what": "A kórházi várólista a magas forrásbevonás és célok ellenére is nagy maradt.", "numbers": "7,37 M várakozó (2026 aug.), ebből kb. 2,56 M 18 hétnél tovább; kb. 99 800 fő várt egy évnél tovább (2026 ápr.); a 65%-os köztes cél teljesült, a 92%-os hosszú távú nem.", "verdict": "vegyes", "why": "A mért cél a 18 hetes arány: a köztes cél teljesült, a tartós standard messze van.", "source": "https://www.bma.org.uk/advice-and-support/nhs-delivery-and-workforce/pressures/nhs-backlog-data-analysis", "confidence": "medium"}
+  ]
+ },
+ {
+  "id": "egeszsegugy-gyogyszer-05",
+  "topic": "Egészségügy",
+  "q": "Hogyan csökkentsük a gyógyszerek betegekre eső költségét?",
+  "context": {
+   "fidesz": "A háztartások zsebből fizetett aránya az egészségügyi kiadásban 2023-ban 23,1% volt az EU27 14,9%-ával szemben (ISPOR-összehasonlítás); az OECD 2023-as jegyzete szerint 25%. A tendencia 2014–2023 között csökkenő volt.",
+   "tisza": "[terv] Program: a vényköteles gyógyszerek áfájának eltörlése (a költségéről a keresésben nem találtam adatot). [bejelentve] A 2027-es javaslat 86,7 Mrd Ft-ot szán drága gyógyszerekre és 38 Mrd Ft-ot a gyógyszertámogatási keretre; új gyógyszerhatóság felállítása is szerepel (Portfolio, 2026. okt.).",
+   "sources": [
+    "https://www.ispor.org/heor-resources/presentations-database/presentation-cti/ispor-europe-2026/poster-session-5-4/government-and-compulsory-health-financing-and-household-out-of-pocket-payment-in-central-and-eastern-europe-a-comparative-analysis-2014-2023",
+    "https://www.oecd.org/hungary/health-at-a-glance-Hungary-EN.pdf",
+    "https://adozona.hu/altalanos/Koltsegvetes_2027__az_egeszsegugyben_bereme_FZPKWM",
+    "https://www.portfolio.hu/gazdasag/20261002/felall-az-uj-gyogyszerhatosag-teljesen-atalakitjak-a-magyar-rendszert-867068"
+   ]
+  },
+  "options": [
+   {"label": "A vényköteles gyógyszerek áfájának eltörlése", "pro": "Minden beteg olcsóbban jut hozzá, egyszerű végrehajtani.", "con": "Bevételkiesés, és nem célozza a rászorulókat.", "effects": {"gdp": 0, "infl": 1, "wage": 1, "housing": 0, "health": 1, "deficit": -2}},
+   {"label": "Célzott támogatás: krónikus, ritka és drága gyógyszerek bővítése", "pro": "A legnagyobb terhet viselőknek segít, olcsóbb.", "con": "Bürokrácia, és a közepes terhet viselők kimaradnak.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 2, "deficit": -1}},
+   {"label": "Hatóanyag- és referenciaár-alapú ártárgyalás, generikus-ösztönzés", "pro": "Hosszú távon költséget fog, kíméli a támogatási keretet.", "con": "Ágazati ellenállás és ellátási kockázat, lassan hat.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 1}}
+  ],
+  "evidence": [
+   {"where": "Magyarország", "when": "2023", "what": "Kiinduló mutató, nem beavatkozás-értékelés: a zsebből fizetés szintje az EU-hoz képest.", "numbers": "23,1% az egészségügyi kiadásban (EU27: 14,9%); az OECD szerint 25% (OECD-átlag 18%).", "verdict": "rossz", "why": "A mért cél a megfizethetőség (zsebből fizetés aránya); a szint messze az uniós átlag fölött van.", "source": "https://www.ispor.org/heor-resources/presentations-database/presentation-cti/ispor-europe-2026/poster-session-5-4/government-and-compulsory-health-financing-and-household-out-of-pocket-payment-in-central-and-eastern-europe-a-comparative-analysis-2014-2023", "confidence": "low"},
+   {"where": "Magyarország", "when": "2014–2023", "what": "A zsebből fizetés aránya a gyógyszer- és egyéb támogatási rendszer mellett csökkent.", "numbers": "Csökkenő tendencia, de a szint 2023-ban is az EU27 fölött; konkrét gyógyszerpolitikai hatás nem azonosítható (számszerű adat nem áll rendelkezésre).", "verdict": "vegyes", "why": "Az irány kedvező, a szint nem; az ok-okozati kapcsolatot nem vizsgálták a talált forrásban.", "source": "https://www.ispor.org/heor-resources/presentations-database/presentation-cti/ispor-europe-2026/poster-session-5-4/government-and-compulsory-health-financing-and-household-out-of-pocket-payment-in-central-and-eastern-europe-a-comparative-analysis-2014-2023", "confidence": "low"}
+  ]
+ },
+ {
+  "id": "oktatas-berek-01",
+  "topic": "Oktatás",
+  "q": "Hogyan emeljük a pedagógusok és az oktatást segítők bérét?",
+  "context": {
+   "fidesz": "Rétvári Bence kormányzati állítása szerint a pedagógusbérek 2022 és 2025 között 93,5%-kal emelkedtek. Az OECD-adatokra támaszkodó Euronews szerint a magyar tanárbérek reálértéke 2015 és 2023 között 3%-kal csökkent.",
+   "tisza": "[bejelentve] A NOKS-dolgozók (oktatást segítők) béremelése két lépcsőben jön: 2026 októbere és 2027. jan. 1. (a program 25%-ot ígért). A 2027-es javaslat 677 Mrd Ft-ot szán 603 ezer állami alkalmazott béremelésére, az egyetemi oktatókra 10 Mrd Ft-ot. A 2026-os pedagógusemelés mértékéről vita van: Rétvári Bence szerint 0,4% volt, a Tisza szerint az uniós vállalás teljesítéséhez kötött.",
+   "sources": [
+    "https://eduline.hu/kozoktatas/20240319_pedagogusberek-beremeles-21-szazalek-2025",
+    "https://www.euronews.com/2025/01/27/teacher-salaries-in-europe-where-are-the-highest-rises-and-falls-in-real-terms",
+    "https://eduline.hu/kozoktatas/20260903_noks-dolgozok-beremeles-ket-lepcso-magyar-peter",
+    "https://www.economx.hu/magyar-gazdasag/2027-es-koltsegvetes-beremeles-magyar-peter/",
+    "https://www.economx.hu/belfold/retvari-bence-tanarok-fizetese-lannert-judit/"
+   ]
+  },
+  "options": [
+   {"label": "Fokozatos, inflációkövető emelés, az oktatást segítők előrehozott rendezésével", "pro": "Kiszámítható és finanszírozható, a legrosszabbul fizetetteknek segít.", "con": "A tanári bérek OECD-hoz mért lemaradása lassan záródik.", "effects": {"gdp": 0, "infl": 0, "wage": 1, "housing": 0, "health": 0, "deficit": -1}},
+   {"label": "Nagy, gyors pedagógus-béremelés az OECD-átlaghoz zárkózva", "pro": "Erős megtartó és vonzó hatás a pályán.", "con": "Drága, és a többi közszféra is hasonlót követelhet.", "effects": {"gdp": 1, "infl": -1, "wage": 2, "housing": 0, "health": 0, "deficit": -3}},
+   {"label": "Pályamodell- és teljesítményalapú bérrendszer kisebb alapemeléssel", "pro": "Jutalmazza a jó munkát, olcsóbb.", "con": "Bürokratikus, és a teljesítményértékelés vitatott (korábbi rendszer megszűnt).", "effects": {"gdp": 1, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 0}}
+  ],
+  "evidence": [
+   {"where": "Lengyelország", "when": "2005–2023", "what": "A tanári bérek folyamatos, az átlagot meghaladó emelése.", "numbers": "28%-os tanárbér-növekedés 2005–2023 között (Németország 16%, Norvégia 15%); 2026-os OECD-rangsor szerint öt hellyel feljebb lépett az általános iskolai tanárok vásárlóerő-korrigált bérében.", "verdict": "vegyes", "why": "A mért relatív bér javult, de tanulási eredményekre vonatkozó adat a keresésben nem szerepelt.", "source": "https://www.euronews.com/2025/01/27/teacher-salaries-in-europe-where-are-the-highest-rises-and-falls-in-real-terms", "confidence": "low"},
+   {"where": "OECD-átlag", "when": "2015–2025", "what": "A tanárok bére az átlagos felsőfokú végzettségűekhez képest.", "numbers": "Az általános és középiskolai tanárok tényleges bére a felsőfokú végzettségűek átlagkeresetének 87–95%-a; a kezdő bérek 18–20%-kal, a 15 éves gyakorlatúaké 6–7%-kal emelkedtek.", "verdict": "vegyes", "why": "A kezdő bérek relatív javulása kedvező, de a teljes pálya bére továbbra is elmarad a diplomás átlagtól.", "source": "https://www.oecd.org/en/publications/education-at-a-glance-2026_b4968bbc-en/full-report/how-much-are-teachers-and-school-heads-paid_a6233c97", "confidence": "medium"},
+   {"where": "Magyarország", "when": "2015–2023", "what": "A tanári bérek reálértékének alakulása a nagy névleges emelések előtt.", "numbers": "A reálbér 3%-kal csökkent 2015–2023 között (Euronews/OECD-alapú adat).", "verdict": "rossz", "why": "A mért cél a reálbér védelme volt, amely ebben az időszakban nem teljesült.", "source": "https://www.euronews.com/2025/01/27/teacher-salaries-in-europe-where-are-the-highest-rises-and-falls-in-real-terms", "confidence": "low"}
+  ]
+ },
+ {
+  "id": "oktatas-tankotelezettseg-02",
+  "topic": "Oktatás",
+  "q": "Meddig tartson a tankötelezettség, és maradjon-e kötelező az óvoda 3 évesen?",
+  "context": {
+   "fidesz": "Jelenleg a részvétel 3 és 16 éves kor között kötelező (3 év óvoda és 10 év iskola), az oktatás 18 éves korig ingyenes. Egy forrás szerint a tankötelezettség felső határát 2012-ben szállították le 18-ról 16 évre. A korai iskolaelhagyás 2024-ben 10,3% volt az EU 9,3%-ával szemben; a romák körében 58,7%, a nem romák között 9,3% (2023).",
+   "tisza": "[nincs bejelentés] A keresésben nem találtam a tankötelezettség korhatárát vagy az óvodakötelezettséget érintő bejelentett Tisza-intézkedést.",
+   "sources": [
+    "https://eurydice.eacea.ec.europa.eu/national-education-systems/hungary/access",
+    "https://national-policies.eacea.ec.europa.eu/youthwiki/chapters/hungary/61-general-context",
+    "https://op.europa.eu/webpub/eac/education-and-training-monitor/en/country-reports/hungary.html"
+   ]
+  },
+  "options": [
+   {"label": "A jelenlegi 3–16 éves kötelezettség marad", "pro": "Stabil rendszer, nincs átállási költség.", "con": "A lemorzsolódás és a romák kimaradása marad kihívás.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 0}},
+   {"label": "Tankötelezettség 18 évre emelése szakképzési garanciával", "pro": "Csökkentheti a korai iskolaelhagyást, javítja a munkaerő-piaci esélyeket.", "con": "Költséges, és a kényszerített bennmaradás nem garantál tanulást.", "effects": {"gdp": 1, "infl": 0, "wage": 1, "housing": 0, "health": 0, "deficit": -1}},
+   {"label": "16 év marad, de célzott lemorzsolódás-megelőzés és bölcsődei kapacitásbővítés", "pro": "Célzottan segít a hátrányos helyzetű térségekben, olcsóbb.", "con": "Lassú hatás, a helyi kapacitásokon múlik.", "effects": {"gdp": 1, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": -1}}
+  ],
+  "evidence": [
+   {"where": "Magyarország", "when": "2019–2024", "what": "A 16 éves tankötelezettség mellett a korai iskolaelhagyók aránya (mért cél) alakulása.", "numbers": "11,8% (2019; EU: 10,2%), 10,3% (2024; EU: 9,3%).", "verdict": "vegyes", "why": "Az arány csökkent, de az EU-átlag fölött maradt; a tankötelezettségi korhatár önálló hatása nem különíthető el.", "source": "https://op.europa.eu/webpub/eac/education-and-training-monitor/en/country-reports/hungary.html", "confidence": "low"},
+   {"where": "Magyarország", "when": "2023", "what": "A lemorzsolódás egyenlőtlensége etnikai bontásban.", "numbers": "Romák 58,7%, nem romák 9,3% (2023).", "verdict": "rossz", "why": "A mért cél az esélyegyenlőség volt; a szakadék óriási, ami a korhatáron túl célzott beavatkozást indokol.", "source": "https://op.europa.eu/webpub/eac/education-and-training-monitor/en/country-reports/hungary.html", "confidence": "medium"}
+  ]
+ },
+ {
+  "id": "oktatas-egyetem-03",
+  "topic": "Oktatás",
+  "q": "Milyen fenntartási és irányítási modell legyen az állami egyetemeken?",
+  "context": {
+   "fidesz": "Az egyetemek jelentős része modellváltással vagyonkezelő alapítványi (kekva) fenntartásba került, a kekva-kérdés az uniós források (Erasmus, Horizont) elérhetőségével függött össze.",
+   "tisza": "[bejelentve] Az Alaptörvény-módosítás szerint az állam visszaveszi a kekvák alapítói jogait, a kormány megszüntetheti őket; az egyetemet fenntartó alapítványoknál egyéves haladék van, az egyetemek szenátusát újra kell választani és visszakapják az elvont döntési jogköreiket. A menetrendet 2026. június végén ismertették; a végrehajtás átmeneti időszakban zajlik.",
+   "sources": [
+    "https://telex.hu/gazdasag/2026/05/20/tisza-part-alaptorveny-kekva-helyreallitasi-alap-erasmus-horizont-europai-bizottsag",
+    "https://telex.hu/belfold/2026/05/21/kekva-alapitvanyi-egyetemek-fenntartas-fenntartovaltas-oktatasi-miniszterium",
+    "https://eduline.hu/felsooktatas/20260701_kekva-atalakitas-menetrend-hataridok-egyetemi-alapitvanyok-kormany",
+    "https://eduline.hu/felsooktatas/20260720_gorog-marta-kekva-atalakitas-reszletek"
+   ]
+  },
+  "options": [
+   {"label": "Visszatérés az állami fenntartáshoz, megerősített intézményi autonómiával", "pro": "Átlátható állami felügyelet, uniós programokhoz való hozzáférés helyreállhat.", "con": "Költségvetési függés, és az alapítványi modell előnyei (rugalmas gazdálkodás) elveszhetnek.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": -1}},
+   {"label": "Alapítványi fenntartás megtartása, reformált (független kuratóriumú) keretben", "pro": "Rugalmas gazdálkodás és folytonosság az intézményeknek.", "con": "Az átláthatóság és az uniós megfelelés kérdése nyitva marad.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 0}},
+   {"label": "Vegyes modell: az egyetem választhat objektív kritériumok alapján", "pro": "Alkalmazkodik az intézményi különbségekhez.", "con": "Bonyolult szabályozás, kettős rendszer fenntartási költséggel.", "effects": {"gdp": 1, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 0}}
+  ],
+  "evidence": [
+   {"where": "Magyarország", "when": "2020–2026", "what": "A modellváltó, kekva-fenntartású egyetemek rendszere és annak visszafordítása körüli vita.", "numbers": "Számszerű, független eredmény-értékelés nem áll rendelkezésre; a szakmai vita egyik véleménye szerint a régi rendszerre való visszatérés 10–15 évvel vetné vissza az egyetemeket (Telex cím alapján).", "verdict": "vegyes", "why": "A mérhető cél (kutatási és oktatási teljesítmény) értékelése a keresésben nem szerepelt; a vita véleményalapú.", "source": "https://telex.hu/belfold/2026/05/21/kekva-alapitvanyi-egyetemek-fenntartas-fenntartovaltas-oktatasi-miniszterium", "confidence": "low"},
+   {"where": "Magyarország–EU", "when": "2022–", "what": "A kekva-fenntartású egyetemek uniós programokból való kizárása (Erasmus+, Horizont).", "numbers": "Számszerű adat nem áll rendelkezésre a keresésben.", "verdict": "rossz", "why": "A mért cél az uniós források elérhetősége volt, amely az alapítványi modell mellett korlátozódott.", "source": "https://telex.hu/gazdasag/2026/05/20/tisza-part-alaptorveny-kekva-helyreallitasi-alap-erasmus-horizont-europai-bizottsag", "confidence": "low"}
+  ]
+ },
+ {
+  "id": "oktatas-tandij-04",
+  "topic": "Oktatás",
+  "q": "Hogyan finanszírozzuk a felsőoktatási részvételt: ingyenes helyek, tandíj vagy hitel?",
+  "context": {
+   "fidesz": "A magyar felsőoktatásban az államilag támogatott és az önköltséges képzés párhuzamosan működik; pontos létszám- és díjadat a keresésben nem szerepelt.",
+   "tisza": "[terv] A 2027-es javaslat 10 Mrd Ft-ot szán az állami egyetemi oktatók bérrendezésére; tandíjpolitikai bejelentést a keresésben nem találtam.",
+   "sources": [
+    "https://eduline.hu/felsooktatas/20261020_magyar-peter-koltsegvetes-egyetemi-berfeszultseg-kekva"
+   ]
+  },
+  "options": [
+   {"label": "Államilag támogatott (tandíjmentes) helyek bővítése", "pro": "Szélesíti a hozzáférést, főleg a hátrányos helyzetűeknek.", "con": "Költséges, és az adófizetők finanszíroznak magasabb jövedelmet is.", "effects": {"gdp": 1, "infl": 0, "wage": 1, "housing": 0, "health": 0, "deficit": -2}},
+   {"label": "Általános tandíj jövedelemarányos, utólag törlesztett hitellel (angol modell)", "pro": "Tehermentesíti a költségvetést, az egyetemek több forrást kapnak.", "con": "Adósság-érzet és visszarettentő hatás a jelentkezőkre.", "effects": {"gdp": 0, "infl": 0, "wage": -1, "housing": 0, "health": 0, "deficit": 2}},
+   {"label": "Tandíjmentes alap, hallgatói szerződéssel (ösztöndíj-ellenszolgálat)", "pro": "A hazai szakemberhiányt célozza, kiszámítható a hallgatónak.", "con": "A kötelezettségek korlátozzák a pályaválasztást és a mobilitást.", "effects": {"gdp": 1, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": -1}}
+  ],
+  "evidence": [
+   {"where": "Anglia", "when": "2012–", "what": "A tandíjat 9000 fontra emelték jövedelemarányos hitellel.", "numbers": "A 2012-es jelentkezési visszaesés a legkedvezőbb helyzetű térségekből jött, a hátrányos helyzetű fiatalok jelentkezési aránya tovább nőtt; az angol visszaesés jóval nagyobb volt, mint Skóciában, Walesben, Észak-Írországban (IFS).", "verdict": "vegyes", "why": "A mért cél a hátrányos helyzetűek részvétele volt (javult), de az összjelentkezés 2012-ben megtört.", "source": "https://fullfact.org/education/have-governments-tuition-fee-reforms-worked/", "confidence": "medium"},
+   {"where": "Németország", "when": "2006–2014", "what": "A tartományi tandíjakat 2014-ig mindenütt eltörölték.", "numbers": "A Wigger-féle LSE-elemzés a tandíj hatását a beiratkozásra nem találta negatívnak; a kérdés egy 2023-as tanulmány szerint vitatott.", "verdict": "jo", "why": "A mért cél a beiratkozás volt, és a tandíj sem hozott kimutatható csökkenést; a kapcsolat azonban vitatott.", "source": "https://researchonline.lse.ac.uk/id/eprint/71668", "confidence": "low"}
+  ]
+ },
+ {
+  "id": "oktatas-szakkepzes-05",
+  "topic": "Oktatás",
+  "q": "Merre fejlesszük a szakképzést: vállalati duális, ágazati központok vagy iskolai képzés?",
+  "context": {
+   "fidesz": "A 2019. évi LXXX. törvény 2020-tól újrarendezte a szakképzést: 5 éves technikum és 3 éves szakképző iskola, ágazati képzőközpontok, szakképzési munkaszerződés, a duális képzés ösztönzése. Egy korai értékelés javuló részvételt és kevesebb lemorzsolódást, de egyenetlen képzési minőséget és tanárhiányt talált.",
+   "tisza": "[nincs bejelentés] A keresésben nem találtam konkrét szakképzési intézkedést a Tisza-kormánytól.",
+   "sources": [
+    "https://www.cedefop.europa.eu/files/vet_in_hungary.pdf",
+    "https://eurydice.eacea.ec.europa.eu/eurypedia/hungary/organisation-vocational-secondary-education"
+   ]
+  },
+  "options": [
+   {"label": "A 2020-as rendszer marad, finomhangolással", "pro": "Stabilitás a tanároknak, vállalatoknak és diákoknak.", "con": "A minőségi és tanárhiányos problémák nem oldódnak meg maguktól.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 0}},
+   {"label": "Erősebb vállalati duális képzés (német irány)", "pro": "Munkaerő-piaci illeszkedés és gyakorlat a képzés alatt.", "con": "A kis cégek nehezen vállalják, kevesebb hely lesz hátrányos térségekben.", "effects": {"gdp": 2, "infl": 0, "wage": 1, "housing": 0, "health": 0, "deficit": -1}},
+   {"label": "Iskolai alapú szakképzés erősebb általános műveltséggel, későbbi pályaválasztással", "pro": "Rugalmasabb továbbtanulás és pályamódosítás.", "con": "Kevésbé gyakorlatias, lassabban reagál a gazdaság igényeire.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": -1}}
+  ],
+  "evidence": [
+   {"where": "Magyarország", "when": "2020–", "what": "A 2020-as szakképzési reform (technikum, duális, ágazati központok).", "numbers": "A korai iskolaelhagyás 2019-ben 11,8% volt az EU 10,2%-ával szemben, különösen a szakképzésben; a reform utáni hatásról számszerű adat nem áll rendelkezésre.", "verdict": "vegyes", "why": "A mért cél a részvétel és a lemorzsolódás: kedvező első jelek mellett a minőség és az elérhetőség egyenetlen.", "source": "https://www.cedefop.europa.eu/files/vet_in_hungary.pdf", "confidence": "low"},
+   {"where": "Németország", "when": "2025", "what": "A duális szakképzés mintaországa.", "numbers": "Ifjúsági munkanélküliség kb. 6,9% (2025) szemben Magyarország kb. 14,2%-ával és az EU 14,5%-os átlagával (2025. márc.); egy harmadik oldal adata, alacsony megbízhatóság.", "verdict": "jo", "why": "A mért cél az ifjúsági munkanélküliség; a kauzális szerep nem bizonyított, más tényezők is hatnak.", "source": "https://historysaid.com/hungary/youth-unemployment/2025", "confidence": "low"}
+  ]
+ },
+ {
+  "id": "kozbiztonsag-rendorseg-01",
+  "topic": "Közbiztonság és büntetőpolitika",
+  "q": "Hogyan rendezzük a rendőrök fizetését és a létszámhiányt?",
+  "context": {
+   "fidesz": "A rendvédelmi illetményalap 2008 óta változatlan (18 év, Pósfai Gábor szerint). A szakszervezetek becslése szerint évente nagyjából kétezer rendőr szerel le (2025). A nyilvántartott bűncselekmények száma 2025-ben kb. 179 ezer volt (kb. −12%), 2010 óta közel 60%-kal csökkent.",
+   "tisza": "[bejelentve] Pósfai Gábor szerint kb. 12 ezer belügyi szakember hiányzik, ebből 9 ezer rendőr. A 2027-es javaslat szerint a rendvédelmi dolgozók bére átlagosan 15%-kal nő (kb. 84 ezer dolgozó), az illetményalap emelésével; a rendőri szakszervezet szerint ez fele annak, amit a teljes rendezéstől vártak. A végső döntés a költségvetés tárgyalásakor várható.",
+   "sources": [
+    "https://telex.hu/belfold/2026/09/10/posfai-gabor-belugyminiszter-berrendezes-szolgalati-lakas-visszaszereles-magyar-kormany",
+    "https://www.economx.hu/magyar-gazdasag/2025/09/23/rendorseg-orfk-szakszervezet-berfeszultseg-allomany-816570/",
+    "https://hungarytoday.hu/fewer-crimes-safer-streets-hungarian-police-deliver-excellent-2025-results/",
+    "https://xpatloop.com/channels/2025/04/annual-crime-rate-in-hungary-down-60-percent-since-2010.html",
+    "https://www.economx.hu/belfold/rendor-ber-koltsegvetes-beremeles-szakszervezet/"
+   ]
+  },
+  "options": [
+   {"label": "Átlag 15%-os emelés az illetményalap rendezésével (a terv szerint)", "pro": "Gyors, finanszírozott lépés, amely megállíthatja a további elvándorlást.", "con": "A szakszervezet szerint csak fele az igényeknek, az elvándorlás nem biztos, hogy fordul.", "effects": {"gdp": 0, "infl": 0, "wage": 1, "housing": 0, "health": 0, "deficit": -1}},
+   {"label": "A szakszervezeti igény szerinti, a 15%-ot nagyjából duplázó, két lépcsős rendezés", "pro": "Érdemben vonzóbb pálya, a leszerelők visszacsábíthatók.", "con": "Nagyon drága, és a többi rendvédelmi/közszféra is hasonlót kérhet.", "effects": {"gdp": 0, "infl": -1, "wage": 2, "housing": 0, "health": 0, "deficit": -3}},
+   {"label": "Mérsékelt béremelés, szolgálati lakás, térségi pótlék és visszavétel", "pro": "Célzottan segít a hiányterületeken, olcsóbb.", "con": "A bér érdemben nem javul, a hatás lassú és a lakásprogram drága lehet.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 1, "health": 0, "deficit": -1}}
+  ],
+  "evidence": [
+   {"where": "Magyarország", "when": "2010–2025", "what": "A nyilvántartott bűnözés alakulása a változatlan illetményalap mellett.", "numbers": "2025-ben kb. 179 ezer nyilvántartott bűncselekmény (kb. −12%), 2010 óta közel −60%; rendőri létszámadat a keresésben nem volt.", "verdict": "vegyes", "why": "A mért cél a nyilvántartott bűnözés csökkent, de az okok (létszám, bérek, nyilvántartási gyakorlat) nem különíthetők el.", "source": "https://hungarytoday.hu/fewer-crimes-safer-streets-hungarian-police-deliver-excellent-2025-results/", "confidence": "low"},
+   {"where": "Magyarország", "when": "2025", "what": "Az állomány elvándorlása a bérfeszültség mellett.", "numbers": "A szakszervezetek becslése szerint évente nagyjából kétezer rendőr szerel le (szakszervezeti becslés, nem hivatalos adat).", "verdict": "rossz", "why": "A mért cél a pályamegtartás; a szakszervezeti adat szerint a bérek mellett erős a kilépés.", "source": "https://www.economx.hu/magyar-gazdasag/2025/09/23/rendorseg-orfk-szakszervezet-berfeszultseg-allomany-816570/", "confidence": "low"}
+  ]
+ },
+ {
+  "id": "kozbiztonsag-buntetes-02",
+  "topic": "Közbiztonság és büntetőpolitika",
+  "q": "Szigorítsuk-e a büntetési tételeket, például az ismétlő elkövetőknél?",
+  "context": {
+   "fidesz": "2013-tól új Büntető Törvénykönyv lépett hatályba, később több ponton szigorítottak (például a 12 év alattiak elleni szexuális erőszak büntetése). A fogvatartottak aránya 206 volt 100 ezer lakosra 2025 januárjában (SPACE), az EU legmagasabbjai között.",
+   "tisza": "[nincs bejelentés] A keresésben nem találtam megerősített Tisza-szándékot a büntetési tételek szigorítására vagy enyhítésére; a kormany.hu-n szerepel egy 2026. évi büntetőjogi módosítási dokumentum, tartalma nem ellenőrizhető.",
+   "sources": [
+    "https://infostart.hu/belfold/2012/11/25/ilyen-valtozasokat-hoz-az-uj-btk.-531884",
+    "https://eduline.hu/felnottkepzes/Szigorubban_buntetik_a_gyermekek_elleni_sze_QCLP1K",
+    "https://wp.unil.ch/space/files/2026/05/260518_rapport-space-i-2025.pdf",
+    "https://xpatloop.com/channels/2026/05/imprisonment-insight-hungary-leads-eu-in-incarceration.html"
+   ]
+  },
+  "options": [
+   {"label": "Szigorítás az ismétlő elkövetőknél (három csapás-típusú rendszer)", "pro": "Elrettenthet és a bűnismétlőket hosszan elszigeteli.", "con": "A börtönök telítettsége és a költségek nőnek, a hatás csak szűk elkövetői körre terjed.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": -2}},
+   {"label": "A tételek maradnak, a hangsúly a tettenérésen és a felderítési arányon", "pro": "A kutatások szerint a fogás valószínűsége erősebb elrettentő, mint a tétel mértéke.", "con": "Rendőri és ügyészi erőforrást igényel, lassabban látszik.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": -1}},
+   {"label": "Alternatív szankciók (közérdekű munka, pártfogás) az enyhébb bűncselekményeknél", "pro": "Olcsóbb és csökkenti a börtönök zsúfoltságát.", "con": "A közvélemény engedékenységnek érezheti, és a pártfogói rendszer kapacitást igényel.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 1}}
+  ],
+  "evidence": [
+   {"where": "Kalifornia (USA)", "when": "1994–", "what": "Három csapás törvény: a harmadik bűncselekményért húsz évet is meghaladó büntetés.", "numbers": "A két csapással rendelkezők letartóztatási rátája 17–20%-kal csökkent (Helland–Tabarrok, 2007).", "verdict": "vegyes", "why": "A mért cél a bűnözés csökkent a célcsoportban, de rendkívül súlyos büntetési fenyegetés kellett, és a bűnözés kis hányadára hatott.", "source": "https://econpapers.repec.org/RePEc:uwp:jhriss:v:42:y:2007:i2:p309-330", "confidence": "medium"},
+   {"where": "Magyarország", "when": "2010–2025", "what": "Szigorodó büntetőpolitika mellett csökkenő nyilvántartott bűnözés és magas fogvatartotti arány.", "numbers": "Nyilvántartott bűnözés kb. −60% 2010 óta; fogvatartotti ráta 206/100 ezer fő (2025 jan.).", "verdict": "vegyes", "why": "A bűnözés csökkent, de az ok-okozati szerepet a tételek vagy más tényezők játsszák, nem azonosítható.", "source": "https://xpatloop.com/channels/2025/04/annual-crime-rate-in-hungary-down-60-percent-since-2010.html", "confidence": "low"}
+  ]
+ },
+ {
+  "id": "kozbiztonsag-bortonpolitika-03",
+  "topic": "Közbiztonság és büntetőpolitika",
+  "q": "Mit tegyünk a zsúfolt börtönökkel: bővítés, alternatív szankciók vagy a jelenlegi rendszer?",
+  "context": {
+   "fidesz": "Az Emberi Jogok Európai Bírósága 2015-ben (Varga és mások kontra Magyarország) pilot-ítéletben állapította meg a strukturális túlzsúfoltságot; 2016 októberében panasz- és kártalanítási eljárást vezettek be. 2024-ben a kormány újabb ~1300 embercsempészt engedett szabadon, a börtönök így is zsúfoltak maradtak. A telítettség 114,4% volt 2025 januárjában (SPACE).",
+   "tisza": "[nincs bejelentés] A keresésben nem találtam konkrét Tisza-intézkedést a börtönpolitikáról; a Helsinki Bizottság 2026. augusztusi látogatása szerint egy fővárosi intézetben a telítettség 120% fölött volt (NGO-jelentés).",
+   "sources": [
+    "https://helsinki.hu/en/akta/prison-conditions/",
+    "https://telex.hu/belfold/2024/07/24/bvop-bortonok-zsufoltsag-embercsempeszek-elengedes",
+    "https://wp.unil.ch/space/files/2026/05/260518_rapport-space-i-2025.pdf",
+    "https://helsinki.hu/wp-content/uploads/2026/09/MHB_FovarosiBv_latogatas_260806_komm_BVOP_260812_MHB_260818.pdf"
+   ]
+  },
+  "options": [
+   {"label": "Új börtönférőhelyek építése és a meglévők bővítése", "pro": "Rövid távon enyhíti a zsúfoltságot, és jogilag orvosolja a strukturális hibát.", "con": "Nagyon drága, és a növekvő kapacitás növeli a fogvatartotti létszámot.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": -2}},
+   {"label": "Alternatív szankciók, elektronikus felügyelet, feltételes szabadság bővítése", "pro": "Olcsóbb és csökkentheti a visszaesést.", "con": "A közvélemény engedékenységnek érezheti, felügyeleti kapacitást igényel.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 1}},
+   {"label": "A jelenlegi rendszer marad, pénzbeli kártalanítással és kisebb javításokkal", "pro": "Nincs nagy beruházás, és a jogi kötelezettség részben teljesül.", "con": "A kártalanítás nem szünteti meg a kört és a problémát.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 0}}
+  ],
+  "evidence": [
+   {"where": "Norvégia", "when": "2010–2024", "what": "Rehabilitáció-központú, humánus börtönrendszer.", "numbers": "A két éven belüli visszaesési ráta kb. 20% (18% 2018-ban); a bírósági visszaesés mértéke azonos mérce mellett az USA-hoz képest 25% vs 28,8% (különböző időablakok miatt az összehasonlítás csak részben pontos).", "verdict": "vegyes", "why": "A mért cél a visszaesés: alacsony, de a különbség az azonos mérce mellett jóval kisebb, mint a szalagcímek mutatják.", "source": "https://salve.edu/document/incarceration-and-recidivism-lessons-from-abroad", "confidence": "low"},
+   {"where": "Magyarország", "when": "2015–", "what": "A Varga-ügy pilot-ítélet utáni kártalanítási rendszer.", "numbers": "A Helsinki Bizottság szerint a túlzsúfoltság és az embertelen fogvatartási körülmények továbbra is megoldatlanok; a bevezetett kártalanítási mechanizmus 2016 óta működött, ideiglenesen felfüggesztve.", "verdict": "rossz", "why": "A mért cél a strukturális hiba megszüntetése volt; a Helsinki Bizottság szerint a probléma megoldatlan.", "source": "https://helsinki.hu/en/akta/prison-conditions/", "confidence": "medium"}
+  ]
+ },
+ {
+  "id": "kozbiztonsag-kamera-04",
+  "topic": "Közbiztonság és büntetőpolitika",
+  "q": "Mennyire bővítsük a térfigyelést és az arcfelismerés használatát?",
+  "context": {
+   "fidesz": "A 2025. márciusi módosítások lehetővé tették, hogy a rendőrség arcfelismerést használjon szabálysértési eljárásokban is, nem csak súlyos ügyekben; a Pride-tilalom körüli kontextusban az Európai Bizottság szóvivője szerint az MI-alapú arcfelismerés a GDPR-be, valós időben az MI-rendeletbe ütközne.",
+   "tisza": "[nincs bejelentés] A keresésben nem találtam Tisza-intézkedést a térfigyelésről vagy az arcfelismerésről.",
+   "sources": [
+    "https://edri.org/our-work/hungarys-new-biometric-surveillance-laws-violate-the-ai-act/",
+    "https://heise.de/-10325279",
+    "https://hclu.hu/en/articles/hungarys-new-biometric-surveillance-laws-violate-the-ai-act"
+   ]
+  },
+  "options": [
+   {"label": "Térfigyelés bővítése és arcfelismerés súlyos bűncselekményekre, bírói engedéllyel", "pro": "Gyorsíthatja a nyomozást súlyos ügyekben.", "con": "Adatvédelmi és uniós jogi kockázat, és a visszaélés lehetősége.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": -1}},
+   {"label": "Célzott térfigyelés (parkolók, csomópontok) arcfelismerés nélkül, adatvédelmi garanciákkal", "pro": "Mérhető hatás a vagyon elleni bűnözésre, jogilag biztonságosabb.", "con": "Kevesebb nyomozati lehetőség, és a kamerák karbantartása költséges.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": -1}},
+   {"label": "Moratórium: csak az EU MI-rendelet által engedett szűk használat", "pro": "Védi a magánszférát és elkerüli az uniós jogsértési eljárást.", "con": "Elesik a technológia nyomozati előnye, és közbiztonsági kritika érheti.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 0}}
+  ],
+  "evidence": [
+   {"where": "Nemzetközi (80 tanulmány)", "when": "1970–2018", "what": "40 éves szisztematikus áttekintés és metaelemzés a térfigyelés bűnmegelőző hatásáról.", "numbers": "Mérsékelt, szignifikáns bűnözéscsökkenés; a legerősebb hatás parkolókban; kábítószer-bűncselekményeknél kb. 20%; az erőszakos bűncselekményekre nincs szignifikáns hatás; az aktív megfigyelés és a több beavatkozás együtt erősebb.", "verdict": "vegyes", "why": "A mért cél a bűnözés csökkent, de szűk bűncselekmény-típusokban és más beavatkozásokkal együtt.", "source": "https://www.ojp.gov/ncjrs/virtual-library/abstracts/cctv-surveillance-crime-prevention-40-year-systematic-review-meta", "confidence": "high"},
+   {"where": "Magyarország", "when": "2025", "what": "Arcfelismerés szabálysértési eljárásokban a Pride-tilalom körül.", "numbers": "Számszerű hatásadat nem áll rendelkezésre; az Európai Bizottság szerint jogsértő lenne (GDPR/MI-rendelet).", "verdict": "rossz", "why": "A mért cél az uniós joggal való összhang, amelyet a Bizottság szóvivője szerint nem teljesít; a hatékonyságot nem mérték.", "source": "https://heise.de/-10325279", "confidence": "medium"}
+  ]
+ },
+ {
+  "id": "igazsag-eppo-01",
+  "topic": "Igazságszolgáltatás, korrupcióellenesség és államszervezés",
+  "q": "Hogyan szervezzük a korrupció elleni fellépést az Európai Ügyészség mellett?",
+  "context": {
+   "fidesz": "Magyarország az Európai Ügyészség (EPPO) 2024-es éves jelentése szerint nem vett részt benne. A Transparency International 2025-ös korrupcióérzékelési indexén Magyarország 40 pontot ért el (84. hely), az EU legrosszabb eredménye Bulgáriával közösen; 2012 óta 15 pontos romlás.",
+   "tisza": "[elfogadva] A csatlakozási kérelmet május 28-án nyújtották be; az Európai Bizottság 2026. július 10-én jóváhagyta (25. tagállam). A tagság a döntés Hivatalos Lapban való megjelenése után 20 nappal, a működés az európai ügyész kinevezése után 20 nappal indulhat, várhatóan 2027 elején; magyar európai megbízott ügyészeket kell kijelölni, és szakértői vélemény szerint Alaptörvény-módosítás is kellhet.",
+   "sources": [
+    "https://www.eppo.europa.eu/en/media/news/2024-annual-report-eppo-leading-charge-against-eu-fraud",
+    "https://telex.hu/english/2026/02/10/corruption-in-hungary-declines-further-transparency-international-report-finds",
+    "https://444.hu/2026/07/10/brusszel-jovahagyta-magyarorszag-csatlakozasat-az-europai-ugyeszseghez",
+    "https://telex.hu/kulfold/2026/07/10/eu-europai-ugyeszseg-europai-bizottsag-magyar-csatlakozas-jovahagyas",
+    "https://www.consilium.europa.eu/hu/policies/eppo/"
+   ]
+  },
+  "options": [
+   {"label": "EPPO plusz a jelenlegi ügyészi szervezet (megbízott ügyészek a Legfőbb Ügyészségen belül)", "pro": "Gyors, olcsó, nem kell szervezeti átalakítás.", "con": "A belső ügyészi függetlenség kérdése nyitva marad a nemzeti ügyeknél.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 0}},
+   {"label": "EPPO plusz önálló nemzeti korrupcióellenes ügyészség", "pro": "Szakosodott, független nyomozás a nem uniós pénzű korrupciónál is.", "con": "Új intézmény költsége és politikai megtámadhatósága, Alaptörvény-módosítás kellhet.", "effects": {"gdp": 1, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": -1}},
+   {"label": "EPPO plusz a legfőbb ügyész választásának és elszámoltathatóságának reformja", "pro": "Hosszabb távon a teljes ügyészséget átfogja.", "con": "Politikailag érzékeny, és a hatalmi egyensúlyt is átrendezi.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 0}}
+  ],
+  "evidence": [
+   {"where": "Európai Ügyészség", "when": "2025", "what": "Az EPPO 2025-ös működése a tagállamokban.", "numbers": "3602 aktív nyomozás, becsült kár 67,27 Mrd €; 2025-ben 2030 új nyomozás (+35%); bírói zárolási végzések 1,13 Mrd € értékben, de ténylegesen zárolt vagyon 288,93 M €.", "verdict": "vegyes", "why": "A mért cél a felderítés és a vagyonzárolás: a nyomozások száma nő, a ténylegesen zárolt vagyon a végzések töredéke.", "source": "https://www.eppo.europa.eu/en/2025-numbers", "confidence": "high"},
+   {"where": "Európai Ügyészség", "when": "2024", "what": "Az EPPO 2024-es éves eredménye.", "numbers": "2666 aktív nyomozás, 24,8 Mrd € becsült kár; 2,42 Mrd € zárolási végzés, ténylegesen 849 M € zárolt vagyon.", "verdict": "vegyes", "why": "A nyomozások növekednek, a vagyon-visszaszerzés a végzéseknek csak töredéke.", "source": "https://www.eppo.europa.eu/en/media/news/2024-annual-report-eppo-leading-charge-against-eu-fraud", "confidence": "high"},
+   {"where": "Horvátország", "when": "2026", "what": "Hatásköri vita az EPPO és a nemzeti korrupcióellenes hatóság (USKOK) között.", "numbers": "Számszerű adat nem áll rendelkezésre; az EPPO jogállami aggályokat jelzett egy ügyiratnak az USKOK-nak való átadása miatt.", "verdict": "vegyes", "why": "A mért cél a hatáskör-tisztázás: az együttműködés súrlódásokkal jár nemzeti szakosított hatóság mellett.", "source": "https://www.eppo.europa.eu/assets/annual-report-2025/pdfs/statistics-member-state/Croatia_en.pdf", "confidence": "low"}
+  ]
+ },
+ {
+  "id": "igazsag-vagyonvisszaszerzes-02",
+  "topic": "Igazságszolgáltatás, korrupcióellenesség és államszervezés",
+  "q": "Milyen jogkörökkel működjön a vagyonvisszaszerzési hivatal?",
+  "context": {
+   "fidesz": "A közfeladatot ellátó vagyon jelentős része a 2020-as években vagyonkezelő alapítványokba (kekva) került, amelyeket a Tisza-kormány a hatalomra kerülése után visszavonna.",
+   "tisza": "[elfogadva] 2026. július 28-án az Országgyűlés 143:47 arányban elfogadta a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatalról szóló sarkalatos törvényt; a Magyar Közlönyben aznap megjelent. A Helsinki Bizottság szerint indokolatlanul széles mozgásteret kap; a törvény általános visszamenőleges időszakot nem állapít meg (a kormány húszéves visszatekintésről beszélt); kb. 200 fővel működne.",
+   "sources": [
+    "https://telex.hu/belfold/2026/07/28/nemzeti-vagyonvisszaszerzesi-es-vagyonvedelmi-hivatal-szavazas-tisza-rendszervaltas-magyar-peter",
+    "https://444.hu/2026/07/28/megszavazta-a-parlament-a-vagyonvisszaszerzesi-hivatal-felallitasarol-szolo-torvenyt",
+    "https://telex.hu/belfold/2026/06/30/helsinki-bizottsag-vagyonvisszaszerzesi-hivatal-mozgaster-velemeny",
+    "https://444.hu/2026/05/20/a-kormany-belenyul-a-ner-parhuzamos-valosagaba-visszaveszik-a-kiszervezett-kekva-kat"
+   ]
+  },
+  "options": [
+   {"label": "Széles közigazgatási jogkör: gyors vagyonzárolás és megfordított bizonyítási teher", "pro": "Gyors és hatékony a vagyon megóvásában.", "con": "Jogállami és tulajdonvédelmi aggályok, bírósági és strasbourgi megtámadás kockázata.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 2}},
+   {"label": "Csak büntetőeljárás-alapú elkobzás bírói jóváhagyással, ügyészi vezetéssel", "pro": "Erős jogi védelem, kevés a megtámadási kockázat.", "con": "Lassú, és a bizonyítási teher miatt kevesebb vagyon térül meg.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 0}},
+   {"label": "Polgári jogi vagyonvisszaszerzési per bírói kontrollal és vagyonnyilatkozat-ellenőrzéssel", "pro": "Alacsonyabb bizonyítási teher bírói garanciákkal.", "con": "Összetett jogi keret, hosszú perek és szakértői kapacitás szükséges.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 1}}
+  ],
+  "evidence": [
+   {"where": "Írország (CAB)", "when": "1996–2021", "what": "A Criminal Assets Bureau: bűnözői vagyon elleni, adó- és szociális jogi eszközöket is használó hatóság.", "numbers": "1996–2021 között 204 M € folyt be az államkasszába: 165 M € adómegegyezés, 33 M € bűnözői vagyon, 6 M € szociális visszatérítés; 2024-ben 17 M € (ebből kb. 3 M € vagyonzárolás, kb. 13,4 M € adó).", "verdict": "vegyes", "why": "A mért cél a visszaszerzett érték: kiszámítható bevétel, de a bűnözői vagyon csak kisebb része az összegnek.", "source": "https://www.gov.ie/en/department-of-justice-home-affairs-and-migration/press-releases/minister-publishes-criminal-assets-bureau-annual-report-2021/", "confidence": "medium"},
+   {"where": "Európai Ügyészség", "when": "2025", "what": "A zárolási végzések és a ténylegesen zárolt vagyon aránya.", "numbers": "1,13 Mrd € zárolási végzés, ténylegesen zárolt vagyon 288,93 M €.", "verdict": "vegyes", "why": "A mért cél a ténylegesen megszerzett vagyon: a végzéseknek csak kb. negyede vált tényleges zárolássá.", "source": "https://www.eppo.europa.eu/en/2025-numbers", "confidence": "high"}
+  ]
+ },
+ {
+  "id": "igazsag-kozbeszerzes-03",
+  "topic": "Igazságszolgáltatás, korrupcióellenesség és államszervezés",
+  "q": "Hogyan szigorítsuk a közbeszerzési szabályokat a verseny erősítésére?",
+  "context": {
+   "fidesz": "Az egyajánlatos eljárások aránya 2021-ben 40% volt, az EU-átlag 25% (Single Market Scoreboard); a kormány vállalta, hogy 2024-ig 15% alá viszi. A Közbeszerzési Hatóság 2024-es beszámolója szerint az uniós eljárásrendben az egyajánlatos szerződések száma 6,8 százalékponttal, értéke közel 10 százalékponttal csökkent az előző évhez képest. Egy hatóság 2025-ben 254 szerződéséből 253 verseny nélkül született.",
+   "tisza": "[nincs bejelentés] A keresésben nem találtam elfogadott közbeszerzési törvénymódosítást a Tisza-kormánytól.",
+   "sources": [
+    "https://single-market-scoreboard.ec.europa.eu/index.php/node/315_hu",
+    "https://www.kozbeszerzes.hu/media/documents/Beszamolo_2024.pdf",
+    "https://444.hu/2026/02/05/ilyet-meg-nem-lattunk-van-egy-hatosag-magyarorszagon-amely-tavaly-254-szerzodest-kotott-kozbeszerzes-nyoman-ebbol-253-ban-nem-volt-verseny"
+   ]
+  },
+  "options": [
+   {"label": "Az egyajánlatos eljárások szigorú korlátozása (újraindítás vagy indoklás)", "pro": "Közvetlenül a verseny hiányát célozza.", "con": "Lassítja a beszerzéseket és adminisztratív terhet ró.", "effects": {"gdp": 1, "infl": 1, "wage": 0, "housing": 0, "health": 0, "deficit": 1}},
+   {"label": "Teljes e-közbeszerzés és nyílt adat (ProZorro-típus) a jelenlegi keretek alatt", "pro": "Átláthatóság, civil és sajtóellenőrzés lehetősége.", "con": "Informatikai költség, és az átláthatóság nem helyettesíti a kikényszerítést.", "effects": {"gdp": 1, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 1}},
+   {"label": "Rugalmas szabályok, utólagos kockázatalapú audit", "pro": "Gyors beszerzés, kisebb adminisztráció.", "con": "A visszaélések utólag derülnek ki.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 0}}
+  ],
+  "evidence": [
+   {"where": "Ukrajna (ProZorro)", "when": "2015–2017", "what": "Nyílt, elektronikus, nyilvános közbeszerzési rendszer fordított aukcióval.", "numbers": "A tenderenkénti ajánlatok átlaga 15%-kal nőtt (2015 jan.–2017 márc.); három ajánlattevő felett kb. 20%-os megtakarítás; átlagos megtakarítás 2016 közepén 14,1%, 2017 márciusában 9,6%.", "verdict": "jo", "why": "A mért cél a verseny és a megtakarítás: mindkettő javult, bár a megtakarítás definíciója vitatható.", "source": "https://open-contracting.org/?p=2774", "confidence": "medium"},
+   {"where": "Ukrajna (ProZorro)", "when": "2024", "what": "A verseny szintje a háború alatt.", "numbers": "Tenderenkénti átlagosan 1,88 ajánlattevő (2024), 18%-os növekedés, 2 fölött a téli hónapokban.", "verdict": "vegyes", "why": "A mért cél a verseny: az ajánlattevők száma növekszik, de háborús körülmények között alacsony marad.", "source": "https://ti-ukraine.org/en/?p=30649", "confidence": "medium"},
+   {"where": "Magyarország", "when": "2021–2024", "what": "Az egyajánlatos eljárások arányának alakulása.", "numbers": "40% (2021, EU: 25%); a 15% alatti cél nem teljesült; 2024-ben a Hatóság szerint 6,8 százalékpontos csökkenés.", "verdict": "vegyes", "why": "A mért cél az egyajánlatos arány: csökkent, de a vállalt szint fölött marad.", "source": "https://www.kozbeszerzes.hu/media/documents/Beszamolo_2024.pdf", "confidence": "medium"}
+  ]
+ },
+ {
+  "id": "igazsag-kormanyzat-04",
+  "topic": "Igazságszolgáltatás, korrupcióellenesség és államszervezés",
+  "q": "Hány minisztérium és mekkora kormányzati apparátus legyen?",
+  "context": {
+   "fidesz": "A 2022 májusi kormányalakításkor tizenegy tárca alakult (majd külön energiaügyi minisztérium jött), ami az 1998-as Orbán-kormány óta a legtöbb; 2010-től a nagy csúcsminisztériumok helyére fokozatosan kisebb tárcák léptek. Az Antall- és Boross-kormányban 13, a Horn-kormányban 12 minisztérium volt.",
+   "tisza": "[elfogadva] A 2026. május 12-én megalakult Tisza-kormány 16 minisztériummal és 16 miniszterrel működik; az oktatás és az egészségügy ismét önálló tárca; négy miniszter vétójogot kapott.",
+   "sources": [
+    "https://www.economx.hu/magyar-gazdasag/2022/05/17/orban-kormany-miniszterium-tarca-torveny-752525/",
+    "https://telex.hu/g7/kozelet/2022/11/22/orbannak-akkor-volt-utoljara-ilyen-sok-miniszteriuma-amikor-eloszor-kormanyzott",
+    "https://infostart.hu/belfold/2006/02/01/fogyokura-kozigazgatas-modra",
+    "https://telex.hu/belfold/2026/05/12/felallt-magyar-peter-vezetesevel-az-uj-kormany",
+    "https://hvg.hu/itthon/20260514_tisza-kormany-magyar-peter-miniszterek-feladatkor-vetojog"
+   ]
+  },
+  "options": [
+   {"label": "A 16 tárca marad, szakmai fókusszal", "pro": "Minden fontos területnek van felelőse, jobb a szakmai szakértelem.", "con": "Több apparátus, és több az egyeztetési és koordinációs feladat.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": -1}},
+   {"label": "Összevonás 10–12 nagyobb tárcára (csúcsminisztériumok)", "pro": "Kisebb és olcsóbb apparátus, egyszerűbb koordináció.", "con": "Átszervezési zavar, és egy-egy terület háttérbe szorulhat.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 1}},
+   {"label": "A tárcák száma marad, de az államtitkárságok és háttérintézmények leépítése", "pro": "Megtakarítás a felesleges rétegeken, a szakmai szerkezet megmarad.", "con": "A leépítés ellenállásba ütközik, és a hatás nehezen mérhető.", "effects": {"gdp": 0, "infl": 0, "wage": 0, "housing": 0, "health": 0, "deficit": 1}}
+  ],
+  "evidence": [
+   {"where": "Magyarország", "when": "2010–2022", "what": "A csúcsminisztériumok fokozatos felbomlása kisebb tárcákra.", "numbers": "2022-ben 11 tárca az 1998 óta legnagyobb szám; hatékonysági vagy költségadat nem áll rendelkezésre.", "verdict": "vegyes", "why": "A mért cél (hatékonyság/költség) nem áll rendelkezésre; a szerkezeti változás megvalósult, de hatás nincs mérve.", "source": "https://telex.hu/g7/kozelet/2022/11/22/orbannak-akkor-volt-utoljara-ilyen-sok-miniszteriuma-amikor-eloszor-kormanyzott", "confidence": "low"},
+   {"where": "Magyarország", "when": "1990–1998", "what": "A korai rendszerváltás kormányainak tárcaszáma.", "numbers": "Antall- és Boross-kormány: 13, Horn-kormány: 12 minisztérium; hatékonysági adat nem áll rendelkezésre.", "verdict": "vegyes", "why": "Csak történelmi összehasonlítás; a tárcaszám hatása a teljesítményre nem mérhető a talált forrásokból.", "source": "https://infostart.hu/belfold/2006/02/01/fogyokura-kozigazgatas-modra", "confidence": "low"}
+  ]
+ }
+]

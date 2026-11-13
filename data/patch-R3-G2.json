@@ -1,0 +1,312 @@
+[
+ {
+  "id": "munka-kozmunka-01",
+  "add_evidence": [
+   {
+    "where": "Magyarország (MNB Occasional Paper 2022/145)",
+    "when": "2011–2019",
+    "what": "Szabó Lajos az Államkincstár adataiból követte a közmunkások pályáját a program után.",
+    "numbers": "Kb. 676 ezer résztvevő; kb. kétharmaduk korábban inaktív volt; a kilépés utáni évben az idő kb. 15%-át (2012-es kilépők) illetve kb. 25%-át (2018-as kilépők) töltötték elsődleges munkaerőpiaci foglalkoztatásban; átlagos programidő 1,5 év felett, a legelmaradottabb járásokban 3 év felett.",
+    "verdict": "vegyes",
+    "why": "Az inaktívak munkaerőpiacra hozásában és a regionális különbségek mérséklésében segített, de a nyílt munkaerőpiaci átmenet mértéke szerény és térségenként nagyon eltérő.",
+    "source": "https://econpapers.repec.org/RePEc:mnb:opaper:2022/145",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "munka-vendegmunka-01",
+  "add_evidence": [
+   {
+    "where": "Új-Zéland (RSE-program, Gibson–McKenzie)",
+    "when": "2007–2010",
+    "what": "Szezonális vendégmunkás-program (Recognised Seasonal Employer) tongai és vanuatui munkásoknak, többéves követéses felméréssel értékelve.",
+    "numbers": "A részt vevő háztartások egy főre jutó jövedelme a kontrollcsoporthoz képest több mint 30%-kal nőtt (a cikk becslése Tongában kb. 34–38%); a program megnövelte a tartós fogyasztási cikkek vásárlását és Tongában a gyerekek iskoláztatását.",
+    "verdict": "jo",
+    "why": "A küldő országok háztartásainak jövedelmére és fogyasztására mért hatás egyértelműen pozitív (a fogadó ország bérhatását ez a tanulmány nem méri).",
+    "source": "https://repec.its.waikato.ac.nz/wai/econwp/1008_Gibson_Mckenzie.pdf",
+    "confidence": "high"
+   },
+   {
+    "where": "Kanada (ideiglenes külföldi munkavállalók, 2014-es szigorítás)",
+    "when": "2014–",
+    "what": "Az alacsony bérű ideiglenes külföldi munkavállalók (TFWP) alkalmazásának korlátozása; különbség-a-különbségben becslés a Munkaerő-felmérés 2005–2019-es adatain.",
+    "numbers": "A korlátozás a TFW-intenzív foglalkozásokban dolgozó hazai munkavállalók bérét 3,7–4,5%-kal emelte.",
+    "verdict": "rossz",
+    "why": "A kiterjedt alacsony bérű vendégmunka-használat visszafogta a helyi dolgozók bérét; a szigorítás mérsékelten javította a bérkimenetet (a vállalati oldali költséget nem mérték).",
+    "source": "https://www.iza.org/publications/dp/18240/the-wage-effects-of-restricting-temporary-foreign-workers-evidence-from-canadas-2014-tfwp-reforms",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "munka-minimalber-01",
+  "add_evidence": [
+   {
+    "where": "Magyarország (Kertesi–Köllő)",
+    "when": "2001–2002",
+    "what": "2001 januárjában a minimálbér 25 500 Ft-ról 40 000 Ft-ra (kb. +57%), egy évvel később 50 000 Ft-ra nőtt.",
+    "numbers": "A tanulmány szerint az emelés érdemben növelte a munkaerőköltséget és csökkentette a foglalkoztatást a kisvállalati szektorban, rontotta az alacsony bérűek állásmegtartási és állásszerzési esélyét; a regionális egyenlőtlenségek nőttek. Pontos százalékos hatás az absztraktban nem szerepel.",
+    "verdict": "vegyes",
+    "why": "Az alsó bérek emelkedtek, de a kisvállalati foglalkoztatás és az alacsony bérűek esélyei romlottak, főleg az elmaradott régiókban.",
+    "source": "https://econpapers.repec.org/RePEc:iza:izadps:dp970",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "nyugdij-13-14-01",
+  "add_evidence": [
+   {
+    "where": "Lengyelország (Kolasa, Varsói Egyetem)",
+    "when": "2019–",
+    "what": "A 13. havi nyugdíj (kvázi-univerzális transzfer) hosszú távú hatásait vizsgáló általános egyensúlyi, generációk átfedő modellje.",
+    "numbers": "A modell szerint jelentősen javítja a medián nyugdíjas háztartás anyagi helyzetét, de a jóléti veszteség a háztartások élettartam-fogyasztásának 0,7%-ának felel meg; a szegénységre és egyenlőtlenségre csak mérsékelt hatású.",
+    "verdict": "vegyes",
+    "why": "Az idősek jövedelmét emeli, de szimulált, nem megfigyelt eredmény, és a fiskális/makro költség miatt aggregált jóléti veszteséget mutat.",
+    "source": "https://www.wne.uw.edu.pl/download_file/2343/0",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "nyugdij-korhatar-01",
+  "add_evidence": [
+   {
+    "where": "Lengyelország (2017-es visszafordítás)",
+    "when": "2017",
+    "what": "A tervezett 67 éves korhatárt visszavonták: 65 év a férfiaknak, 60 év a nőknek.",
+    "numbers": "A kormány becslése szerint kb. 10 Mrd zloty költség 2018-ban (a GDP kb. 0,5%-a); a ZUS szerint kb. 331 ezer ember, az aktív népesség kb. 2%-a élhetett a lehetőséggel.",
+    "verdict": "rossz",
+    "why": "Az alacsonyabb korhatár a foglalkoztatási és fenntarthatósági célhoz képest ellentétes irányú, és közvetlen fiskális költséggel járt.",
+    "source": "https://wol.iza.org/news/poland-bucks-european-trend-by-lowering-its-retirement-age",
+    "confidence": "medium"
+   },
+   {
+    "where": "Dánia (OECD-elemzés)",
+    "when": "2006–",
+    "what": "A nyugdíjkorhatár (és a korai nyugdíj korhatára) automatikus kötése a várható élettartamhoz, legfeljebb 5 évente 1 év emelkedéssel.",
+    "numbers": "A tervezett korhatár 2060-ra 73 év; az alapforgatókönyvben az államháztartás közel egyensúlyban marad, az adósság jóval 60% alatt; az indexálás 2030-tól való leállítása tartós hiányt és gyorsan növő adósságot eredményezne (OECD-blog, pontos számok nélkül).",
+    "verdict": "jo",
+    "why": "A hosszú távú államháztartási fenntarthatóságot szolgálta, a korai nyugdíjkorhatár emelését követően érdemben nőtt az 55–64 évesek foglalkoztatása (százalék nélkül).",
+    "source": "https://oecdecoscope.blog/2019/01/15/ambitious-retirement-age-indexation-ensures-sustainable-public-finances-in-denmark/",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "nyugdij-magan-01",
+  "add_evidence": [
+   {
+    "where": "Magyarország (OSW-elemzés a 2010-es döntésről)",
+    "when": "2010–2011",
+    "what": "A kötelező magánnyugdíj-befizetések megszüntetése és a vagyon átvezetése az állami Nyugdíjreform és Adósságcsökkentő Alapba; aki a magánpillérben maradt, kiesett az állami rendszerből.",
+    "numbers": "A kb. 10 Mrd euró (a GDP 10,3%-a) vagyon nagy része az államhoz került; a törvény szerint az alap felét a folyó kiadásokra lehetett fordítani. A hosszú távú hatásra ebből a forrásból számszerű adat nem áll rendelkezésre.",
+    "verdict": "vegyes",
+    "why": "Rövid távon fiskális mozgásteret adott, de a magánszámlák megszűntek; a mért hosszú távú nyugdíj-hatás nem áll rendelkezésre.",
+    "source": "https://www.osw.waw.pl/en/publikacja/18113/pdf",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "szocialis-munkanelkuli-01",
+  "add_evidence": [
+   {
+    "where": "Németország (Schmieder–von Wachter–Bender)",
+    "when": "1987–2007",
+    "what": "Az életkor szerinti járadék-időtartam ugrások (regressziós szakadás) 20 éven át, konjunktúra függvényében.",
+    "numbers": "Az absztrakt szerint egy hónappal hosszabb járadék munkanélküliségre gyakorolt hatása recesszióban legfeljebb kissé kisebb, a járadék-kimerítők aránya viszont jelentősen nő; számszerű adat nem áll rendelkezésre az absztraktban.",
+    "verdict": "vegyes",
+    "why": "A hosszabb járadék erkölcsi kockázata recesszióban érdemben kisebb, mint konjunktúrában, így a juttatás hossza ciklusfüggően mérlegelendő.",
+    "source": "https://www.nber.org/papers/w17813",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "gazd-kkv-01",
+  "add_evidence": [
+   {
+    "where": "Olaszország (Fondo Centrale di Garanzia)",
+    "when": "2020-as értékelés",
+    "what": "A kkv-k hitelgarancia-alapja; az alapra való jogosultságot eszközváltozóként használó értékelés (Bank of Italy).",
+    "numbers": "A garantált cégek többlethitele a teljes banki kitettségük 7–8%-a, a lejáratú hitelek kamata kb. 50 bázisponttal alacsonyabb; a hatás a közepes kockázatú cégeknél koncentrálódik.",
+    "verdict": "jo",
+    "why": "A hitelhez jutást és a hitel árát mérve a garancia többlethitelt és olcsóbb finanszírozást hozott, a legfiatalabb cégeknél azonban korlátozottan.",
+    "source": "https://econpapers.repec.org/RePEc:bdi:wptemi:td_1265_20",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "agrar-tamogatas-01",
+  "add_evidence": [
+   {
+    "where": "Európai Unió (Európai Számvevőszék, BPS)",
+    "when": "2015–2018",
+    "what": "Az alapjövedelem-támogatási rendszer (BPS) értékelése a 2013-as KAP-reform után.",
+    "numbers": "Éves kiadás kb. 18 Mrd euró, kb. 4 millió gazdálkodó; a területalapú támogatás a nagyobb gazdaságokat favorizálja (pontos koncentrációs arány a jelentés ismertetőjében nem szerepel).",
+    "verdict": "rossz",
+    "why": "A területalapú elosztás célzása és konvergenciája korlátozott, mert nem a gazdálkodók jövedelmi helyzetéből indul ki.",
+    "source": "https://www.eca.europa.eu/Lists/ECADocuments/INSR18_10/INSR_BPS_EN.pdf",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "agrar-fold-01",
+  "add_evidence": [
+   {
+    "where": "Európai Unió (Európai Számvevőszék, BPS)",
+    "when": "2015–2018",
+    "what": "Az alapjövedelem-támogatási rendszer (BPS) értékelése a 2013-as KAP-reform után.",
+    "numbers": "Éves kiadás kb. 18 Mrd euró, kb. 4 millió gazdálkodó; a területalapú támogatás a nagyobb gazdaságokat favorizálja (pontos koncentrációs arány a jelentés ismertetőjében nem szerepel).",
+    "verdict": "rossz",
+    "why": "A területalapú elosztás célzása és konvergenciája korlátozott, mert nem a gazdálkodók jövedelmi helyzetéből indul ki.",
+    "source": "https://www.eca.europa.eu/Lists/ECADocuments/INSR18_10/INSR_BPS_EN.pdf",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "lakas-airbnb-01",
+  "add_evidence": [
+   {
+    "where": "Barcelona (Garcia-López és társai)",
+    "when": "2020",
+    "what": "Az Airbnb-aktivitás hatásának becslése a barcelonai lakbérekre és lakásárakra (szabályozatlan rövid távú kiadás).",
+    "numbers": "Az átlagos városnegyedben a bérleti díj +1,9%, az ingatlan-tranzakciós ár +4,6%, a meghirdetett ár +3,7%; a legerősebb Airbnb-aktivitású tizedben kb. +7% bérleti díj, +17% tranzakciós ár.",
+    "verdict": "rossz",
+    "why": "A megfizethető lakhatás mutatójára a szabályozatlan rövid távú kiadás érdemben rontott, főleg a turisztikai negyedekben.",
+    "source": "https://econpapers.repec.org/RePEc:uab:wprdea:wpdea2006",
+    "confidence": "high"
+   },
+   {
+    "where": "New York (Local Law 18)",
+    "when": "2023–2024",
+    "what": "Szigorú nyilvántartási szabály a rövid távú kiadásra (30 nap alatti bérbeadás).",
+    "numbers": "Az Airbnb rövid távú hirdetései 2024 júliusára 83%-kal estek éves alapon; sok kiadó átváltott 30 napos vagy hosszabb bérletre, a lakbérek tovább emelkedtek (ok-okozati hatás nem igazolt).",
+    "verdict": "vegyes",
+    "why": "A rövid távú kínálat drasztikusan csökkent, de a megfizethetőség javulására nincs bizonyíték (a cikk nagy része fizetőfal mögött volt).",
+    "source": "https://skift.com/2024/12/27/takeaways-from-nycs-near-ban-on-airbnb",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "lakas-berlakas-01",
+  "add_evidence": [
+   {
+    "where": "Bécs (Baumgartinger–Jäger, WuG 2026)",
+    "when": "EU-SILC és SOEP adatok",
+    "what": "A bécsi önkormányzati (Gemeindebau) és nonprofit bérlakások költségének és elégedettségének összevetése a magánbérlettel, Berlin és Hamburg mellett.",
+    "numbers": "Az absztrakt szerint a szociális szegmensben jóval alacsonyabb a lakhatási költség és a költségteher, mint a magánbérletben; Bécsben a költségteher tisztán alacsonyabb, mint Berlinben és Hamburgban. számszerű adat nem áll rendelkezésre az absztraktban.",
+    "verdict": "jo",
+    "why": "A nagy, tartós szociális lakásállomány a lakhatási költségteher alapján stabilizálja a bérleti piacot (egyszeri, 2026-os kutatás, részletes számok a teljes szövegben).",
+    "source": "https://ideas.repec.org/a/clr/wugarc/y2026v51i4p71.html",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "lakas-hitel-01",
+  "add_evidence": [
+   {
+    "where": "Magyarország (MNB, Hajnal–Winkler)",
+    "when": "2016–2021",
+    "what": "A CSOK 2016-os bővítésének és a Babaváró hitelnek (2019) hatása a lakásvásárlás elérhetőségére az MNB lakásmegfizethetőségi mutatója alapján.",
+    "numbers": "Egy vidéki kétgyerekes családnál 20%-kal, háromgyerekesnél 70%-kal csökkent az új lakáshoz szükséges hitelösszeg; budapesti háromgyerekes családnál 30% felett (Babaváróval kb. 40%); a maximális CSOK csak új lakásra járt, ami a tranzakciók kb. 12%-a; a budapesti lakásárak 2013–2019 között háromszorosukra nőttek; gyermeket nem vállalók számára az elérhetőség romlott.",
+    "verdict": "vegyes",
+    "why": "A gyermeket vállaló családok megfizethetősége érdemben javult, de a támogatás szűk körre koncentrált, a gyermektelenek helyzete romlott.",
+    "source": "https://www.mnb.hu/letoltes/hajnal-gabor-winkler-sandor-mennyiben-tamogattak-az-otthonteremtesi-kedvezmenyek-a-lakasvasarlast.pdf",
+    "confidence": "high"
+   },
+   {
+    "where": "Magyarország (Szabó Bence, strukturális modell)",
+    "when": "2022",
+    "what": "A CSOK-típusú lakástámogatás hatása a lakásárakra és a termékenységre (Magyarország adataival becsült modell).",
+    "numbers": "A modell szerint a támogatás és az alacsony kamat együtt érdemben növeli a lakásárakat; a befejezett termékenység átlagosan kb. 5–10%-kal nő (főleg a szegényebb háztartásoknál), de lakáskörülményeik hosszú távon romlanak.",
+    "verdict": "vegyes",
+    "why": "A termékenységi cél részben teljesül, de az árfelhajtó hatás visszaveri a szegényebb családok jólétét (modellszimuláció, nem megfigyelt eredmény).",
+    "source": "https://benceszabo.github.io/papers_currentversion/bence_szabo_fertility_housing_current.pdf",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "csalad-anyak-01",
+  "add_evidence": [
+   {
+    "where": "Magyarország (Szabó Bence, lakástámogatás és termékenység)",
+    "when": "2022",
+    "what": "A családi lakásotthon-támogatás (CSOK) gyermekvállalási kötelezettséggel kombinálva; modellbecslés a KRTK adatbázisával.",
+    "numbers": "A modell szerint a befejezett termékenység átlagosan kb. 5–10%-kal nő, főleg a szegényebb háztartásoknál; a gazdagabbaknál nem változik.",
+    "verdict": "vegyes",
+    "why": "A természetbeli/lakhatási családtámogatás hozhat termékenység-növekedést, de modellszimuláció és a hatás a jövedelmi csoportoktól függ.",
+    "source": "https://benceszabo.github.io/papers_currentversion/bence_szabo_fertility_housing_current.pdf",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "media-kozmedia-01",
+  "add_evidence": [
+   {
+    "where": "Magyarország (Reuters Institute Digital News Report 2025)",
+    "when": "2025",
+    "what": "A Reuters Institute éves reprezentatív felmérése a magyar hírfogyasztásról; országoldal.",
+    "numbers": "A közszolgálati média iránti bizalom 23% (előző évhez képest -7 százalékpont); a hírek iránti általános bizalom 22%, a 48 vizsgált piac közül az utolsó (Görögországgal holtversenyben).",
+    "verdict": "rossz",
+    "why": "A kormányzati befolyás alatt álló közmédia bizalmi mutatója mélyen alacsony és tovább romlott.",
+    "source": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025/hungary",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "media-sport-01",
+  "add_evidence": [
+   {
+    "where": "Magyarország (ÁSZ-elemzés a látvány-csapatsport TAO-ról)",
+    "when": "2022–2025",
+    "what": "Az Állami Számvevőszék elemzése a társaságiadó-kedvezményen alapuló sporttámogatásról (az adozona.hu beszámolója alapján).",
+    "numbers": "367,5 Mrd Ft TAO-támogatás négy év alatt, a sportcélú közkiadások kb. 15–20%-a; ebből 49,2 Mrd Ft beruházási célú; a támogatott szervezetek száma 7563-ról (2011) 10 466-ra (2024) nőtt.",
+    "verdict": "vegyes",
+    "why": "Az ÁSZ szerint ösztönzi a sportot és a sportberuházásokat, de függőséget, összeférhetetlenségi és visszaélési kockázatot is azonosított; felülvizsgálatot javasol.",
+    "source": "https://adozona.hu/tarsasagi_ado_innovacios_jarulek/ASZ_Allami_Szamvevoszek_latvanycsapatsport__RT3IYK",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "media-kultura-01",
+  "add_evidence": [
+   {
+    "where": "Magyarország (filmipari adókedvezmény)",
+    "when": "2018–2026",
+    "what": "A hazai filmgyártás 30%-os visszatérítése (2018. június 11-től 25%-ról 30%-ra emelve), a Nemzeti Filmiroda által kezelt számláról.",
+    "numbers": "2018-ban a hazai filmgyártási költés 110,1 Mrd Ft volt, ennek kb. 84%-a külföldi produkciókból; a keretösszeg 2024-ben 69 Mrd Ft, 2025-ben 81 Mrd Ft, 2026-ra 70 Mrd Ft.",
+    "verdict": "vegyes",
+    "why": "A külföldi produkciók költése és a kapacitások mérhetően növekedtek, de a nettó költségvetési megtérülésre ezekből az oldalakból számszerű adat nem áll rendelkezésre.",
+    "source": "https://hu.andersen.com/?p=285",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "gazd-arresstop-01",
+  "add_evidence": [
+   {
+    "where": "Magyarország (MNB Inflációs jelentés, 2026. június)",
+    "when": "2025–2026",
+    "what": "Az MNB becslése a jelenleg érvényes árrésstop bevezetéskori és kivezetési hatásáról (a Telex beszámolója alapján).",
+    "numbers": "Bevezetéskor kb. 1,4%-kal mérsékelte az árakat; ennek kb. negyede épülne vissza; a kivezetés a következő negyedévekben kb. +0,4 százalékponttal, egy év múlva +0,1 százalékponttal emelné az inflációs pályát; a négy vizsgált lánc 2025-ös összesített működési vesztesége 20,9 Mrd Ft.",
+    "verdict": "jo",
+    "why": "Az árszint és az infláció mérséklésére mérhető volt a hatás, és a kivezetés várhatóan kis inflációs mellékhatással járna.",
+    "source": "https://telex.hu/gazdasag/2026/06/25/mnb-inflacios-jelentes-arresstop",
+    "confidence": "medium"
+   }
+  ]
+ }
+]

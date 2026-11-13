@@ -1,0 +1,284 @@
+[
+ {
+  "id": "oktatas-tankotelezettseg-02",
+  "add_evidence": [
+   {
+    "where": "Finnország",
+    "when": "2021–",
+    "what": "A tankötelezettség 18 éves korig (vagy középfokú képesítés megszerzéséig) tart; a középfokú oktatás, tankönyvek és eszközök ingyenesek.",
+    "numbers": "Minimális iskolaelhagyási kor 18; a 2021 tavaszán 9. évfolyamos diákok voltak az elsők; az oldal költség- vagy hatásszámot nem közöl.",
+    "verdict": "vegyes",
+    "why": "Célja, hogy mindenki szerezzen középfokú végzettséget; a kormányzati oldal mért eredményt nem közöl.",
+    "source": "https://valtioneuvosto.fi/en/-/56901608/compulsory-education-to-be-extended-in-2021",
+    "confidence": "high"
+   },
+   {
+    "where": "Finnország (hatásvizsgálat)",
+    "when": "2021–2025",
+    "what": "Tanulmány a finn 2021-es tankötelezettség-emelés rövid távú hatásairól (Helsinki GSE Discussion Paper 50).",
+    "numbers": "Keresési összefoglaló szerint kb. 20%-kal kevesebb lemorzsolódás 15–18 év között; az eredeti PDF-et nem sikerült megnyitni (403), ezért nem ellenőrzött.",
+    "verdict": "vegyes",
+    "why": "Rövid távú, nem lektorált munkaanyag; a szám ellenőrizetlen.",
+    "source": "https://helsinkigse.fi/discussion-papers/discussion-paper-50",
+    "confidence": "low"
+   }
+  ]
+ },
+ {
+  "id": "kozbiztonsag-rendorseg-01",
+  "add_evidence": [
+   {
+    "where": "Egyesült Államok (Chalfin et al.)",
+    "when": "1960–2010-es városi panelek",
+    "what": "Nagyobb rendőri létszám hatása az emberölésekre (NBER 28202; AER: Insights 2022).",
+    "numbers": "Egy további rendőr kb. 0,1 emberölést előz meg; a fejenkénti hatás kétszer akkora a fekete áldozatoknál; ugyanakkor több alacsony szintű (életminőségi) letartóztatás.",
+    "verdict": "jo",
+    "why": "Mért cél: emberölések száma; mellékhatás a letartóztatások szerkezete.",
+    "source": "https://econpapers.repec.org/RePEc:nbr:nberwo:28202",
+    "confidence": "high"
+   },
+   {
+    "where": "Egyesült Államok (Chalfin–McCrary)",
+    "when": "1960–2010",
+    "what": "Mérési hibával korrigált becslés a rendőri létszám és bűnözés kapcsolatáról (Rev. Econ. Stat. 2018).",
+    "numbers": "A szerzők következtetése: az amerikai városok jelentősen alullétszámozottak; konkrét elaszticitás-érték az oldalon nincs.",
+    "verdict": "jo",
+    "why": "Bűnözés-csökkenés a létszámnöveléssel, a legdrágább bűncselekményeknél a legpontosabb.",
+    "source": "https://econpapers.repec.org/RePEc:tpr:restat:v:100:y:2018:i:1:p:167-186",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "kozbiztonsag-buntetes-02",
+  "add_evidence": [
+   {
+    "where": "Nemzetközi kutatás (Nagin; NIJ)",
+    "when": "2009–2013",
+    "what": "Elrettentés-szakirodalom összegzése (Nagin 2013; Nagin–Cullen–Johnson 2009).",
+    "numbers": "Az elkapás bizonyossága sokkal erősebb elrettentő, mint a büntetés súlya; a börtönbüntetés nem hatékony elrettentő; az elkövetők 2–5%-a okozza a bűncselekmények 50%+-át.",
+    "verdict": "rossz",
+    "why": "A büntetési tételek szigorítása elrettentési céllal gyengén támogatott; a nyomozási/elkapási arány növelése jobb.",
+    "source": "https://nij.ojp.gov/topics/articles/five-things-about-deterrence",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "igazsag-eppo-01",
+  "add_evidence": [
+   {
+    "where": "Románia (DNA)",
+    "when": "2023",
+    "what": "A Nemzeti Korrupcióellenes Igazgatóság éves jelentése.",
+    "numbers": "651 vádemelés, 2259 aktív ügy (2022: 2087); 29 új ügyész; a vagyonelkobzás-biztosítás az ügyek több mint felében.",
+    "verdict": "vegyes",
+    "why": "Aktivitási mutató; elítélési arányt az oldal nem közöl.",
+    "source": "https://www.rri.ro/en/news-and-current-affairs/today-in-the-news/anticorruption-body-publishes-activity-report-id678865.html",
+    "confidence": "medium"
+   },
+   {
+    "where": "Románia (DNA) 2024",
+    "when": "2024",
+    "what": "DNA 2024-es jelentés.",
+    "numbers": "kb. 260 vezető beosztású személy ellen emeltek vádat; 5400 nyomozás lezárva; 56 M € feletti vagyon zárolva az év végén.",
+    "verdict": "vegyes",
+    "why": "Kemény nyomozási teljesítmény, de a hatásról (elítélés, visszatartás) nincs adat az oldalon.",
+    "source": "https://www.rri.ro/en/news-and-current-affairs/today-in-the-news/anticorruption-annual-report-id866472.html",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "igazsag-vagyonvisszaszerzes-02",
+  "add_evidence": [
+   {
+    "where": "Írország (CAB) 2012–2023",
+    "when": "2012–2023",
+    "what": "Criminal Assets Bureau: bűnözői vagyon befagyasztása, adó- és szociális visszatérítés.",
+    "numbers": "116 074 687 € ideiglenes zárolás 12 év alatt; 64 445 239 € jutott az államkasszába (22,2 M € bűnözői vagyon, 38,0 M € adó, 4,2 M € szociális); 2023: 8,6 M € (rekord).",
+    "verdict": "vegyes",
+    "why": "Pozitív bevétel, de a zárolt összegnek kb. 55%-a jutott az államhoz; a 2023-as rekordév is csak 8,6 M €.",
+    "source": "https://www.irishtimes.com/crime-law/2024/10/24/cab-seizes-more-than-116m-in-assets-over-12-years-with-644m-transferred-to-exchequer",
+    "confidence": "medium"
+   },
+   {
+    "where": "Bulgária",
+    "when": "2012–2024",
+    "what": "Polgári jogi vagyonelkobzás bizonyítási teher-megfordítással; az Emberi Jogok Európai Bírósága elmarasztalta.",
+    "numbers": "A Bíróság szerint nem állapították meg egyértelmű kapcsolatot az elkobzott vagyon és a bűncselekmény között; 5 panasz egyesítve; összesített elkobzott érték az oldalon nincs.",
+    "verdict": "rossz",
+    "why": "Jogállami korlátok: az eljárások jogi vereséget szenvedtek Strasbourgban.",
+    "source": "https://www.novinite.com/view_news.php?id=226329",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "egeszsegugy-gyogyszer-05",
+  "context": {
+   "tisza": "[elfogadva] A vényköteles gyógyszerek áfája 5%-ról 0%-ra csökken 2026. szept. 1-jétől (2026. évi XL. törvény a Marosa összefoglaló szerint); a Pénzügyminisztérium becslése kb. 7 Mrd Ft éves bevételkiesés (2026-ban kb. 2 Mrd Ft); a vény nélküli gyógyszerek 5%-on maradnak.",
+   "sources": [
+    "https://marosavat.com/vat-news/hungary-medicine-vat",
+    "https://xpatloop.com/channels/2026/07/vat-to-be-cut-on-prescription-drugs-in-hungary-to-0-percent.html"
+   ]
+  },
+  "add_evidence": [
+   {
+    "where": "Magyarország (0% áfa)",
+    "when": "2026. szept.–",
+    "what": "Vényköteles humán gyógyszerek áfa 5%-ról 0%-ra.",
+    "numbers": "Becsült költség kb. 7 Mrd Ft/év; hatás a betegek költésére még nem mérhető.",
+    "verdict": "vegyes",
+    "why": "Közvetlen árcsökkenés a vényköteles termékeken, de a kiesés a költségvetésé és hatásmérés még nincs.",
+    "source": "https://xpatloop.com/channels/2026/07/vat-to-be-cut-on-prescription-drugs-in-hungary-to-0-percent.html",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "kozlekedes-gyorsvasut-01",
+  "add_evidence": [
+   {
+    "where": "Spanyolország (AVE)",
+    "when": "1992–2026",
+    "what": "Világ egyik legnagyobb gyorsvasúthálózata, politikai döntésekkel.",
+    "numbers": "ADBI-összefoglaló: a legtöbb folyosó társadalmi megtérülése nagyon gyenge vagy negatív az alacsony utasforgalom miatt; a kilométerenkénti építési költség viszonylag alacsony; konkrét számot az oldal nem közöl.",
+    "verdict": "rossz",
+    "why": "Kihasználtság és kereslet alacsony, ezért gyenge költség-haszon.",
+    "source": "https://www.adb.org/adbi/publications/when-speed-outruns-demand-political-drivers-and-economic-outcomes-of-high-speed-rail-in-spain",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "kozlekedes-berlet-01",
+  "add_evidence": [
+   {
+    "where": "Németország (Deutschlandticket)",
+    "when": "2023–2025",
+    "what": "Országos havi bérlet; szövetségi értékelés (3. köztes jelentés).",
+    "numbers": "Kb. 14,5 M használó (a lakosság ötöde), 2025-ben stagnált; ~2,5 Mt/év CO2-megtakarítás (a magánautós kibocsátás ~3%-a); finanszírozás 2030-ig biztosított; a becsült gazdasági haszon meghaladja az állami kompenzációt.",
+    "verdict": "vegyes",
+    "why": "Forgalomnövekedés és CO2-csökkenés, de a használat stagnál és az állami támogatás tartós.",
+    "source": "https://www.bmv.de/SharedDocs/DE/Pressemitteilungen/2026/027-schnieder-evaluation-deutschlandticket.html",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "kozlekedes-eauto-01",
+  "add_evidence": [
+   {
+    "where": "Norvégia (áfamentesség)",
+    "when": "2025–2027",
+    "what": "Az e-autók 25%-os áfamentessége szűkítve, 2027-re kivezetve.",
+    "numbers": "Kiesett bevétel ~17,5 Mrd NOK/év; mentességi küszöb 500 ezer NOK, 2026-ban 300 ezer; e-autók aránya az új autók 98,3%-a; az összes e-autó-ösztönző 2001–2027 között 100 Mrd NOK felett.",
+    "verdict": "vegyes",
+    "why": "Piaci átállás megtörtént, de rendkívül költséges, ezért vágják vissza.",
+    "source": "https://newmobility.news/en/2025/10/16/norway-to-tighten-vat-gap-phasing-out-ev-perks-hiking-ice-taxes/",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "kulpol-vedelem-01",
+  "add_evidence": [
+   {
+    "where": "NATO (hágai csúcs)",
+    "when": "2025–2035",
+    "what": "Új cél: a GDP 5%-a védelemre és védelmi jellegű kiadásra 2035-ig.",
+    "numbers": "Legalább 3,5% GDP alap- kiadás + legfeljebb 1,5% GDP kapcsolódó (infrastruktúra, ellenálló képesség); felülvizsgálat 2029-ben.",
+    "verdict": "vegyes",
+    "why": "Szövetségesi kötelezettség; a költségvetési hatást az ország dönti el.",
+    "source": "https://g7.utoronto.ca/nato/2025-nato-declaration.html",
+    "confidence": "medium"
+   },
+   {
+    "where": "Lengyelország (költségvetési ár)",
+    "when": "2024–2027",
+    "what": "Rekord védelmi kiadás mellett nagy hiány.",
+    "numbers": "Védelem 2027-re 198,1 Mrd zł = a GDP 4,5%-a; hiány 6,4% (2024) → 7,3% (2025), 2027-re 7,1%; államadósság 60% fölé; túlzottdeficit-eljárás 2024-től.",
+    "verdict": "rossz",
+    "why": "A védelmi célok a hiány-szabály megsértésével járnak együtt, a mérhető cél a hiány.",
+    "source": "https://notesfrompoland.com/2026/08/28/polish-government-sets-out-draft-2027-budget-with-deficit-remaining-at-7-1-of-gdp/",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "kulpol-sorkatonasag-01",
+  "add_evidence": [
+   {
+    "where": "Svédország (2017-es újrabevezetés)",
+    "when": "2017–2025",
+    "what": "Szelektív, nemre semleges sorkatonaság a felfüggesztés (2010) után.",
+    "numbers": "2025-ben 8136 sorkatonát soroztak be; a Haderő 30 442 alkalmazottal zárt; 863 tisztképzésbe lépő, a 21. század legmagasabb értéke.",
+    "verdict": "jo",
+    "why": "Létszám-cél (8000) teljesült, de a mintegy százezres korosztályból csak szelektíven.",
+    "source": "https://nordicdefencesector.com/en/article/sweden-increases-war-organization-in-2025",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "gazd-fdi-01",
+  "add_evidence": [
+   {
+    "where": "Írország (tao-modell)",
+    "when": "2023–2024",
+    "what": "Nagy külföldi multicégekre épülő társasági adóbevétel.",
+    "numbers": "2024: nettó társasági adó 39 Mrd € (az adóbevétel 36%-a; a CJEU-ítélet egyszeri bevétele nélkül 28,1 Mrd €); top 10 cég 57%; külföldi multik 88%, ír multik 4%, hazai cégek 8%.",
+    "verdict": "vegyes",
+    "why": "Hatalmas bevétel, de erősen koncentrált és multiktól függő.",
+    "source": "https://www.revenue.ie/ga/corporate/documents/research/ct-analysis-2025.pdf",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "energia-paks2-01",
+  "add_evidence": [
+   {
+    "where": "Egyesült Királyság (Hinkley Point C)",
+    "when": "2016–2026",
+    "what": "Az NAO 2026-os Sizewell C-jelentése benchmarkként használja az épülő HPC-t.",
+    "numbers": "Az NAO szerint a HPC 5–7 éves késéssel és kb. 100%-os költségtúllépéssel épül.",
+    "verdict": "rossz",
+    "why": "Mért cél: határidő és költség; mindkettő jelentősen túllépve.",
+    "source": "https://www.nao.org.uk/wp-content/uploads/2026/05/sizewell-c-summary.pdf",
+    "confidence": "high"
+   }
+  ]
+ },
+ {
+  "id": "oktatas-tandij-04",
+  "add_evidence": [
+   {
+    "where": "Németország (tandíj-kivezetés)",
+    "when": "2006–2014",
+    "what": "A tartományok bevezették majd megszüntették az alacsony tandíjat; 2014-re mindenhol megszűnt.",
+    "numbers": "Wigger szerint a tandíjnak nem volt azonosítható negatív hatása a beiratkozásra; szám az oldalon nincs.",
+    "verdict": "vegyes",
+    "why": "Alacsony tandíj + hitel + szociális mentesség nem riasztott el, de a kutatás nem egységes.",
+    "source": "https://researchonline.lse.ac.uk/id/eprint/71668",
+    "confidence": "medium"
+   }
+  ]
+ },
+ {
+  "id": "kozbiztonsag-bortonpolitika-03",
+  "add_evidence": [
+   {
+    "where": "Norvégia",
+    "when": "2018",
+    "what": "Rehabilitációra épülő börtönpolitika; két éven belüli újraelítélési arány.",
+    "numbers": "18% (2018); 5 év alatt kb. 25%; összehasonlítás: Svédország és Dánia 32%, Finnország 33%, Izland 21% (két éves ráta); a forrás a norvég büntetés-végrehajtás megbízásából készült tanulmányra hivatkozik.",
+    "verdict": "jo",
+    "why": "Mért cél: visszaesés; kedvező, de a definíciók országonként eltérnek.",
+    "source": "https://thelocal.no/20231213/explained-how-different-is-the-norwegian-prison-system-really",
+    "confidence": "medium"
+   }
+  ]
+ }
+]
