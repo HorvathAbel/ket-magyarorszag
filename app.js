@@ -225,7 +225,7 @@ function code() {
       if (tok.length < 6) return ($("#ce").textContent = "Írd be mind a 6 számjegyet.");
       const btn = $("#f button[type=submit]"); btn.disabled = true;
       try { const u = await verifyCode(pending.email, tok); pending = null; location.hash = u.country ? "#/app" : "#/orszag"; }
-      catch (err) { $("#ce").textContent = errMsg(err); }
+      catch (err) { $("#ce").textContent = errMsg(err); ins.forEach((i) => (i.value = "")); ins[0].focus(); }
       finally { btn.disabled = false; }
       return;
     }

@@ -62,7 +62,9 @@ async function bootBackend() {
     }
   });
 }
-async function backendLogout() { try { await sb.auth.signOut(); } catch {} }
+/* kilépéskor a helyi gyorsítótár is törlődik, hogy közös gépen ne maradjon meg a felhasználó adata */
+const wipeLocal = () => ["km_session", "km_accounts", "km_civ_b", "km_forum3"].forEach((k) => store.del(k));
+async function backendLogout() { try { await sb.auth.signOut(); } catch {} wipeLocal(); }
 
 /* a szerver választási állapota -> a felület által használt (szinkron) civ() szerkezet */
 const mapResult = (r, at) => (r ? { president: r.president, vp: r.vp, cabinet: r.cabinet || {}, tally: (r.tally || []).map((t) => [t.nick, t.votes]), at } : null);
