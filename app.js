@@ -142,8 +142,8 @@ function register() {
       <div class="field"><label for="n">Felhasználónév</label><input id="n" maxlength="20" autocomplete="nickname" placeholder="pl. dunai_kata"><small>Ezt látják mások. Betű, szám, alsóvonás. Nem lehet a valódi neved, valódi politikus vagy párt neve.</small><div class="err" id="ne"></div></div>
       <div class="field"><label for="c">Hol élsz?</label><select id="c">${COUNTIES.map((c) => `<option>${c}</option>`).join("")}</select><small>Csak statisztikához, megyei bontásban.</small></div>
       <label class="check"><input type="checkbox" id="age"> Elmúltam 16 éves.</label>
-      <label class="check"><input type="checkbox" id="priv"> Elfogadom a <a href=\"#/szabalyok\" target=\"_blank\">szabályokat</a> és az adatkezelési tájékoztatót. Tudomásul veszem, hogy a választott ország politikai szimpátiára utalhat, és ehhez kifejezetten hozzájárulok.</label>
-      <label class="check"><input type="checkbox" id="nt"> Kérek e-mailt, ha hamarosan lezárul a jelöltállítás vagy a szavazás, és ha megvan az eredmény. <span class="hint">(Nem kötelező, a levélben és a profilban bármikor leiratkozhatsz.)</span></label>
+      <label class="check"><input type="checkbox" id="priv"><span>Elfogadom a <a href=\"#/szabalyok\" target=\"_blank\">szabályokat</a> és az adatkezelési tájékoztatót. Tudomásul veszem, hogy a választott ország politikai szimpátiára utalhat, és ehhez kifejezetten hozzájárulok.</span></label>
+      <label class="check"><input type="checkbox" id="nt"><span>Kérek e-mailt, ha hamarosan lezárul a jelöltállítás vagy a szavazás, és ha megvan az eredmény. <span class="hint">(Nem kötelező, bármikor leiratkozhatsz.)</span></span></label>
       <div class="err" id="ce"></div>
       <button class="btn block" type="submit">Kód kérése</button>
       <p class="hint" style="text-align:center">Van már fiókod? <a href="#/belepes"><strong>Belépés</strong></a></p>

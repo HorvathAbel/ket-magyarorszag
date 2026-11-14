@@ -22,7 +22,7 @@ function profile() {
         u.nick = nn; u.bio = bio; saveAccount(u); s.close(); profile(); toast("Profil mentve");
       };
     } else if (k === "notif") {
-      const s = sheet("Értesítések", "E-mail az időpontokról", `<p class="hint">Levelet küldünk, ha hamarosan lezárul a jelöltállítás, megnyílt a döntő, a döntő zárása előtt (ha még nem szavaztál), és ha megvan az eredmény. Más levelet nem.</p><label class="check" style="margin-top:12px"><input type="checkbox" id="nf" ${u.notify ? "checked" : ""}> Kérek értesítő e-mailt (${esc(u.email)})</label><div class="err" id="pe" role="alert"></div><button class="btn ${u.country} block" id="sv" style="margin-top:8px">Mentés</button>`);
+      const s = sheet("Értesítések", "E-mail az időpontokról", `<p class="hint">Levelet küldünk, ha hamarosan lezárul a jelöltállítás, megnyílt a döntő, a döntő zárása előtt (ha még nem szavaztál), és ha megvan az eredmény. Más levelet nem.</p><label class="check" style="margin-top:12px"><input type="checkbox" id="nf" ${u.notify ? "checked" : ""}><span>Kérek értesítő e-mailt (${esc(u.email)})</span></label><div class="err" id="pe" role="alert"></div><button class="btn ${u.country} block" id="sv" style="margin-top:8px">Mentés</button>`);
       $("#sv", s.el).onclick = async () => {
         const v = $("#nf", s.el).checked;
         try { await rpc("set_notify", { v }); } catch (e2) { return ($("#pe", s.el).textContent = errMsg(e2)); }
