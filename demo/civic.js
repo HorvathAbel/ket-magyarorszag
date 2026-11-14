@@ -100,7 +100,7 @@ function home() {
 const TERM_PRES = 4 * 7 * 864e5, TERM_CAB = 4 * 7 * 864e5;
 function E(cv, side) {
   cv.elec = cv.elec || {}; cv.gov = cv.gov || {};
-  if (!cv.elec[side]) cv.elec[side] = { id: 1, finAt: nextDow(0, 20, 0).getTime(), closeAt: nextDow(1, 23, 59).getTime(), finalists: null, votes: {}, result: null, history: [] };
+  if (!cv.elec[side]) cv.elec[side] = { id: 1, finAt: nextDow(3, 18, 0).getTime(), closeAt: nextDow(3, 23, 59).getTime(), finalists: null, votes: {}, result: null, history: [] };
   return cv.elec[side];
 }
 const phaseOf = (el) => el.srv || (el.result || Date.now() >= el.closeAt ? "closed" : Date.now() >= el.finAt ? "final" : "open");
@@ -209,7 +209,7 @@ function politics() {
       const c2 = civ(), e2 = E(c2, u.country), k = b.dataset.ph;
       if (k === "final") e2.finAt = Date.now() - 1000;
       if (k === "closed") { e2.finAt = Math.min(e2.finAt, Date.now() - 2000); e2.closeAt = Date.now() - 1000; }
-      if (k === "new") { e2.history = [...(e2.history || []), { id: e2.id, result: e2.result }]; Object.assign(e2, { id: e2.id + 1, finAt: nextDow(0, 20, 0).getTime(), closeAt: nextDow(1, 23, 59).getTime(), finalists: null, votes: {}, result: null }); c2.cands[u.country].forEach((x) => (x.backers = [])); pick = null; }
+      if (k === "new") { e2.history = [...(e2.history || []), { id: e2.id, result: e2.result }]; Object.assign(e2, { id: e2.id + 1, finAt: nextDow(3, 18, 0).getTime(), closeAt: nextDow(3, 23, 59).getTime(), finalists: null, votes: {}, result: null }); c2.cands[u.country].forEach((x) => (x.backers = [])); pick = null; }
       saveCiv(c2); draw();
     }));
   };

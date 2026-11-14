@@ -143,7 +143,6 @@ function register() {
       <div class="field"><label for="c">Hol élsz?</label><select id="c">${COUNTIES.map((c) => `<option>${c}</option>`).join("")}</select><small>Csak statisztikához, megyei bontásban.</small></div>
       <label class="check"><input type="checkbox" id="age"> Elmúltam 16 éves.</label>
       <label class="check"><input type="checkbox" id="priv"><span>Elfogadom a <a href=\"#/szabalyok\" target=\"_blank\">szabályokat</a> és az adatkezelési tájékoztatót. Tudomásul veszem, hogy a választott ország politikai szimpátiára utalhat, és ehhez kifejezetten hozzájárulok.</span></label>
-      <label class="check"><input type="checkbox" id="nt"><span>Kérek e-mailt, ha hamarosan lezárul a jelöltállítás vagy a szavazás, és ha megvan az eredmény. <span class="hint">(Nem kötelező, bármikor leiratkozhatsz.)</span></span></label>
       <div class="err" id="ce"></div>
       <button class="btn block" type="submit">Kód kérése</button>
       <p class="hint" style="text-align:center">Van már fiókod? <a href="#/belepes"><strong>Belépés</strong></a></p>
@@ -155,7 +154,7 @@ function register() {
     $("#ne").textContent = nickErr(n);
     $("#ce").textContent = $("#age").checked && $("#priv").checked ? "" : "Mindkét jelölőnégyzet kötelező.";
     if ($("#ee").textContent || $("#ne").textContent || $("#ce").textContent) return;
-    pending = { email: e, mode: "reg", data: { email: e, nick: n, county: $("#c").value, notify: $("#nt").checked, country: null, votes: {}, joined: Date.now() } };
+    pending = { email: e, mode: "reg", data: { email: e, nick: n, county: $("#c").value, notify: false, country: null, votes: {}, joined: Date.now() } };
     if (BACKEND) {
       const btn = $("#f button[type=submit]"); btn.disabled = true;
       try {
@@ -272,7 +271,7 @@ function pickCountry() {
 
 function guard() { const u = session(); if (!u) { location.hash = "#/belepes"; return null; } if (!u.country) { location.hash = "#/orszag"; return null; } return u; }
 const meChip = (u) => `<span class="me ${SIDES[u.country].cls}"><b></b>${SIDES[u.country].tag}</span>`;
-const demoBanner = '<div class="banner">Prototípus · minden szám demóadat</div>';
+const demoBanner = '<div class="banner">Demó · minden szám és minden ember kitalált, semmi nem megy szerverre</div>';
 
 /* ---------- router ---------- */
 const routes = { "": landing, "regisztracio": register, "belepes": login, "kod": code, "orszag": pickCountry, "app": home, "szavazas": vote, "forum": forumPage, "vita": forumPage, "politika": politics, "allapot": countryPage, "eredmenyek": countryPage, "modszertan": methodology, "szabalyok": rulesPage, "profil": profile, "emlitesek": mentionsPage, "hogyan-jatssz": howToPlay, "evrol-evre": yearByYear, "adatkezeles": privacyPage, "visszajelzes": feedbackPage, "admin": adminPage, "leiratkozas": unsubPage };

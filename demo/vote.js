@@ -5,7 +5,7 @@ const hash = (s) => { let h = 2166136261; for (const c of s) { h ^= c.charCodeAt
 const ROUND_MIN = 359;
 function roundNow() {
   const R = BACKEND && window.__round, wk = R ? R.week : Math.max(0, Math.floor((Date.now() - LAUNCH_AT) / 6048e5));
-  const opens = R ? R.opens_at : LAUNCH_AT.getTime() + wk * 6048e5, closes = R ? R.closes_at : opens + ROUND_MIN * 6e4;
+  const opens = R ? R.opens_at : LAUNCH_AT.getTime() + wk * 6048e5, closes = R ? R.closes_at : nextDow(3, 23, 59).getTime();
   return { wk, opens, closes, next: R ? R.next_open : opens + 6048e5, kind: R ? R.kind : "measures", ids: R ? R.ids : null,
     open: BACKEND ? !!R && Date.now() >= opens && Date.now() <= closes : true };
 }
