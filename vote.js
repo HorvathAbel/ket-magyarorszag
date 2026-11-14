@@ -1,13 +1,29 @@
 /* Szavazás a katalógusból (data/catalog.js -> window.CATALOG): végleges szavazat, technikai részletek, polgári javaslatok, utólagos precedens-értékelés */
 const CAT = window.CATALOG || [];
 const hash = (s) => { let h = 2166136261; for (const c of s) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; };
-const weekNum = () => Math.max(0, Math.floor((Date.now() - LAUNCH_AT) / 6048e5));
+/* a heti kör: szerda 18:00-23:59; backendnél a szerver mondja meg (week_plan: a heti kérdések, minden 4. hét kormányválasztás) */
+const ROUND_MIN = 359;
+function roundNow() {
+  const R = BACKEND && window.__round, wk = R ? R.week : Math.max(0, Math.floor((Date.now() - LAUNCH_AT) / 6048e5));
+  const opens = R ? R.opens_at : LAUNCH_AT.getTime() + wk * 6048e5, closes = R ? R.closes_at : opens + ROUND_MIN * 6e4;
+  return { wk, opens, closes, next: R ? R.next_open : opens + 6048e5, kind: R ? R.kind : "measures", ids: R ? R.ids : null,
+    open: BACKEND ? !!R && Date.now() >= opens && Date.now() <= closes : true };
+}
+const roundNextOpen = (R = roundNow()) => new Date(Date.now() < R.opens ? R.opens : Date.now() > R.closes ? R.next : R.opens);
+const hm = (ms) => new Date(ms).toLocaleTimeString("hu-HU", { hour: "2-digit", minute: "2-digit" });
+const weekNum = () => roundNow().wk;
 const safeUrl = (u) => (/^https?:\/\//.test(u || "") ? u : "#");
 const VERD = { jo: ["Bevált", "ok"], vegyes: ["Vegyes", "mid"], rossz: ["Nem vált be", "bad"] };
 const KPI_KEYS = [["gdp", "GDP"], ["infl", "Infláció"], ["wage", "Reálbér"], ["housing", "Lakhatás"], ["health", "Egészségügy"], ["deficit", "Hiány"]];
 
 /* hetente 3 kérdés, mindig három különböző témakörből */
 function weekMeasures(wk = weekNum()) {
+  const R = roundNow();
+  if (wk === R.wk && BACKEND) {
+    if (R.kind === "election") return [];
+    const picked = (R.ids || []).map((id) => CAT.find((m) => m.id === id)).filter(Boolean);
+    if (picked.length) return picked;
+  }
   const topics = [...new Set(CAT.map((m) => m.topic))];
   if (!topics.length) return [];
   const out = [];
@@ -51,15 +67,22 @@ function vote() {
   const u = guard(); if (!u) return;
   const wk = "w" + weekNum(), mine = (u.votes[wk] = u.votes[wk] || {}), ms = weekMeasures(), cls = SIDES[u.country].cls, sel = {}, openTech = new Set();
   let tab = new URLSearchParams(location.hash.split("?")[1] || "").get("t") === "cit" ? "cit" : "votes";
-  const done = () => ms.filter((m) => mine[m.id] !== undefined).length, vClose = nextDow(6, 23, 59);
+  const done = () => ms.filter((m) => mine[m.id] !== undefined).length, vClose = new Date(roundNow().closes);
   const render = () => {
-    const sub = tab === "cit" ? "A legtámogatottabb ötletek szavazásra kerülnek" : tab === "gov" ? "Amit az elnök és a kormány szavazásra bocsát" : `Év ${2026 + weekNum()} · zárul ${fmtDt(vClose)}`;
+    const sub = tab === "cit" ? "A legtámogatottabb ötletek szavazásra kerülnek" : tab === "gov" ? "Amit az elnök és a kormány szavazásra bocsát" : `Év ${2026 + weekNum()} · ${roundNow().open ? "zárul " + fmtDt(vClose) : "következő szavazás: " + fmtDt(roundNextOpen())}`;
     view.innerHTML = `${demoBanner}<div class="wrap page"><div><div class="hint" style="font-size:12px">${sub}</div><h1 style="font-size:30px">Szavazás</h1></div>
       <div class="seg">${[["votes", "☑ Szavazások"], ["gov", "▤ Kormány"], ["cit", "☷ Polgárok"]].map(([i, n]) => `<button class="${tab === i ? "on" : ""}" data-t="${i}">${n}</button>`).join("")}</div><div id="vb"></div></div>`;
     view.querySelectorAll("[data-t]").forEach((b) => (b.onclick = () => { tab = b.dataset.t; render(); }));
     const box = $("#vb");
     if (tab === "cit") return citizensView(u, box);
     if (tab === "gov") { box.innerHTML = `<div class="chips wrapc"><button class="tchip sel on all">Minden téma</button>${FORUM_TOPICS.map((t) => `<button class="tchip sel">${tIcon(t, 14)}${esc(t)}</button>`).join("")}</div><div class="card empty"><span class="bulb">💡</span><p class="hint">A kormány még nem tett javaslatot. <a href="#/politika?t=cand"><b>Politika fül →</b></a></p></div>`; return; }
+    const R = roundNow();
+    if (R.kind === "election" || !R.open) {
+      box.innerHTML = R.kind === "election" && R.open
+        ? `<div class="card"><h3>Ezen a héten a kormányról szavazunk</h3><p class="hint" style="margin-top:6px">Ma ${hm(R.opens)} és ${hm(R.closes)} között dől el, ki legyen az elnök, az alelnök és a miniszterek.</p><a class="btn ${u.country} block" href="#/politika" style="margin-top:10px">Irány a Politika fül</a></div>`
+        : `<div class="card"><h3>Most nincs nyitva szavazás</h3><p class="hint" style="margin-top:6px">Minden szerdán ${hm(R.opens)} és ${hm(R.closes)} között szavazhatsz. ${R.kind === "election" ? "A következő szavazás a kormányról szól." : "Következő szavazás:"} <b>${fmtDt(roundNextOpen(R))}</b>. Addig vitázz a fórumon.</p><a class="btn ${u.country} block" href="#/forum" style="margin-top:10px">Irány a fórum</a></div>`;
+      return;
+    }
     const allDone = ms.length > 0 && done() === ms.length;
     box.innerHTML = `${allDone ? `<div class="card donecard ${cls}"><b>🎉 Kész, mindent leadtál!</b><p class="hint">Az eredményt ${fmtDt(vClose)} után látod. Addig vitázz a fórumon.</p><a class="btn ${u.country}" href="#/forum">Irány a fórum</a></div>` : ""}<div class="prog"><i style="width:${(done() / Math.max(1, ms.length)) * 100}%"></i></div><p class="hint" style="font-size:13px"><b>${done()}/${ms.length}</b> szavazat leadva. A szavazat <b>végleges</b>, mindenkié egyformán számít. <a href="#/forum"><b>Vita a fórumon →</b></a></p>
       ${ms.length ? "" : '<div class="card">A katalógus még nem töltődött be.</div>'}

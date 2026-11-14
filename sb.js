@@ -9,7 +9,7 @@ const rpc = async (fn, args) => { const { data, error } = await sb.rpc(fn, args 
 
 const ERRS = {
   "nick:format": "3–20 karakter: betű, szám vagy alsóvonás.", "nick:blocked": "Valódi politikus vagy párt neve nem lehet felhasználónév.", "nick:taken": "Ez a felhasználónév foglalt.",
-  bio_link: "Link nem lehet a bemutatkozásban.", no_country: "Előbb válassz országot.", country_locked: "Az országválasztás végleges.", week_closed: "Ez a szavazás már lezárult.",
+  bio_link: "Link nem lehet a bemutatkozásban.", no_country: "Előbb válassz országot.", country_locked: "Az országválasztás végleges.", week_closed: "Most nincs nyitva szavazás. Szerdánként 18:00 és 23:59 között szavazhatsz.", election_week: "Ezen a héten a kormányról szavazunk, a Politika fülön.", not_on_ballot: "Ez a kérdés most nincs a szavazólapon.",
   already_voted: "Erre már szavaztál.", election_closed: "A választás lezárult.", race_locked: "Ez a verseny már lezárult.", self_back: "Magadat nem támogathatod.",
   no_candidate: "Ez a jelölt már nem elérhető.", not_final: "Most nincs döntő.", not_finalist: "Csak döntős jelöltre szavazhatsz.",
   daily_limit: "Ma már elhasználtad a 3 parlamenti felszólalásodat.", too_fast: "Lassabban: várj egy kicsit a következő üzenet előtt.", too_long: "Túl hosszú üzenet.",
@@ -37,6 +37,7 @@ async function refreshMe() {
   const votes = {}; vs.forEach((x) => { (votes["w" + x.week] = votes["w" + x.week] || {})[x.m] = x.o; });
   const old = accounts()[me.email] || {};
   const u = { ...old, email: me.email, nick: me.nick, county: me.county, country: me.country, bio: me.bio, joined: me.joined, demo: me.demo, notify: !!me.notify, admin: !!adm, votes, blocked: old.blocked || [], seen: old.seen || {} };
+  window.__round = me.round || null;
   saveAccount(u); store.set("km_session", me.email);
   return u;
 }

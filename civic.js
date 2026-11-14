@@ -72,17 +72,17 @@ function home() {
   const ms = weekMeasures(), wk = "w" + weekNum(), voted = ms.filter((m) => (u.votes[wk] || {})[m.id] !== undefined).length;
   const { cv, el, ph } = sync(u.country), mine = myCand(u), backed = cv.cands[u.country].some((c) => c.backers.includes(u.email)), posted = didPostToday(u);
   const task = (done, title, sub, href) => `<a class="task ${done ? "done" : ""}" href="${href}"><i class="chk">${done ? "✓" : ""}</i><div><b>${title}</b><span>${sub}</span></div><em>›</em></a>`;
-  const vClose = nextDow(6, 23, 59), eClose = new Date(el.closeAt), fin = new Date(el.finAt), annKey = "ann_" + u.country;
+  const R = roundNow(), vClose = new Date(R.closes), eClose = new Date(el.closeAt), fin = new Date(el.finAt), annKey = "ann2_" + u.country;
   const showAnn = !(u.seen || {})[annKey];
   const adm = BACKEND && (window.__ann || [])[0] && (u.seen || {}).annHome !== window.__ann[0].id ? window.__ann[0] : null;
   const topIdeas = cv.ideas[u.country].slice().sort((a, b) => backs(b) - backs(a)).slice(0, 3);
   view.innerHTML = `${demoBanner}<div class="wrap page">
     <div><h1 style="font-size:30px">Szia, ${esc(u.nick)}!</h1><p class="hint" style="margin-top:4px">Te a <b class="${SIDES[u.country].cls === "t" ? "t-txt" : "f-txt"}">${SIDES[u.country].tag.toUpperCase()}</b> polgára vagy. Mi a teendőd most:</p></div>
     ${adm ? `<div class="card ann"><button class="x2" id="admx" aria-label="Elrejtés">✕</button><div class="eyebrow">Közlemény</div><h3 style="margin:4px 0">${esc(adm.title)}</h3><p class="hint" style="font-size:14px">${esc(adm.body).replace(/\n/g, "<br>")}</p></div>` : ""}
-    ${showAnn ? `<div class="card ann"><button class="x2" id="annx" aria-label="Elrejtés">✕</button><div class="eyebrow">Közlemény · 41 p</div><h3 style="margin:4px 0">Mikor jönnek az eredmények?</h3>
-      <p class="hint" style="font-size:14px"><b>${fmtDt(vClose)}:</b> zárul az idei szavazás. Utána a saját országod megkapja az eredményt az Ország fülön.<br><b>${fmtDt(fin)}:</b> ${fin < new Date() ? "megnyílt" : "megnyílik"} az elnöki döntő…</p><a href="#" id="annm"><b>Elolvasom az egészet</b></a></div>` : ""}
+    ${showAnn ? `<div class="card ann"><button class="x2" id="annx" aria-label="Elrejtés">✕</button><div class="eyebrow">Közlemény · 41 p</div><h3 style="margin:4px 0">Mikor szavazunk?</h3>
+      <p class="hint" style="font-size:14px"><b>Minden szerda, ${hm(R.opens)}–${hm(R.closes)}:</b> heti szavazás, hetente 3 intézkedésről.<br><b>Minden 4. héten:</b> kormányválasztás. Legközelebb ${fmtDt(fin)}-kor ${fin < new Date() ? "megnyílt" : "nyílik"} az elnöki döntő…</p><a href="#" id="annm"><b>Elolvasom az egészet</b></a></div>` : ""}
     <div class="tasks">
-      ${task(voted === ms.length && ms.length > 0, `Szavazz az intézkedésekről (${voted}/${ms.length})`, `Válassz egy opciót, mint egy szavazáson. Zárul: ${left(vClose)}.`, "#/szavazas")}
+      ${R.kind === "election" ? task(false, "Ezen a héten a kormányról szavazunk", `Szerdán ${hm(R.opens)} és ${hm(R.closes)} között. Indulj jelöltként, vagy támogass valakit.`, "#/politika") : task(voted === ms.length && ms.length > 0, `Szavazz az intézkedésekről (${voted}/${ms.length})`, R.open ? `Válassz egy opciót, mint egy szavazáson. Zárul: ${left(vClose)}.` : `Szerdánként ${hm(R.opens)}-kor nyílik. Következő: ${fmtDt(roundNextOpen(R))}.`, "#/szavazas")}
       ${ph === "final" ? task(!!el.votes[u.email], "Szavazz az elnöki döntőn", `Titkos, végleges szavazat. Zárul: ${fmtDt(eClose)}.`, "#/politika") : ph === "closed" ? task(true, "Az új kormány megvan", "Nézd meg a Politika fülön, kik nyertek.", "#/politika?t=gov") : task(!!mine || backed, "Indulj a választáson, vagy támogass valakit", `A választás zárul: ${fmtDt(eClose)}.`, "#/politika")}
       ${task(posted, "Szólj hozzá a fórumon", "Csak a saját országod olvassa. Ötletek igen, sértések nem.", "#/forum")}
     </div>
@@ -93,11 +93,11 @@ function home() {
   $("#share").onclick = async () => { const url = location.href.split("#")[0]; try { if (navigator.share) await navigator.share({ title: "Két Magyarország", url }); else { await navigator.clipboard.writeText(url); toast("Link másolva"); } } catch {} };
   const dx = $("#admx"); if (dx) dx.onclick = () => { u.seen = { ...(u.seen || {}), annHome: adm.id }; saveAccount(u); home(); };
   const ax = $("#annx"); if (ax) ax.onclick = () => { u.seen = { ...(u.seen || {}), [annKey]: 1 }; saveAccount(u); home(); };
-  const am = $("#annm"); if (am) am.onclick = (e) => { e.preventDefault(); sheet("Közlemény", "Mikor jönnek az eredmények?", `<p><b>${fmtDt(vClose)}:</b> zárul az idei szavazás. Közvetlenül utána a saját országod megkapja az eredményét az Ország fülön.</p><p><b>${fmtDt(fin)}:</b> ${fin < new Date() ? "megnyílt" : "megnyílik"} az elnöki döntő. Az 5 legtöbb támogatást kapott jelölt közül titkos szavazással választotok.</p><p><b>${fmtDt(eClose)}:</b> zárul az alelnök és a kormány választása.</p>`); };
+  const am = $("#annm"); if (am) am.onclick = (e) => { e.preventDefault(); sheet("Közlemény", "Mikor szavazunk?", `<p><b>Minden szerda, ${hm(R.opens)}–${hm(R.closes)}:</b> heti szavazás, hetente 3 intézkedésről. Az eredményt a szavazás lezárása után kapja meg a saját országod.</p><p><b>Minden 4. héten:</b> kormányválasztás. A jelöltállítás és a támogatás addig tart, amíg a döntő meg nem nyílik.</p><p><b>${fmtDt(fin)}:</b> ${fin < new Date() ? "megnyílt" : "megnyílik"} az elnöki döntő. Az 5 legtöbb támogatást kapott jelölt közül titkos szavazással választotok.</p><p><b>${fmtDt(eClose)}:</b> zárul az alelnök és a kormány választása.</p>`); };
 }
 
 /* ---------- választási fázisok: támogatás -> titkos elnöki döntő -> lezárás ---------- */
-const TERM_PRES = 4 * 7 * 864e5, TERM_CAB = 2 * 7 * 864e5;
+const TERM_PRES = 4 * 7 * 864e5, TERM_CAB = 4 * 7 * 864e5;
 function E(cv, side) {
   cv.elec = cv.elec || {}; cv.gov = cv.gov || {};
   if (!cv.elec[side]) cv.elec[side] = { id: 1, finAt: nextDow(0, 20, 0).getTime(), closeAt: nextDow(1, 23, 59).getTime(), finalists: null, votes: {}, result: null, history: [] };
