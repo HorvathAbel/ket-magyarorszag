@@ -5,7 +5,7 @@ function profile() {
   const tile = (id, ic, t, s) => `<button class="tile" data-p="${id}"><b>${ic} ${t}</b><span>${s}</span></button>`;
   view.innerHTML = `<div class="wrap page" style="max-width:640px"><div class="card profcard">${avatar(u.nick, 84)}<h1 style="font-size:26px;margin-top:10px">${esc(u.nick)} <button class="ic" data-p="edit" aria-label="Szerkesztés">✎</button></h1>
       <span class="pill ${side.cls}" style="margin-top:6px">${side.tag.replace("-Magyarország", "").toUpperCase()}-MAGYARORSZÁG</span><p class="hint" style="margin-top:8px">Játszik ${days} napja · ${n} leadott szavazat</p>${u.bio ? `<p style="margin-top:8px">${esc(u.bio)}</p>` : ""}</div>
-    <div class="tiles">${tile("chats", "✉", "Csevegéseim", "privát és csoportok")}${tile("men", "@", "Említések", "válaszok és @")}${tile("edit", "✎", "Profil", "név és bemutatkozás")}${tile("how", "▶", "Hogyan játssz", "egy perc alatt")}${tile("rules", "📄", "Szabályok", "és a moderáció")}${tile("fb", "💡", "Ötlet vagy hiba", "írj nekünk")}${u.admin ? tile("adm", "🛠", "Admin", "közlemények kiírása") : ""}</div>
+    <div class="tiles">${tile("chats", "✉", "Csevegéseim", "privát és csoportok")}${tile("men", "@", "Említések", "válaszok és @")}${tile("edit", "✎", "Profil", "név és bemutatkozás")}${BACKEND ? tile("notif", "🔔", "Értesítések", u.notify ? "bekapcsolva" : "kikapcsolva") : ""}${tile("how", "▶", "Hogyan játssz", "egy perc alatt")}${tile("rules", "📄", "Szabályok", "és a moderáció")}${tile("fb", "💡", "Ötlet vagy hiba", "írj nekünk")}${u.admin ? tile("adm", "🛠", "Admin", "közlemények kiírása") : ""}</div>
     <p class="hint morelinks"><a href="#/evrol-evre">Évről évre</a> · <a href="#/modszertan">A számok</a> · <button class="lk" data-p="app">Telepítés</button> · <a href="#/adatkezeles">Adatkezelés</a></p>
     <div class="card"><h3>Letiltottak</h3><p class="hint">${(u.blocked || []).length ? (u.blocked || []).map((b) => `${esc(b)} <button class="lk" data-ub="${esc(b)}">Feloldás</button>`).join("<br>") : "Nem tiltottál le senkit."}</p></div>
     <button class="btn ghost block" id="out">Kilépés</button><button class="lk" id="del" style="color:#b42318;text-align:center">Fiók végleges törlése</button>
@@ -20,6 +20,13 @@ function profile() {
         if (err) return ($("#pe", s.el).textContent = err); if (/https?:|www\./i.test(bio)) return ($("#pe", s.el).textContent = "Link nem lehet a bemutatkozásban.");
         if (BACKEND) { try { await rpc("update_profile", { n: nn, b: bio }); } catch (e2) { return ($("#pe", s.el).textContent = errMsg(e2)); } }
         u.nick = nn; u.bio = bio; saveAccount(u); s.close(); profile(); toast("Profil mentve");
+      };
+    } else if (k === "notif") {
+      const s = sheet("Értesítések", "E-mail az időpontokról", `<p class="hint">Levelet küldünk, ha hamarosan lezárul a jelöltállítás, megnyílt a döntő, a döntő zárása előtt (ha még nem szavaztál), és ha megvan az eredmény. Más levelet nem.</p><label class="check" style="margin-top:12px"><input type="checkbox" id="nf" ${u.notify ? "checked" : ""}> Kérek értesítő e-mailt (${esc(u.email)})</label><div class="err" id="pe" role="alert"></div><button class="btn ${u.country} block" id="sv" style="margin-top:8px">Mentés</button>`);
+      $("#sv", s.el).onclick = async () => {
+        const v = $("#nf", s.el).checked;
+        try { await rpc("set_notify", { v }); } catch (e2) { return ($("#pe", s.el).textContent = errMsg(e2)); }
+        u.notify = v; saveAccount(u); s.close(); profile(); toast(v ? "Értesítések bekapcsolva" : "Értesítések kikapcsolva");
       };
     } else if (k === "app") sheet("Telepítés", "Alkalmazás telepítése", `<p>Nyisd meg ezt az oldalt a telefonodon, és add hozzá a kezdőképernyőhöz: iPhone-on Megosztás → „Kezdőképernyőhöz”, Androidon a böngésző menüje → „Telepítés”. Ingyenes, nincs app store.</p>`);
   }));
@@ -53,10 +60,19 @@ function yearByYear() {
 
 function privacyPage() {
   view.innerHTML = `<div class="wrap page" style="max-width:700px"><div><div class="eyebrow">Adatkezelés</div><h1 style="font-size:32px">Az adataid</h1></div>
-    <div class="card"><h3>Mit tárolunk?</h3><ul class="mv plain"><li>E-mail cím (a belépéshez), felhasználónév, megye (csak statisztikához), a választott ország.</li><li>A szavazataid, jelöltséged, hozzászólásaid, csevegéseid. Ezeket csak a saját országod látja, a Parlament hozzászólásai kivétel.</li></ul></div>
+    <div class="card"><h3>Mit tárolunk?</h3><ul class="mv plain"><li>E-mail cím (a belépéshez), felhasználónév, megye (csak statisztikához), a választott ország.</li><li>Ha kéred az értesítéseket: ehhez az e-mail címedet használjuk, a levelekből és a profilodból bármikor leiratkozhatsz.</li><li>A szavazataid, jelöltséged, hozzászólásaid, csevegéseid. Ezeket csak a saját országod látja, a Parlament hozzászólásai kivétel.</li></ul></div>
     <div class="card"><h3>Politikai nézetre utaló adat</h3><p class="hint" style="margin-top:4px">A választott ország politikai szimpátiára utalhat, ezért ehhez kifejezett hozzájárulást kérünk a regisztrációkor. A hozzájárulást a fiók törlésével bármikor visszavonhatod.</p></div>
     <div class="card"><h3>Törlés</h3><p class="hint" style="margin-top:4px">A Profil oldalon a „Fiók végleges törlése” minden adatodat eltávolítja. Kérdés esetén írj nekünk a közösségi oldalunkon.</p></div>
     <p class="hint">Prototípus: az adatok jelenleg csak ebben a böngészőben tárolódnak. Éles működéshez adatkezelési tájékoztató és jogi átnézés kell.</p></div>`;
+}
+
+/* ---------- Leiratkozás a levélből (belépés nélkül) ---------- */
+async function unsubPage() {
+  const t = (location.hash.split("?")[1] || "").replace(/^t=/, "");
+  view.innerHTML = `<div class="wrap page" style="max-width:520px"><div class="card"><h1 style="font-size:26px">Leiratkozás</h1><p class="hint" id="us" style="margin-top:8px">Egy pillanat…</p><a class="btn ghost block" href="#/" style="margin-top:12px">Vissza a kezdőlapra</a></div></div>`;
+  let ok = false;
+  if (BACKEND && /^[0-9a-f-]{36}$/i.test(t)) { try { ok = await rpc("unsubscribe", { tok: t }); } catch {} }
+  $("#us").textContent = ok ? "Leiratkoztál, több értesítő levelet nem küldünk. Ha meggondolod magad, a Profil → Értesítések menüben újra bekapcsolhatod." : "Ez a leiratkozó link érvénytelen. A Profil → Értesítések menüben is kikapcsolhatod.";
 }
 
 /* ---------- Visszajelzés ---------- */

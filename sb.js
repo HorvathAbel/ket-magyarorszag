@@ -21,7 +21,7 @@ const errMsg = (e) => { const m = `${(e && (e.code || "")) || ""} ${(e && (e.mes
 
 async function sendCode(p) {
   const base = { emailRedirectTo: location.origin + location.pathname };
-  const options = p.mode === "reg" ? { ...base, shouldCreateUser: true, data: { nick: p.data.nick, county: p.data.county, consent: true } } : { ...base, shouldCreateUser: false };
+  const options = p.mode === "reg" ? { ...base, shouldCreateUser: true, data: { nick: p.data.nick, county: p.data.county, consent: true, notify: !!p.data.notify } } : { ...base, shouldCreateUser: false };
   const { error } = await sb.auth.signInWithOtp({ email: p.email, options });
   if (error) throw error;
 }
@@ -36,7 +36,7 @@ async function refreshMe() {
   const [me, vs, adm] = await Promise.all([rpc("me"), rpc("my_votes"), rpc("is_admin").catch(() => false)]);
   const votes = {}; vs.forEach((x) => { (votes["w" + x.week] = votes["w" + x.week] || {})[x.m] = x.o; });
   const old = accounts()[me.email] || {};
-  const u = { ...old, email: me.email, nick: me.nick, county: me.county, country: me.country, bio: me.bio, joined: me.joined, demo: me.demo, admin: !!adm, votes, blocked: old.blocked || [], seen: old.seen || {} };
+  const u = { ...old, email: me.email, nick: me.nick, county: me.county, country: me.country, bio: me.bio, joined: me.joined, demo: me.demo, notify: !!me.notify, admin: !!adm, votes, blocked: old.blocked || [], seen: old.seen || {} };
   saveAccount(u); store.set("km_session", me.email);
   return u;
 }
