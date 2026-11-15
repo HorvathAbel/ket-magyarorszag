@@ -73,6 +73,10 @@ async function loadAnnouncements() {
   const u = session(); if (!u || !u.country) return;
   window.__ann = await rpc("get_announcements");
 }
+async function loadResults() {
+  const u = session(); if (!u || !u.country) return;
+  window.__res = await rpc("week_results");
+}
 async function loadIdeas() {
   const u = session(); if (!u || !u.country) return;
   const rows = await rpc("get_ideas"), cv = civ();

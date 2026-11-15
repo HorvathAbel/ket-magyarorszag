@@ -116,7 +116,24 @@ function vote() {
 }
 
 /* eredmények: a legutóbb lezárt hét döntései és az utólagos értékelés (a saját ország döntése; COMPARE esetén mindkettő) */
+function realResultsHtml(u) {
+  const r = window.__res, side = SIDES[u.country];
+  if (!r) return `<div class="card"><h3>Heti eredmény</h3><p class="hint" style="margin-top:6px">Az első heti eredmény a szerdai szavazás lezárása után, csütörtök reggel jelenik meg itt.</p></div>`;
+  const items = (r.items || []).map((it) => ({ m: CAT.find((c) => c.id === it.id), counts: it.counts })).filter((x) => x.m);
+  return `<div class="card"><h3>Heti eredmény · ${fmtDt(new Date(r.closed_at))}</h3><p class="hint" style="margin:4px 0 12px">${side.tag}: a szavazók döntése, a lezárt körből. A döntést hasonló, korábbi esetekkel vetjük össze.</p>
+    ${items.map(({ m, counts }) => {
+      const tot = counts.reduce((a, b) => a + b, 0), win = tot ? counts.indexOf(Math.max(...counts)) : -1;
+      const cnt = { jo: 0, vegyes: 0, rossz: 0 }; (m.evidence || []).forEach((e) => (cnt[e.verdict] = (cnt[e.verdict] || 0) + 1));
+      return `<div class="closed"><div class="topic">${esc(m.topic)}</div><h4>${esc(m.q)}</h4>
+        ${tot ? `<div class="dec ${side.cls}"><b>Döntés · ${tot} szavazat</b>${esc(m.options[win].label)}</div>
+        ${m.options.map((o, i) => `<div class="mrow"><span>${i === win ? "<b>" + esc(o.label) + "</b>" : esc(o.label)}</span><b>${Math.round((counts[i] / tot) * 100)}%</b></div>`).join("")}` : `<p class="hint">Erre a kérdésre nem érkezett szavazat.</p>`}
+        <p class="hint">Precedensek: <span class="vb ok">${cnt.jo} bevált</span> <span class="vb mid">${cnt.vegyes} vegyes</span> <span class="vb bad">${cnt.rossz} nem vált be</span></p>
+        <details><summary>A részletes számok</summary>${evidenceHtml(m)}</details></div>`;
+    }).join("")}</div>`;
+}
+
 function closedDecisionsHtml(u) {
+  if (BACKEND) return realResultsHtml(u);
   const ms = weekMeasures(weekNum() + 50); // demó: másik hét kérdései "lezártként"
   if (!ms.length) return "";
   const sides = COMPARE ? ["tisza", "fidesz"] : [u.country];

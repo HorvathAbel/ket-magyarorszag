@@ -51,6 +51,7 @@ function howToPlay() {
 function yearByYear() {
   const u = guard(); if (!u) return;
   const done = weekMeasures(weekNum() + 50);
+  if (BACKEND && window.__res === undefined) loadResults().then(() => yearByYear(), () => { window.__res = null; yearByYear(); });
   view.innerHTML = `${demoBanner}<div class="wrap page"><div><div class="eyebrow">Évről évre</div><h1 style="font-size:30px">Mit döntöttek?</h1><p class="hint">A saját országod döntései, évről évre. Az aktuális év még nyitva.</p></div>
     <div class="card"><div class="status"><i class="live"></i>${2026 + weekNum()} · NYITVA</div><p class="hint" style="margin-top:6px">${roundNow().open ? "Az idei szavazás zárul: " + fmtDt(new Date(roundNow().closes)) : "A következő szavazás: " + fmtDt(roundNextOpen())}. A döntések utána jelennek meg itt.</p></div>
     ${(() => { const h = (E(civ(), u.country).history || []).filter((x) => x.result); return h.length ? `<div class="card"><h3>Korábbi választások</h3>${h.map((x) => `<div class="mrow"><span>${x.id}. választás</span><span class="hint">elnök: ${x.result.president ? esc(x.result.president.nick) : "–"} · alelnök: ${x.result.vp ? esc(x.result.vp.nick) : "–"}</span></div>`).join("")}</div>` : ""; })()}
