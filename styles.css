@@ -35,6 +35,7 @@ button, input, select { font: inherit; color: inherit; }
 .nav { display: flex; align-items: center; gap: 4px; }
 .nav a { text-decoration: none; padding: 8px 12px; border-radius: 10px; font-weight: 600; font-size: 14px; color: var(--muted); }
 .nav a:hover, .nav a.on { color: var(--ink); background: #eef1f6; }
+.nav a.btn, .nav a.btn:hover { background: var(--ink); color: #fff; }
 
 /* buttons */
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 0; cursor: pointer; text-decoration: none; font-weight: 700; padding: 13px 22px; border-radius: 14px; background: var(--ink); color: #fff; transition: transform 0.12s, box-shadow 0.12s, opacity 0.12s; }
